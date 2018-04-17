@@ -2,7 +2,8 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180416b
+! Version: 20180417a
+! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
@@ -799,6 +800,7 @@ itv.com##.itv-glob-cook__inner
 itwire.com##.ja-box-ct.clearfix
 ivyccmovie.com##IMG[src^="images"]
 ||iygke.com^
+||jamatto.com^
 jdwetherspoon.co.uk###cookies-popup
 ||jeeh7eet.com^
 jobsearch.direct.gov.uk###cookieBanner
