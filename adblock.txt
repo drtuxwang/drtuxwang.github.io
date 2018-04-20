@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180417a
+! Version: 20180419a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -259,6 +259,7 @@ bloomberg.com##.leaderboard-container
 ||britishairways.com/*/cookie_acceptance_modal.js
 britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
+||browsers.support^
 ||bublaa.com^
 ||budgetedbauer.com^
 ||bugherd.com^
@@ -1078,6 +1079,7 @@ on99.se###wnb-bar
 @@||openload.co/assets/js/video.min.*.js$script,first-party
 @@||openload.co/assets/js/script.*.js$script,first-party
 @@||openload.co/assets/js/jquery.min.js$script,first-party
+||openwebtorrent.com^
 ||openx.net^
 ||ophan.co.uk^
 ||optkit.com^
