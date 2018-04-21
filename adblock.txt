@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180419a
+! Version: 20180421a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -928,6 +928,7 @@ meetup.com###app-download-promo-interstitial
 ||mekoto.com^
 ||mellowads.com^
 ||mengine.me^
+||metricfast.com^
 ||metricsdirect.com^
 metro.co.uk##.cookie-notice
 metro.co.uk##.follow-icon
