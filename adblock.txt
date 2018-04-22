@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180421a
+! Version: 20180422a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -456,6 +456,7 @@ dramacity.se###gc_message_bar_open
 ||dramacity.se/VT*html$subdocument
 ||drama365.se/*/ad.php
 ||driverselection.com^
+dropbox.com###top-notification-bar-container
 ||dt07.net/*.jpg^
 duckduckgo.com###side
 duckduckgo.com##.web-result-sponsored
