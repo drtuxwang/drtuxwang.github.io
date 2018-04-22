@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180422a
+! Version: 20180422b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -187,6 +187,7 @@ axa.co.uk##.axaCookie
 ||ayboll.com^
 ||azasianow.com/ad.php
 ||azasianow.com/ad.php$inline-script
+||azasianow.com^$inline-script
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -371,6 +372,7 @@ copypastecharacter.com###sets_wrapper_inner
 ||cpmba.se^
 ||cpuboss.com/*.js
 ||cpuid.com/*.js
+||cpmrevenue.com^
 ||cpmstar.com^
 ||cpmterra.com^
 ||cpx.to^
@@ -578,6 +580,7 @@ ft.com##.advert
 ft.com##.o-cookie-message
 ft.com##.visible
 ||ftjcfx.com^
+||fullspeeddownload.com^
 ||functionalclam.com^
 ||futurecdn.net/*.js
 ||fwmrm.net^
@@ -1809,6 +1812,7 @@ _ads/
 brit*method^$popup
 /base.php$popup
 campaign_id=$popup
+/click?$popup
 /googlead.js
 /googleads.js
 ?guid=$popup
