@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180422b
+! Version: 20180423a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -210,6 +210,7 @@ bbc.co.uk###opt-in-promo
 bbc.co.uk###orb-footer
 bbc.co.uk##.share
 bbc.co.uk##.share-tools
+bbc.co.uk##.ws-c-social-slice__icons
 bbc.com###bbccookies
 @@||cdnedge.bbc.co.uk/mtk/*js
 @@||open.live.bbc.co.uk/weather/
