@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180423a
+! Version: 20180423b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -345,6 +345,8 @@ cnn.com##.user-msg
 ||commindo-media-ressourcen.de^
 ||comodoca.com^
 ||comodoca2.com^
+comparitech.com##.clearfix
+||comparitech.com/*.css
 ||compass-fit.jp^
 ||compete.com^
 complex.com/*.js
