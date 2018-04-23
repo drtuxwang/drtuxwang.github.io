@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180423b
+! Version: 20180423c
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -818,6 +818,7 @@ jobsearch.direct.gov.uk###cookieBanner
 ||jsecoin.com^
 ||jsrdn.com^
 ||juicyads.com^
+||junnify.com^
 ||justtechjobs.com^
 ||justuno.com^
 ||jwplatform.com^
