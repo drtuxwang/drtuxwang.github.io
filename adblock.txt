@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180428a
+! Version: 20180429a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -231,6 +231,7 @@ bbcgoodfood.com##.cookie-law
 bilibili.tv##.ad-f
 ||comment.bilibili.tv^
 ||binarylp.com^
+bing.com###b_notificationContainer
 ||bitgravity.com^
 ||bizographics.com^
 ||bjpwv.com^
