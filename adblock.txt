@@ -231,6 +231,7 @@ bbcgoodfood.com##.cookie-law
 bilibili.tv##.ad-f
 ||comment.bilibili.tv^
 ||binarylp.com^
+bing.com###b_notificationContainer
 ||bitgravity.com^
 ||bizographics.com^
 ||bjpwv.com^
@@ -1563,10 +1564,12 @@ twitter.com##.AdaptiveMedia-container
 twitter.com##.AdaptiveMedia-doublePhoto
 twitter.com##.AdaptiveMedia-video
 twitter.com##[data-img-alt="Embedded image permalink"]
-twitter.com##.eu-cookie-notice
 twitter.com##.flex-module
+twitter.com##.eu-cookie-notice
+twitter.com##.gdpr-privacy-banner
 twitter.com##[id^="stream-item-recap_entry"]
 twitter.com##[id^="stream-item-who_to_follow_entry-"]
+||twitter.com^$inline-script
 twitter.com##.is-autoplaying
 twitter.com##.is-gif
 twitter.com##.js-media-container
@@ -1854,8 +1857,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ##.fa-times-circle
 /qq/qq.php
 !
-! 20180215
-!standard.co.uk##.follow
 ! 20180303
 !ghacks.net##footer
 !ghacks.net###sidebar
@@ -1864,3 +1865,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !quora.com##[id*="background"]
 !quora.com##[id*="signup_container"]
 !quora.com##.upper_content
+! 20180426
+!twitter.com##.eu-cookie-notice
