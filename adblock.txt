@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180423c
+! Version: 20180502a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -979,6 +979,7 @@ mirror.co.uk##.top-slot
 ||moneycontrol.co.in^
 moneysavingexpert.com###alertBar
 moneysavingexpert.com##.all-social-btns
+moneysavingexpert.com###cookiePolicy
 @@||moneysavingexpert.com/deals/$popup
 moneysavingexpert.com###fixed-cross-site-tipbox
 moneysavingexpert.com###siteworks-content
