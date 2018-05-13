@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180503a
+! Version: 20180513a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -99,7 +99,6 @@ adf.ly###bottom
 ||adsbro.com^
 ||adsbyisocket.com^
 ||ad-score.com^
-||adservme.com^
 ||adsfactor.net^
 ||adsgangsta.com^
 ||adshex.net^
@@ -279,7 +278,6 @@ buzzfeed.com###share_control
 ||buzzadnetwork.com^
 ||buzzadnetwork.com^$popup
 ||buzzhand.com/*.js
-||buzzonclick.com^
 ||byethost*.com^
 ||bzlwe.com^
 ||callmd5map.com^
@@ -1064,16 +1062,10 @@ omgubuntu.co.uk##.page-footer
 ||on9drama.com/ads/
 ||on9drama.com/*Banner
 on99.se###wnb-bar
-||onclickmax.com^
-||onclickmax.com^$popup
-||onclickprediction.com^
-||onclicktop.com^
 ||onclkds.com^
 ||onlinerewardcenter.net^
 ||onmodulus.net^
 ||onclasrv.com^
-||onclickads.net^
-||onclickbright.com^
 ||oneall.com^
 ||onestat.com^
 ||onevision.com.tw^
@@ -1604,6 +1596,7 @@ ubuntu.com##.cookie-policy
 ||ugdturner.com^
 ||ultimategracelessness.info^
 ||undertone.com^
+||unformsy.mobi^
 ||unrulymedia.com^
 ||uploaded.net/*.js
 ||uploaded.net/register$popup
@@ -1803,13 +1796,13 @@ $script,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
 !
 ! Wild card (any domains)
 =adcash$popup
-*adexchanger*
+*adexchange*
 adexchange$popup
 ||adexchange
 ||ads.
 ||ads.$popup
 ||ads2.
-||adserver
+||adserv
 ||adsrv.
 _ads/
 /ads.js
@@ -1829,7 +1822,8 @@ campaign_id=$popup
 ||metric-agent.
 ||metrics.
 /offer?$popup
-*onclick.com^
+*onclick*
+*onclick*$popup
 &pid=$popup
 ?PLACEMENT_ID=$popup
 =popads$popup
@@ -1868,3 +1862,11 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !quora.com##.upper_content
 ! 20180426
 !twitter.com##.eu-cookie-notice
+! 20180513
+!||buzzonclick.com^
+!||onclickmax.com^
+!||onclickmax.com^$popup
+!||onclickprediction.com^
+!||onclicktop.com^
+!||onclickads.net^
+!||onclickbright.com^
