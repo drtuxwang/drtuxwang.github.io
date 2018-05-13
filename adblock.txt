@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180513a
+! Version: 20180513b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -686,7 +686,6 @@ googleblog.com###cookieChoiceInfo
 ||google-analytics.com^$domain=~search.diy.com|~mail.google.com|~videolan.org|~delayrepaycompensation.com
 ||googletagmanager.com^$domain=~talktalk.co.uk
 ||plusone.google.com^
-||googleadservices.com^
 ||googlesyndication.com^
 ||googletagservices.com^
 ||gorillanation.com^
@@ -1179,8 +1178,6 @@ postoffice.co.uk##.cookie
 ||pxl2015x1.com^
 ||pyksf.com^
 ||q1media.com^
-||qadserve.com^
-||qadservice.com^
 ||qmerce.com^
 ||qnsr.com^
 qooxi.net###footWidgets
@@ -1284,7 +1281,6 @@ sky.com##.sky-component-social-share__item
 ||slopeaota.com^
 ||smaato.net^$domain=~dramacity.se
 ||smaato.net^$image
-||smartadserver.com^
 ||smartclick.net^
 ||smartertravel.com^
 ||smart-money.biz/*/jquery*.js
@@ -1764,7 +1760,6 @@ zomato.com###user-cookie-message
 *-adnow.com^
 *-ads*.com^
 *-ads*.com^$popup
-*adserv.com^
 *myapp.com^
 !
 ! Bad TLD
@@ -1802,7 +1797,7 @@ adexchange$popup
 ||ads.
 ||ads.$popup
 ||ads2.
-||adserv
+*adserv*
 ||adsrv.
 _ads/
 /ads.js
@@ -1870,3 +1865,8 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||onclicktop.com^
 !||onclickads.net^
 !||onclickbright.com^
+!||googleadservices.com^
+!||qadserve.com^
+!||qadservice.com^
+!||smartadserver.com^
+!*adserv.com^
