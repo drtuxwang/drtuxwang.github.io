@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180513c
+! Version: 20180516a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -148,6 +148,7 @@ adviceguide.org.uk###div-cookie-monster
 ||alexa.com^
 ||offer.alibaba.com^
 ||alimama.cn^
+allmytvnow.com###ad_heade
 allmytvnow.com##.alert
 allmytvnow.com###control
 alpinelinux.org##.banner
@@ -973,6 +974,7 @@ mirror.co.uk##.top-slot
 ||mobile-10.com^
 ||mobisla.com^
 ||mobtrks.com^
+||modulepush.com^
 ||mohengdu.com^
 ||monetate.net^
 ||moneycontrol.co.in^
