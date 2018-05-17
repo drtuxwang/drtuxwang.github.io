@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180517a
+! Version: 20180517b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -263,6 +263,7 @@ bloomberg.com##.leaderboard-container
 britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
 ||browsers.support^
+||btncdn.com^
 ||bublaa.com^
 ||budgetedbauer.com^
 ||bugherd.com^
@@ -363,7 +364,7 @@ computershopper.com###consent_blackbar
 confused.com##.cookie-wrapper
 ||connatix.com^
 ||construment.com^
-||content.ad^
+||contentinsights.com^
 ||contentclick.co.uk^
 ||contextly.com^
 ||contextweb.com^$domain=dramacity.se
@@ -1768,6 +1769,7 @@ zomato.com###user-cookie-message
 *myapp.com^
 !
 ! Bad TLD
+.ad^
 .bid^
 .click^$popup
 .club^$domain=~openload.co
