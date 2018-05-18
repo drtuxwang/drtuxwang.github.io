@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180518a
+! Version: 20180518b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -1690,6 +1690,7 @@ wired.co.uk##.sharify
 ||wisegeek.org/*.php
 ||wonderlandads.com^
 ||woopra.com^
+woaikanxi.net##.ad-widget
 woaikanxi.net##.entry-actions
 ||r-login.wordpress.com^
 ||pixel.wp.com^
