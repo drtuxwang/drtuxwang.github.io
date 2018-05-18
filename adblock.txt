@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180518b
+! Version: 20180518c
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -1427,6 +1427,7 @@ telegraph.co.uk##.summaryMedium
 ||telemetrytaxonomy.net^
 ||telemetryverification.net^
 ||tenderapp.com^
+||tenmax.io^
 terminalelib.blogspot.co.uk###cookieChoiceInfo
 ||terraclicks.com^
 tfl.gov.uk##.cookie-policy-notice
