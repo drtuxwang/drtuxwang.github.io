@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180518c
+! Version: 20180522a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -587,6 +587,7 @@ ft.com##.visible
 ||ftjcfx.com^
 ||fullspeeddownload.com^
 ||functionalclam.com^
+||funny4u.co^$popup
 ||futurecdn.net/*.js
 ||fwmrm.net^
 ||fyre.co^
