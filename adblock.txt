@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180524a
+! Version: 20180525a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -1137,6 +1137,7 @@ phoronix.com###footer
 phoronix.com###navbar_notice_1
 phoronix.com##.widget:nth-of-type(6)
 ||pictela.net^
+||pimmuter.com^
 ||pimmuter.com^$popup
 ||pingdom.net/*.js
 ||pinterest.com^
@@ -1565,6 +1566,7 @@ twitter.com##.gdpr-privacy-banner
 twitter.com##[id^="stream-item-recap_entry"]
 twitter.com##[id^="stream-item-who_to_follow_entry-"]
 ||twitter.com^$inline-script
+@@||twitter.com/*/consent_violation_flow$inline-script
 twitter.com##.is-autoplaying
 twitter.com##.is-gif
 twitter.com##.js-media-container
