@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180525c
+! Version: 20180525d
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -1025,10 +1025,10 @@ newscientist.com###cookiesdirective
 ||newslinq.com/*.js
 ||newsquestdigital.co.uk^
 ||newsshopper.co.uk/*.js
-newsshopper.co.uk###cookieWarningR
 newsshopper.co.uk###DFP_top_leaderboard
 newsshopper.co.uk##.footer-container
 newsshopper.co.uk##.mobile-social
+newsshopper.co.uk###pecr-cookie-warning
 ||newsshopper.co.uk^$inline-script
 ||newstatesman.com^$inline-script
 ||nexac.com^
@@ -1887,3 +1887,4 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !*adserv.com^
 ! 20180525
 !bbc.co.uk###bbccookies
+!newsshopper.co.uk###cookieWarningR
