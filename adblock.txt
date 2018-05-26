@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180526a
+! Version: 20180526b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -1572,7 +1572,6 @@ twitter.com##.eu-cookie-notice
 twitter.com##.gdpr-privacy-banner
 twitter.com##[id^="stream-item-recap_entry"]
 twitter.com##[id^="stream-item-who_to_follow_entry-"]
-||twitter.com^$inline-script
 @@||twitter.com/*/consent_violation_flow$inline-script
 twitter.com##.is-autoplaying
 twitter.com##.is-gif
@@ -1892,3 +1891,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !*adserv.com^
 ! 20180525
 !newsshopper.co.uk###cookieWarningR
+! 20180526
+!||twitter.com^$inline-script
