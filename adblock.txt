@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180525d
+! Version: 20180526a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -194,6 +194,7 @@ axa.co.uk##.axaCookie
 ||bargetbook.com^
 ||barnebys.com^
 ||battleforthenet.com^
+bbc.co.uk###bbccookies
 bbc.co.uk###bbc-news-services
 bbc.co.uk###bbcprivacy
 bbc.co.uk##.js-breaking-news-banner
@@ -272,6 +273,7 @@ britishgas.co.uk###cookie-warning
 buzzfeed.com##.action-bar
 buzzfeed.com##.app_promo__banner
 buzzfeed.com##.bottom_shares
+buzzfeed.com##.js-header-section-placeholder
 buzzfeed.com##.connect-widget
 buzzfeed.com##.cookie-language-prompt__content
 buzzfeed.com##[id^="mod-emoji"]
@@ -363,6 +365,7 @@ computershopper.com###consent_blackbar
 ||conectiaoffers.com^
 confused.com##.cookie-wrapper
 ||connatix.com^
+||consensu.org^
 ||construment.com^
 ||contentinsights.com^
 ||contentclick.co.uk^
@@ -1189,7 +1192,9 @@ postoffice.co.uk##.cookie
 ||q1media.com^
 ||qmerce.com^
 ||qnsr.com^
+qooxi.net###featPosts
 qooxi.net###footWidgets
+||qooxi.net^$inline-script
 qooxi.net###sidebar
 qooxi.net###wnb-bar
 ||qrius.me^
@@ -1886,5 +1891,4 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||smartadserver.com^
 !*adserv.com^
 ! 20180525
-!bbc.co.uk###bbccookies
 !newsshopper.co.uk###cookieWarningR
