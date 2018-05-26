@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180526d
+! Version: 20180526e
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -479,6 +479,7 @@ duckduckgo.com##.web-result-sponsored
 ||ebocornac.com^
 ebuyer.com##.cookie-monster
 ||ebz.io^
+eclipse.org##.cc-banner
 ||eclkmpsa.com^
 ||ecommercebizworld.net^
 economist.com###ec-message-3
