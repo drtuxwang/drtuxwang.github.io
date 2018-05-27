@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180527d
+! Version: 20180527e
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -719,7 +719,6 @@ googleblog.com###cookieChoiceInfo
 ||gwallet.com^
 ||gx101.com^
 h265.se##.jw-dock
-||h-bid.com^
 ||hdslb.com/*.js
 heathrow.com###cookie
 ||hellobar.com^
@@ -1059,7 +1058,6 @@ novafile.com###tariffs
 ||ntv.io^
 ||nuclersoncanthinger.info^
 ||nuffnang.com.sg^
-||oath.com^
 ||obthqxbm.com^
 ||ochze.com^
 ||oclaserver.com^
@@ -1807,7 +1805,8 @@ zomato.com###user-cookie-message
 ||s3.amazonaws.com/wl-ex-cdn/1300/
 !
 ! Block all thrid party scripts for specific domains
-$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com
+$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com|ghacks.net|techcrunch.com|buzzfeed.com
+
 !
 ! Wild card (any domains)
 =adcash$popup
@@ -1903,3 +1902,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !.js$script,third-party,domain=dramacity.s|woaikanxi.cc
 !.php?$script,third-party,domain=woaikanxi.net
 !$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
+!||oath.com^
+!||h-bid.com^
