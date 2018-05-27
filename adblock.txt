@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180527a
+! Version: 20180527b
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -719,6 +719,7 @@ googleblog.com###cookieChoiceInfo
 ||gwallet.com^
 ||gx101.com^
 h265.se##.jw-dock
+||h-bid.com^
 ||hdslb.com/*.js
 heathrow.com###cookie
 ||hellobar.com^
@@ -1058,6 +1059,7 @@ novafile.com###tariffs
 ||ntv.io^
 ||nuclersoncanthinger.info^
 ||nuffnang.com.sg^
+||oath.com^
 ||obthqxbm.com^
 ||ochze.com^
 ||oclaserver.com^
