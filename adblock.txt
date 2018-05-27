@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180527e
+! Version: 20180527f
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -368,7 +368,6 @@ computershopper.com###consent_blackbar
 ||conectiaoffers.com^
 confused.com##.cookie-wrapper
 ||connatix.com^
-||consensu.org^
 ||construment.com^
 ||contentinsights.com^
 ||contentclick.co.uk^
@@ -1904,3 +1903,4 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
 !||oath.com^
 !||h-bid.com^
+!||consensu.org^
