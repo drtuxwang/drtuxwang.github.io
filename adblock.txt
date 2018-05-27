@@ -543,6 +543,7 @@ dramacity.se###gc_message_bar
 dramacity.se###gc_message_bar_open
 ||dramacity.se/script/license*.js
 ||dramacity.se/VT*html$subdocument
+||dramawall.com^$inline-script
 dramawall.com##table
 dramawall.com##.td-with-like
 ||driverselection.com^
