@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180527b
+! Version: 20180527d
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -1806,16 +1806,8 @@ zomato.com###user-cookie-message
 ###abyt-modal
 ||s3.amazonaws.com/wl-ex-cdn/1300/
 !
-! Wild card (specific domains)
-.asp?$script,third-party,domain=woaikanxi.net
-.aspx?$script,third-party,domain=woaikanxi.net
-.axd?$script,third-party,domain=woaikanxi.net
-.com/?zoneid=*woaikanxi.net$document
-.htm?$script,third-party,domain=woaikanxi.net
-.html?$script,third-party,domain=woaikanxi.net
-.js$script,third-party,domain=dramacity.s|woaikanxi.cc
-.php?$script,third-party,domain=woaikanxi.net
-$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
+! Block all thrid party scripts for specific domains
+$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com
 !
 ! Wild card (any domains)
 =adcash$popup
@@ -1902,3 +1894,12 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !newsshopper.co.uk###cookieWarningR
 ! 20180526
 !||twitter.com^$inline-script
+! 20180527
+!.asp?$script,third-party,domain=woaikanxi.net
+!.aspx?$script,third-party,domain=woaikanxi.net
+!.axd?$script,third-party,domain=woaikanxi.net
+!.htm?$script,third-party,domain=woaikanxi.net
+!.html?$script,third-party,domain=woaikanxi.net
+!.js$script,third-party,domain=dramacity.s|woaikanxi.cc
+!.php?$script,third-party,domain=woaikanxi.net
+!$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
