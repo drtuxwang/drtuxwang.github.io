@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180526e
+! Version: 20180527a
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
@@ -98,6 +98,7 @@ adf.ly###bottom
 ||adsafeprotected.com^
 ||adsbro.com^
 ||adsbyisocket.com^
+||adsco.re^
 ||ad-score.com^
 ||adsfactor.net^
 ||adsgangsta.com^
@@ -248,6 +249,7 @@ bloomberg.com##.leaderboard-container
 ||bnhtml.com^
 ||bnserving.com^
 ||bookelement.biz^
+||booking.com^
 ||boomtrain.com^
 ||bosh.tv^
 ||bounceexchange.com^
@@ -457,6 +459,7 @@ doodle.com##.d-warning
 ||dpmsrv.com^
 ||draco88.com^
 ||dragndropbuilder.com^
+||drama365.se/*/ad.php
 ||dramacity.se/ADS/
 dramacity.se##.blockchain-btn
 dramacity.se##.float-ck
@@ -465,7 +468,8 @@ dramacity.se###gc_message_bar
 dramacity.se###gc_message_bar_open
 ||dramacity.se/script/license*.js
 ||dramacity.se/VT*html$subdocument
-||drama365.se/*/ad.php
+dramawall.com##table
+dramawall.com##.td-with-like
 ||driverselection.com^
 dropbox.com###top-notification-bar-container
 ||dt07.net/*.jpg^
@@ -1784,6 +1788,7 @@ zomato.com###user-cookie-message
 !
 ! Bad TLD
 .ad^
+.asia^
 .bid^
 .click^$popup
 .club^$domain=~openload.co
@@ -1800,15 +1805,15 @@ zomato.com###user-cookie-message
 ||s3.amazonaws.com/wl-ex-cdn/1300/
 !
 ! Wild card (specific domains)
-.asp?$script,domain=woaikanxi.net
-.aspx?$script,domain=woaikanxi.net
-.axd?$script,domain=woaikanxi.net
+.asp?$script,third-party,domain=woaikanxi.net
+.aspx?$script,third-party,domain=woaikanxi.net
+.axd?$script,third-party,domain=woaikanxi.net
 .com/?zoneid=*woaikanxi.net$document
-.htm?$script,domain=woaikanxi.net
-.html?$script,domain=woaikanxi.net
-.js$script,domain=dramacity.se
-.php?$script,domain=woaikanxi.net
-$script,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
+.htm?$script,third-party,domain=woaikanxi.net
+.html?$script,third-party,domain=woaikanxi.net
+.js$script,third-party,domain=dramacity.s|woaikanxi.cc
+.php?$script,third-party,domain=woaikanxi.net
+$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
 !
 ! Wild card (any domains)
 =adcash$popup
