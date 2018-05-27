@@ -2,11 +2,88 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180527f
+! Version: 20180527g
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
+!
+! Block all thrid party scripts for specific domains
+$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com|ghacks.net|techcrunch.com|buzzfeed.com
+!
+! Wild card (any domains)
+=adcash$popup
+*adexchange*
+adexchange$popup
+||adexchange
+||ads.
+||ads.$popup
+||ads2.
+*adserv*
+||adsrv.
+_ads/
+/ads.js
+||adspaces.
+?ad=$popup
+?adv=$popup
+||analytics.
+||beacon.
+brit*method^$popup
+/base.php$popup
+campaign_id=$popup
+/click?$popup
+/googlead.js
+/googleads.js
+?guid=$popup
+||install.$popup
+||metric-agent.
+||metrics.
+/offer?$popup
+*onclick*
+*onclick*$popup
+&pid=$popup
+?PLACEMENT_ID=$popup
+=popads$popup
+&popunders$script
+/popup.js
+/redirect.php$popup
+?RefCode=$popup
+?rm_sid=$popup
+siteid=$popup
+/sponsors/*
+&sub=$popup
+&tid=$popup
+||tracking.$popup
+&uuid=$popup
+/watch?key=$popunder
+/watch?key=$popup
+/watch?*refer=http
+XXXXX$popup
+?zoneid=$popup
+!
+! Adblock Youtube
+###abyt-modal
+||s3.amazonaws.com/wl-ex-cdn/1300/
+!
+! Bad TLD
+.ad^
+.asia^
+.bid^
+.click^$popup
+.club^$domain=~openload.co
+.club^$popup
+.date^
+.loan^$popup
+.xxx^$popup
+.xyz^
+.xyz^$popup
+.website^$popup
+!
+! Domain matching
+*-adnow.com^
+*-ads*.com^
+*-ads*.com^$popup
+*myapp.com^
 !
 ! Domain specific filters
 ||1phads.com^
@@ -1778,84 +1855,6 @@ zomato.com###user-cookie-message
 ||35.188.14.213^$popup
 ||78.138.126.253^
 ||95.211.184.116^
-!
-! Domain matching
-*-adnow.com^
-*-ads*.com^
-*-ads*.com^$popup
-*myapp.com^
-!
-! Bad TLD
-.ad^
-.asia^
-.bid^
-.click^$popup
-.club^$domain=~openload.co
-.club^$popup
-.date^
-.loan^$popup
-.xxx^$popup
-.xyz^
-.xyz^$popup
-.website^$popup
-!
-! Adblock Youtube
-###abyt-modal
-||s3.amazonaws.com/wl-ex-cdn/1300/
-!
-! Block all thrid party scripts for specific domains
-$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com|ghacks.net|techcrunch.com|buzzfeed.com
-
-!
-! Wild card (any domains)
-=adcash$popup
-*adexchange*
-adexchange$popup
-||adexchange
-||ads.
-||ads.$popup
-||ads2.
-*adserv*
-||adsrv.
-_ads/
-/ads.js
-||adspaces.
-?ad=$popup
-?adv=$popup
-||analytics.
-||beacon.
-brit*method^$popup
-/base.php$popup
-campaign_id=$popup
-/click?$popup
-/googlead.js
-/googleads.js
-?guid=$popup
-||install.$popup
-||metric-agent.
-||metrics.
-/offer?$popup
-*onclick*
-*onclick*$popup
-&pid=$popup
-?PLACEMENT_ID=$popup
-=popads$popup
-&popunders$script
-/popup.js
-/redirect.php$popup
-?RefCode=$popup
-?rm_sid=$popup
-siteid=$popup
-/sponsors/*
-&sub=$popup
-&tid=$popup
-||tracking.$popup
-&uuid=$popup
-/watch?key=$popunder
-/watch?key=$popup
-/watch?*refer=http
-XXXXX$popup
-?zoneid=$popup
 !
 ! From: uBlock filters
 facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
