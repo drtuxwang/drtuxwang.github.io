@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180528b
+! Version: 20180528c
 /bin/bash: /hkfree: No such file or directory
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
@@ -234,6 +234,7 @@ alpinelinux.org##.banner
 ||amazonaws.com^$domain=openload.co
 ||amazon-adsystem.com^
 ||ampproject.org^
+||apester.com^
 ||assoc-amazon.com^
 ||awsstatic.com^$font
 ||amung.us^
@@ -444,6 +445,7 @@ computershopper.com###consent_blackbar
 ||conectiaoffers.com^
 confused.com##.cookie-wrapper
 ||connatix.com^
+||consensu.org^
 ||construment.com^
 ||contentinsights.com^
 ||contentclick.co.uk^
@@ -1412,6 +1414,7 @@ southampton.ac.uk###js-flash
 ||speednetwork1.com^
 ||c.speedtest.net/*.js
 ||spiceworks.com/*.js
+||spiffymachine.com^
 ||spot.im^
 ||spotscenered.info^
 ||spotscenered.info^$popup
