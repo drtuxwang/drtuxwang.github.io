@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180527h
+! Version: 20180528a
 /bin/bash: /hkfree: No such file or directory
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
@@ -1419,6 +1419,7 @@ southampton.ac.uk###js-flash
 ||spoutable.com^
 ||sprites.pcpro.co.uk/*.js
 ||cdn-careers.sstatic.net^
+stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com##.s-hero
 standard.co.uk###cookie-warning
 standard.co.uk###gs-wrapper
