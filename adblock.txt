@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180528d
+! Version: 20180528e
 /bin/bash: /hkfree: No such file or directory
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
@@ -702,7 +702,6 @@ ghacks.net##.children
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks-sidebar
 ghacks.net##.top-level
-||gigya.com^$domain=~pcworld.com|~rac.co.uk
 git-scm.com###banner
 glassdoor.co.uk##.adSlotJobListingsContent
 ||globalsources.com^
@@ -1907,3 +1906,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
 !||oath.com^
 !||h-bid.com^
+! 20180528
+!||gigya.com^$domain=~pcworld.com|~rac.co.uk
