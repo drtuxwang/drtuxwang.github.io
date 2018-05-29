@@ -2,12 +2,13 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180529b
+! Version: 20180529c
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
-! Block all thrid party scripts for specific domains
-$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.co|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com|ghacks.net|techcrunch.com|buzzfeed.com|distrowatch.com
+! Block third party elements on specific domains
+$image,third-party,domain=dramawall.com
+$script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.se|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
 !
 ! Wild card (any domains)
 =adcash$popup
