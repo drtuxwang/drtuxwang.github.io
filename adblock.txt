@@ -2,13 +2,13 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180528f
+! Version: 20180529a
 /bin/bash: /hkfree: No such file or directory
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
 ! Block all thrid party scripts for specific domains
-$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.co|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com|ghacks.net|techcrunch.com|buzzfeed.com
+$script,third-party,domain=dramacity.se|gadgetsnow.com|icdrama.se|www.qooxi.net|hdfree.se|hkfree.co|hkfree.se|dramas.nu|thestudentroom.co.uk|woaikanxi.cc|dramawall.com|ghacks.net|techcrunch.com|buzzfeed.com|distrowatch.com
 !
 ! Wild card (any domains)
 =adcash$popup
