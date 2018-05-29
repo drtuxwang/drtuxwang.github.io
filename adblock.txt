@@ -2,8 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180529a
-/bin/bash: /hkfree: No such file or directory
+! Version: 20180529b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -589,6 +588,7 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||etracker.com^
 ||evenexcite.com^
 ||evernote.com^
+||evidon.com^
 ||ewebse.com^
 ||exdynsrv.com^
 ||exelator.com^
@@ -796,6 +796,7 @@ googleblog.com###cookieChoiceInfo
 ||gwallet.com^
 ||gx101.com^
 h265.se##.jw-dock
+||h-bid.com^
 ||hdslb.com/*.js
 heathrow.com###cookie
 ||hellobar.com^
@@ -1487,6 +1488,7 @@ techcrunch.com##.banner-header
 techcrunch.com##.collapse-adjacent
 techcrunch.com##.footer
 techcrunch.com##.header-social
+||techcrunch.com^$inline-script
 techcrunch.com##.live-island
 techcrunch.com##.live-island-content
 techcrunch.com##.social-share
