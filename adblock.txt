@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180529c
+! Version: 20180530a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -1601,6 +1601,7 @@ thisislocallondon.co.uk###cookiewarning
 three.co.uk###rwd-cookie-message
 ||thoughtleadr.com^
 ||tickld.com/*.js
+||timeanddate.com^$inline-script
 timeout.com##.xs-fixed
 tinydl.co##.sideblock
 ||tinydl.link/*.js
