@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180530a
+! Version: 20180531a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -1791,8 +1791,8 @@ wired.co.uk##.sharify
 ||wisegeek.org/*.php
 ||wonderlandads.com^
 ||woopra.com^
-woaikanxi.net##.ad-widget
-woaikanxi.net##.entry-actions
+woaikanxi.cc##.ad-widget
+woaikanxi.cc##.entry-actions
 ||r-login.wordpress.com^
 ||wp.com^$domain=dramawall.com
 ||pixel.wp.com^
