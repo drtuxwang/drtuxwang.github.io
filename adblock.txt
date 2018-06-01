@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180531a
+! Version: 20180601a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -680,8 +680,7 @@ ft.com##.visible
 ||fwmrm.net^
 ||fyre.co^
 ||gaug.es^
-geek.com###_evidon_banner
-geek.com###gksticky
+||geek.com^$inline-script
 ||geek.com/*.js
 ||gemius.pl^
 ||genericsteps.com^
@@ -1873,14 +1872,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ##.fa-times-circle
 /qq/qq.php
 !
-! 20180303
-!ghacks.net##footer
-!ghacks.net###sidebar
-!ghacks.net##.synved-social-button
-! 20180317
-!quora.com##[id*="background"]
-!quora.com##[id*="signup_container"]
-!quora.com##.upper_content
 ! 20180426
 !twitter.com##.eu-cookie-notice
 ! 20180513
@@ -1909,7 +1900,8 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !.js$script,third-party,domain=dramacity.s|woaikanxi.cc
 !.php?$script,third-party,domain=woaikanxi.net
 !$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
-!||oath.com^
-!||h-bid.com^
 ! 20180528
 !||gigya.com^$domain=~pcworld.com|~rac.co.uk
+! 20180601
+!geek.com###_evidon_banner
+!geek.com###gksticky
