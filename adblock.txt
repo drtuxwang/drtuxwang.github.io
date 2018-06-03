@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180602a
+! Version: 20180603a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -728,6 +728,7 @@ google.com##[style^="behavior:url"]
 google.com##[style="margin-left:12px"]
 google.com###tads
 google.com###tvcap
+google.com##.widget-consent-dialog
 google.co.uk###bottomads
 ||google.co.uk/cse/
 ||google.co.uk/gen_
@@ -968,6 +969,7 @@ linux.com##.region-header-top
 linuxformat.com###fp_cookieMessageContainer
 linuxfoundation.org###sliding-popup
 ||linuxtoday.com/*.js
+linuxtoday.com##.privacy-modal-content
 linuxtoday.com##.rightnav
 linuxuser.co.uk##.cookie_notification
 ||linuxvoice.com/*.js
