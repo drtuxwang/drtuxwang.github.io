@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180604b
+! Version: 20180604c
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -601,6 +601,7 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||exoclick.com^$popup
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
+||express.co.uk^$inline-script
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
@@ -704,6 +705,7 @@ ghacks.net##.children
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks-sidebar
 ghacks.net##.top-level
+gitlab.com###CybotCookiebotDialog
 git-scm.com###banner
 glassdoor.co.uk##.adSlotJobListingsContent
 ||globalsources.com^
@@ -1573,6 +1575,7 @@ theinquirer.net##.cookie-consent-content
 ||hits-secure.theguardian.com^
 ||thehackernews.com/*.js
 ||thenational.ae/*.js
+||thenextweb.com^$inline-script
 theo2.co.uk##.cc_banner
 ||theplatform.com^
 theregister.co.uk###accessibility
@@ -1600,6 +1603,7 @@ thesun.co.uk##.social
 ||thesundaytimes.co.uk/*.js
 ||thetelegraphandargus.co.uk/*.js
 ||thevarguy.com/*.js
+theverge.com###privacy-consent
 thisislocallondon.co.uk###cookiewarning
 ||thisisoxfordshire.co.uk^$inline-script
 three.co.uk###rwd-cookie-message
