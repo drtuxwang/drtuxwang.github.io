@@ -249,6 +249,7 @@ developer.android.com##.dac-visible
 ||aralego.com^
 ||areyouahuman.com^
 ||argos.co.uk/*.png
+askubuntu.com##.z-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 ||atas.io^
 ||atdmt.com^
