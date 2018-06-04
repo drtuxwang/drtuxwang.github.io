@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180603a
+! Version: 20180604b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -249,7 +249,7 @@ developer.android.com##.dac-visible
 ||aralego.com^
 ||areyouahuman.com^
 ||argos.co.uk/*.png
-askubuntu.com##.z-banner
+askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 ||atas.io^
 ||atdmt.com^
@@ -1427,6 +1427,7 @@ southampton.ac.uk###js-flash
 ||springserve.com^
 ||sprites.pcpro.co.uk/*.js
 ||cdn-careers.sstatic.net^
+stackexchange.com###js-gdpr-consent-banner
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com##.s-hero
 standard.co.uk###cookie-warning
