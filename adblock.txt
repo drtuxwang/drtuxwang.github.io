@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180604c
+! Version: 20180605a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -897,7 +897,7 @@ iresa.co.uk##.cookie-notice-container
 ||iterable.com^
 ||itproportal.com/*.js
 ||itrunsonlinux.com/*.js
-itv.com##.itv-glob-cook__inner
+||itv.com^$inline-script
 ||itwire.com/images/articles/
 itwire.com##.ja-box-ct.clearfix
 ivyccmovie.com##IMG[src^="images"]
@@ -1440,7 +1440,7 @@ standard.co.uk###mastfooter
 standard.co.uk##.most-popular-toaster
 standard.co.uk##.share-bar
 standard.co.uk###side
-||statcounter.com^
+||statcounter.com^$third-party
 ||staticcache.org^
 ||staticworld.net^
 stationboard.uk##.adBlock
@@ -1468,6 +1468,7 @@ stationboard.uk##.cc_banner-wrapper
 ||switchads.com^
 ||swoop.com^
 ||symcd.com^
+||systutorials.com^$inline-script
 ||taboola.com^
 ||taboolasyndication.com^
 ||tacdn.com/*.js$domain=~tripadvisor.co.uk
@@ -1914,3 +1915,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180601
 !geek.com###_evidon_banner
 !geek.com###gksticky
+! 20180605
+!itv.com##.itv-glob-cook__inner
