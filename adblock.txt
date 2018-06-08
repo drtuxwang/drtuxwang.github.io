@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180606a
+! Version: 20180608a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -1209,9 +1209,10 @@ ownvehicle.askmid.com##.contentBlock
 patientaccess.com##.cookies
 ||paypal-community.com^$inline-script
 ||paypalobjects.com^
+||pcmag.com^$inline-script
+||pcmag.com/*.js
 pcmag.com##.middle-frame
 pcmag.com###sidebar
-||pcmag.com/*.js
 pcspecialist.co.uk##.cc-policy
 pcworld.com###comment-form
 pcworld.com###side
