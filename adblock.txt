@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180608a
+! Version: 20180608b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -1308,8 +1308,7 @@ rapidgator.net###cookie-dlg
 ||reallifecam.com^
 ||realtime.co^
 ||realvu.net^
-reddit.com##.cookie-infobar
-||reddit.com^$domain=~reddit.com
+||reddit.com^$inline-script
 ||redonetype.com^$popup
 ||reembed.com^
 ||reevoo.com^$domain=~reevoo.com
@@ -1919,3 +1918,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !geek.com###gksticky
 ! 20180605
 !itv.com##.itv-glob-cook__inner
+! 20180608
+!reddit.com##.cookie-infobar
+!||reddit.com^$domain=~reddit.com
