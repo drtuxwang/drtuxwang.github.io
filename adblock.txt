@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180608b
+! Version: 20180610a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -25,12 +25,14 @@ _ads/
 ||adspaces.
 ?ad=$popup
 ?adv=$popup
+||advert
 ||analytics.
 ||beacon.
 brit*method^$popup
 /base.php$popup
 campaign_id=$popup
-/click?$popup
+click$third-party
+click$popup,third-party
 /googlead.js
 /googleads.js
 ?guid=$popup
@@ -38,8 +40,6 @@ campaign_id=$popup
 ||metric-agent.
 ||metrics.
 /offer?$popup
-*onclick*
-*onclick*$popup
 &pid=$popup
 ?PLACEMENT_ID=$popup
 =popads$popup
@@ -133,7 +133,6 @@ accuweather.com###top
 ||adefficiency.net^
 ||adestra.com^
 ||adexp.net^
-||adfclick1.com^
 ||adfeedstrk.com^
 adf.ly##.no-js
 adf.ly###bottom
@@ -206,8 +205,6 @@ adf.ly###bottom
 ||adtgs.com^
 ||adtomafusion.com^
 ||adversal.com^
-||advertising.com^
-||advertserve.com^
 adviceguide.org.uk###div-cookie-monster
 ||ad-vid-webs.com^
 ||advinapps.com^
@@ -226,9 +223,6 @@ adviceguide.org.uk###div-cookie-monster
 ||alexa.com^
 ||offer.alibaba.com^
 ||alimama.cn^
-dramas.nu###ad_header
-dramas.nu##.alert
-dramas.nu###control
 alpinelinux.org##.banner
 ||altitude-arena.com^
 ||am15.net^
@@ -243,6 +237,7 @@ alpinelinux.org##.banner
 developer.android.com##.dac-visible
 ||androidauthority.com/*.js
 ||androidcentral.com^$inline-script
+ao.com###aoMessageHolder
 ||aolcdn.com^
 ||app-installz.com^
 ||apportium.com^
@@ -265,9 +260,6 @@ avivaservices.co.uk##.cc-cookies
 axa.co.uk##.axaCookie
 ||axf8.net^
 ||ayboll.com^
-||azasianow.com/ad.php
-||azasianow.com/ad.php$inline-script
-||azasianow.com^$inline-script
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -398,13 +390,6 @@ cityam.com##.sharing
 ||clarifyingquack.com^
 ||class64deal.com^
 ||cleanprint.net^
-||clickme.net^
-||clickmngr.com^
-||clickoffer.net^
-||click-search.info^
-||clicksgear.com^
-||clicktale.net^
-||clickxo.com^
 ||cliipa.com^
 ||clipular.com^
 ||clkmon.com^
@@ -450,7 +435,6 @@ confused.com##.cookie-wrapper
 ||consensu.org^
 ||construment.com^
 ||contentinsights.com^
-||contentclick.co.uk^
 ||contextly.com^
 ||contextweb.com^$domain=dramacity.se
 convertunits.com###leaderboard
@@ -531,7 +515,6 @@ diy.com##.cookie-panel
 ||dntrax.com^
 ||domdex.com^
 doodle.com##.d-warning
-||doubleclick.net^
 ||doublepimp.com^
 ||doubleverify.com^
 ||downloadsetup.net^
@@ -548,6 +531,9 @@ dramacity.se###gc_message_bar_open
 ||dramacity.se/script/license*.js
 ||dramacity.se/VT*html$subdocument
 ||dramawall.com^$inline-script
+dramas.nu###ad_header
+dramas.nu##.alert
+dramas.nu###control
 dramawall.com##table
 dramawall.com##.td-with-like
 ||driverselection.com^
@@ -597,8 +583,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||exelator.com^
 ||exlpor.com^
 ||exovueplatform.com^
-||exoclick.com^
-||exoclick.com^$popup
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
 ||express.co.uk^$inline-script
@@ -638,9 +622,7 @@ m.facebook.com##.scrollAreaColumn
 ||facerich.com^
 ||fallingfalcon.com^
 ||fancybar.net^
-||fastclick.net^
 ||fastcounter.de^
-||fastnclick.com^
 fca.org.uk###sliding-popup
 ||featureblend.com^
 ||feedburner.com^
@@ -691,7 +673,6 @@ ft.com##.visible
 ||genieessp.com^
 ||genieesspv.jp^
 ||georiot.com^
-||getclicky.com^
 ||getresponse.com^
 ||getrooster.com^
 ||getsmartcontent.com^
@@ -871,7 +852,6 @@ independent.co.uk###side
 ||internetnews.com/*.js
 ||i-playfun.com/*.js
 ||indexww.com^
-||indieclick.com^
 ||industrybrains.com^
 ||influid.co^
 ||infolinks.com^
@@ -883,7 +863,6 @@ independent.co.uk###side
 ||intelliad.de^
 ||intellitxt.com^
 ||intensedebate.com^
-||interclick.com^
 ||interestsearch.net^
 ||internet.com^
 ||invitemedia.com^
@@ -1386,7 +1365,6 @@ sky.com##.sky-component-social-share__item
 ||slopeaota.com^
 ||smaato.net^$domain=~dramacity.se
 ||smaato.net^$image
-||smartclick.net^
 ||smartertravel.com^
 ||smart-money.biz/*/jquery*.js
 ||smi2.ru^
@@ -1417,7 +1395,6 @@ sourceforge.net##.m-wide-widget
 sourceforge.net###scanned_by
 sourceforge.net##.sidebar-widget
 southampton.ac.uk###js-flash
-||specificclick.net^
 ||speednetwork1.com^
 ||c.speedtest.net/*.js
 ||spiceworks.com/*.js
@@ -1483,7 +1460,6 @@ talktalk.co.uk##.f-size2.color0
 error.talktalk.co.uk##.tt_results
 ||tsyndicate.com^
 ||ttxm.co.uk/*/mktg-*
-||ttxm.co.uk/*/oneclickbuy/
 ||tanx.com^
 ||tapad.com^
 ||td553.com^
@@ -1536,7 +1512,6 @@ telegraph.co.uk##.summaryMedium
 ||tenderapp.com^
 ||tenmax.io^
 terminalelib.blogspot.co.uk###cookieChoiceInfo
-||terraclicks.com^
 tfl.gov.uk##.cookie-policy-notice
 tfl.gov.uk###cookie-policy-notice
 tfl.gov.uk##.top-banner-advert
@@ -1646,7 +1621,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||trklnks.com^
 ||trove.com^
 ||troveread.com^
-||trueclickads.net^
 ||truste.com^
 trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
@@ -1842,7 +1816,6 @@ youtube.com###feed-pyv-container
 ||youtube.com/get_midroll_
 youtube.com###header
 youtube.com##[id*="-brand"]
-youtube.com##.iv-click-target
 youtube.com##.iv-promo
 youtube.com###masthead-ad
 ||youtube.com/*/stats/
@@ -1870,11 +1843,6 @@ zomato.com###user-cookie-message
 ||zopim.com^
 ||zqtk.net^
 !
-! IP specific filters
-||35.188.14.213^$popup
-||78.138.126.253^
-||95.211.184.116^
-!
 ! From: uBlock filters
 facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
@@ -1883,8 +1851,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ##.fa-times-circle
 /qq/qq.php
 !
-! 20180426
-!twitter.com##.eu-cookie-notice
 ! 20180513
 !||buzzonclick.com^
 !||onclickmax.com^
@@ -1921,3 +1887,37 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180608
 !reddit.com##.cookie-infobar
 !||reddit.com^$domain=~reddit.com
+! 20180710
+!||azasianow.com/ad.php
+!||azasianow.com/ad.php$inline-script
+!||azasianow.com^$inline-script
+!||clickme.net^
+!||clickmngr.com^
+!||clickoffer.net^
+!||click-search.info^
+!||clicksgear.com^
+!||clicktale.net^
+!||clickxo.com^
+!||35.188.14.213^$popup
+!||78.138.126.253^
+!||95.211.184.116^
+!||advertising.com^
+!||advertserve.com^
+!*onclick*
+!*onclick*$popup
+!||adfclick1.com^
+!||contentclick.co.uk^
+!||doubleclick.net^
+!||exoclick.com^
+!||exoclick.com^$popup
+!||fastclick.net^
+!||fastnclick.com^
+!||getclicky.com^
+!||indieclick.com^
+!||interclick.com^
+!||smartclick.net^
+!||specificclick.net^
+!||ttxm.co.uk/*/oneclickbuy/
+!||terraclicks.com^
+!||trueclickads.net^
+!youtube.com##.iv-click-target
