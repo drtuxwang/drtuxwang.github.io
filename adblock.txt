@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180610b
+! Version: 20180610c
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -444,6 +444,7 @@ duckduckgo.com##.web-result-sponsored
 ||duffelblog.com/*.js
 ||dwin1.com^
 ||dynamicyield.com^
+||dynatrace.com^
 ||eagerse.com^$popup
 ||earnify.com^
 ||ebocornac.com^
