@@ -2,38 +2,55 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180610c
+! Version: 20180610d
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
 ! Block all beacons
+||beacon.
 $other,third-party
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
 $script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.se|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
 !
-! Wild card (any domains)
+! Bad TLD
+.ad^
+.asia^
+.bid^
+.click^$popup
+.club^$domain=~openload.co
+.club^$popup
+.date^
+.loan^$popup
+.services^
+.xxx^$popup
+.xyz^
+.xyz^$popup
+.website^$popup
+!
+! Wild card macthing
+||ad*$third-party
 =adcash$popup
 *adexchange*
 adexchange$popup
-||ad$third-party
+*adnetwork.$third-party
 *-adnow.com^
 _ads/
-*adserv*
-/ads.js
 ?ad=$popup
 *-ads*.com^
 *-ads*.com^$popup
+*ads.$third-party
 ?adv=$popup
 ||analytics.
+||bet*$third-party
+||bid*$third-party
 brit*method^$popup
 /base.php$popup
 campaign_id=$popup
 click$third-party
 click$popup,third-party
 /googlead.js
-/googleads.js
 ?guid=$popup
 ||install.$popup
 ||metric-agent.
@@ -64,22 +81,7 @@ XXXXX$popup
 ###abyt-modal
 ||s3.amazonaws.com/wl-ex-cdn/1300/
 !
-! Bad TLD
-.ad^
-.asia^
-.bid^
-.click^$popup
-.club^$domain=~openload.co
-.club^$popup
-.date^
-.loan^$popup
-.xxx^$popup
-.xyz^
-.xyz^$popup
-.website^$popup
-!
 ! Domain specific filters
-||1phads.com^
 ||15gifts.com^
 ||18yeah.com^
 ||206solutions.com^
@@ -193,14 +195,6 @@ bbcgoodfood.com##.cookie-law
 ||behavemedia.com^
 ||bestarmour4u.work^
 ||bestofmedia.com^
-||bet365.com^
-||betrad.com^
-||betsafe.com^
-||bidgear.com^
-||bidgears.com^
-||bidswitch.net^
-||bidverdrs.com^
-||bidvertiser.com^
 bilibili.tv##.ad-f
 ||comment.bilibili.tv^
 ||binarylp.com^
@@ -242,7 +236,6 @@ britishgas.co.uk###cookie-warning
 ||budgetedbauer.com^
 ||bugherd.com^
 ||businessinsider.com^$inline-script
-||buysellads.com^
 buzzfeed.com##.action-bar
 buzzfeed.com##.app_promo__banner
 buzzfeed.com##.bottom_shares
@@ -253,8 +246,6 @@ buzzfeed.com##[id^="mod-emoji"]
 buzzfeed.com###inline_shares_box
 buzzfeed.com###mod-privacy-policy-banner-1
 buzzfeed.com###share_control
-||buzzadnetwork.com^
-||buzzadnetwork.com^$popup
 ||buzzhand.com/*.js
 ||byethost*.com^
 ||bzlwe.com^
@@ -387,7 +378,6 @@ delayrepaycompensation.com##.cc_banner
 ||demandbase.com^
 ||demdex.net^
 ||dennis.co.uk^
-||deployads.com^
 ||devx.com^
 ||dhgate.com^
 ||dianomioffers.co.uk^
@@ -398,7 +388,6 @@ dice.com###cookie_consent
 disqus.com##.is-footer
 disqus.com##.module--aside
 ||disquscdn.com/uploads/*.jpg
-||disqusads.com^
 ||distrowatch.com/*.js
 distrowatch.com##a[href^="http"] > img
 distrowatch.com##.Background > .News
@@ -469,8 +458,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||en25.com^
 ||enoratraffic.com^
 ||ensighten.com^
-||epmads.com^
-||eq-ads.net^
 ||erovinmo.com^
 ||errantolo.com^
 ||estat.com^
@@ -689,9 +676,6 @@ heathrow.com###cookie
 ||hellobar.com^
 here.com##.cookie
 ||hexagram.com^
-||hilltopads.net^
-||hilltopads.net^$popup
-||hipersushiads.com^
 ||hiro.tv^
 ||histats.com^
 ||hit-counts.com^
@@ -760,7 +744,6 @@ independent.co.uk###side
 ||inq.com^
 ||insidesocial.com^
 ||instanceour.info^
-||instinctiveads.com^
 ||intelliad.de^
 ||intellitxt.com^
 ||intensedebate.com^
@@ -791,7 +774,6 @@ jobsearch.direct.gov.uk###cookieBanner
 ||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net
 ||jsecoin.com^
 ||jsrdn.com^
-||juicyads.com^
 ||junnify.com^
 ||justtechjobs.com^
 ||justuno.com^
@@ -812,7 +794,6 @@ jobsearch.direct.gov.uk###cookieBanner
 ||kovla.com^
 ||krxd.net^
 ||ladbrokes.com^
-||lanistaads.com^
 ||laptopmag.com/*.js
 ||leadin.com^
 ||leadintelligence.co.uk^
@@ -890,7 +871,6 @@ maketecheasier.com###sharebar
 ||marfeel.com^
 ||marketo.com^
 ||marketo.net^
-||martiniadnetwork.com^
 ||matheranalytics.com^
 ||mathtag.com^
 ||maxmind.com^$domain=~appear.in
@@ -907,9 +887,7 @@ maketecheasier.com###sharebar
 ||mediavoice.com^
 ||mediawhirl.net^
 meetup.com###app-download-promo-interstitial
-||megapopads.com^
 ||mekoto.com^
-||mellowads.com^
 ||mengine.me^
 ||metricfast.com^
 ||metricsdirect.com^
@@ -946,7 +924,6 @@ mirror.co.uk##.top-slot
 ||ml314.com^
 ||mmadsgadget.com^
 ||mmondi.com^
-||moatads.com^
 ||mobify.com^
 ||mobile-10.com^
 ||mobisla.com^
@@ -979,7 +956,6 @@ muktware.com##[alt*="-ad-"]
 nationalarchives.gov.uk##.cookieNotice
 national-lottery.co.uk###com_cookie_policy
 nationwide.co.uk##[class="cookiePolicy"]
-||nativeads.com^
 ||naytev.com^
 nectar.com###cc-notification-wrapper
 ||nedstatbasic.net^
@@ -1055,7 +1031,6 @@ on99.se###wnb-bar
 ||oomphcloud.com^
 ||ooyala.com^
 ||opednews.com/*.js
-||open-ads.net^
 ||opendownloadmanager.com^
 ||openload.co^$script
 @@||openload.co/assets/js/video.min.*.js$script,first-party
@@ -1128,7 +1103,6 @@ pizzahut.co.uk##.alert
 ||po.st^
 ||pointroll.com^
 ||poll.fm^
-||popads.net^
 @@||popads.net/pop.js
 ||popads.net^$inline-script
 ||popads.net^$popup
@@ -1140,7 +1114,6 @@ postoffice.co.uk##.cookie
 ||powerretail.com.au/*.js
 ||ppjol.com^
 ||ppjol.net^
-||predictivadnetwork.com^
 ||pressflex.net^
 ||pressly.com^
 ||ah.pricegrabber.com^
@@ -1208,7 +1181,6 @@ reuters.com##.trc-content-sponsored
 ||richrelevance.com^
 ||rlcdn.com^
 ||robocat.me^
-||rotorads.com^
 royal.uk###sliding-popup
 royalmail.com###block-cookie_policy-0
 ||rpxnow.com^
@@ -1244,7 +1216,6 @@ shearings.com###cookie-notice-inner
 ||shoppinglifestyle.com^
 ||shutterstock.com^
 siemens.com###cookieMessageWrapper
-||silence-ads.com^
 ||simba-digital.com^
 ||simplyhired.com^
 ||simplereach.com^
@@ -1333,7 +1304,6 @@ stationboard.uk##.cc_banner-wrapper
 ||sub2tech.com^
 ||successfultogether.co.uk^
 ||sumome.com^
-||sunfishads.com^
 ||sunrisewebjo.link^
 ||super-links.net^
 ||supert.ag^
@@ -1344,7 +1314,6 @@ stationboard.uk##.cc_banner-wrapper
 ||switchafrica.com^
 ||swiftype.com^
 ||swiftypecdn.com^
-||switchads.com^
 ||swoop.com^
 ||symcd.com^
 ||systutorials.com^$inline-script
@@ -1364,7 +1333,6 @@ error.talktalk.co.uk##.tt_results
 ||tanx.com^
 ||tapad.com^
 ||td553.com^
-||teads.tv^
 ||teenport.com^$inline-script
 techadvisor.co.uk##.cookieText
 techcrunch.com##.ad-cluster-container
@@ -1417,7 +1385,6 @@ tfl.gov.uk##.cookie-policy-notice
 tfl.gov.uk###cookie-policy-notice
 tfl.gov.uk##.top-banner-advert
 thameswater.co.uk##.cookies
-||theads.me^
 ||theepochtimes.com/*.js
 theguardian.com##.adverts__body
 theguardian.com##.background
@@ -1514,7 +1481,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||trafficforce.com^
 ||traffichaus.com^
 ||trafficjunky.net^
-||trafficnetworkads.com^
 ||trafficshop.com^
 ||tremormedia.com^$domain=~reuters.com
 ||tribalfusion.com^
@@ -1654,7 +1620,6 @@ weebly.com##[border="0"]
 ||whdafei.com^
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
-||whoads.net^
 ||whonami.info^
 wickes.co.uk###cookie-policy
 ||wigetmedia.com^
@@ -1674,7 +1639,6 @@ wired.co.uk###domCookieWarning
 wired.co.uk##.sharify
 ||wisegeek.com/*.php
 ||wisegeek.org/*.php
-||wonderlandads.com^
 ||woopra.com^
 woaikanxi.cc##.ad-widget
 woaikanxi.cc##.entry-actions
@@ -1822,7 +1786,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||terraclicks.com^
 !||trueclickads.net^
 !youtube.com##.iv-click-target
-!||beacon.
 !||adexchange
 !||ads.
 !||ads.$popup
@@ -1924,3 +1887,45 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||adviva.net^
 !||adzerk.net^
 !||adziff.com^
+|*adserv*
+!||bidgear.com^
+!||bidgears.com^
+!||bidswitch.net^
+!||bidverdrs.com^
+!||bidvertiser.com^
+!||bet365.com^
+!||betrad.com^
+!||betsafe.com^
+!||buzzadnetwork.com^
+!||buzzadnetwork.com^$popup
+!||martiniadnetwork.com^
+!||predictivadnetwork.com^
+!/googleads.js
+!||1phads.com^
+!||buysellads.com^
+!||deployads.com^
+!||disqusads.com^
+!||epmads.com^
+!||eq-ads.net^
+!||hilltopads.net^
+!||hilltopads.net^$popup
+!||hipersushiads.com^
+!||instinctiveads.com^
+!||juicyads.com^
+!||lanistaads.com^
+!||megapopads.com^
+!||mellowads.com^
+!/ads.js
+!||moatads.com^
+!||nativeads.com^
+!||open-ads.net^
+!||rotorads.com^
+!||silence-ads.com^
+!||sunfishads.com^
+!||switchads.com^
+!||teads.tv^
+!||theads.me^
+!||trafficnetworkads.com^
+!||whoads.net^
+!||wonderlandads.com^
+!||popads.net^
