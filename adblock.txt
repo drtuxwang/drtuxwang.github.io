@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180611a
+! Version: 20180612a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -42,11 +42,12 @@ _ads/
 *-ads*.com^$popup
 *ads.$third-party
 ?adv=$popup
+||affiliate*$third-party
 ||analytics.
 ||bet*$third-party
 ||bid*$third-party
-brit*method^$popup
 /base.php$popup
+brit*method^$popup
 campaign_id=$popup
 click$third-party
 click$popup,third-party
@@ -69,6 +70,7 @@ siteid=$popup
 /sponsors/*
 &sub=$popup
 &tid=$popup
+traffic$third-party
 ||tracking.$popup
 &uuid=$popup
 /watch?key=$popunder
@@ -113,8 +115,6 @@ adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
 adviceguide.org.uk###div-cookie-monster
-||affiliates.de^
-||affiliatewindow.com^
 ||affinity.com^
 ||affutd.com^
 ||agkn.com^
@@ -177,7 +177,6 @@ bbc.co.uk###get-inspired
 bbc.co.uk##[id*="MediaPlayer"]
 bbc.co.uk##[id*="media-player"]
 ||bbc.co.uk/iplayer
-||bbc.co.uk/*.js
 ||bbc.co.uk/*/live/
 bbc.co.uk##.live-experience
 @@||bbc.co.uk/modules/comments/
@@ -456,7 +455,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||efytimes.com/*.js
 ||eloqua.com^
 ||en25.com^
-||enoratraffic.com^
 ||ensighten.com^
 ||erovinmo.com^
 ||errantolo.com^
@@ -734,7 +732,6 @@ independent.co.uk###side
 ||indiegogo.com/*.js
 ||inskinmedia.com^$domain=~nextmedia.com
 ||insticator.com^
-||instraffic.com^
 ||internetnews.com/*.js
 ||i-playfun.com/*.js
 ||indexww.com^
@@ -974,7 +971,6 @@ newscientist.com###cookiesdirective
 ||newsinc.com^
 ||newslinq.com/*.js
 ||newsquestdigital.co.uk^
-||newsshopper.co.uk/*.js
 newsshopper.co.uk###DFP_top_leaderboard
 newsshopper.co.uk##.footer-container
 newsshopper.co.uk##.mobile-social
@@ -1102,6 +1098,7 @@ pizzahut.co.uk##.alert
 ||plugrush.com^
 ||plugz.co^
 ||po.st^
+||pocket-lint.com^$inline-script
 ||pointroll.com^
 ||poll.fm^
 @@||popads.net/pop.js
@@ -1477,12 +1474,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||trackpprofile.com^
 ||tradedoubler.com^
 ||tradepub.com^
-||trafficbee.com^
-||trafficfactory.biz^
-||trafficforce.com^
-||traffichaus.com^
-||trafficjunky.net^
-||trafficshop.com^
 ||tremormedia.com^$domain=~reuters.com
 ||tribalfusion.com^
 ||tripadvisor.co.uk/*Popunder$popup
@@ -1671,7 +1662,6 @@ yahoo.com##.ads
 ||yieldmanager.com^
 ||yieldmanager.net^
 ||yieldmo.com^
-||yieldtraffic.com^
 ||yjmvx.space^
 ||yldbt.com^
 ||yllix.com^
@@ -1930,3 +1920,17 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||whoads.net^
 !||wonderlandads.com^
 !||popads.net^
+! 20180712
+!||bbc.co.uk/*.js
+!||newsshopper.co.uk/*.js
+!||enoratraffic.com^
+!||instraffic.com^
+!||trafficbee.com^
+!||trafficfactory.biz^
+!||trafficforce.com^
+!||traffichaus.com^
+!||trafficjunky.net^
+!||trafficshop.com^
+!||yieldtraffic.com^
+!||affiliates.de^
+!||affiliatewindow.com^
