@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180612a
+! Version: 20180612b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -12,7 +12,7 @@ $other,third-party
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
-$script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.se|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
+$script,third-party,domain=buzzfeed.com|distrowatch.com|azasianow.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
 !
 ! Bad TLD
 .ad^
@@ -284,7 +284,7 @@ cityam.com##.sharing
 ||clipular.com^
 ||clkmon.com^
 ||clkrev.com^
-||cloudfront.net^$domain=openload.co|dramacity.se
+||cloudfront.net^$domain=openload.co|azasianow.com
 ||cloudfront.net/*/paper.create_overlay-*.js
 ||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
 ||cloudfront.net^$script,domain=vidlox.tv
@@ -326,7 +326,7 @@ confused.com##.cookie-wrapper
 ||construment.com^
 ||contentinsights.com^
 ||contextly.com^
-||contextweb.com^$domain=dramacity.se
+||contextweb.com^$domain=azasianow.com
 convertunits.com###leaderboard
 ||conviva.com^
 ||copypastecharacter.com/*.swf
@@ -410,14 +410,14 @@ doodle.com##.d-warning
 ||draco88.com^
 ||dragndropbuilder.com^
 ||drama365.se/*/ad.php
-||dramacity.se/ADS/
-dramacity.se##.blockchain-btn
-dramacity.se##.float-ck
-dramacity.se###footWidgets
-dramacity.se###gc_message_bar
-dramacity.se###gc_message_bar_open
-||dramacity.se/script/license*.js
-||dramacity.se/VT*html$subdocument
+||azasianow.com/ADS/
+azasianow.com##.blockchain-btn
+azasianow.com##.float-ck
+azasianow.com###footWidgets
+azasianow.com###gc_message_bar
+azasianow.com###gc_message_bar_open
+||azasianow.com/script/license*.js
+||azasianow.com/VT*html$subdocument
 ||dramawall.com^$inline-script
 dramas.nu###ad_header
 dramas.nu##.alert
@@ -1233,7 +1233,7 @@ sky.com##.sky-component-social-share__item
 ||skysa.com^
 ||skytemjo.link^
 ||slopeaota.com^
-||smaato.net^$domain=~dramacity.se
+||smaato.net^$domain=~azasianow.com
 ||smaato.net^$image
 ||smartertravel.com^
 ||smart-money.biz/*/jquery*.js
@@ -1730,7 +1730,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !.axd?$script,third-party,domain=woaikanxi.net
 !.htm?$script,third-party,domain=woaikanxi.net
 !.html?$script,third-party,domain=woaikanxi.net
-!.js$script,third-party,domain=dramacity.s|woaikanxi.cc
+!.js$script,third-party,domain=dramacity.se|woaikanxi.cc
 !.php?$script,third-party,domain=woaikanxi.net
 !$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
 ! 20180528
@@ -1805,7 +1805,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||adestra.com^
 !||adexp.net^
 !||adfeedstrk.com^
-!||adform.net^$domain=dramacity.se
+!||adform.net^$domain=azasianow.com
 !||adgorithms.com^
 !||adikteev.com^
 !||adition.com^
