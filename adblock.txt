@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180613b
+! Version: 20180613c
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -103,7 +103,7 @@ accuweather.com###eu-cookie-notify-wrap
 accuweather.com##.fc-root
 accuweather.com###footer-nav-main
 accuweather.com###header-davek
-||accuweather.com$^inline-script
+||accuweather.com^$inline-script
 accuweather.com###offers
 accuweather.com##.panel-warning
 accuweather.com##.social-list
