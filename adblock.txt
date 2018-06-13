@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180613a
+! Version: 20180613b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -163,14 +163,8 @@ avivaservices.co.uk##.cc-cookies
 axa.co.uk##.axaCookie
 ||axf8.net^
 ||ayboll.com^
-||azasianow.com/ADS/
-azasianow.com##.blockchain-btn
-azasianow.com##.float-ck
-azasianow.com###footWidgets
-azasianow.com###gc_message_bar
-azasianow.com###gc_message_bar_open
-||azasianow.com/script/license*.js
-||azasianow.com/VT*html$subdocument
+||azasianow.com/ADS
+||azasianow.com^$inline-script
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -1936,3 +1930,11 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||trackjs.com^
 !||trackpprofile.com^
 !||adlooxtracking.com^
+! 20180713
+!azasianow.com##.blockchain-btn
+!azasianow.com##.float-ck
+!azasianow.com###footWidgets
+!azasianow.com###gc_message_bar
+!azasianow.com###gc_message_bar_open
+!||azasianow.com/script/license*.js
+!||azasianow.com/VT*html$subdocument
