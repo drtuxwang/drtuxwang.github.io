@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180612b
+! Version: 20180613a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -12,7 +12,7 @@ $other,third-party
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
-$script,third-party,domain=buzzfeed.com|distrowatch.com|azasianow.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
+$script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
 !
 ! Bad TLD
 .ad^
@@ -70,6 +70,7 @@ siteid=$popup
 /sponsors/*
 &sub=$popup
 &tid=$popup
+track$third-party
 traffic$third-party
 ||tracking.$popup
 &uuid=$popup
@@ -162,6 +163,14 @@ avivaservices.co.uk##.cc-cookies
 axa.co.uk##.axaCookie
 ||axf8.net^
 ||ayboll.com^
+||azasianow.com/ADS/
+azasianow.com##.blockchain-btn
+azasianow.com##.float-ck
+azasianow.com###footWidgets
+azasianow.com###gc_message_bar
+azasianow.com###gc_message_bar_open
+||azasianow.com/script/license*.js
+||azasianow.com/VT*html$subdocument
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -348,7 +357,6 @@ crhideas.com###cookie-law-info-bar
 ||crosspixel.net^
 ||crowdscience.com^
 ||crsspxl.com^
-||crtracklink.com^
 ||crwdcntrl.net^
 ||ctasnet.com^
 ||customer.io^
@@ -410,14 +418,6 @@ doodle.com##.d-warning
 ||draco88.com^
 ||dragndropbuilder.com^
 ||drama365.se/*/ad.php
-||azasianow.com/ADS/
-azasianow.com##.blockchain-btn
-azasianow.com##.float-ck
-azasianow.com###footWidgets
-azasianow.com###gc_message_bar
-azasianow.com###gc_message_bar_open
-||azasianow.com/script/license*.js
-||azasianow.com/VT*html$subdocument
 ||dramawall.com^$inline-script
 dramas.nu###ad_header
 dramas.nu##.alert
@@ -460,7 +460,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||errantolo.com^
 ||estat.com^
 ||etahub.com^
-||etracker.com^
 ||evenexcite.com^
 ||evernote.com^
 ||evidon.com^
@@ -754,7 +753,6 @@ iresa.co.uk##.cookie-notice-container
 ||iridiumsergeiprogenitor.info^
 ||irs01.net^
 ||irs01.com^
-||ist-track.com^
 ||iterable.com^
 ||itproportal.com/*.js
 ||itrunsonlinux.com/*.js
@@ -948,7 +946,6 @@ muktware.com##[alt*="-ad-"]
 ||multioptik.com^
 ||mybroadband.co.za^
 ||mycdn.co^$script,domain=hdfree.se
-||myroitracking.com^
 ||myregisteredsite.com^
 ||mythings.com^
 nationalarchives.gov.uk##.cookieNotice
@@ -1470,8 +1467,6 @@ topcashback.co.uk###comp-footer-tab
 torridonroadsurgery.co.uk###ctl00_eucookie
 ||tqlkg.com^
 ||tr553.com^
-||trackjs.com^
-||trackpprofile.com^
 ||tradedoubler.com^
 ||tradepub.com^
 ||tremormedia.com^$domain=~reuters.com
@@ -1815,7 +1810,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||adk2.co^
 !||adk2.com^
 !||adk2x.com^
-!||adlooxtracking.com^
 !||admasterapi.com^
 !||admedia.ae^
 !||admedo.com^
@@ -1934,3 +1928,11 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||yieldtraffic.com^
 !||affiliates.de^
 !||affiliatewindow.com^
+! 20180712
+!||crtracklink.com^
+!||etracker.com^
+!||ist-track.com^
+!||myroitracking.com^
+!||trackjs.com^
+!||trackpprofile.com^
+!||adlooxtracking.com^
