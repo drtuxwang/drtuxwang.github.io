@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180615a
+! Version: 20180615b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -498,7 +498,7 @@ m.facebook.com##.scrollAreaColumn
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-||fbcdn.net/rsrc.php/*.m4a
+||fbcdn.net/*.m4a$domain=m.facebook.com
 ||facerich.com^
 ||fallingfalcon.com^
 ||fancybar.net^
