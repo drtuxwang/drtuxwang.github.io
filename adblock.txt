@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180615b
+! Version: 20180616a
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -525,6 +525,7 @@ fitfortravel.nhs.uk###cookies-bar
 ||fmpub.net^
 ||followistic.com^
 ||foodwidget.com^
+||fool.co.uk^$inline-script
 ||foreignpolicy.com/*.js
 ||forbes.com^$inline-script
 ||fqtag.com^
