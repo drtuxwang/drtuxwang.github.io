@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180616d
+! Version: 20180616e
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -45,6 +45,7 @@ _ads/
 ||bid*$third-party
 click$third-party
 click$popup,third-party
+||consent*$third-party
 /googlead.js
 ||install.$popup
 ||metric*$third-party
