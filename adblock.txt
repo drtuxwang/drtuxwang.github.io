@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180616a
+! Version: 20180616b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -1664,6 +1664,7 @@ youtube.com###feed-pyv-container
 youtube.com###header
 youtube.com##[id*="-brand"]
 youtube.com##.iv-promo
+youtube.com###logo
 youtube.com###masthead-ad
 ||youtube.com/*/stats/
 youtube.com###ticker
