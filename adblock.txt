@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180616b
+! Version: 20180616c
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -164,6 +164,8 @@ axa.co.uk##.axaCookie
 ||axf8.net^
 ||ayboll.com^
 ||azasianow.com/ADS
+azasianow.com###float_content_left
+azasianow.com##[href="javascript:hide_float_left()"]
 ||azasianow.com^$inline-script
 ||b2btechleadform.com^
 ||baidustatic.com^
