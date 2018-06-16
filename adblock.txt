@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180616c
+! Version: 20180616d
 ! Hide '###abc-1234' use '##[id="abd-"]'
 ! ||example.com$inline-script
 !
@@ -31,54 +31,30 @@ $script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|
 !
 ! Wild card macthing
 ||ad*$third-party
-=adcash$popup
 *adexchange*
 adexchange$popup
 *adnetwork.$third-party
 *-adnow.com^
 _ads/
-?ad=$popup
 *-ads*.com^
 *-ads*.com^$popup
 *ads.$third-party
-?adv=$popup
 ||affiliate*$third-party
 ||analytics.
 ||bet*$third-party
 ||bid*$third-party
-/base.php$popup
-brit*method^$popup
-campaign_id=$popup
 click$third-party
 click$popup,third-party
 /googlead.js
-?guid=$popup
 ||install.$popup
-||metric-agent.
-||metrics.
+||metric*$third-party
 *myapp.com^
-/offer?$popup
-&pid=$popup
-?PLACEMENT_ID=$popup
-=popads$popup
-&popunders$script
 /popup.js
-/redirect.php$popup
-?RefCode=$popup
-?rm_sid=$popup
-siteid=$popup
+||share*$third-party
 /sponsors/*
-&sub=$popup
-&tid=$popup
 track$third-party
 traffic$third-party
 ||tracking.$popup
-&uuid=$popup
-/watch?key=$popunder
-/watch?key=$popup
-/watch?*refer=http
-XXXXX$popup
-?zoneid=$popup
 !
 ! Adblock Youtube
 ###abyt-modal
@@ -514,7 +490,6 @@ fca.org.uk###sliding-popup
 ||firegetbook.com^
 ||firstimpression.io^
 ||firstpost.in^
-first-utility.com###cookie-acceptance
 fitfortravel.nhs.uk###cookies-bar
 ||flagcounter.com^
 ||flashtalking.com^
@@ -1199,12 +1174,6 @@ scoreboard.com###cookie-law-content
 ||juggler.services.disqus.com^
 ||serving-sys.com^
 ||sessioncam.com^
-||shareaholic.com^
-||shareasale.com^
-||sharebutton.net^
-||sharedcount.com^
-||sharethis.com^
-||sharethrough.com^
 shearings.com###cookie-notice-inner
 ||shoppinglifestyle.com^
 ||shutterstock.com^
@@ -1943,3 +1912,37 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !azasianow.com###gc_message_bar_open
 !||azasianow.com/script/license*.js
 !||azasianow.com/VT*html$subdocument
+! 20180716
+!first-utility.com###cookie-acceptance
+!||shareaholic.com^
+!||shareasale.com^
+!||sharebutton.net^
+!||sharedcount.com^
+!||sharethis.com^
+!||sharethrough.com^
+!||metric-agent.
+!||metrics.
+!?guid=$popup
+!/offer?$popup
+!&pid=$popup
+!?PLACEMENT_ID=$popup
+!/redirect.php$popup
+!?RefCode=$popup
+!?rm_sid=$popup
+!siteid=$popup
+!&sub=$popup
+!&tid=$popup
+!&uuid=$popup
+!/watch?key=$popunder
+!/watch?key=$popup
+!/watch?*refer=http
+!XXXXX$popup
+!?zoneid=$popup
+!?ad=$popup
+!=adcash$popup
+!?adv=$popup
+!/base.php$popup
+!brit*method^$popup
+!campaign_id=$popup
+!=popads$popup
+!&popunders$script
