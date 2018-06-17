@@ -2,19 +2,22 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180616e
+! Version: 20180617a
 ! Hide '###abc-1234' use '##[id="abd-"]'
-! ||example.com$inline-script
+!
+! Block inline script abused by domains
+$inline-script,domain=accuweather.com||androidcentral.com||azasianow.com||businessinsider.com||computershopper.com||dailymail.co.uk||dramawall.com||express.co.uk||fool.co.uk||forbes.com||geek.com||healthline.com||itv.com||johnlewis.com||newsshopper.co.uk||newstatesman.com||paypal-community.com||pcmag.com||petrolprices.com||phoronix.com||pocket-lint.com||popads.net||qooxi.net||reddit.com||systutorials.com||techcrunch.com||telegraph.co.uk||thenextweb.comforums.theregister.co.uk||thisisoxfordshire.co.uk||timeanddate.com
 !
 ! Block all beacons
 ||beacon.
+pixel$third-party
 $other,third-party
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
 $script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
 !
-! Bad TLD
+! Block spam TLD
 .ad^
 .asia^
 .bid^
@@ -31,6 +34,7 @@ $script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|
 !
 ! Wild card macthing
 ||ad*$third-party
+*ad.$third-party
 *adexchange*
 adexchange$popup
 *adnetwork.$third-party
@@ -46,7 +50,6 @@ _ads/
 click$third-party
 click$popup,third-party
 ||consent*$third-party
-/googlead.js
 ||install.$popup
 ||metric*$third-party
 *myapp.com^
@@ -54,8 +57,9 @@ click$popup,third-party
 ||share*$third-party
 /sponsors/*
 track$third-party
+track$popup,third-party
 traffic$third-party
-||tracking.$popup
+yield$third-party
 !
 ! Adblock Youtube
 ###abyt-modal
@@ -67,20 +71,16 @@ traffic$third-party
 ||206solutions.com^
 ||2mdn.net^
 ||2o7.net^
-||360yield.com^
 ||3lift.com^
 ||4dsply.com^
 ||5min.com^
-||6dad.com^
 ||70e.com^
-||88rpg.net^
 ||accountkit.com^
 accuweather.com##.column-2
 accuweather.com###eu-cookie-notify-wrap
 accuweather.com##.fc-root
 accuweather.com###footer-nav-main
 accuweather.com###header-davek
-||accuweather.com^$inline-script
 accuweather.com###offers
 accuweather.com##.panel-warning
 accuweather.com##.social-list
@@ -116,7 +116,6 @@ alpinelinux.org##.banner
 ||and.co.uk^
 developer.android.com##.dac-visible
 ||androidauthority.com/*.js
-||androidcentral.com^$inline-script
 ao.com###aoMessageHolder
 ||aolcdn.com^
 ||app-installz.com^
@@ -143,7 +142,6 @@ axa.co.uk##.axaCookie
 ||azasianow.com/ADS
 azasianow.com###float_content_left
 azasianow.com##[href="javascript:hide_float_left()"]
-||azasianow.com^$inline-script
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -172,7 +170,6 @@ bbc.com###bbccookies
 @@||open.live.bbc.co.uk/weather/
 bbcgoodfood.com##.cookie-law
 ||live.bbc.co.uk^
-||beead.co.uk^
 ||behavemedia.com^
 ||bestarmour4u.work^
 ||bestofmedia.com^
@@ -202,8 +199,6 @@ bloomberg.com##.leaderboard-container
 ||bowercdn.net^
 ||brainient.com^
 ||brandreachsys.com^
-||bravoerotica.com^$inline-script
-||bravospots.com^
 ||brealtime.com^
 ||brightcove.com^
 ||brightcove.net^
@@ -216,7 +211,6 @@ britishgas.co.uk###cookie-warning
 ||bublaa.com^
 ||budgetedbauer.com^
 ||bugherd.com^
-||businessinsider.com^$inline-script
 buzzfeed.com##.action-bar
 buzzfeed.com##.app_promo__banner
 buzzfeed.com##.bottom_shares
@@ -295,7 +289,6 @@ complex.com/*.js
 ||complexmedianetwork.com^
 ||comprigo.com^
 computershopper.com###consent_blackbar
-||computershopper.com^$inline-script
 ||computershopper.com/*.js
 ||computerworld.com/*.js
 ||concernrain.com^
@@ -327,7 +320,6 @@ copypastecharacter.com###sets_wrapper_inner
 crhideas.com###cookie-law-info-bar
 ||criteo.com^
 ||criteo.net^
-||crosspixel.net^
 ||crowdscience.com^
 ||crsspxl.com^
 ||crwdcntrl.net^
@@ -339,7 +331,6 @@ crhideas.com###cookie-law-info-bar
 dailymail.co.uk###articleIconLinksContainer > ul
 dailymail.co.uk##.comment-notification-visible
 dailymail.co.uk##.floating-buttons
-||dailymail.co.uk^$inline-script
 dailymail.co.uk##.item
 dailymail.co.uk##.mobile-sharing
 dailymail.co.uk##.relative
@@ -391,7 +382,6 @@ doodle.com##.d-warning
 ||draco88.com^
 ||dragndropbuilder.com^
 ||drama365.se/*/ad.php
-||dramawall.com^$inline-script
 dramas.nu###ad_header
 dramas.nu##.alert
 dramas.nu###control
@@ -404,7 +394,6 @@ duckduckgo.com###side
 duckduckgo.com##.web-result-sponsored
 ||duffelblog.com/*.js
 ||dwin1.com^
-||dynamicyield.com^
 ||dynatrace.com^
 ||eagerse.com^$popup
 ||earnify.com^
@@ -443,7 +432,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||exovueplatform.com^
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
-||express.co.uk^$inline-script
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
@@ -468,7 +456,6 @@ facebook.com###pagelet_megaphone
 ||facebook.com/plugins/
 facebook.com###save_caret_nux
 facebook.com##[title*="AdChoice"]
-||pixel.facebook.com^
 m.facebook.com##[id^="scrollarea_"]
 m.facebook.com###MMegaphone
 m.facebook.com###pages_may_like_section
@@ -503,9 +490,7 @@ fitfortravel.nhs.uk###cookies-bar
 ||fmpub.net^
 ||followistic.com^
 ||foodwidget.com^
-||fool.co.uk^$inline-script
 ||foreignpolicy.com/*.js
-||forbes.com^$inline-script
 ||fqtag.com^
 freakshare.com##[onmouseover*="payment"]
 ||freegeoip.net^
@@ -517,14 +502,12 @@ ft.com##.advert
 ft.com##.o-cookie-message
 ft.com##.visible
 ||ftjcfx.com^
-||fullspeeddownload.com^
 ||functionalclam.com^
 ||funny4u.co^$popup
 ||futurecdn.net/*.js
 ||fwmrm.net^
 ||fyre.co^
 ||gaug.es^
-||geek.com^$inline-script
 ||geek.com/*.js
 ||gemius.pl^
 ||genericsteps.com^
@@ -643,7 +626,6 @@ googleblog.com###cookieChoiceInfo
 h265.se##.jw-dock
 ||h-bid.com^
 ||hdslb.com/*.js
-healthline.com^$inline-script
 heathrow.com###cookie
 ||hellobar.com^
 here.com##.cookie
@@ -667,7 +649,6 @@ hkfree.co##.top-adv-text-m
 ||hotukdeals.com/*.js
 howtoforge.com##.cc_banner
 ||href.asia^
-||hsadspixel.net^
 ||hs-analytics.net^
 ||hubspot.com^
 huffingtonpost.co.uk##.follow-us
@@ -715,7 +696,6 @@ independent.co.uk###side
 ||inq.com^
 ||insidesocial.com^
 ||instanceour.info^
-||intelliad.de^
 ||intellitxt.com^
 ||intensedebate.com^
 ||interestsearch.net^
@@ -730,7 +710,6 @@ iresa.co.uk##.cookie-notice-container
 ||iterable.com^
 ||itproportal.com/*.js
 ||itrunsonlinux.com/*.js
-||itv.com^$inline-script
 ||itwire.com/images/articles/
 itwire.com##.ja-box-ct.clearfix
 ivyccmovie.com##IMG[src^="images"]
@@ -739,7 +718,6 @@ ivyccmovie.com##IMG[src^="images"]
 jdwetherspoon.co.uk###cookies-popup
 ||jeeh7eet.com^
 jobsearch.direct.gov.uk###cookieBanner
-||jobthread.com^
 ||jofbu.com^
 ||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net
 ||jsecoin.com^
@@ -880,7 +858,6 @@ metro.news##.sidebar-ad
 ||mgid.com^
 ||mgid.com^$popup
 ||mglsk.com^
-||microad.jp^
 microsoftonline.com###msccBanner
 login.microsoftonline.com###optInUserBanner
 microsoft.com###msccBanner
@@ -946,8 +923,6 @@ newsshopper.co.uk###DFP_top_leaderboard
 newsshopper.co.uk##.footer-container
 newsshopper.co.uk##.mobile-social
 newsshopper.co.uk###pecr-cookie-warning
-||newsshopper.co.uk^$inline-script
-||newstatesman.com^$inline-script
 ||nexac.com^
 ||bwp.news.com^
 nginx.com###cookie_permission_banner
@@ -984,7 +959,6 @@ omgubuntu.co.uk##.page-footer
 ||on9drama.com/*-300x250
 ||on9drama.com/ads/
 ||on9drama.com/*Banner
-on99.se###wnb-bar
 ||onclkds.com^
 ||onlinerewardcenter.net^
 ||onmodulus.net^
@@ -1030,9 +1004,7 @@ ownvehicle.askmid.com##.contentBlock
 ||parserwords.info^$popup
 ||parserworld.info^$popup
 patientaccess.com##.cookies
-||paypal-community.com^$inline-script
 ||paypalobjects.com^
-||pcmag.com^$inline-script
 ||pcmag.com/*.js
 pcmag.com##.middle-frame
 pcmag.com###sidebar
@@ -1050,10 +1022,8 @@ pdf-magazine-download.com##.PDFPerContentLeftBl
 ||petametrics.com^
 petrolprices.com###ads-content
 petrolprices.com##.alert-info
-||petrolprices.com^$inline-script
 phoronix.com###about-author
 phoronix.com###footer
-||phoronix.com^$inline-script
 phoronix.com###navbar_notice_1
 phoronix.com##.widget:nth-of-type(6)
 ||pictela.net^
@@ -1069,11 +1039,9 @@ pizzahut.co.uk##.alert
 ||plugrush.com^
 ||plugz.co^
 ||po.st^
-||pocket-lint.com^$inline-script
 ||pointroll.com^
 ||poll.fm^
 @@||popads.net/pop.js
-||popads.net^$inline-script
 ||popads.net^$popup
 ||popcash.net^
 ||porojo.net^
@@ -1108,7 +1076,6 @@ postoffice.co.uk##.cookie
 ||qnsr.com^
 qooxi.net###featPosts
 qooxi.net###footWidgets
-||qooxi.net^$inline-script
 qooxi.net###sidebar
 qooxi.net###wnb-bar
 ||qrius.me^
@@ -1130,12 +1097,10 @@ rapidgator.net###cookie-dlg
 ||reallifecam.com^
 ||realtime.co^
 ||realvu.net^
-||reddit.com^$inline-script
 ||redonetype.com^$popup
 ||reembed.com^
 ||reevoo.com^$domain=~reevoo.com
 ||reinvigorate.net^
-||remarketingpixel.com^
 ||researchnow.com^
 ||retainguaninefluorite.info^
 reuters.com##.trc-content-sponsored
@@ -1165,7 +1130,6 @@ scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
 ||scoutanalytics.net^
 ||scribblelive.com^
-||sdad.guru^
 ||seekingalpha.com/*.js
 ||segment.com^
 ||sekindo.com^
@@ -1279,7 +1243,6 @@ stationboard.uk##.cc_banner-wrapper
 ||swiftypecdn.com^
 ||swoop.com^
 ||symcd.com^
-||systutorials.com^$inline-script
 ||taboola.com^
 ||taboolasyndication.com^
 ||tacdn.com/*.js$domain=~tripadvisor.co.uk
@@ -1294,9 +1257,7 @@ error.talktalk.co.uk##.tt_results
 ||tsyndicate.com^
 ||ttxm.co.uk/*/mktg-*
 ||tanx.com^
-||tapad.com^
 ||td553.com^
-||teenport.com^$inline-script
 techadvisor.co.uk##.cookieText
 techcrunch.com##.ad-cluster-container
 techcrunch.com##.announcement-bg
@@ -1305,7 +1266,6 @@ techcrunch.com##.banner-header
 techcrunch.com##.collapse-adjacent
 techcrunch.com##.footer
 techcrunch.com##.header-social
-||techcrunch.com^$inline-script
 techcrunch.com##.live-island
 techcrunch.com##.live-island-content
 techcrunch.com##.social-share
@@ -1335,7 +1295,6 @@ tecmint.com##.sidebar-content
 telegraph.co.uk##.article__sidebar
 telegraph.co.uk##body > div:nth-of-type(1)
 telegraph.co.uk###qb_cookie_consent_main
-||telegraph.co.uk^$inline-script
 telegraph.co.uk##.premium-btn
 telegraph.co.uk##.premium-promo--wrapper
 telegraph.co.uk##.summaryMedium
@@ -1383,7 +1342,6 @@ theinquirer.net##.cookie-consent-content
 ||hits-secure.theguardian.com^
 ||thehackernews.com/*.js
 ||thenational.ae/*.js
-||thenextweb.com^$inline-script
 theo2.co.uk##.cc_banner
 ||theplatform.com^
 theregister.co.uk###accessibility
@@ -1400,7 +1358,6 @@ theregister.co.uk##.social_btns
 theregister.co.uk###sponlinks
 theregister.co.uk###toprot
 theregister.co.uk###whitepapers
-forums.theregister.co.uk^$inline-script
 forums.theregister.co.uk###site_nav
 forums.theregister.co.uk###topbar
 ||nir.regmedia.co.uk^$script
@@ -1413,11 +1370,9 @@ thesun.co.uk##.social
 ||thevarguy.com/*.js
 theverge.com###privacy-consent
 thisislocallondon.co.uk###cookiewarning
-||thisisoxfordshire.co.uk^$inline-script
 three.co.uk###rwd-cookie-message
 ||thoughtleadr.com^
 ||tickld.com/*.js
-||timeanddate.com^$inline-script
 timeout.com##.xs-fixed
 tinydl.co##.sideblock
 ||tinydl.link/*.js
@@ -1442,7 +1397,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||tripadvisor.co.uk/*Popunder$popup
 ||trklnks.com^
 ||trove.com^
-||troveread.com^
 ||truste.com^
 trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
@@ -1453,10 +1407,6 @@ trustpilot.com##.cookie-bar
 ||turn.com^
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
-||tvbcube.com^$popup
-tvbdramasub.com##ins
-tvbdramasub.com###social-nav
-tvbdramasub.com###text-2
 tvcatchup.com##.dropdown-text
 tvlicensing.co.uk###tvlcookies-prompt
 twitter.com##.AdaptiveMedia-container
@@ -1516,7 +1466,6 @@ v3.co.uk###qq
 ||stat.v-56.com^
 ||valuedopinions.co.uk^
 ||vdna-assets.com^
-||venturead.com^
 ||vertamedia.com^
 ||vidcpm.com^
 videobug.net##[style="position: absolute; width: 100%; min-height: 90px; left: 0%; bottom: 40px; background-color: rgb(0, 0, 0); padding: 0px; z-index: 999;"]
@@ -1571,7 +1520,6 @@ webuser.co.uk###cookie-bar
 ||weebly.com^
 weebly.com##.wsite-youtube-container
 weebly.com##[border="0"]
-||we-spread.com^
 ||whdafei.com^
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
@@ -1599,7 +1547,6 @@ woaikanxi.cc##.ad-widget
 woaikanxi.cc##.entry-actions
 ||r-login.wordpress.com^
 ||wp.com^$domain=dramawall.com
-||pixel.wp.com^
 ||stats.wp.com^
 ||wpdigital.net^
 ||wrating.com^
@@ -1622,9 +1569,6 @@ yahoo.com##.ads
 ||yadro.ru^
 ||nol.yahoo.com^
 ||yandex.ru^
-||yieldmanager.com^
-||yieldmanager.net^
-||yieldmo.com^
 ||yjmvx.space^
 ||yldbt.com^
 ||yllix.com^
@@ -1947,3 +1891,62 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !campaign_id=$popup
 !=popads$popup
 !&popunders$script
+! 20180717
+!||accuweather.com^$inline-script
+!||androidcentral.com^$inline-script
+!||azasianow.com^$inline-script
+!||businessinsider.com^$inline-script
+!||computershopper.com^$inline-script
+!||dailymail.co.uk^$inline-script
+!||dramawall.com^$inline-script
+!||express.co.uk^$inline-script
+!||fool.co.uk^$inline-script
+!||forbes.com^$inline-script
+!||geek.com^$inline-script
+!healthline.com^$inline-script
+!||itv.com^$inline-script
+!||newsshopper.co.uk^$inline-script
+!!||newstatesman.com^$inline-script
+!||paypal-community.com^$inline-script
+!||pcmag.com^$inline-script
+!||petrolprices.com^$inline-script
+!||phoronix.com^$inline-script
+!||pocket-lint.com^$inline-script
+!||popads.net^$inline-script
+!||qooxi.net^$inline-script
+!||reddit.com^$inline-script
+!||systutorials.com^$inline-script
+!||techcrunch.com^$inline-script
+!||telegraph.co.uk^$inline-script
+!||thenextweb.com^$inline-script
+!forums.theregister.co.uk^$inline-script
+!||thisisoxfordshire.co.uk^$inline-script
+!||timeanddate.com^$inline-script
+!||360yield.com^
+!||dynamicyield.com^
+!||yieldmanager.com^
+!||yieldmanager.net^
+!||yieldmo.com^
+!tvbdramasub.com##ins
+!tvbdramasub.com###social-nav
+!tvbdramasub.com###text-2
+!||tvbcube.com^$popup
+!/googlead.js
+!||6dad.com^
+!||beead.co.uk^
+!||fullspeeddownload.com^
+!||intelliad.de^
+!||jobthread.com^
+!||microad.jp^
+!||sdad.guru^
+!||tapad.com^
+!||troveread.com^
+!||venturead.com^
+!||we-spread.com^
+!||crosspixel.net^
+!||pixel.facebook.com^
+!||hsadspixel.net^
+!||remarketingpixel.com^
+!||pixel.wp.com^
+!||88rpg.net^
+!on99.se###wnb-bar
