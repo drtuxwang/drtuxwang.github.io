@@ -2,9 +2,8 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617h
-! Hide '###abc-1234' use '##[id="abd-"]'
-!
+! Version: 20180617i
+/bin/bash: :$: command not found
 ! Block inline script abused by domains
 $inline-script,domain=accuweather.com||androidcentral.com||azasianow.com||brewers.co.uk||businessinsider.com||computershopper.com||dailymail.co.uk||dramawall.com||express.co.uk||fool.co.uk||forbes.com||geek.com||healthline.com||ikea.com||itv.com||johnlewis.com||lebara.com||newsshopper.co.uk||newstatesman.com||paypal-community.com||pcmag.com||petrolprices.com||phoronix.com||pocket-lint.com||popads.net||qooxi.net||reddit.com||systutorials.com||techcrunch.com||telegraph.co.uk||thenextweb.comforums.theregister.co.uk||thisisoxfordshire.co.uk||timeanddate.com
 !
@@ -45,7 +44,6 @@ _ads/
 *ads.$third-party
 ||affiliate*$third-party
 ||analytics.
-*app*^$third-party
 ||bet*$third-party
 ||bid*$third-party
 click$third-party
@@ -53,7 +51,7 @@ click$popup,third-party
 *consent*$third-party
 ||install.$popup
 *metric*$third-party
-||on*$third-party
+*myapp.com^
 /popup.js
 ||share*$third-party
 /sponsors/*
@@ -121,6 +119,8 @@ developer.android.com##.dac-visible
 ||androidauthority.com/*.js
 ao.com###aoMessageHolder
 ||aolcdn.com^
+||app-installz.com^
+||apportium.com^
 ||aralego.com^
 ||areyouahuman.com^
 ||argos.co.uk/*.png
@@ -959,6 +959,17 @@ omgubuntu.co.uk##.page-footer
 ||on9drama.com/*-300x250
 ||on9drama.com/ads/
 ||on9drama.com/*Banner
+||onclkds.com^
+||onlinerewardcenter.net^
+||onmodulus.net^
+||onclasrv.com^
+||oneall.com^
+||onestat.com^
+||onevision.com.tw^
+||onlineredirr.com^
+||onlinevideopctools.com^
+||onlysix.co.uk^
+||onscroll.com^
 ||oomphcloud.com^
 ||ooyala.com^
 ||opednews.com/*.js
@@ -1289,6 +1300,7 @@ telegraph.co.uk##.premium-promo--wrapper
 telegraph.co.uk##.summaryMedium
 ||telemetrytaxonomy.net^
 ||telemetryverification.net^
+||tenderapp.com^
 ||tenmax.io^
 terminalelib.blogspot.co.uk###cookieChoiceInfo
 tfl.gov.uk##.cookie-policy-notice
@@ -1939,22 +1951,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||pixel.wp.com^
 !||88rpg.net^
 !on99.se###wnb-bar
-!||onclkds.com^
-!||onlinerewardcenter.net^
-!||onmodulus.net^
-!||onclasrv.com^
-!||oneall.com^
-!||onestat.com^
-!||onevision.com.tw^
-!||onlineredirr.com^
-!||onlinevideopctools.com^
-!||onlysix.co.uk^
-!||onscroll.com^
 !||kissmetrics.com^
 !||metricfast.com^
 !||metricsdirect.com^
 !||petametrics.com^
-!*myapp.com^
-!||app-installz.com^
-!||apportium.com^
-!||tenderapp.com^
