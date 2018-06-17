@@ -2,14 +2,14 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617l
+! Version: 20180617m
 !
 ! Block inline script abused by domains
 $inline-script,domain=accuweather.com|androidcentral.com|azasianow.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk||timeanddate.com
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
-$script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|woaikanxi.cc
+$script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc
 $popup,third-party,domain=azasianow.com|dramas.nu|hkfree.co
 !
 ! Block all beacons
