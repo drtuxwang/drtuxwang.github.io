@@ -2,11 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617e
+! Version: 20180617f
 ! Hide '###abc-1234' use '##[id="abd-"]'
 !
 ! Block inline script abused by domains
-$inline-script,domain=accuweather.com||androidcentral.com||azasianow.com||brewers.co.uk||businessinsider.com||computershopper.com||dailymail.co.uk||dramawall.com||express.co.uk||fool.co.uk||forbes.com||geek.com||healthline.com||ikea.com||itv.com||johnlewis.com||newsshopper.co.uk||newstatesman.com||paypal-community.com||pcmag.com||petrolprices.com||phoronix.com||pocket-lint.com||popads.net||qooxi.net||reddit.com||systutorials.com||techcrunch.com||telegraph.co.uk||thenextweb.comforums.theregister.co.uk||thisisoxfordshire.co.uk||timeanddate.com
+$inline-script,domain=accuweather.com||androidcentral.com||azasianow.com||brewers.co.uk||businessinsider.com||computershopper.com||dailymail.co.uk||dramawall.com||express.co.uk||fool.co.uk||forbes.com||geek.com||healthline.com||ikea.com||itv.com||johnlewis.com||lebara.com||newsshopper.co.uk||newstatesman.com||paypal-community.com||pcmag.com||petrolprices.com||phoronix.com||pocket-lint.com||popads.net||qooxi.net||reddit.com||systutorials.com||techcrunch.com||telegraph.co.uk||thenextweb.comforums.theregister.co.uk||thisisoxfordshire.co.uk||timeanddate.com
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
