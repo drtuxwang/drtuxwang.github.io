@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617f
+! Version: 20180617g
 ! Hide '###abc-1234' use '##[id="abd-"]'
 !
 ! Block inline script abused by domains
@@ -112,6 +112,7 @@ alpinelinux.org##.banner
 ||amazon-adsystem.com^
 ||ampproject.org^
 ||apester.com^
+asda.com##.cookies-banner
 ||assoc-amazon.com^
 ||awsstatic.com^$font
 ||amung.us^
@@ -887,6 +888,7 @@ moneysavingexpert.com###siteworks-content
 ||motosal.net^
 ||motosal.net^$popup
 ||mottnow.com^
+||mouseflow.com^
 ||mousestats.com^
 ||mpstat.us^
 ||msecnd.net^$domain=~confused.com|~msecnd.net|~microsoft.com
@@ -1240,6 +1242,7 @@ talktalk.co.uk###btnAddFreeTV
 talktalk.co.uk###cookie_shout
 talktalk.co.uk##.f-size2.color0
 error.talktalk.co.uk##.tt_results
+tescomobile.com###tesco_cookie_widget
 ||tsyndicate.com^
 ||ttxm.co.uk/*/mktg-*
 ||tanx.com^
