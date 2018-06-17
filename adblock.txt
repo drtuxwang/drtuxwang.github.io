@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617k
+! Version: 20180617l
 !
 ! Block inline script abused by domains
 $inline-script,domain=accuweather.com||androidcentral.com||azasianow.com||brewers.co.uk||businessinsider.com||computershopper.com||dailymail.co.uk||dramawall.com||express.co.uk||fool.co.uk||forbes.com||geek.com||healthline.com||itv.com||newsshopper.co.uk||newstatesman.com||paypal-community.com||pcmag.com||petrolprices.com||phoronix.com||pocket-lint.com||popads.net||qooxi.net||reddit.com||systutorials.com||techcrunch.com||telegraph.co.uk||thenextweb.comforums.theregister.co.uk||thisisoxfordshire.co.uk||timeanddate.com
@@ -55,6 +55,7 @@ click$popup,third-party
 /popup.js
 ||share*$third-party
 /sponsors/*
+||syndication.$popup
 track$third-party
 track$popup,third-party
 traffic$third-party
@@ -727,6 +728,7 @@ johnlewis.com##.overlay-message--cookies
 ||junnify.com^
 ||justtechjobs.com^
 ||justuno.com^
+@@||jwpcdn.com/player/
 ||jwplatform.com^
 ||jwpltx.com^
 ||jxxgg.top^
@@ -976,10 +978,7 @@ omgubuntu.co.uk##.page-footer
 ||ooyala.com^
 ||opednews.com/*.js
 ||opendownloadmanager.com^
-||openload.co^$script
-@@||openload.co/assets/js/video.min.*.js$script,first-party
-@@||openload.co/assets/js/script.*.js$script,first-party
-@@||openload.co/assets/js/jquery.min.js$script,first-party
+@@||openload.co/
 ||openwebtorrent.com^
 ||openx.net^
 ||ophan.co.uk^
@@ -1957,3 +1956,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||metricfast.com^
 !||metricsdirect.com^
 !||petametrics.com^
+!||openload.co^$script
+!@@||openload.co/assets/js/video.min.*.js$script,first-party
+!@@||openload.co/assets/js/script.*.js$script,first-party
+!@@||openload.co/assets/js/jquery.min.js$script,first-party
