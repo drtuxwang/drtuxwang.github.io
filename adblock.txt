@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617b
+! Version: 20180617d
 ! Hide '###abc-1234' use '##[id="abd-"]'
 !
 ! Block inline script abused by domains
@@ -45,14 +45,14 @@ _ads/
 *ads.$third-party
 ||affiliate*$third-party
 ||analytics.
+*app*$third-party
 ||bet*$third-party
 ||bid*$third-party
 click$third-party
 click$popup,third-party
 ||consent*$third-party
 ||install.$popup
-||metric*$third-party
-*myapp.com^
+*metric*$third-party
 ||on*$third-party
 /popup.js
 ||share*$third-party
@@ -119,8 +119,6 @@ developer.android.com##.dac-visible
 ||androidauthority.com/*.js
 ao.com###aoMessageHolder
 ||aolcdn.com^
-||app-installz.com^
-||apportium.com^
 ||aralego.com^
 ||areyouahuman.com^
 ||argos.co.uk/*.png
@@ -735,7 +733,6 @@ jobsearch.direct.gov.uk###cookieBanner
 ||kinja.com/*/images/
 ||api.kinja.com^
 ||kiosked.com^
-||kissmetrics.com^
 ||kixer.com^
 ||knorex.asia^
 ||kobobooks.com^
@@ -838,8 +835,6 @@ maketecheasier.com###sharebar
 meetup.com###app-download-promo-interstitial
 ||mekoto.com^
 ||mengine.me^
-||metricfast.com^
-||metricsdirect.com^
 metro.co.uk##.ad-slot-label
 metro.co.uk##.ad-feature-article-item.post
 metro.co.uk##.cookie-notice
@@ -1009,7 +1004,6 @@ pdf-magazine-download.com##.PDFPerContentLeftBl
 ||perfdrive.com^
 ||perfectmarket.com^
 ||permutive.com^
-||petametrics.com^
 petrolprices.com###ads-content
 petrolprices.com##.alert-info
 phoronix.com###about-author
@@ -1290,7 +1284,6 @@ telegraph.co.uk##.premium-promo--wrapper
 telegraph.co.uk##.summaryMedium
 ||telemetrytaxonomy.net^
 ||telemetryverification.net^
-||tenderapp.com^
 ||tenmax.io^
 terminalelib.blogspot.co.uk###cookieChoiceInfo
 tfl.gov.uk##.cookie-policy-notice
@@ -1951,3 +1944,11 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||onlinevideopctools.com^
 !||onlysix.co.uk^
 !||onscroll.com^
+!||kissmetrics.com^
+!||metricfast.com^
+!||metricsdirect.com^
+!||petametrics.com^
+!*myapp.com^
+!||app-installz.com^
+!||apportium.com^
+!||tenderapp.com^
