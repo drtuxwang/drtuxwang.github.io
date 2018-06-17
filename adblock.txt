@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180617a
+! Version: 20180617b
 ! Hide '###abc-1234' use '##[id="abd-"]'
 !
 ! Block inline script abused by domains
@@ -53,6 +53,7 @@ click$popup,third-party
 ||install.$popup
 ||metric*$third-party
 *myapp.com^
+||on*$third-party
 /popup.js
 ||share*$third-party
 /sponsors/*
@@ -959,17 +960,6 @@ omgubuntu.co.uk##.page-footer
 ||on9drama.com/*-300x250
 ||on9drama.com/ads/
 ||on9drama.com/*Banner
-||onclkds.com^
-||onlinerewardcenter.net^
-||onmodulus.net^
-||onclasrv.com^
-||oneall.com^
-||onestat.com^
-||onevision.com.tw^
-||onlineredirr.com^
-||onlinevideopctools.com^
-||onlysix.co.uk^
-||onscroll.com^
 ||oomphcloud.com^
 ||ooyala.com^
 ||opednews.com/*.js
@@ -1950,3 +1940,14 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||pixel.wp.com^
 !||88rpg.net^
 !on99.se###wnb-bar
+!||onclkds.com^
+!||onlinerewardcenter.net^
+!||onmodulus.net^
+!||onclasrv.com^
+!||oneall.com^
+!||onestat.com^
+!||onevision.com.tw^
+!||onlineredirr.com^
+!||onlinevideopctools.com^
+!||onlysix.co.uk^
+!||onscroll.com^
