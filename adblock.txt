@@ -2,15 +2,15 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180618b
+! Version: 20180618c
 !
 ! Block inline script abused by domains
-$inline-script,domain=accuweather.com|androidcentral.com|azasianow.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
-$script,third-party,domain=azasianow.com|buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc
-$popup,third-party,domain=azasianow.com|dramas.nu|hkfree.co
+$script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc
+$popup,third-party,domain=dramacity.io|dramas.nu|hkfree.co
 !
 ! Block all beacons
 ||beacon.
@@ -142,9 +142,9 @@ avivaservices.co.uk##.cc-cookies
 axa.co.uk##.axaCookie
 ||axf8.net^
 ||ayboll.com^
-||azasianow.com/ADS
-azasianow.com###float_content_left
-azasianow.com##[href="javascript:hide_float_left()"]
+||dramacity.io/ADS
+dramacity.io###float_content_left
+dramacity.io##[href="javascript:hide_float_left()"]
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -263,7 +263,7 @@ cityam.com##.sharing
 ||clipular.com^
 ||clkmon.com^
 ||clkrev.com^
-||cloudfront.net^$domain=openload.co|azasianow.com
+||cloudfront.net^$domain=openload.co|dramacity.io
 ||cloudfront.net/*/paper.create_overlay-*.js
 ||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
 ||cloudfront.net^$script,domain=vidlox.tv
@@ -304,7 +304,7 @@ confused.com##.cookie-wrapper
 ||construment.com^
 ||contentinsights.com^
 ||contextly.com^
-||contextweb.com^$domain=azasianow.com
+||contextweb.com^$domain=dramacity.io
 convertunits.com###leaderboard
 ||conviva.com^
 ||copypastecharacter.com/*.swf
@@ -1159,7 +1159,7 @@ sky.com##.sky-component-social-share__item
 ||skysa.com^
 ||skytemjo.link^
 ||slopeaota.com^
-||smaato.net^$domain=~azasianow.com
+||smaato.net^$domain=~dramacity.io
 ||smaato.net^$image
 ||smartertravel.com^
 ||smart-money.biz/*/jquery*.js
@@ -1635,9 +1635,9 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !reddit.com##.cookie-infobar
 !||reddit.com^$domain=~reddit.com
 ! 20180710
-!||azasianow.com/ad.php
-!||azasianow.com/ad.php$inline-script
-!||azasianow.com^$inline-script
+!||dramacity.io/ad.php
+!||dramacity.io/ad.php$inline-script
+!||dramacity.io^$inline-script
 !||clickme.net^
 !||clickmngr.com^
 !||clickoffer.net^
@@ -1696,7 +1696,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||adestra.com^
 !||adexp.net^
 !||adfeedstrk.com^
-!||adform.net^$domain=azasianow.com
+!||adform.net^$domain=dramacity.io
 !||adgorithms.com^
 !||adikteev.com^
 !||adition.com^
@@ -1833,13 +1833,13 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||trackpprofile.com^
 !||adlooxtracking.com^
 ! 20180713
-!azasianow.com##.blockchain-btn
-!azasianow.com##.float-ck
-!azasianow.com###footWidgets
-!azasianow.com###gc_message_bar
-!azasianow.com###gc_message_bar_open
-!||azasianow.com/script/license*.js
-!||azasianow.com/VT*html$subdocument
+!dramacity.io##.blockchain-btn
+!dramacity.io##.float-ck
+!dramacity.io###footWidgets
+!dramacity.io###gc_message_bar
+!dramacity.io###gc_message_bar_open
+!||dramacity.io/script/license*.js
+!||dramacity.io/VT*html$subdocument
 ! 20180716
 !first-utility.com###cookie-acceptance
 !||shareaholic.com^
@@ -1877,7 +1877,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180717
 !||accuweather.com^$inline-script
 !||androidcentral.com^$inline-script
-!||azasianow.com^$inline-script
+!||dramacity.io^$inline-script
 !||businessinsider.com^$inline-script
 !||computershopper.com^$inline-script
 !||dailymail.co.uk^$inline-script
