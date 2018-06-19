@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180618c
+! Version: 20180619a
 !
 ! Block inline script abused by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
@@ -34,7 +34,6 @@ $other,third-party
 !
 ! Wild card macthing
 ||ad*$third-party
-*ad.$third-party
 *adexchange*
 adexchange$popup
 *adnetwork.$third-party
@@ -1615,55 +1614,15 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ##.fa-times-circle
 /qq/qq.php
 !
-! 20180527
-!.asp?$script,third-party,domain=woaikanxi.net
-!.aspx?$script,third-party,domain=woaikanxi.net
-!.axd?$script,third-party,domain=woaikanxi.net
-!.htm?$script,third-party,domain=woaikanxi.net
-!.html?$script,third-party,domain=woaikanxi.net
-!.js$script,third-party,domain=dramacity.se|woaikanxi.cc
-!.php?$script,third-party,domain=woaikanxi.net
-!$script,third-party,domain=hdfree.se|hkfree.co|gadgetsnow.com|thestudentroom.co.uk
-! 20180528
-!||gigya.com^$domain=~pcworld.com|~rac.co.uk
-! 20180601
-!geek.com###_evidon_banner
-!geek.com###gksticky
-! 20180605
-!itv.com##.itv-glob-cook__inner
-! 20180608
-!reddit.com##.cookie-infobar
-!||reddit.com^$domain=~reddit.com
 ! 20180710
 !||dramacity.io/ad.php
 !||dramacity.io/ad.php$inline-script
 !||dramacity.io^$inline-script
-!||clickme.net^
-!||clickmngr.com^
-!||clickoffer.net^
-!||click-search.info^
-!||clicksgear.com^
-!||clicktale.net^
-!||clickxo.com^
 !||35.188.14.213^$popup
 !||78.138.126.253^
 !||95.211.184.116^
 !||advertising.com^
 !||advertserve.com^
-!*onclick*
-!*onclick*$popup
-!||adfclick1.com^
-!||contentclick.co.uk^
-!||doubleclick.net^
-!||exoclick.com^
-!||exoclick.com^$popup
-!||fastclick.net^
-!||fastnclick.com^
-!||getclicky.com^
-!||indieclick.com^
-!||interclick.com^
-!||smartclick.net^
-!||specificclick.net^
 !||ttxm.co.uk/*/oneclickbuy/
 !||terraclicks.com^
 !||trueclickads.net^
@@ -1947,3 +1906,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||matheranalytics.com^
 !||scoutanalytics.net^
 !||google-analytics.com^$domain=~search.diy.com|~mail.google.com|~videolan.org|~delayrepaycompensation.com
+! 20180619
+!*ad.$third-party
