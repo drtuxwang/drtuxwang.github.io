@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180619a
+! Version: 20180619b
 !
 ! Block inline script abused by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
@@ -689,6 +689,7 @@ independent.co.uk###side
 ||internetnews.com/*.js
 ||i-playfun.com/*.js
 ||indexww.com^
+||indiatimes.com^$inline-script
 ||industrybrains.com^
 ||influid.co^
 ||infolinks.com^
