@@ -2,10 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180619d
+! Version: 20180620a
 !
-! Block inline script abused by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
+! Block inline script ^ subdocuments by domains
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
+$subdocument,domain=dailymail.co.uk
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
@@ -16,6 +17,7 @@ $popup,third-party,domain=dramacity.io|dramas.nu|hkfree.co
 ||beacon.
 pixel$third-party
 $other,third-party
+$other,domain=dailymail.co.uk
 !
 ! Block spam TLD
 .ad^
@@ -167,6 +169,7 @@ bbc.co.uk###orb-footer
 bbc.co.uk##.share
 bbc.co.uk##.share-tools
 bbc.co.uk##.ws-c-social-slice__icons
+bbc.co.uk##.trust-project
 bbc.com###bbccookies
 @@||cdnedge.bbc.co.uk/mtk/*js
 @@||open.live.bbc.co.uk/weather/
