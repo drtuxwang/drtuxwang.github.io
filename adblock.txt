@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180621c
+! Version: 20180623a
 !
 ! Block inline script ^ subdocuments by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com
 $subdocument,domain=dailymail.co.uk
 !
 ! Block third party elements on specific domains
@@ -1797,14 +1797,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||trackjs.com^
 !||trackpprofile.com^
 !||adlooxtracking.com^
-! 20180713
-!dramacity.io##.blockchain-btn
-!dramacity.io##.float-ck
-!dramacity.io###footWidgets
-!dramacity.io###gc_message_bar
-!dramacity.io###gc_message_bar_open
-!||dramacity.io/script/license*.js
-!||dramacity.io/VT*html$subdocument
 ! 20180716
 !first-utility.com###cookie-acceptance
 !||shareaholic.com^
