@@ -38,19 +38,19 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk
 *advert*.js
 ||ad*$third-party
 *adexchange*
-adexchange$popup
+*adexchange*$popup
 *adnetwork.$third-party
 *-adnow.com^
-_ads/
+*_ads/*
 *-ads*.com^
 *-ads*.com^$popup
 *ads.$third-party
 ||affiliate*$third-party
-analytics$third-party
+*analytics*$third-party
 ||bet*$third-party
 ||bid*$third-party
-click$third-party
-click$popup,third-party
+*click*$third-party
+*click*$popup,third-party
 *consent*$third-party
 ||install.$popup
 *metric*$third-party
@@ -59,10 +59,10 @@ click$popup,third-party
 ||share*$third-party
 /sponsors/*
 ||syndication.$popup
-track$third-party
-track$popup,third-party
-traffic$third-party
-yield$third-party
+*track*$third-party
+*track*$popup,third-party
+*traffic*$third-party
+*yield*$third-party
 !
 ! Adblock Youtube
 ###abyt-modal
@@ -388,7 +388,6 @@ doodle.com##.d-warning
 ||dpmsrv.com^
 ||draco88.com^
 ||dragndropbuilder.com^
-||drama365.se/*/ad.php
 dramas.nu###ad_header
 dramas.nu##.alert
 dramas.nu###control
@@ -603,7 +602,7 @@ translate.google.com###gb > .gb_g
 translate.google.com###gt-community-promo
 translate.google.com##.gt-ft-promos
 ||google4plays.com^
-||ajax.googleapis.com/*.js$domain=adf.ly|phoronix.com
+||googleapis.com^$domain=adf.ly|dailymail.co.uk|phoronix.com
 ||crypto-js.googlecode.com^
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
@@ -1518,7 +1517,6 @@ weather-forecast.com###sfooter
 ||web-stat.com^
 ||webtrends.com^
 ||webtrendslive.com^
-||webtrends.^
 ||webtype.com^
 ||webxpedias.com^
 webuser.co.uk###cookie-bar
@@ -1909,3 +1907,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !*ad.$third-party
 ! 20180620
 !||google.co.uk/gen_
+! 20180623
+!||ajax.googleapis.com/*.js$domain=adf.ly|phoronix.com
+!||drama365.se/*/ad.php
+!||webtrends.^
