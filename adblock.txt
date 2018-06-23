@@ -1258,10 +1258,9 @@ talktalk.co.uk##.f-size2.color0
 error.talktalk.co.uk##.tt_results
 tesco.com###cookie-policy
 tescomobile.com###tesco_cookie_widget
-||tsyndicate.com^
-||ttxm.co.uk/*/mktg-*
 ||tanx.com^
 ||td553.com^
+||tealiumiq.com^
 techadvisor.co.uk##.cookieText
 techcrunch.com##.ad-cluster-container
 techcrunch.com##.announcement-bg
@@ -1405,6 +1404,8 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
 ||trw12.com^
+||tsyndicate.com^
+||ttxm.co.uk/*/mktg-*
 ||tubecorporate.com^
 ||tumblr.com^
 ||turbobit.ru/*.jpg
