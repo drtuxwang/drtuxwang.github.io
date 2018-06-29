@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180629a
+! Version: 20180629b
 !
 ! Block inline script ^ subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com
@@ -27,6 +27,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk
 .club^$domain=~openload.co
 .club^$popup
 .date^
+##[href*=".online/"]
 .loan^$popup
 .services^
 .xxx^$popup
@@ -34,7 +35,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk
 .xyz^$popup
 .website^$popup
 !
-! Wild card macthing
+! Wild card matching
 advert*.js$third-party
 ||ad*$third-party
 *adexchange*
