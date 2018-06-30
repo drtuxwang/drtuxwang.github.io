@@ -1047,7 +1047,6 @@ pizzahut.co.uk##.alert
 ||po.st^
 ||pointroll.com^
 ||poll.fm^
-@@||popads.net/pop.js
 ||popads.net^$popup
 ||popcash.net^
 ||porojo.net^
@@ -1917,3 +1916,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180625
 !talktalk.co.uk###btnAddFreeTV
 !talktalk.co.uk###cookie_shout
+! 20180630
+!@@||popads.net/pop.js
