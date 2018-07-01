@@ -1382,7 +1382,7 @@ three.co.uk###rwd-cookie-message
 timeout.com##.xs-fixed
 tinydl.co##.sideblock
 ||tinydl.link/*.js
-||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk
+||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
 ||tinypass.com^
 ||tlvmedia.com^
 ||tofucube.com/adnow.html
