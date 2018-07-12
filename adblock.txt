@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180712a
+! Version: 20180712b
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com
@@ -60,7 +60,7 @@ advert*.js$third-party
 ||share*$third-party
 /sponsors/*
 ||syndication.$popup
-*track*$third-party,domain=amazon.co.uk
+*track*$third-party,domain=~amazon.co.uk
 *track*$popup,third-party,domain=~bgt.ag|~amazon.co.uk|~google.co.uk
 *traffic*$third-party
 *yield*$third-party
@@ -1619,16 +1619,7 @@ zomato.com###user-cookie-message
 facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
-! Multi sites
-##.fa-times-circle
-/qq/qq.php
 !
-! 20180618
-!||analytics.
-!||hs-analytics.net^
-!||matheranalytics.com^
-!||scoutanalytics.net^
-!||google-analytics.com^$domain=~search.diy.com|~mail.google.com|~videolan.org|~delayrepaycompensation.com
 ! 20180619
 !*ad.$third-party
 ! 20180620
@@ -1644,3 +1635,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !@@||popads.net/pop.js
 ! 20180701
 !||wp.com^$domain=dramawall.com
+! 20180712
+!##.fa-times-circle
+!/qq/qq.php
