@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180724a
+! Version: 20180724b
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com
@@ -291,7 +291,6 @@ cnn.com##.user-msg
 ||commindo-media-ressourcen.de^
 ||comodoca.com^
 ||comodoca2.com^
-comparitech.com##.clearfix
 ||comparitech.com/*.css
 ||compass-fit.jp^
 ||compete.com^
@@ -547,14 +546,11 @@ glassdoor.co.uk##.adSlotJobListingsContent
 ||go-mpulse.net^
 goodvideohost.com##IMG[src*="banner"]
 ||goo.gl^
-||google.com/_/+1/
 ||google.com/*/ads/
 ||google.com/adsense/
 google.com##.app-promo
 ||google.com/cse/
 docs.google.com##.docs-promo-bubble
-||google.com/js/plusone.js
-||google.com/pagead/
 ||google.com/*/postmessageRelay
 google.com###botstuff
 google.com##.infomsg
@@ -571,7 +567,6 @@ google.co.uk###bottomads
 google.co.uk###fbar
 google.co.uk##.commercial-unit
 google.co.uk###epbar[style="display: block;"]
-google.com###flash-disclaimer
 google.co.uk##.gb_g
 google.co.uk##.infomsg
 google.co.uk##IMG[src*="doodles"]
@@ -588,11 +583,8 @@ google.co.uk##[style*="behavior:url"]
 google.co.uk###tads
 google.co.uk###taw
 accounts.google.com##.mail-hero
-||apis.google.com/*/+1/
-||apis.google.com/*/hovercard
-||consent.google.com^
 finance.google.com##[id^="gb"]
-||gg.google.com^
+||fundingchoices.google.com^
 mail.google.com##.adC
 mail.google.com##DIV.Zs
 mail.google.com##DIV.oM
@@ -608,7 +600,6 @@ translate.google.com###gt-community-promo
 translate.google.com##.gt-ft-promos
 ||google4plays.com^
 ||googleapis.com^$domain=adf.ly|dailymail.co.uk|phoronix.com
-||crypto-js.googlecode.com^
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
 ||googletagmanager.com^$domain=~talktalk.co.uk
@@ -1622,8 +1613,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180619
-!*ad.$third-party
 ! 20180620
 !||google.co.uk/gen_
 ! 20180623
@@ -1640,3 +1629,14 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180712
 !##.fa-times-circle
 !/qq/qq.php
+! 20180724
+!||consent.google.com^
+!||google.com/_/+1/
+!||google.com/js/plusone.js
+!||google.com/pagead/
+!google.com###flash-disclaimer
+!||apis.google.com/*/+1/
+!||apis.google.com/*/hovercard
+!||gg.google.com^
+!||crypto-js.googlecode.com^
+!comparitech.com##.clearfix
