@@ -11,7 +11,7 @@ $subdocument,domain=dailymail.co.uk
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
 $script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com
-$popup,third-party,domain=dramacity.io|dramas.nu|hkfree.co|woaikanxi.cc|qooxi.net
+$popup,third-party,domain=dramacity.io|dramas.nu|hkfree.co|woaikanxi.cc|qooxi.net|openload.co
 !
 ! Block web beacons
 ||beacon.
