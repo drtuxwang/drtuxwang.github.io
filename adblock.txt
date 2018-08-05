@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180802c
+! Version: 20180804a
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io
@@ -752,6 +752,7 @@ lebara.com##.cookie-component
 ||legolas-media.com^
 ||letsadvertisetogether.com^
 ||levexis.com^
+lewisham.gov.uk##.cookiebanner
 ||lfovf.space^
 donate.libreoffice.org##.typography
 lifehacker.com##.ad-unit
