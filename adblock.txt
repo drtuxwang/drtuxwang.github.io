@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180807a
+! Version: 20180809a
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io
@@ -10,8 +10,8 @@ $subdocument,domain=dailymail.co.uk
 !
 ! Block third party elements on specific domains
 $image,third-party,domain=dramawall.com
-$script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hdfree.se|hkfree.co|hkfree.se|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com
-$popup,third-party,domain=dramacity.io|dramas.nu|hkfree.co|woaikanxi.cc|qooxi.net|openload.co
+$script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hkfree.co|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com
+$popup,third-party,domain=dramacity.io|dramas.nu|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|hdfree.pro
 !
 ! Block web beacons
 ||beacon.
@@ -642,7 +642,6 @@ hkfree.co##.mgbox
 hkfree.co###myModal
 hkfree.co##table:nth-of-type(1)
 hkfree.co##.top-adv-text-m
-||hdfree.se/adv/
 ||h-online.com/*.js
 ||h-online.com/ivw-bin/
 ||hotjar.com^
@@ -900,7 +899,6 @@ muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
 ||mybroadband.co.za^
-||mycdn.co^$script,domain=hdfree.se
 ||myregisteredsite.com^
 ||mythings.com^
 nationalarchives.gov.uk##.cookieNotice
@@ -1642,3 +1640,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||gg.google.com^
 !||crypto-js.googlecode.com^
 !comparitech.com##.clearfix
+! 20180809
+!||hdfree.se/adv/
+!||mycdn.co^$script,domain=hdfree.se
