@@ -473,9 +473,6 @@ m.facebook.com###pages_may_like_section
 m.facebook.com##.scrollAreaColumn
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-||fbcdn.net/*.m4a$domain=m.facebook.com
 ||facerich.com^
 ||fallingfalcon.com^
 ||fancybar.net^
@@ -1644,3 +1641,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180809
 !||hdfree.se/adv/
 !||mycdn.co^$script,domain=hdfree.se
+! 20180814
+!||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
+!||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
+!||fbcdn.net/*.m4a$domain=m.facebook.com
