@@ -460,7 +460,6 @@ facebook.com##[href*="apps.facebook.com/"]
 facebook.com##[href*="/campaign/"]
 facebook.com##[href*="/marketplace/"]
 facebook.com##[id^="GroupSuggestionCard"]
-facebook.com###MStoriesTray
 facebook.com###pagelet_canvas_nav_content
 facebook.com###pagelet_growth_expanding_cta
 facebook.com###pagelet_megaphone
@@ -469,6 +468,7 @@ facebook.com###save_caret_nux
 facebook.com##[title*="AdChoice"]
 m.facebook.com##[id^="scrollarea_"]
 m.facebook.com###MMegaphone
+m.facebook.com###MStoriesTray
 m.facebook.com###pages_may_like_section
 m.facebook.com##.scrollAreaColumn
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
