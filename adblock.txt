@@ -2,23 +2,24 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180823b
+! Version: 20180823c
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
 $subdocument,domain=dailymail.co.uk
 !
-! Block third party elements on specific domains
-$image,third-party,domain=dramawall.com
+! Block 3rd party scripts
 $script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hkfree.co|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
+@@||gstatic.com^$script,domain=icdrama.se
 !
-! Block third party popups
+! Block 3rd party popups
 $popup,third-party,domain=dramacity.io|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|icdrama.se|dramas.nu
 @@||icdrama.se^$popup,domain=dramas.nu
 @@||vlist.se^$popup,domain=dramas.nu
 !
-! Block web beacons
+! Block 3rd party web beacons
 ||beacon.
+$image,third-party,domain=dramawall.com
 pixel$third-party
 $other,third-party
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
@@ -883,7 +884,6 @@ mirror.co.uk##.top-slot
 ||mobile-10.com^
 ||mobisla.com^
 ||mobtrks.com^
-||modulepush.com^
 ||mohengdu.com^
 ||monetate.net^
 ||moneycontrol.co.in^
@@ -1384,9 +1384,6 @@ tinydl.co##.sideblock
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
 ||tinypass.com^
 ||tlvmedia.com^
-||tofucube.com/adnow.html
-||tofucube.com^$popunder
-tofucube.com##.special-message-wrapper
 ||toments.com/*.js
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
@@ -1619,22 +1616,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180620
-!||google.co.uk/gen_
-! 20180623
-!||ajax.googleapis.com/*.js$domain=adf.ly|phoronix.com
-!||drama365.se/*/ad.php
-!||webtrends.^
-! 20180625
-!talktalk.co.uk###btnAddFreeTV
-!talktalk.co.uk###cookie_shout
-! 20180630
-!@@||popads.net/pop.js
-! 20180701
-!||wp.com^$domain=dramawall.com
-! 20180712
-!##.fa-times-circle
-!/qq/qq.php
 ! 20180724
 !||consent.google.com^
 !||google.com/_/+1/
@@ -1652,3 +1633,8 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20180819
 !.pro^$domain
 !@@||hdfree.pro^
+! 20180823
+!||modulepush.com^
+!||tofucube.com/adnow.html
+!||tofucube.com^$popunder
+!tofucube.com##.special-message-wrapper
