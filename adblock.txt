@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180825a
+! Version: 20180825b
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -1632,10 +1632,10 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||tofucube.com^$popunder
 !tofucube.com##.special-message-wrapper
 ! 20180825
-||atas.io^
-||linuxjournal.com/*.js
-||linuxvoice.com/*.js
-linuxvoice.com##.social-profile-icons
-||linuxbsdos.com/*.js
-washingtonpost.com##.ad-hideable
-||washingtonpost.com/*.js
+!||atas.io^
+!||linuxjournal.com/*.js
+!||linuxvoice.com/*.js
+!linuxvoice.com##.social-profile-icons
+!||linuxbsdos.com/*.js
+!washingtonpost.com##.ad-hideable
+!||washingtonpost.com/*.js
