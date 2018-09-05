@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180905a
+! Version: 20180905b
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -1521,12 +1521,7 @@ wilko.com##.cookies
 ||windgetbook.info^
 ||core.windows.net/*.css
 ||winner.com^
-||wired.com/assets/load?
-wired.com##.fallback
-wired.com###global-header
-||wired.com/js/cn.minified.js
-wired.com###post-nav
-wired.com##.sharify
+wired.co.uk##.is-fixed
 wired.co.uk##.a-footer-share
 wired.co.uk##.a-header__share
 wired.co.uk###domCookieWarning
@@ -1643,3 +1638,10 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||4dsply.com^
 !||5min.com^
 !||70e.com^
+! 20180905
+!||wired.com/assets/load?
+!wired.com##.fallback
+!wired.com###global-header
+!||wired.com/js/cn.minified.js
+!wired.com###post-nav
+!wired.com##.sharify
