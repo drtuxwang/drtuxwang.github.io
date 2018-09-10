@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180910a
+! Version: 20180910b
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -105,7 +105,6 @@ adviceguide.org.uk###div-cookie-monster
 aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
-||alimama.cn^
 alpinelinux.org##.banner
 ||altitude-arena.com^
 amazon.co.uk##video
@@ -136,7 +135,6 @@ atpworldtour.com##.players-equipment
 ||atwola.com^
 ||avast.com/*.js
 avivaservices.co.uk##.cc-cookies
-||awe.sm^
 ||awin1.com^
 ||awltovhc.com^
 axa.co.uk##.axaCookie
@@ -186,7 +184,6 @@ bing.com###b_notificationContainer
 ||bitgravity.com^
 ||bizographics.com^
 ||bjpwv.com^
-||bkrtx.com^
 ||blismedia.com^
 ||blitzen.com^
 ||blockchain.info^
@@ -195,11 +192,8 @@ bloomberg.com##.leaderboard-container
 ||blpmovies.com^
 ||bluekai.com^
 ||bluewater.co.uk/*/jquery.ui.js
-||bnhtml.com^
 ||bnserving.com^
-||bookelement.biz^
 ||booking.com^
-||boomtrain.com^
 ||bosh.tv^
 ||bounceexchange.com^
 ||bowercdn.net^
@@ -234,7 +228,6 @@ buzzfeed.com###share_control
 ||carambo.la^
 ||care2.com^
 ||casalemedia.com^
-||cashinme.com^
 ||cashtrafic.info^
 ||cb-content.com^
 ||cbox.ws^
@@ -258,13 +251,10 @@ cieh.org###ECScookiepanel
 ||cityam.com/*.js
 cityam.com##.sharing
 ||civiccomputing.com^
-||ckqby.com^
-||clarifyingquack.com^
 ||class64deal.com^
 ||cleanprint.net^
 ||cliipa.com^
 ||clipular.com^
-||clkmon.com^
 ||clkrev.com^
 ||cloudfront.net^$domain=dailymail.co.uk|dramacity.io|openload.co|dramawall.com|metro.co.uk
 ||cloudfront.net/*/paper.create_overlay-*.js
@@ -373,8 +363,6 @@ distrowatch.com##.NewsLogo
 distrowatch.com##.News:nth-of-type(5)
 distrowatch.com##[style^="text-align: center"]
 diy.com##.cookie-panel
-||dl-rms.com^
-||dm.gg^
 ||dmca.com^
 ||dmgmediaprivacy.co.uk^
 ||dntrax.com^
@@ -392,7 +380,6 @@ dramas.nu###control
 dramawall.com/*.gif
 dramawall.com##table
 dramawall.com##.td-with-like
-||driverselection.com^
 dropbox.com###top-notification-bar-container
 ||dt07.net/*.jpg^
 duckduckgo.com###side
@@ -417,7 +404,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||editmysite.com^
 ||edomz.com^
 ||edomz.net^
-||educing.info^
 ||effectivemeasure.net^
 ||efytimes.com/*.js
 ||eloqua.com^
@@ -500,7 +486,6 @@ freakshare.com##[onmouseover*="payment"]
 ||freegeoip.net^
 free-magazines-download.com##.bwrbs.list-items
 ||freetellafriend.com^
-||fsdatacentre.com^
 ||fsdn.com/*.js^
 ft.com##.advert
 ft.com##.o-cookie-message
@@ -522,7 +507,6 @@ ft.com##.visible
 ||getresponse.com^
 ||getrooster.com^
 ||getsmartcontent.com^
-||gggemaop.com^
 ghacks.net##.adsbygoogle
 ghacks.net##.border--top--gray:nth-of-type(3)
 ghacks.net##.cookie-notice-container
@@ -613,8 +597,6 @@ googleblog.com###cookieChoiceInfo
 ||gssprt.jp^
 ||gstatic.com/gb/js/sem_
 ||gumgum.com^
-||guoshipartners.com^
-||gvahh.top^
 ||gwallet.com^
 ||gx101.com^
 h265.se##.jw-dock
@@ -624,7 +606,6 @@ heathrow.com###cookie
 ||hellobar.com^
 here.com##.cookie
 ||hexagram.com^
-||hiro.tv^
 ||histats.com^
 ||hit-counts.com^
 ||hitwise.co.uk^
@@ -815,12 +796,10 @@ maketecheasier.com###sharebar
 ||mathtag.com^
 ||maxmind.com^$domain=~appear.in
 ||maxymiser.net^
-||mdn2015x2.com^
 ||mdotlabs.com^
 ||medi-8.net^
 ||medialytics.com^
 ||media.net^
-||media6degrees.com^
 ||mediabistro.com^
 ||mediaplex.com^
 ||mediaraily.com^
@@ -925,7 +904,6 @@ novafile.com###payment-icons
 novafile.com###secure
 novafile.com###tariffs
 ||november-lax.com^$popup
-||npario-inc.net^
 ||nrcdn.com^
 ||nrelate.com^
 ||ntv.io^
@@ -947,7 +925,6 @@ omgubuntu.co.uk##.page-footer
 ||omnitagjs.com^
 ||omtrdc.net^$domain=~tfl.gov.uk|~onlineips.co.uk
 ||onclkds.com^
-||onlinerewardcenter.net^
 ||onmodulus.net^
 ||onclasrv.com^
 ||oneall.com^
@@ -1420,7 +1397,6 @@ mobile.twitter.com##.avatar
 ||twimg.com/media-preview/
 ||twimg.com/tweet_video/
 ##.twitter-share-button
-||tynt.com^
 ||typekit.com^
 ||typekit.net^
 ||uauniverse.com^
@@ -1451,7 +1427,6 @@ videobug.se##DIV[style*="scroll"]
 videolan.org##.donate2
 videolan.org###uecookies
 ||videoplaza.tv/*_bootloader.swf
-||vidible.tv^
 vidspot.net##[style*="important"]
 ||viewex.co.uk^
 ||viglink.com^
@@ -1462,7 +1437,6 @@ virtualboxes.org###eu-cookie-law
 ||visiblemeasures.com^
 ||visualdna.com^
 ||visualrevenue.com^
-||visualwebsiteoptimizer.com^
 ||vixnixxer.com^
 ||vizu.com^
 ||voicefive.com^
@@ -1488,7 +1462,6 @@ weather-forecast.com###sfooter
 ||webxpedias.com^
 webuser.co.uk###cookie-bar
 ||weebly.com^
-||whdafei.com^
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
 wickes.co.uk###cookie-policy
@@ -1567,17 +1540,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180724
-!||consent.google.com^
-!||google.com/_/+1/
-!||google.com/js/plusone.js
-!||google.com/pagead/
-!google.com###flash-disclaimer
-!||apis.google.com/*/+1/
-!||apis.google.com/*/hovercard
-!||gg.google.com^
-!||crypto-js.googlecode.com^
-!comparitech.com##.clearfix
 ! 20180809
 !||hdfree.se/adv/
 !||mycdn.co^$script,domain=hdfree.se
@@ -1648,3 +1610,30 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||videomega.tv/ads*
 !||videomega.tv^$popup
 !videomega.tv##.vjs-overlay
+!||awe.sm^
+!||tynt.com^
+!||whdafei.com^
+!||onlinerewardcenter.net^
+!||clkmon.com^
+!||fsdatacentre.com^
+!||gvahh.top^
+!||visualwebsiteoptimizer.com^
+!||vidible.tv^
+!||alimama.cn^
+!||boomtrain.com^
+!||bnhtml.com^
+!||bkrtx.com^
+!||bookelement.biz^
+!||clarifyingquack.com^
+!||ckqby.com^
+!||cashinme.com^
+!||dl-rms.com^
+!||dm.gg^
+!||driverselection.com^
+!||educing.info^
+!||hiro.tv^
+!||gggemaop.com^
+!||guoshipartners.com^
+!||media6degrees.com^
+!||mdn2015x2.com^
+!||npario-inc.net^
