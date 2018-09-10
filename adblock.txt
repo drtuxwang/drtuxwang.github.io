@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180908a
+! Version: 20180910a
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -42,6 +42,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 .website^$popup
 !
 ! Wild card matching
+*-ad.*
 ||ad*$third-party,domain=~mozilla.org
 *adexchange*
 *adexchange*$popup
@@ -100,7 +101,6 @@ adviceguide.org.uk###div-cookie-monster
 ||agkn.com^
 ||airbrake.io^
 ||airpush.com^
-||ajhdf.com^
 ||ajillionmax.com^
 aldi.co.uk##.notification
 ||alexa.com^
@@ -288,7 +288,6 @@ cnn.com##.user-msg
 ||comodoca.com^
 ||comodoca2.com^
 ||comparitech.com/*.css
-||compass-fit.jp^
 ||compete.com^
 complex.com/*.js
 ||complexmedianetwork.com^
@@ -1275,7 +1274,6 @@ tecmint.com###quickiebarpro
 ||tecmint.com/*/script.js
 tecmint.com##.sharrre-container
 tecmint.com##.sidebar-content
-||tecnoyaske.com^
 telegraph.co.uk##.article__sidebar
 telegraph.co.uk##body > div:nth-of-type(1)
 telegraph.co.uk###qb_cookie_consent_main
@@ -1385,7 +1383,6 @@ trustpilot.com##.cookie-bar
 ||tubecorporate.com^
 ||tumblr.com^
 ||turbobit.ru/*.jpg
-||turn.com^
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
 tvcatchup.com##.dropdown-text
@@ -1432,7 +1429,6 @@ ubuntu.com##.cookie-policy
 ||udemy.com/*.js^
 ||udmserve.net^
 ||ugdturner.com^
-||ultimategracelessness.info^
 ||undertone.com^
 ||unformsy.mobi^
 ||unrulymedia.com^
@@ -1454,9 +1450,6 @@ videobug.se##DIV[style*="scroll"]
 ||videobug.se/*.php
 videolan.org##.donate2
 videolan.org###uecookies
-||videomega.tv/ads*
-||videomega.tv^$popup
-videomega.tv##.vjs-overlay
 ||videoplaza.tv/*_bootloader.swf
 ||vidible.tv^
 vidspot.net##[style*="important"]
@@ -1476,7 +1469,6 @@ virtualboxes.org###eu-cookie-law
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
 ||vube.com^
-||vwcsl.com^
 ||wallacemaloneymindanao.info^
 ||wapolabs.com^
 ||wardparser.info^
@@ -1496,8 +1488,6 @@ weather-forecast.com###sfooter
 ||webxpedias.com^
 webuser.co.uk###cookie-bar
 ||weebly.com^
-weebly.com##.wsite-youtube-container
-weebly.com##[border="0"]
 ||whdafei.com^
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
@@ -1646,3 +1636,15 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||feedjit.com^
 !timeout.com##.xs-fixed
 !tfl.gov.uk###cookie-policy-notice
+! 20180910
+!||ajhdf.com^
+!||compass-fit.jp^
+!||vwcsl.com^
+!||turn.com^
+!weebly.com##.wsite-youtube-container
+!weebly.com##[border="0"]
+!||ultimategracelessness.info^
+!||tecnoyaske.com^
+!||videomega.tv/ads*
+!||videomega.tv^$popup
+!videomega.tv##.vjs-overlay
