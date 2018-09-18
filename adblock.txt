@@ -1154,7 +1154,6 @@ sourceforge.net##.m-wide-widget
 sourceforge.net###scanned_by
 sourceforge.net##.sidebar-widget
 southampton.ac.uk###js-flash
-||speednetwork1.com^
 ||c.speedtest.net/*.js
 ||spiceworks.com/*.js
 ||spiffymachine.com^
@@ -1539,9 +1538,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180809
-!||hdfree.se/adv/
-!||mycdn.co^$script,domain=hdfree.se
 ! 20180819
 !.pro^$domain
 !@@||hdfree.pro^
@@ -1636,3 +1632,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||media6degrees.com^
 !||mdn2015x2.com^
 !||npario-inc.net^
+!
+! 20180918
+!||speednetwork1.com^
