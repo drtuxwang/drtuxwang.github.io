@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180918a
+! Version: 20180918b
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -1028,7 +1028,6 @@ postoffice.co.uk##.cookie
 ||puserving.com^
 ||pushnative.com^
 ||putags.com^
-||pxl2015x1.com^
 ||pyksf.com^
 ||q1media.com^
 ||qmerce.com^
@@ -1440,7 +1439,6 @@ virtualboxes.org###eu-cookie-law
 ||voicefive.com^
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
-||vube.com^
 ||wallacemaloneymindanao.info^
 ||wapolabs.com^
 ||wardparser.info^
@@ -1485,7 +1483,6 @@ woaikanxi.cc##.entry-actions
 ||wrating.com^
 wsj.com##.cookie-notice-container
 ||wvydeo.com^
-||wwwpromoter.com^
 ||xawab.com^
 ||xcdf.cn^
 ||xdating.com^
@@ -1635,3 +1632,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
 ! 20180918
 !||speednetwork1.com^
+!||pxl2015x1.com^
+!||vube.com^
+!||wwwpromoter.com^
