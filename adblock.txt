@@ -2,18 +2,18 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180918b
+! Version: 20180924a
 !
 ! Block inline script & subdocuments by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
 $subdocument,domain=dailymail.co.uk
 !
 ! Block 3rd party scripts
-$script,third-party,domain=buzzfeed.com|distrowatch.com|dramacity.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hkfree.co|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
+$script,third-party,domain=buzzfeed.com|distrowatch.com|azdrama.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hkfree.co|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
 @@||gstatic.com^$script,domain=icdrama.se
 !
 ! Block 3rd party popups
-$popup,third-party,domain=dramacity.io|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|icdrama.se|dramas.nu|streamtvb.com
+$popup,third-party,domain=azdrama.io|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|icdrama.se|dramas.nu|streamtvb.com
 @@||icdrama.se^$popup,domain=dramas.nu
 @@||vlist.se^$popup,domain=dramas.nu
 !
@@ -91,7 +91,6 @@ accuweather.com###subnavpromo
 accuweather.com###top
 ||acg.tv^
 ||acloudimages.com^
-||acs86.com^
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
@@ -140,10 +139,10 @@ avivaservices.co.uk##.cc-cookies
 axa.co.uk##.axaCookie
 ||axf8.net^
 ||ayboll.com^
-||dramacity.io/ADS
-dramacity.io###float_content_left
-dramacity.io##[href^="http://azwpnow.com/"]
-dramacity.io##[href="javascript:hide_float_left()"]
+||azdrama.io/ADS
+azdrama.io###float_content_left
+azdrama.io##[href^="http://azwpnow.com/"]
+azdrama.io##[href="javascript:hide_float_left()"]
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -179,7 +178,6 @@ bbcgoodfood.com##.cookie-law
 @@||bgt.ag^$popup
 bilibili.tv##.ad-f
 ||comment.bilibili.tv^
-||binarylp.com^
 bing.com###b_notificationContainer
 ||bitgravity.com^
 ||bizographics.com^
@@ -189,7 +187,6 @@ bing.com###b_notificationContainer
 ||blockchain.info^
 blogspot.co.uk###sidebar
 bloomberg.com##.leaderboard-container
-||blpmovies.com^
 ||bluekai.com^
 ||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
@@ -207,7 +204,6 @@ bloomberg.com##.leaderboard-container
 britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
 ||browsers.support^
-||btncdn.com^
 ||bublaa.com^
 ||budgetedbauer.com^
 ||bugherd.com^
@@ -256,7 +252,7 @@ cityam.com##.sharing
 ||cliipa.com^
 ||clipular.com^
 ||clkrev.com^
-||cloudfront.net^$domain=dailymail.co.uk|dramacity.io|openload.co|dramawall.com|metro.co.uk
+||cloudfront.net^$domain=dailymail.co.uk|azdrama.io|openload.co|dramawall.com|metro.co.uk
 ||cloudfront.net/*/paper.create_overlay-*.js
 ||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
 ||cloudfront.net^$script,domain=vidlox.tv
@@ -295,7 +291,7 @@ confused.com##.cookie-wrapper
 ||construment.com^
 ||contentinsights.com^
 ||contextly.com^
-||contextweb.com^$domain=dramacity.io
+||contextweb.com^$domain=azdrama.io
 convertunits.com###leaderboard
 ||conviva.com^
 ||copypastecharacter.com/*.swf
@@ -347,7 +343,6 @@ delayrepaycompensation.com##.cc_banner
 ||dhgate.com^
 ||dianomioffers.co.uk^
 ||dianomi.com^
-dice.com###cookie_consent
 ||digg.com^
 ||directrev.com^
 disqus.com##.is-footer
@@ -487,12 +482,8 @@ freakshare.com##[onmouseover*="payment"]
 free-magazines-download.com##.bwrbs.list-items
 ||freetellafriend.com^
 ||fsdn.com/*.js^
-ft.com##.advert
-ft.com##.o-cookie-message
-ft.com##.visible
 ||ftjcfx.com^
 ||functionalclam.com^
-||funny4u.co^$popup
 ||futurecdn.net/*.js
 ||fwmrm.net^
 ||fyre.co^
@@ -1036,7 +1027,6 @@ qooxi.net###featPosts
 qooxi.net###footWidgets
 qooxi.net###sidebar
 qooxi.net###wnb-bar
-||qrius.me^
 ||qsstats.com^
 ||qualaroo.com^
 ||qualtrics.com^
@@ -1121,11 +1111,8 @@ sky.com##.sky-component-social-share__item
 ||skysa.com^
 ||skytemjo.link^
 ||slopeaota.com^
-||smaato.net^$domain=~dramacity.io
-||smaato.net^$image
 ||smartertravel.com^
 ||smart-money.biz/*/jquery*.js
-||smi2.ru^
 ||snacktools.net^
 ||smashseek.com^
 ||sneakystamp.com^
@@ -1212,8 +1199,6 @@ talktalk.co.uk##.f-size2.color0
 error.talktalk.co.uk##.tt_results
 tesco.com###cookie-policy
 tescomobile.com###tesco_cookie_widget
-||tanx.com^
-||td553.com^
 ||tealiumiq.com^
 techadvisor.co.uk##.cookieText
 techcrunch.com##.ad-cluster-container
@@ -1340,7 +1325,6 @@ topcashback.co.uk###comp-footer-tab
 ||topcasinooffer.com^
 torridonroadsurgery.co.uk###ctl00_eucookie
 ||tqlkg.com^
-||tr553.com^
 ||tradedoubler.com^
 ||tradepub.com^
 ||tremormedia.com^$domain=~reuters.com
@@ -1351,11 +1335,9 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||truste.com^
 trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
-||trw12.com^
 ||tsyndicate.com^
 ||ttxm.co.uk/*/mktg-*
 ||tubecorporate.com^
-||tumblr.com^
 ||turbobit.ru/*.jpg
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
@@ -1432,7 +1414,6 @@ vim.org##.sidebar:nth-of-type(5)
 virginmoney.com###e-privacy-message
 virtualboxes.org###eu-cookie-law
 ||visiblemeasures.com^
-||visualdna.com^
 ||visualrevenue.com^
 ||vixnixxer.com^
 ||vizu.com^
@@ -1535,14 +1516,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180819
-!.pro^$domain
-!@@||hdfree.pro^
-! 20180823
-!||modulepush.com^
-!||tofucube.com/adnow.html
-!||tofucube.com^$popunder
-!tofucube.com##.special-message-wrapper
 ! 20180825
 !||atas.io^
 !||linuxjournal.com/*.js
@@ -1635,3 +1608,23 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||pxl2015x1.com^
 !||vube.com^
 !||wwwpromoter.com^
+! 20180924
+!||smaato.net^$domain=~azdrama.io
+!||smaato.net^$image
+!||tumblr.com^
+!||tr553.com^
+!||trw12.com^
+!||acs86.com^
+!||tanx.com^
+!||td553.com^
+!||smi2.ru^
+!||qrius.me^
+!||btncdn.com^
+!||binarylp.com^
+!||blpmovies.com^
+!dice.com###cookie_consent
+!||visualdna.com^
+!||funny4u.co^$popup
+!ft.com##.advert
+!ft.com##.o-cookie-message
+!ft.com##.visible
