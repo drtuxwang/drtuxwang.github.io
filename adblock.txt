@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20180924a
+! Version: 20180926a
 !
 ! Block inline script & subdocuments by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -1343,39 +1343,6 @@ tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
 tvcatchup.com##.dropdown-text
 tvlicensing.co.uk###tvlcookies-prompt
-twitter.com##.AdaptiveMedia-container
-twitter.com##.AdaptiveMedia-doublePhoto
-twitter.com##.AdaptiveMedia-video
-twitter.com##[data-img-alt="Embedded image permalink"]
-twitter.com##.flex-module
-twitter.com##.eu-cookie-notice
-twitter.com##.gdpr-privacy-banner
-twitter.com##[id^="stream-item-recap_entry"]
-twitter.com##[id^="stream-item-who_to_follow_entry-"]
-@@||twitter.com/*/consent_violation_flow$inline-script
-twitter.com##.is-autoplaying
-twitter.com##.is-gif
-twitter.com##.js-media-container
-twitter.com##.modal-overlay
-twitter.com##.moments
-twitter.com##.privacy-change-notice
-twitter.com##.ProfileClusterFollow
-twitter.com###promptbird-modal-prompt-dialog
-||twitter.com/*=promo
-||twitter.com/*/promoted
-twitter.com##.promoted-tweet
-twitter.com##.PromptbirdPrompt
-||twitter.com/*/recommendations
-twitter.com##.tooltip
-mobile.twitter.com##.avatar
-||platform.twitter.com^
-||syndication.twitter.com^
-||ton.twimg.com^
-||twimg.com/*_bigger
-||twimg.com/media/
-||twimg.com/media-preview/
-||twimg.com/tweet_video/
-##.twitter-share-button
 ||typekit.com^
 ||typekit.net^
 ||uauniverse.com^
@@ -1628,3 +1595,37 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !ft.com##.advert
 !ft.com##.o-cookie-message
 !ft.com##.visible
+! 20180926
+!twitter.com##.AdaptiveMedia-container
+!twitter.com##.AdaptiveMedia-doublePhoto
+!twitter.com##.AdaptiveMedia-video
+!twitter.com##[data-img-alt="Embedded image permalink"]
+!twitter.com##.flex-module
+!twitter.com##.eu-cookie-notice
+!twitter.com##.gdpr-privacy-banner
+!twitter.com##[id^="stream-item-recap_entry"]
+!twitter.com##[id^="stream-item-who_to_follow_entry-"]
+!@@||twitter.com/*/consent_violation_flow$inline-script
+!twitter.com##.is-autoplaying
+!twitter.com##.is-gif
+!twitter.com##.js-media-container
+!twitter.com##.modal-overlay
+!twitter.com##.moments
+!twitter.com##.privacy-change-notice
+!twitter.com##.ProfileClusterFollow
+!twitter.com###promptbird-modal-prompt-dialog
+!||twitter.com/*=promo
+!||twitter.com/*/promoted
+!twitter.com##.promoted-tweet
+!twitter.com##.PromptbirdPrompt
+!||twitter.com/*/recommendations
+!twitter.com##.tooltip
+!mobile.twitter.com##.avatar
+!||platform.twitter.com^
+!||syndication.twitter.com^
+!||ton.twimg.com^
+!||twimg.com/*_bigger
+!||twimg.com/media/
+!||twimg.com/media-preview/
+!||twimg.com/tweet_video/
+!##.twitter-share-button
