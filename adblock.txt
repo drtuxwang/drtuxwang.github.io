@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181001a
+! Version: 20181004a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -404,7 +404,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||ewebse.com^
 ||exdynsrv.com^
 ||exelator.com^
-||exlpor.com^
 ||exosrv.com^$domain=openload.co
 ||exovueplatform.com^
 expertreviews.co.uk###dennis-cookie-notice
@@ -452,7 +451,6 @@ fca.org.uk###sliding-popup
 ||feedburner.com^
 ||fhfn.org/*.js^
 ||fhserve.com^
-||firegetbook.com^
 ||firstimpression.io^
 ||firstpost.in^
 fitfortravel.nhs.uk###cookies-bar
@@ -940,7 +938,7 @@ ownvehicle.askmid.com##.contentBlock
 ||parsely.com^
 ||parserwords.info^$popup
 ||parserworld.info^$popup
-patientaccess.com##.cookies
+patientaccess.com##.footer-cookie
 ||paypalobjects.com^
 ||pcmag.com/*.js
 pcmag.com##.middle-frame
@@ -1423,7 +1421,6 @@ youtube.com###yt-lang-alert-container
 youtube.com##.ytp-cards-teaser-text
 youtube.com##.ytd-search-pyv-renderer
 ||ytimg.com/*/watch_autoplayrenderer.js
-||youtube-nocookie.com^
 ||yumenetworks.com^
 ||zdnet.com/*.js
 ||zdtag.com^
@@ -1632,3 +1629,8 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||erovinmo.com^
 !||errantolo.com^
 !||estat.com^
+! 20181004
+!patientaccess.com##.cookies
+!||youtube-nocookie.com^
+!||exlpor.com^
+!||firegetbook.com^
