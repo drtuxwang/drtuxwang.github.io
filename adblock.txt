@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181004a
+! Version: 20181006a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|timeanddate.com|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com
@@ -102,7 +102,6 @@ aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
 alpinelinux.org##.banner
-||altitude-arena.com^
 amazon.co.uk##video
 ||assoc-amazon.com^
 ||amazonaws.com^$domain=openload.co
@@ -200,7 +199,6 @@ britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
 ||browsers.support^
 ||bublaa.com^
-||bugherd.com^
 buzzfeed.com##.action-bar
 buzzfeed.com##.app_promo__banner
 buzzfeed.com##.bottom_shares
@@ -233,7 +231,6 @@ buzzfeednews.com##.sharing-btn
 ||cheatsheet.com/*.js
 check-host.net###sright
 check-host.net##.thold10
-||checkm8.com^
 chinesetools.eu##.cc_banner
 ||chitika.net^
 chrome-portable.com##.bottom
@@ -460,8 +457,6 @@ fitfortravel.nhs.uk###cookies-bar
 ||flightcdn.com/*/ads
 ||flipboard.com^
 ||flux.com^
-||flx1.com^
-||flxpxl.com^
 ||fmpub.net^
 ||followistic.com^
 ||foodwidget.com^
@@ -634,6 +629,7 @@ imdb.com###top_ad
 ||inclk.com^
 ||independent.co.uk/*.js
 independent.co.uk###leaderboard
+independent.co.uk##.premium-content
 independent.co.uk###side
 ||indiegogo.com/*.js
 ||inskinmedia.com^$domain=~nextmedia.com
@@ -825,13 +821,12 @@ mirror.co.uk##.top-slot
 ||monetate.net^
 moneysavingexpert.com###alertBar
 moneysavingexpert.com##.all-social-btns
+moneysavingexpert.com##.email-tip-box
 moneysavingexpert.com###cookiePolicy
 @@||moneysavingexpert.com/deals/$popup
 moneysavingexpert.com###fixed-cross-site-tipbox
 moneysavingexpert.com###siteworks-content
 ||mookie1.com^
-||motosal.net^
-||motosal.net^$popup
 ||mottnow.com^
 ||mouseflow.com^
 ||mousestats.com^
@@ -1385,12 +1380,10 @@ woaikanxi.cc##.entry-actions
 ||r-login.wordpress.com^
 ||stats.wp.com^
 ||wpdigital.net^
-||wrating.com^
 wsj.com##.cookie-notice-container
 ||wvydeo.com^
 ||xawab.com^
 ||xcdf.cn^
-||xdating.com^
 xe.com###ad
 xe.com##.desktopAd
 xe.com###leaderB
@@ -1402,8 +1395,6 @@ yahoo.com##.ads
 ||yadro.ru^
 ||nol.yahoo.com^
 ||yandex.ru^
-||yllix.com^
-||ylx-1.com^
 ||yourjavascript.com^
 ||yourway.net/*.js
 youtube.com###feed-pyv-container
@@ -1439,23 +1430,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180826
-!||15gifts.com^
-!||18yeah.com^
-!||206solutions.com^
-!||2mdn.net^
-!||2o7.net^
-!||3lift.com^
-!||4dsply.com^
-!||5min.com^
-!||70e.com^
-! 20180905
-!||wired.com/assets/load?
-!wired.com##.fallback
-!wired.com###global-header
-!||wired.com/js/cn.minified.js
-!wired.com###post-nav
-!wired.com##.sharify
 ! 20180907
 !||moneycontrol.co.in^
 !||keyrun.cn^
@@ -1517,7 +1491,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||media6degrees.com^
 !||mdn2015x2.com^
 !||npario-inc.net^
-!
 ! 20180918
 !||speednetwork1.com^
 !||pxl2015x1.com^
@@ -1634,3 +1607,15 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||youtube-nocookie.com^
 !||exlpor.com^
 !||firegetbook.com^
+! 20181006
+!||motosal.net^
+!||motosal.net^$popup
+!||xdating.com^
+!||yllix.com^
+!||ylx-1.com^
+!||wrating.com^
+!||bugherd.com^
+!||altitude-arena.com^
+!||flx1.com^
+!||flxpxl.com^
+!||checkm8.com^
