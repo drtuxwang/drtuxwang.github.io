@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181029c
+! Version: 20181029d
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk
@@ -777,6 +777,7 @@ metro.co.uk##.metro-discount-codes
 metro.co.uk##.nf-social
 metro.co.uk###post-extra
 metro.co.uk##.share-button
+metro.co.uk###we-need-monies
 metro.co.uk##.widget.metro-breaker
 ||mgid.com^
 ||mgid.com^$popup
@@ -1606,7 +1607,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !metro.co.uk##.thumbnail-link
 !metro.co.uk##.trending-main-sponsored
 !metro.co.uk##.video-list
-!metro.co.uk###we-need-monies
 !metro.co.uk##.widget.metro-breaker
 !metro.news##.sidebar-ad
 ||api.metro.co.uk^
