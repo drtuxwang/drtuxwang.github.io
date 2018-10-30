@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181029a
+! Version: 20181030a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk
@@ -601,7 +601,7 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
-||icdrama.se/ADV/
+||icdrama.se/*.php
 icdrama.se###closeADV
 icdrama.se##.sidebar_main
 icdrama.se###sub-bar
@@ -772,25 +772,13 @@ maketecheasier.com###sharebar
 meetup.com###app-download-promo-interstitial
 ||mekoto.com^
 ||mengine.me^
-metro.co.uk##.ad-slot-label
-metro.co.uk##.ad-feature-article-item.post
-metro.co.uk##.cookie-notice
-metro.co.uk##.follow-icon
-metro.co.uk##[id^="ad-"]
 metro.co.uk###just-in-widget
 metro.co.uk##.metro-discount-codes
-metro.co.uk##.metro-spinner
-metro.co.uk##.more-posts-thumbs
-metro.co.uk###page-bottom
-metro.co.uk##.share-buttons
-metro.co.uk##.sponsored-article-item
-metro.co.uk##.thumbnail-link
-metro.co.uk##.trending-main-sponsored
-metro.co.uk##.video-list
+metro.co.uk##.nf-social
+metro.co.uk###post-extra
+metro.co.uk##.share-button
 metro.co.uk###we-need-monies
 metro.co.uk##.widget.metro-breaker
-metro.news##.sidebar-ad
-||api.metro.co.uk^
 ||mgid.com^
 ||mgid.com^$popup
 ||mglsk.com^
@@ -1328,7 +1316,6 @@ vim.org##.sidebar:nth-of-type(5)
 virginmoney.com###e-privacy-message
 virtualboxes.org###eu-cookie-law
 ||visiblemeasures.com^
-||visualrevenue.com^
 ||vixnixxer.com^
 ||vizu.com^
 ||voicefive.com^
@@ -1420,70 +1407,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180910
-!||ajhdf.com^
-!||compass-fit.jp^
-!||vwcsl.com^
-!||turn.com^
-!weebly.com##.wsite-youtube-container
-!weebly.com##[border="0"]
-!||ultimategracelessness.info^
-!||tecnoyaske.com^
-!||videomega.tv/ads*
-!||videomega.tv^$popup
-!videomega.tv##.vjs-overlay
-!||awe.sm^
-!||tynt.com^
-!||whdafei.com^
-!||onlinerewardcenter.net^
-!||clkmon.com^
-!||fsdatacentre.com^
-!||gvahh.top^
-!||visualwebsiteoptimizer.com^
-!||vidible.tv^
-!||alimama.cn^
-!||boomtrain.com^
-!||bnhtml.com^
-!||bkrtx.com^
-!||bookelement.biz^
-!||clarifyingquack.com^
-!||ckqby.com^
-!||cashinme.com^
-!||dl-rms.com^
-!||dm.gg^
-!||driverselection.com^
-!||educing.info^
-!||hiro.tv^
-!||gggemaop.com^
-!||guoshipartners.com^
-!||media6degrees.com^
-!||mdn2015x2.com^
-!||npario-inc.net^
-! 20180918
-!||speednetwork1.com^
-!||pxl2015x1.com^
-!||vube.com^
-!||wwwpromoter.com^
-! 20180924
-!||smaato.net^$domain=~azdrama.io
-!||smaato.net^$image
-!||tumblr.com^
-!||tr553.com^
-!||trw12.com^
-!||acs86.com^
-!||tanx.com^
-!||td553.com^
-!||smi2.ru^
-!||qrius.me^
-!||btncdn.com^
-!||binarylp.com^
-!||blpmovies.com^
-!dice.com###cookie_consent
-!||visualdna.com^
-!||funny4u.co^$popup
-!ft.com##.advert
-!ft.com##.o-cookie-message
-!ft.com##.visible
 ! 20180926
 !twitter.com##.AdaptiveMedia-container
 !twitter.com##.AdaptiveMedia-doublePhoto
@@ -1605,3 +1528,23 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||yumenetworks.com^
 !||cashtrafic.info^
 !||atticwicket.com^
+! 20181029
+!metro.co.uk##.ad-slot-label
+!metro.co.uk##.ad-feature-article-item.post
+!metro.co.uk##.cookie-notice
+!metro.co.uk##.follow-icon
+!metro.co.uk##[id^="ad-"]
+!metro.co.uk##.metro-spinner
+!metro.co.uk##.more-posts-thumbs
+!metro.co.uk###page-bottom
+!metro.co.uk##.share-buttons
+!metro.co.uk##.sponsored-article-item
+!metro.co.uk##.thumbnail-link
+!metro.co.uk##.trending-main-sponsored
+!metro.co.uk##.video-list
+!metro.co.uk##.widget.metro-breaker
+!metro.news##.sidebar-ad
+||api.metro.co.uk^
+! 20181030
+!||icdrama.se/ADV/
+!||visualrevenue.com^
