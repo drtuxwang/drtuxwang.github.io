@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181030b
+! Version: 20181101a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk
@@ -53,7 +53,6 @@ advert*.js$third-party
 ||beacon.
 ||bet*$third-party
 ||bid*$third-party
-*click*$third-party,domain=~sharepoint.com
 *click*$third-party,popup
 *consent*$third-party
 ||install.$popup
@@ -1409,87 +1408,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20180926
-!twitter.com##.AdaptiveMedia-container
-!twitter.com##.AdaptiveMedia-doublePhoto
-!twitter.com##.AdaptiveMedia-video
-!twitter.com##[data-img-alt="Embedded image permalink"]
-!twitter.com##.flex-module
-!twitter.com##.eu-cookie-notice
-!twitter.com##.gdpr-privacy-banner
-!twitter.com##[id^="stream-item-recap_entry"]
-!twitter.com##[id^="stream-item-who_to_follow_entry-"]
-!@@||twitter.com/*/consent_violation_flow$inline-script
-!twitter.com##.is-autoplaying
-!twitter.com##.is-gif
-!twitter.com##.js-media-container
-!twitter.com##.modal-overlay
-!twitter.com##.moments
-!twitter.com##.privacy-change-notice
-!twitter.com##.ProfileClusterFollow
-!twitter.com###promptbird-modal-prompt-dialog
-!||twitter.com/*=promo
-!||twitter.com/*/promoted
-!twitter.com##.promoted-tweet
-!twitter.com##.PromptbirdPrompt
-!||twitter.com/*/recommendations
-!twitter.com##.tooltip
-!mobile.twitter.com##.avatar
-!||platform.twitter.com^
-!||syndication.twitter.com^
-!||ton.twimg.com^
-!||twimg.com/*_bigger
-!||twimg.com/media/
-!||twimg.com/media-preview/
-!||twimg.com/tweet_video/
-!##.twitter-share-button
-! 20180927
-!theguardian.com##.adverts__body
-!theguardian.com##.background
-!theguardian.com##.breaking-news
-!theguardian.com##.charity-wrapper
-!theguardian.com##.contributions__epic
-!theguardian.com###football-weekly
-!theguardian.com##[id^="badge"]
-!theguardian.com##[id^="dfp-ad-"]
-!theguardian.com##[id^="membership"]
-!theguardian.com##.is-epic
-!theguardian.com##.js-external-content-widget-anchor
-!theguardian.com##.js-most-popular-footer
-!theguardian.com##.js-outbrain-container
-!theguardian.com##.js-secondary-column
-!theguardian.com##.l-footer
-!theguardian.com##.meta__social
-!theguardian.com###more-on-this-story
-!theguardian.com###related-content
-!theguardian.com##.rich-link
-!theguardian.com##.secure-drop__wrapper
-!theguardian.com##.sharing-buttons
-!theguardian.com##.site-message--banner
-!theguardian.com##.social
-!theguardian.com##.submeta
-!theguardian.com##.top-banner-ad-container
-!theguardian.com##.tweet
-!theguardian.com##.video-playlist__item
-!theguardian.com###virtual-reality
-!theguardian.com##.wrapper
-! 20180930
-!||gravatar.com/*.css
-!||gravatar.com^$domain=~theync.tv
-!||wallacemaloneymindanao.info^
-!thesteepletimes.com##[role="complementary"]
-!||booking.com^
-!||budgetedbauer.com^
-!||draco88.com^
-!||gx101.com^
-!||href.asia^
-!||kinja.com/*/images/
-!||api.kinja.com^
-!||medi-8.net^
-!||ppjol.com^
-!||ppjol.net^
-!||smart-money.biz/*/jquery*.js
-!miniurls.co##.left
 ! 20181001
 !||amazon-adsystem.com^
 !||erovinmo.com^
@@ -1548,3 +1466,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20181030
 !||icdrama.se/ADV/
 !||visualrevenue.com^
+! 20181101
+!*click*$third-party,domain=~sharepoint.com|~diy.com
