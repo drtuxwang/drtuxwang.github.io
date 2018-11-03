@@ -557,7 +557,7 @@ googleblog.com###cookieChoiceInfo
 ||gorillanation.com^
 ||goroost.com^
 ||grapeshot.co.uk^
-||gravatar.com^
+||gravatar.com^$domain=~playtech.corp
 ||gravity.com^
 ||gravityrd.com^
 ||greatwork.info^
