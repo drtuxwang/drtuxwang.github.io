@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181103c
+! Version: 20181109a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -11,7 +11,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 $third-party,image,domain=dramawall.com
-$third-party,popup,domain=azdrama.io|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|icdrama.se|dramas.nu|streamtvb.com
+$third-party,popup,domain=azdrama.io|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|icdrama.se|dramas.nu|streamtvb.com|successfactors.eu
   @@||icdrama.se^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
 $third-party,script,domain=buzzfeed.com|distrowatch.com|azdrama.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|icdrama.se|qooxi.net|hkfree.co|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
