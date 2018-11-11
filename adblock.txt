@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181109b
+! Version: 20181111a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -30,6 +30,7 @@ $third-party,other
 .loan^$popup
 .pro^$domain=~hdfree.pro|~hkfree.co|~streamtvb.com
 .services^
+.top^
 .xxx^$popup
 .xyz^
 .xyz^$popup
@@ -128,7 +129,6 @@ avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awltovhc.com^
 axa.co.uk##.axaCookie
-||axf8.net^
 ||ayboll.com^
 ||azdrama.io/ADS
 azdrama.io###float_content_left
@@ -280,8 +280,6 @@ confused.com##.cookie-wrapper
 ||contextweb.com^$domain=azdrama.io
 convertunits.com###leaderboard
 ||conviva.com^
-||copypastecharacter.com/*.swf
-copypastecharacter.com###sets_wrapper_inner
 ||coull.com^
 ||countante.info^
 ||cpmba.se^
@@ -448,7 +446,6 @@ fitfortravel.nhs.uk###cookies-bar
 ||flashtalking.com^
 ||flattr.com^
 ||flightcdn.com/*/ads
-||flipboard.com^
 ||flux.com^
 ||fmpub.net^
 ||followistic.com^
@@ -669,7 +666,6 @@ johnlewis.com##.overlay-message--cookies
 @@||jwpcdn.com/player/
 ||jwplatform.com^
 ||jwpltx.com^
-||jxxgg.top^
 ||kalooga.com^
 kenstechtips.com##.cookie-alert
 ||keywee.co^
@@ -858,7 +854,6 @@ novafile.com###tariffs
 ||ntv.io^
 ||nuclersoncanthinger.info^
 ||nuffnang.com.sg^
-||obthqxbm.com^
 ||ochze.com^
 ||oclaserver.com^
 ||oclasrv.com^
@@ -1025,6 +1020,10 @@ reuters.com##.trc-content-sponsored
 royal.uk###sliding-popup
 royalmail.com###block-cookie_policy-0
 ||rpxnow.com^
+rthk.hk##.pod
+rthk.hk###radheadBanner
+rthk.hk##.special
+rthk.hk##.vision
 ||rubiconproject.com^
 ||rubikloud.com^
 ||rwjfs.com^
@@ -1320,7 +1319,6 @@ virtualboxes.org###eu-cookie-law
 ||voicefive.com^
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
-||wapolabs.com^
 ||wardparser.info^
 weather-forecast.com##[align="left"]
 weather-forecast.com##.b-with-whitespace
@@ -1398,41 +1396,12 @@ youtube.com##.ytd-search-pyv-renderer
 ||znaptag.com^
 zomato.com###user-cookie-message
 ||zopim.com^
-||zqtk.net^
 !
 ! From: uBlock filters
 facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20181001
-!||amazon-adsystem.com^
-!||erovinmo.com^
-!||errantolo.com^
-!||estat.com^
-! 20181004
-!patientaccess.com##.cookies
-!||youtube-nocookie.com^
-!||exlpor.com^
-!||firegetbook.com^
-! 20181006
-!||xdating.com^
-!||yllix.com^
-!||ylx-1.com^
-!||wrating.com^
-!||bugherd.com^
-!||altitude-arena.com^
-!||flx1.com^
-!||flxpxl.com^
-!||checkm8.com^
-! 20181007
-!||class64deal.com^
-! 20181008
-!||atgsvcs.com^
-!||iygke.com^
-!||magifirst.com^
-!||mailchimp.com^
-!||mailmunch.co^
 ! 20181009
 !||nol.yahoo.com^
 !||yadro.ru^
@@ -1471,3 +1440,11 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20181103
 !icdrama.se##.sidebar_main
 !icdrama.se###sub-bar
+! 20181111
+!||obthqxbm.com^
+!||zqtk.net^
+!||wapolabs.com^
+!||copypastecharacter.com/*.swf
+!copypastecharacter.com###sets_wrapper_inner
+!||flipboard.com^
+!||axf8.net^
