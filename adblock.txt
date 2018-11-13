@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181112a
+! Version: 20181113a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -753,7 +753,6 @@ maketecheasier.com###sharebar
 ||mathtag.com^
 ||maxmind.com^$domain=~appear.in
 ||maxymiser.net^
-||mdotlabs.com^
 ||medialytics.com^
 ||media.net^
 ||mediabistro.com^
@@ -770,6 +769,7 @@ metro.co.uk##.metro-discount-codes
 metro.co.uk##.nf-social
 metro.co.uk###post-extra
 metro.co.uk##.share-button
+metro.co.uk##.trending-mai
 metro.co.uk###we-need-monies
 metro.co.uk##.widget.metro-breaker
 ||mgid.com^
@@ -1198,7 +1198,6 @@ telegraph.co.uk##.summaryMedium
 ||telemetryverification.net^
 ||tenderapp.com^
 ||tenmax.io^
-terminalelib.blogspot.co.uk###cookieChoiceInfo
 tfl.gov.uk##.cookie-policy-notice
 tfl.gov.uk##.top-banner-advert
 thameswater.co.uk##.cookies
@@ -1402,10 +1401,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20181009
-!||nol.yahoo.com^
-!||yadro.ru^
-!||yandex.ru^
 ! 20181011
 !||theplatform.com^
 !||google4plays.com^
@@ -1448,3 +1443,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !copypastecharacter.com###sets_wrapper_inner
 !||flipboard.com^
 !||axf8.net^
+! 20181113
+!||mdotlabs.com^
+!terminalelib.blogspot.co.uk###cookieChoiceInfo
