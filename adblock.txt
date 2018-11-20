@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181120a
+! Version: 20181120b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -181,7 +181,6 @@ bloomberg.com##.leaderboard-container
 ||bluekai.com^
 ||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
-||bosh.tv^
 ||bounceexchange.com^
 ||bowercdn.net^
 ||brainient.com^
@@ -597,6 +596,7 @@ huffingtonpost.co.uk##.share-bar
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
 icdrama.to###closeADV
+icdrama.to##[id*="container-"]
 ||icdrama.to/*.php
 ||icdrama.to/script.js
 ||icio.us^
@@ -1294,7 +1294,6 @@ ubuntu.com##.cookie-policy
 ||userreport.com^
 ||uservoice.com/*.js
 v3.co.uk###qq
-||stat.v-56.com^
 ||valuedopinions.co.uk^
 ||vdna-assets.com^
 ||vertamedia.com^
@@ -1368,7 +1367,6 @@ xe.com###xe-cookie-notice-id
 ||xoliter.com^
 ||xxxssk.com^
 yahoo.com##.ads
-||yourjavascript.com^
 ||yourway.net/*.js
 youtube.com###feed-pyv-container
 ||youtube.com/get_midroll_
@@ -1387,7 +1385,6 @@ youtube.com##.ytd-search-pyv-renderer
 ||ytimg.com/*/watch_autoplayrenderer.js
 ||zdnet.com/*.js
 ||zdtag.com^
-||zedo.com^
 ||zemanta.com^
 ||zencdn.net^$domain=~hkdrama4u.com
 ||zergnet.com^
@@ -1449,3 +1446,8 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20181116
 !theguardian.com##.commercial-thrasher
 !theguardian.com##.dumathoin--paidfor
+! 20181120
+!||bosh.tv^
+!||zedo.com^
+!||yourjavascript.com^
+!||stat.v-56.com^
