@@ -1202,10 +1202,10 @@ tfl.gov.uk##.cookie-policy-notice
 tfl.gov.uk##.top-banner-advert
 thameswater.co.uk##.cookies
 ||theepochtimes.com/*.js
-theguardian.com##.commercial-thrasher
-theguardian.com##.dumathoin--paidfor
+theguardian.com##.contributions__epic
 theguardian.com##.site-message--banner
 theguardian.com##.l-footer
+.contributions__epic--one-million
 theinquirer.net##.cookie-consent-content
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
@@ -1446,3 +1446,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20181113
 !||mdotlabs.com^
 !terminalelib.blogspot.co.uk###cookieChoiceInfo
+! 20181116
+!theguardian.com##.commercial-thrasher
+!theguardian.com##.dumathoin--paidfor
