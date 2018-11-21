@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181120c
+! Version: 20181121a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -599,7 +599,6 @@ icdrama.to###closeADV
 icdrama.to##[id*="container-"]
 ||icdrama.to/*.php
 ||icdrama.to/script.js
-||icdrama.to/vidembed.*.html$subdocument
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
@@ -1202,9 +1201,9 @@ tfl.gov.uk##.top-banner-advert
 thameswater.co.uk##.cookies
 ||theepochtimes.com/*.js
 theguardian.com##.contributions__epic
-theguardian.com##.site-message--banner
 theguardian.com##.l-footer
-.contributions__epic--one-million
+theguardian.com##.site-message--banner
+theguardian.com###the-one-million-milestone
 theinquirer.net##.cookie-consent-content
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
@@ -1452,3 +1451,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||stat.v-56.com^
 !||icio.us^
 !||idio.co^
+! 20181121
+!||icdrama.to/vidembed.*.html$subdocument
