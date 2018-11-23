@@ -1369,6 +1369,7 @@ yahoo.com##.ads
 ||youtube.com/get_midroll_
 youtube.com###header
 youtube.com###logo
+youtube.com###masthead-ad
 ||youtube.com/*/stats/
 youtube.com###ticker
 youtube.com##.video-annotations
@@ -1450,7 +1451,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !youtube.com###feed-pyv-container
 !youtube.com##[id*="-brand"]
 !youtube.com##.iv-promo
-!youtube.com###masthead-ad
 !youtube.com##.yt-consent
 !youtube.com###yt-lang-alert-container
 !youtube.com##.ytp-cards-teaser-text
