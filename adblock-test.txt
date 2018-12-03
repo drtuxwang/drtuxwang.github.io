@@ -134,11 +134,7 @@ avivaservices.co.uk##.cc-cookies
 ||awltovhc.com^
 axa.co.uk##.axaCookie
 ||ayboll.com^
-||azdrama.io/ADS
-azdrama.io##center:nth-of-type(2)
-azdrama.io###float_content_left
-azdrama.io##[href^="http://azwpnow.com/"]
-azdrama.io##[href="javascript:hide_float_left()"]
+azdrama.io##[href^="http://azaprv.com/"]
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -1439,3 +1435,9 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||browsers.support^
 !||areyouahuman.com^
 !||cxt.ms^
+! 20181203
+!||azdrama.io/ADS
+!azdrama.io##center:nth-of-type(2)
+!azdrama.io###float_content_left
+!azdrama.io##[href^="http://azwpnow.com/"]
+!azdrama.io##[href="javascript:hide_float_left()"]
