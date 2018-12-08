@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181203d
+! Version: 20181208a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -134,7 +134,8 @@ avivaservices.co.uk##.cc-cookies
 ||awltovhc.com^
 axa.co.uk##.axaCookie
 ||ayboll.com^
-azdrama.io##[href^="http://azwpnow.com/"]
+azdrama.io##center:nth-of-type(2)
+azdrama.io##center:nth-of-type(3)
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -1197,9 +1198,9 @@ tfl.gov.uk##.top-banner-advert
 thameswater.co.uk##.cookies
 ||theepochtimes.com/*.js
 theguardian.com##.contributions__epic
+theguardian.com##.dumathoin--paidfor
 theguardian.com##.l-footer
 theguardian.com##.site-message--banner
-theguardian.com###the-one-million-milestone
 theinquirer.net##.cookie-consent-content
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
@@ -1440,3 +1441,7 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !azdrama.io##center:nth-of-type(2)
 !azdrama.io###float_content_left
 !azdrama.io##[href="javascript:hide_float_left()"]
+! 20181208
+!azdrama.io##[href^="http://azaprv.com/"]
+!azdrama.io##[href^="http://azwpnow.com/"]
+theguardian.com###the-one-million-milestone
