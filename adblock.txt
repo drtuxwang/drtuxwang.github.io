@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181217a
+! Version: 20181217b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -11,10 +11,10 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 $third-party,image,domain=dramawall.com
-$third-party,popup,domain=azdrama.io|hkfree.co|woaikanxi.cc|qooxi.net|openload.co|icdrama.to|dramas.nu|streamtvb.com
+$third-party,popup,domain=azdrama.io|hk.fastdrama.me|woaikanxi.cc|qooxi.net|openload.co|icdrama.to|dramas.nu|streamtvb.com
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|azdrama.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.net|hkfree.co|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
+$third-party,script,domain=buzzfeed.com|distrowatch.com|azdrama.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.net|hk.fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
   @@||gstatic.com^$script,domain=icdrama.to
   @@||fluidplayer.com^$script,domain=woaikanxi.cc
   @@||jsdelivr.net^$script,domain=woaikanxi.cc
@@ -31,7 +31,7 @@ $third-party,other
 .date^
 ##[href*=".online/"]
 .loan^$popup
-.pro^$domain=~hdfree.pro|~hkfree.co|~streamtvb.com
+.pro^$domain=~hdfree.pro|~hk.fastdrama.me|~streamtvb.com
 .services^
 .support^
 .top^
@@ -573,14 +573,14 @@ here.com##.cookie
 ||histats.com^
 ||hit-counts.com^
 ||hitwise.co.uk^
-||hkfree.co/*/ad-
-hkfree.co##.ad300x250
-hkfree.co##div:nth-of-type(8)
-hkfree.co##[id*="Preload"]
-hkfree.co##.mgbox
-hkfree.co###myModal
-hkfree.co##table:nth-of-type(1)
-hkfree.co##.top-adv-text-m
+||hk.fastdrama.me/*/ad-
+hk.fastdrama.me##.ad300x250
+hk.fastdrama.me##div:nth-of-type(8)
+hk.fastdrama.me##[id*="Preload"]
+hk.fastdrama.me##.mgbox
+hk.fastdrama.me###myModal
+hk.fastdrama.me##table:nth-of-type(1)
+hk.fastdrama.me##.top-adv-text-m
 ||h-online.com/*.js
 ||h-online.com/ivw-bin/
 ||hotjar.com^
