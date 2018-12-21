@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181217b
+! Version: 20181221a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -1198,8 +1198,10 @@ tfl.gov.uk##.cookie-policy-notice
 tfl.gov.uk##.top-banner-advert
 thameswater.co.uk##.cookies
 ||theepochtimes.com/*.js
+theguardian.com###btb-videos-inner
 theguardian.com##.contributions__epic
 theguardian.com##.dumathoin--paidfor
+theguardian.com##.is-epic
 theguardian.com##.l-footer
 theguardian.com##.site-message--banner
 theinquirer.net##.cookie-consent-content
