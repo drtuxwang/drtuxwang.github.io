@@ -2,19 +2,19 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181221a
+! Version: 20181223a
 !
 ! Block crap by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|azdrama.io|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.co|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 $third-party,image,domain=dramawall.com
-$third-party,popup,domain=azdrama.io|hk.fastdrama.me|woaikanxi.cc|qooxi.net|openload.co|icdrama.to|dramas.nu|streamtvb.com
+$third-party,popup,domain=dramacity.co|hk.fastdrama.me|woaikanxi.cc|qooxi.net|openload.co|icdrama.to|dramas.nu|streamtvb.com
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|azdrama.io|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.net|hk.fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramacity.co|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.net|hk.fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
   @@||gstatic.com^$script,domain=icdrama.to
   @@||fluidplayer.com^$script,domain=woaikanxi.cc
   @@||jsdelivr.net^$script,domain=woaikanxi.cc
@@ -134,8 +134,8 @@ avivaservices.co.uk##.cc-cookies
 ||awltovhc.com^
 axa.co.uk##.axaCookie
 ||ayboll.com^
-azdrama.io##center:nth-of-type(2)
-azdrama.io##center:nth-of-type(3)
+dramacity.co##center:nth-of-type(2)
+dramacity.co##center:nth-of-type(3)
 ||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
@@ -238,7 +238,7 @@ cityam.com##.sharing
 ||cliipa.com^
 ||clipular.com^
 ||clkrev.com^
-||cloudfront.net^$domain=dailymail.co.uk|azdrama.io|openload.co|dramawall.com|metro.co.uk
+||cloudfront.net^$domain=dailymail.co.uk|dramacity.co|openload.co|dramawall.com|metro.co.uk
 ||cloudfront.net/*/paper.create_overlay-*.js
 ||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
 ||cloudfront.net^$script,domain=vidlox.tv
@@ -277,7 +277,7 @@ confused.com##.cookie-wrapper
 ||construment.com^
 ||contentinsights.com^
 ||contextly.com^
-||contextweb.com^$domain=azdrama.io
+||contextweb.com^$domain=dramacity.co
 convertunits.com###leaderboard
 ||conviva.com^
 ||coull.com^
@@ -1440,11 +1440,11 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||areyouahuman.com^
 !||cxt.ms^
 ! 20181203
-!||azdrama.io/ADS
-!azdrama.io##center:nth-of-type(2)
-!azdrama.io###float_content_left
-!azdrama.io##[href="javascript:hide_float_left()"]
+!||dramacity.co/ADS
+!dramacity.co##center:nth-of-type(2)
+!dramacity.co###float_content_left
+!dramacity.co##[href="javascript:hide_float_left()"]
 ! 20181208
-!azdrama.io##[href^="http://azaprv.com/"]
-!azdrama.io##[href^="http://azwpnow.com/"]
+!dramacity.co##[href^="http://azaprv.com/"]
+!dramacity.co##[href^="http://azwpnow.com/"]
 theguardian.com###the-one-million-milestone
