@@ -2,7 +2,7 @@ lock Plus 2.0]
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20181224a
+! Version: 20181225a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramacity.co|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -803,7 +803,6 @@ moneysavingexpert.com###siteworks-content
 ||mouseflow.com^
 ||mousestats.com^
 ||mpstat.us^
-||msecnd.net^$domain=~confused.com|~msecnd.net|~microsoft.com
 muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
@@ -1416,3 +1415,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !||internet.com^
 !||bounceexchange.com^
 !||callmd5map.com^
+! 20181225
+!||msecnd.net^$domain=~confused.com|~msecnd.net|~microsoft.com
