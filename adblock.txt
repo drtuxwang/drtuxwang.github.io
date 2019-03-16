@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190316a
+! Version: 20190316b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -141,6 +141,7 @@ axa.co.uk##.axaCookie
 ||barnebys.com^
 ||battleforthenet.com^
 bbc.co.uk###orb-footer
+bbc.co.uk##.share
 bbc.co.uk##.vxp-share
 ||bbci.co.uk/*.js
 ||behavemedia.com^
@@ -1365,17 +1366,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20181208
-!dramaz.se##[href^="http://azaprv.com/"]
-!dramaz.se##[href^="http://azwpnow.com/"]
-!theguardian.com###the-one-million-milestone
-! 20181224
-!||kobobooks.com^
-!||internet.com^
-!||bounceexchange.com^
-!||callmd5map.com^
-! 20181225
-!||msecnd.net^$domain=~confused.com|~msecnd.net|~microsoft.com
 ! 20190119
 !dramaz.se##center:nth-of-type(2)
 !dramaz.se##center:nth-of-type(3)
@@ -1407,7 +1397,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !bbc.co.uk##.live-experience
 !@@||bbc.co.uk/modules/comments/
 !bbc.co.uk###opt-in-promo
-!bbc.co.uk##.share
 !bbc.co.uk##.share-tools
 !bbc.co.uk##.ws-c-social-slice__icons
 !bbc.co.uk##.trust-project
