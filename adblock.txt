@@ -140,7 +140,6 @@ axa.co.uk##.axaCookie
 ||bargetbook.com^
 ||barnebys.com^
 ||battleforthenet.com^
-bbc.co.uk###orb-footer
 ||bbci.co.uk/*.js
 ||behavemedia.com^
 ||bestarmour4u.work^
@@ -1404,5 +1403,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !bbc.com###cookiePrompt
 !bbcgoodfood.com##.cookie-law
 !||llnwd.net^$domain=~bbc.co.uk|~diy.com
+!bbc.co.uk###orb-footer
 !bbc.co.uk##.share
 !bbc.co.uk##.vxp-share
