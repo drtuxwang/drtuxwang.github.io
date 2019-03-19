@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190317b
+! Version: 20190319a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
@@ -1039,6 +1039,7 @@ sky.com##.sky-component-footer
 sky.com##.sky-component-social-share__item
 ||skybet.com^
 ||skysa.com^
+@@||skyscnr.com^$script,domain=skyscanner.net
 ||skytemjo.link^
 ||slopeaota.com^
 ||smartertravel.com^
@@ -1365,10 +1366,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20190119
-!dramaz.se##center:nth-of-type(2)
-!dramaz.se##center:nth-of-type(3)
-!||contextweb.com^$domain=dramaz.se
 ! 20190129
 !||britishairways.com/*/cookie_acceptance_modal.js
 ! 20190224
