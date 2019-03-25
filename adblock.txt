@@ -1293,6 +1293,7 @@ virtualboxes.org###eu-cookie-law
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
 ||wardparser.info^
+||washingtonpost.com^$script
 weather-forecast.com##[align="left"]
 weather-forecast.com##.b-with-whitespace
 weather-forecast.com###globalWarning
