@@ -1182,9 +1182,8 @@ thameswater.co.uk##.cookies
 theguardian.com##.contribution-moment
 theguardian.com##.contributions__epic
 theguardian.com##.dumathoin--paidfor
+||theguardian.com^$inline-script
 theguardian.com##.l-footer
-theguardian.com##.site-message
-theinquirer.net##.cookie-consent-content
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
 ||hits-secure.theguardian.com^
@@ -1411,3 +1410,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !bbc.co.uk###orb-footer
 !bbc.co.uk##.share
 !bbc.co.uk##.vxp-share
+! 20190328
+!theguardian.com##.site-message
+!theinquirer.net##.cookie-consent-content
