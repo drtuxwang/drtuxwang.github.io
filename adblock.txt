@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190329a
+! Version: 20190329b
 !
 ! Block crap by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
@@ -159,7 +159,6 @@ bing.com###b_notificationContainer
 ||blockchain.info^
 blogspot.co.uk###sidebar
 bloomberg.com##.leaderboard-container
-||bloomberg.com^$inline-script
 ||bluekai.com^
 ||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
@@ -582,6 +581,7 @@ ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
 icdrama.to###closeADV
 icdrama.to##[id*="container-"]
+icdrama.to##strong
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
@@ -607,7 +607,6 @@ independent.co.uk###side
 ||internetnews.com/*.js
 ||i-playfun.com/*.js
 ||indexww.com^
-||indiatimes.com^$inline-script
 ||industrybrains.com^
 ||influid.co^
 ||infolinks.com^
@@ -1184,7 +1183,6 @@ thameswater.co.uk##.cookies
 theguardian.com##.contribution-moment
 theguardian.com##.contributions__epic
 theguardian.com##.dumathoin--paidfor
-||theguardian.com^$inline-script
 theguardian.com##.l-footer
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
