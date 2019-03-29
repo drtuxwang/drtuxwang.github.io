@@ -159,7 +159,7 @@ bing.com###b_notificationContainer
 ||blockchain.info^
 blogspot.co.uk###sidebar
 bloomberg.com##.leaderboard-container
-bloomberg.com###paywall-banner
+||bloomberg.com^$inline-script
 ||bluekai.com^
 ||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
@@ -1415,3 +1415,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 ! 20190328
 !theguardian.com##.site-message
 !theinquirer.net##.cookie-consent-content
+! 20190329
+!bloomberg.com###paywall-banner
