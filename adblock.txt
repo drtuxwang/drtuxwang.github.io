@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190331c
+! Version: 20190331b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com
@@ -11,11 +11,11 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 $third-party,image,domain=dramawall.com
-$third-party,popup,domain=dramaz.se|hk.fastdrama.me|woaikanxi.cc|qooxi.net|openload.co|www1.icdrama.to|dramas.nu|streamtvb.com
-  @@||www1.icdrama.to^$popup,domain=dramas.nu
+$third-party,popup,domain=dramaz.se|hk.fastdrama.me|woaikanxi.cc|qooxi.net|openload.co|icdrama.to|dramas.nu|streamtvb.com
+  @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
 $third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.net|hk.fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
-  @@||gstatic.com^$script,domain=www1.icdrama.to
+  @@||gstatic.com^$script,domain=icdrama.to
   @@||fluidplayer.com^$script,domain=woaikanxi.cc
   @@||jsdelivr.net^$script,domain=woaikanxi.cc
 
@@ -52,7 +52,7 @@ $third-party,other
 *-ads*.com^$popup
 *ads.$third-party
 ||adsrv*$popup
-advert*.js$third-party,domain=~www1.icdrama.to
+advert*.js$third-party,domain=~icdrama.to
 ||affiliate*$third-party
 *analytics*$third-party,domain=~lastminute.com
 ||beacon.
@@ -579,9 +579,9 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
-www1.icdrama.to###closeADV
-www1.icdrama.to##[id*="container-"]
-www1.icdrama.to##strong
+icdrama.to###closeADV
+icdrama.to##[id*="container-"]
+icdrama.to##strong
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
@@ -1373,9 +1373,9 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
 ! 20190224
-!www1.icdrama.to##[href*="://bit.ly/"]
-!||www1.icdrama.to/*.php
-!||www1.icdrama.to/script.js
+!icdrama.to##[href*="://bit.ly/"]
+!||icdrama.to/*.php
+!||icdrama.to/script.js
 ! 20190226
 !theguardian.com##.site-message--banner
 !theguardian.com###btb-videos-inner
