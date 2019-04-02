@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190401a
+! Version: 20190402a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se
@@ -981,8 +981,12 @@ recenttraintimes.co.uk###divCookieMsg
 ||reinvigorate.net^
 ||researchnow.com^
 ||retainguaninefluorite.info^
-reuters.com##.trc-content-sponsored
+reuters.com###breakingNews
+reuters.com##.BreakingNews_bar
+reuters.com##.header-main
 reuters.com##.GetTheAppBanner_get-the-app-banner
+reuters.com##.section-nav
+reuters.com##.trc-content-sponsored
 ||rev2pub.com^
 ||revcontent.com^
 ||revdepo.com^
