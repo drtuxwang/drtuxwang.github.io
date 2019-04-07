@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190329b
+! Version: 20190407a
 !
 ! Block crap by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com
+$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
@@ -18,7 +18,6 @@ $third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|
   @@||gstatic.com^$script,domain=icdrama.to
   @@||fluidplayer.com^$script,domain=woaikanxi.cc
   @@||jsdelivr.net^$script,domain=woaikanxi.cc
-
 $third-party,other
 !
 ! Block spam TLD
@@ -106,6 +105,7 @@ aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
 alpinelinux.org##.banner
+amazon.co.uk###desktop-banner-stripe
 amazon.co.uk##video
 ||assoc-amazon.com^
 ||amazonaws.com^$domain=openload.co
@@ -159,6 +159,7 @@ bing.com###b_notificationContainer
 ||blockchain.info^
 blogspot.co.uk###sidebar
 bloomberg.com##.leaderboard-container
+bloomberg.com##.navi-data-strip
 ||bluekai.com^
 ||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
@@ -332,6 +333,7 @@ doodle.com##.d-warning
 dramas.nu###ad_header
 dramas.nu##.alert
 dramas.nu###control
+dramaz.se##strong
 dramawall.com/*.gif
 dramawall.com##table
 dramawall.com##.td-with-like
@@ -370,6 +372,7 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||ewebse.com^
 ||exdynsrv.com^
 ||exelator.com^
+||exoclick.com^$popup
 ||exosrv.com^$domain=openload.co
 ||exovueplatform.com^
 expertreviews.co.uk###dennis-cookie-notice
@@ -579,9 +582,7 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
-icdrama.to###closeADV
-icdrama.to##[id*="container-"]
-icdrama.to##strong
+icdrama.to##center
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
@@ -982,8 +983,12 @@ recenttraintimes.co.uk###divCookieMsg
 ||reinvigorate.net^
 ||researchnow.com^
 ||retainguaninefluorite.info^
-reuters.com##.trc-content-sponsored
+reuters.com###breakingNews
+reuters.com##.BreakingNews_bar
+reuters.com##.header-main
 reuters.com##.GetTheAppBanner_get-the-app-banner
+reuters.com##.section-nav
+reuters.com##.trc-content-sponsored
 ||rev2pub.com^
 ||revcontent.com^
 ||revdepo.com^
@@ -1305,7 +1310,6 @@ weather-forecast.com##.like-main
 weather-forecast.com###sfooter
 ||weather-forecast.com/system/*.jpg
 ||webengage.com^
-||webmonkey.com^
 ||web-stat.com^
 ||webtrends.com^
 ||webtrendslive.com^
@@ -1346,6 +1350,7 @@ xe.com###xe-cookie-notice-id
 ||xoliter.com^
 ||xxxssk.com^
 yahoo.com##.ads
+||yomedia.vn^
 ||yourway.net/*.js
 ||youtube.com/get_midroll_
 youtube.com###header
@@ -1371,8 +1376,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20190129
-!||britishairways.com/*/cookie_acceptance_modal.js
 ! 20190224
 !icdrama.to##[href*="://bit.ly/"]
 !||icdrama.to/*.php
@@ -1415,3 +1418,8 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !theinquirer.net##.cookie-consent-content
 ! 20190329
 !bloomberg.com###paywall-banner
+! 20190407
+!icdrama.to###closeADV
+!icdrama.to##[id*="container-"]
+!icdrama.to##strong
+!||webmonkey.com^
