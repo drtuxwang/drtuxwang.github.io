@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190407b
+! Version: 20190408a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se
@@ -143,6 +143,8 @@ axa.co.uk##.axaCookie
 ||bargetbook.com^
 ||barnebys.com^
 ||battleforthenet.com^
+bbc.co.uk###orb-footer
+bbc.co.uk##.share
 ||bbci.co.uk/*.js
 ||behavemedia.com^
 ||bestarmour4u.work^
@@ -1407,8 +1409,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !bbc.com###cookiePrompt
 !bbcgoodfood.com##.cookie-law
 !||llnwd.net^$domain=~bbc.co.uk|~diy.com
-!bbc.co.uk###orb-footer
-!bbc.co.uk##.share
 !bbc.co.uk##.vxp-share
 ! 20190328
 !theguardian.com##.site-message
