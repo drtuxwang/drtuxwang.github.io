@@ -143,8 +143,10 @@ axa.co.uk##.axaCookie
 ||bargetbook.com^
 ||barnebys.com^
 ||battleforthenet.com^
+bbc.co.uk###bbc-news-services
 bbc.co.uk###orb-footer
 bbc.co.uk##.share
+bbc.co.uk##.trust-project
 ||bbci.co.uk/*.js
 ||behavemedia.com^
 ||bestarmour4u.work^
@@ -1388,7 +1390,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !bbc.com###bbccookies
 ! 20190316
 !bbc.co.uk###cookiePrompt
-!bbc.co.uk###bbc-news-services
 !bbc.co.uk###bbcprivacy
 !bbc.co.uk##.js-breaking-news-banner
 !bbc.co.uk##.falcon
@@ -1402,7 +1403,6 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !bbc.co.uk###opt-in-promo
 !bbc.co.uk##.share-tools
 !bbc.co.uk##.ws-c-social-slice__icons
-!bbc.co.uk##.trust-project
 !@@||cdnedge.bbc.co.uk/mtk/*js
 !@@||open.live.bbc.co.uk/weather/
 !||live.bbc.co.uk^
