@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190409a
+! Version: 20190415a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com
@@ -753,7 +753,7 @@ metro.co.uk##.metro-discount-codes
 metro.co.uk##.nf-social
 metro.co.uk###post-extra
 metro.co.uk##.share-button
-metro.co.uk##.trending-mai
+metro.co.uk##.trending-sidebar
 metro.co.uk###we-need-monies
 metro.co.uk##.widget.metro-breaker
 ||mgid.com^
@@ -1381,13 +1381,6 @@ facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20190226
-!theguardian.com##.site-message--banner
-!theguardian.com###btb-videos-inner
-!theguardian.com##.is-epic
-! 20190315
-!bbc.co.uk###bbccookies
-!bbc.com###bbccookies
 ! 20190316
 !bbc.co.uk###cookiePrompt
 !bbc.co.uk###bbcprivacy
