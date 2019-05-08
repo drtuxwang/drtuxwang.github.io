@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190506c
+! Version: 20190508a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -826,6 +826,7 @@ novafile.com###tariffs
 ||ochze.com^
 ||oclaserver.com^
 ||oclasrv.com^
+octopus.energy##.cookie-message
 ||offersquared.com^
 ofcom.org.uk##.cookie-message
 ofcom.org.uk###survey-bar
@@ -843,7 +844,6 @@ omgubuntu.co.uk##.page-footer
 ||oneall.com^
 ||onestat.com^
 ||onevision.com.tw^
-||onlineredirr.com^
 ||onlinevideopctools.com^
 ||onlysix.co.uk^
 ||onscroll.com^
@@ -1393,3 +1393,5 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !facebook.com##[title*="AdChoice"]
 !! From: uBlock filters
 !facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
+! 20190508
+||onlineredirr.com^

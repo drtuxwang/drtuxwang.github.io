@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190424a
+! Version: 20190506c
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -149,6 +149,8 @@ bbc.co.uk##.share
 bbc.co.uk##.trust-project
 ||bbci.co.uk/*.js
 ||behavemedia.com^
+@@||nav.files.bbci.co.uk/*/require.min.js
+@@||nav.files.bbci.co.uk/*/istats-1.js
 ||bestarmour4u.work^
 ||bestofmedia.com^
 @@||bgt.ag^$popup
@@ -389,23 +391,6 @@ extremetech.com##.share_menu
 ||ezakus.com^
 ||ezmob.com^
 ||fabolele.com^
-facebook.com###appsNav
-facebook.com###createNav
-facebook.com##[data-referrer="pagelet_trending_tags_and_topics"]
-facebook.com##.egoOrganicColumn
-facebook.com##.ego_section
-facebook.com##.ego_unit
-facebook.com##.fbPageBannerInner
-facebook.com##[href*="apps.facebook.com/"]
-facebook.com##[href*="/campaign/"]
-facebook.com##[href*="/marketplace/"]
-facebook.com##[id^="GroupSuggestionCard"]
-facebook.com###pagelet_canvas_nav_content
-facebook.com###pagelet_growth_expanding_cta
-facebook.com###pagelet_megaphone
-||facebook.com/plugins/
-facebook.com###save_caret_nux
-facebook.com##[title*="AdChoice"]
 m.facebook.com##[id^="scrollarea_"]
 m.facebook.com###MMegaphone
 m.facebook.com###MStoriesTray
@@ -1376,34 +1361,9 @@ youtube.com##.ytd-search-pyv-renderer
 ||znaptag.com^
 zomato.com###user-cookie-message
 ||zopim.com^
-!
-! From: uBlock filters
-facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 ! From: EasyList
 m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
-! 20190316
-!bbc.co.uk###cookiePrompt
-!bbc.co.uk###bbcprivacy
-!bbc.co.uk##.js-breaking-news-banner
-!bbc.co.uk##.falcon
-!bbc.co.uk###get-inspired
-!bbc.co.uk##[id*="MediaPlayer"]
-!bbc.co.uk##[id*="media-player"]
-!||bbc.co.uk/iplayer
-!||bbc.co.uk/*/live/
-!bbc.co.uk##.live-experience
-!@@||bbc.co.uk/modules/comments/
-!bbc.co.uk###opt-in-promo
-!bbc.co.uk##.share-tools
-!bbc.co.uk##.ws-c-social-slice__icons
-!@@||cdnedge.bbc.co.uk/mtk/*js
-!@@||open.live.bbc.co.uk/weather/
-!||live.bbc.co.uk^
-!bbc.com###cookiePrompt
-!bbcgoodfood.com##.cookie-law
-!||llnwd.net^$domain=~bbc.co.uk|~diy.com
-!bbc.co.uk##.vxp-share
 ! 20190328
 !theguardian.com##.site-message
 !theinquirer.net##.cookie-consent-content
@@ -1413,3 +1373,23 @@ m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !icdrama.to##[id*="container-"]
 !icdrama.to##strong
 !||webmonkey.com^
+! 20190506
+!facebook.com###appsNav
+!facebook.com###createNav
+!facebook.com##[data-referrer="pagelet_trending_tags_and_topics"]
+!facebook.com##.egoOrganicColumn
+!facebook.com##.ego_section
+!facebook.com##.ego_unit
+!facebook.com##.fbPageBannerInner
+!facebook.com##[href*="apps.facebook.com/"]
+!facebook.com##[href*="/campaign/"]
+!facebook.com##[href*="/marketplace/"]
+!facebook.com##[id^="GroupSuggestionCard"]
+!facebook.com###pagelet_canvas_nav_content
+!facebook.com###pagelet_growth_expanding_cta
+!facebook.com###pagelet_megaphone
+!||facebook.com/plugins/
+!facebook.com###save_caret_nux
+!facebook.com##[title*="AdChoice"]
+!! From: uBlock filters
+!facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
