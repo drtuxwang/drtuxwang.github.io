@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190509a
+! Version: 20190509b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|qooxi.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -394,6 +394,7 @@ extremetech.com##.share_menu
 ||ezmob.com^
 ||fabolele.com^
 facebook.com##.fbPageBannerInner
+facebook.com###pagelet_megaphone
 m.facebook.com##[id^="scrollarea_"]
 m.facebook.com###MMegaphone
 m.facebook.com###MStoriesTray
@@ -1388,7 +1389,6 @@ zomato.com###user-cookie-message
 !facebook.com##[id^="GroupSuggestionCard"]
 !facebook.com###pagelet_canvas_nav_content
 !facebook.com###pagelet_growth_expanding_cta
-!facebook.com###pagelet_megaphone
 !||facebook.com/plugins/
 !facebook.com###save_caret_nux
 !facebook.com##[title*="AdChoice"]
