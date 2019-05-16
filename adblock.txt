@@ -474,6 +474,7 @@ ft.com##.n-messaging-banner
 ||getresponse.com^
 ||getrooster.com^
 ||getsmartcontent.com^
+||ggpht.com^
 ghacks.net##.adsbygoogle
 ghacks.net##.border--top--gray:nth-of-type(3)
 ghacks.net##.cookie-notice-container
