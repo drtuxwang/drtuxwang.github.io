@@ -1361,10 +1361,8 @@ xe.com###xe-cookie-notice-id
 yahoo.com##.ads
 ||yomedia.vn^
 ||yourway.net/*.js
-youtube.com###button
 youtube.com###clarify-box
 ||youtube.com/get_midroll
-youtube.com###guide-content
 youtube.com###header
 youtube.com###logo
 youtube.com###masthead-ad
@@ -1419,3 +1417,6 @@ zomato.com###user-cookie-message
 !! Adblock Youtube
 !###abyt-modal
 !||s3.amazonaws.com/wl-ex-cdn/1300/
+! 20190519
+!youtube.com###button
+!youtube.com###guide-content
