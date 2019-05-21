@@ -424,7 +424,7 @@ facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ratings/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Send Message/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Shop Now/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Sign Up/)
-facebook.com###pagelet_megaphone
+facebook.com##.pagelet
 m.facebook.com##[id^="scrollarea_"]
 m.facebook.com###MMegaphone
 m.facebook.com###MStoriesTray
@@ -1439,3 +1439,5 @@ zomato.com###user-cookie-message
 !||s3.amazonaws.com/wl-ex-cdn/1300/
 ! 20190519
 !youtube.com###guide-content
+! 20190521
+!facebook.com###pagelet_megaphone
