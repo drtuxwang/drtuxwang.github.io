@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190521c
+! Version: 20190522a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -78,9 +78,6 @@ pixel$third-party
 *track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
 *traffic*$third-party
 *yield*$third-party
-!
-! From: EasyList
-m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
 !
 ! Domain specific filters
 ||accountkit.com^
@@ -425,11 +422,6 @@ facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Send Message/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Shop Now/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Sign Up/)
 facebook.com##.pagelet
-m.facebook.com##[id^="scrollarea_"]
-m.facebook.com###MMegaphone
-m.facebook.com###MStoriesTray
-m.facebook.com###pages_may_like_section
-m.facebook.com##.scrollAreaColumn
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
@@ -1380,7 +1372,6 @@ yahoo.com##.ads
 ||yomedia.vn^
 ||yourway.net/*.js
 ||youtube.com/*/annotations_module.js
-youtube.com###button
 youtube.com###clarify-box
 ||youtube.com/get_midroll
 youtube.com###header
@@ -1403,10 +1394,6 @@ youtube.com##.ytd-search-pyv-renderer
 zomato.com###user-cookie-message
 ||zopim.com^
 !
-! 20190407
-!icdrama.to##[id*="container-"]
-!icdrama.to##strong
-!||webmonkey.com^
 ! 20190506
 !facebook.com###appsNav
 !facebook.com###createNav
@@ -1441,3 +1428,11 @@ zomato.com###user-cookie-message
 !youtube.com###guide-content
 ! 20190521
 !facebook.com###pagelet_megaphone
+! 20190522
+!m.facebook.com##[id^="scrollarea_"]
+!m.facebook.com###MMegaphone
+!m.facebook.com###MStoriesTray
+!m.facebook.com###pages_may_like_section
+!m.facebook.com##.scrollAreaColumn
+!m.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
+!youtube.com###button
