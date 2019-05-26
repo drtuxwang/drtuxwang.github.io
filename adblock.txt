@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190526a
+! Version: 20190526c
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -404,24 +404,33 @@ facebook.com##[href*="/jobs/"]
 facebook.com##[href*="/marketplace/"]
 facebook.com##[href*="/movies/"]
 facebook.com##[href*="/offers/"]
-facebook.com##[id^="hyperfeed_story_id_"]:has-text(/About this Partnership/)
-facebook.com##[id^="hyperfeed_story_id_"]:has-text(/A new song by/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Book Now/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Click link/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/concert/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Contact Us/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Direct Debit/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Download/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get Quote/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get Offer/)
-facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get Tickets/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get Ticket/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/is here!/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Join us/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Join today/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Learn More/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Limited stock/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Listen Now/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/MESSAGE ME/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/new song by/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/please visit/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/purchased a/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/quick survey/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ratings/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Send Message/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Shop Now/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Sign Up/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/The Reviews/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Tickets available/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/you lot/)
 facebook.com##.pagelet
 facebook.com###pagelet_megaphone
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
@@ -1436,4 +1445,5 @@ m.facebook.com###MStoriesTray
 !m.facebook.com###MMegaphone
 !m.facebook.com###pages_may_like_section
 !m.facebook.com##.scrollAreaColumn
-!youtube.com###button
+! 20190526
+!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/About this Partnership/)
