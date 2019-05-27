@@ -1390,6 +1390,7 @@ youtube.com###clarify-box
 youtube.com###header
 youtube.com###logo
 youtube.com###masthead-ad
+youtube.com###page-manager.ytd-app:style(margin-top: 0 !important)
 ||youtube.com/*/stats/
 youtube.com###ticker
 youtube.com##.video-annotations
