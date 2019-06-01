@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190601c
+! Version: 20190601d
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -503,7 +503,6 @@ ghacks.net##.children
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks-sidebar
 ghacks.net##.top-level
-||gigya.com^$domain=~rac.co.uk
 gitlab.com###CybotCookiebotDialog
 git-scm.com###banner
 glassdoor.co.uk##.adSlotJobListingsContent
@@ -1461,4 +1460,5 @@ m.facebook.com###MStoriesTray
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/please visit/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ratings/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/you lot/)
-
+! 20190601
+!||gigya.com
