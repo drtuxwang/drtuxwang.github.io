@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190624c
+! Version: 20190624d
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -408,6 +408,7 @@ facebook.com##[href*="/offers/"]
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ #/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Apply /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Always /)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Available /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Book /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Brand /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Call /)
@@ -418,7 +419,6 @@ facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Click /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Choose /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Collection /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Come /)
-facebook.com##[id^="hyperfeed_story_id_"]:has-text(/competition/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Contact /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Discount /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Don't /)
@@ -1535,3 +1535,4 @@ m.facebook.com###MStoriesTray
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/email us/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/donations/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/events!/)
+!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/competition/)
