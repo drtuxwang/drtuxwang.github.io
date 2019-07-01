@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190701a
+! Version: 20190701b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -618,9 +618,9 @@ translate.google.com##.gt-ft-promos
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
 ||googletagmanager.com^$domain=~talktalk.co.uk
-||plusone.google.com^
 ||googlesyndication.com^
 ||googletagservices.com^
+||googlevideo.com/*&live=1
 ||gorillanation.com^
 ||goroost.com^
 ||grapeshot.co.uk^
@@ -1519,7 +1519,7 @@ m.facebook.com###MStoriesTray
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/More info/)
 ! 20190619
 !youtube.com###page-manager.ytd-app:style(margin-top: 0 !important)
-!! 20190624
+! 20190624
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ offer /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ OR /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/order /)
@@ -1540,3 +1540,5 @@ m.facebook.com###MStoriesTray
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/donations/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/events!/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/competition/)
+! 20190701
+!||plusone.google.com^
