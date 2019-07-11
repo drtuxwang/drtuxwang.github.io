@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190711c
+! Version: 20190711d
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -408,11 +408,15 @@ facebook.com##[href*="/offers/"]
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ £/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ #/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/% /)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ 01/)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ 07/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Call /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Just /)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Please /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Promo /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Read /)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Stories/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/We /)
 facebook.com##.pagelet
 facebook.com###pagelet_megaphone
@@ -1509,7 +1513,6 @@ zomato.com###user-cookie-message
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/For /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/FREE /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Free /)
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/If you /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Investment /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Join /)
@@ -1529,7 +1532,6 @@ zomato.com###user-cookie-message
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/% off/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Our /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Pay /)
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Please /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Play /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Prize /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/SALE /)
