@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190715a
+! Version: 20190714d
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -431,14 +431,6 @@ facebook.com##.pagelet
 facebook.com###pagelet_megaphone
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/ £/)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/ #/)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/ @/)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/! /)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/% /)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/ 01/)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/ 07/)
-m.facebook.com##[id^="m_newsfeed_"]:has-text(/We /)
 m.facebook.com##[id^="scrollarea_"]
 m.facebook.com###MStoriesTray
 m.facebook.com##.scrollAreaColumn
