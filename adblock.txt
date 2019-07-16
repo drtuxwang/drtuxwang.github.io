@@ -1048,7 +1048,7 @@ scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
 ||scribblelive.com^
 ||seekingalpha.com/*.js
-||segment.com^
+||segment.com^$domain=~pbs.one
 ||sekindo.com^
 ||servebom.com^
 ||servedbyopenx.com^
