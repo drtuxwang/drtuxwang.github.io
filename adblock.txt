@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190717a
+! Version: 20190717b
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -19,7 +19,7 @@ $third-party,popup,domain=dramaz.se|fastdrama.me|woaikanxi.cc|qooxi.to|openload.
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.to|fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.to|fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com|metro.co.uk
   @@||fluidplayer.com^$script,domain=woaikanxi.cc
   @@||jsdelivr.net^$script,domain=woaikanxi.cc
 $third-party,script,domain=youtube.com
