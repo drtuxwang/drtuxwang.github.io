@@ -2,26 +2,27 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190714c
+! Version: 20190728a
 !
 ! Block crap by domains
 $inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
+$script,domain=metro.co.uk
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 ||twitter.com^$third-party
 $third-party,image,domain=dramawall.com
-$third-party,popup,domain=dramaz.se|fastdrama.me|woaikanxi.cc|qooxi.to|openload.co|icdrama.to|dramas.nu|streamtvb.com
+$third-party,popup,domain=dramaz.se|fastdrama.me|woaikanxi.to|qooxi.to|openload.co|icdrama.to|dramas.nu|streamtvb.com
   @@||cloudflare.com^$script,domain=qooxi.to
   @@||googleapis.com^$script,domain=qooxi.to
   @@||gstatic.com^$script,domain=icdrama.to
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.to|fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.cc|accuweather.com|hdfree.pro|rapidvideo.com
-  @@||fluidplayer.com^$script,domain=woaikanxi.cc
-  @@||jsdelivr.net^$script,domain=woaikanxi.cc
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|qooxi.to|fastdrama.me|techcrunch.com|thestudentroom.co.uk|uptobox.com|woaikanxi.to|accuweather.com|hdfree.pro|rapidvideo.com
+  @@||fluidplayer.com^$script,domain=woaikanxi.to
+  @@||jsdelivr.net^$script,domain=woaikanxi.to
 $third-party,script,domain=youtube.com
 $third-party,other
 !
@@ -58,18 +59,19 @@ $third-party,other
 ||adsrv*$popup
 advert*.js$third-party,domain=~icdrama.to
 ||affiliate*$third-party
-*analytics*$third-party,domain=~lastminute.com
+*analytics*$third-party,domain=~lastminute.com|~pbs.one
 ||beacon.
 ||bet*$third-party
 ||bid*$third-party
 *click*$third-party,popup
 *consent*$third-party
+disable-right-click$script
 ||install.$popup
 *metric*$third-party,domain=~boots.com
 *myapp.com^
 /pagead/
 pixel$third-party
-*popup*.js$domain=~woaikanxi.cc|~hsbc.co.uk|~successfactors.eu
+*popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu
 ||share*$third-party$domain=~sharepoint.com
 /sponsors/*
 ||syndication.
@@ -415,6 +417,7 @@ facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ 07/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Book /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Call /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ contact /)
+facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Email /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Friend Requests/)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Get /)
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Hi /)
@@ -432,13 +435,7 @@ facebook.com###pagelet_megaphone
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 m.facebook.com##[id^="scrollarea_"]
-m.facebook.com##[id^="u_"]:has-text(/ £/)
-m.facebook.com##[id^="u_"]:has-text(/ #/)
-m.facebook.com##[id^="u_"]:has-text(/ @/)
-m.facebook.com##[id^="u_"]:has-text(/! /)
-m.facebook.com##[id^="u_"]:has-text(/% /)
-m.facebook.com##[id^="u_"]:has-text(/ 01/)
-m.facebook.com##[id^="u_"]:has-text(/ 07/)
+m.facebook.com##.mobileThreeByOne
 m.facebook.com###MStoriesTray
 m.facebook.com##.scrollAreaColumn
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
@@ -1055,7 +1052,7 @@ scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
 ||scribblelive.com^
 ||seekingalpha.com/*.js
-||segment.com^
+||segment.com^$domain=~codefresh.io|~pbs.one
 ||sekindo.com^
 ||servebom.com^
 ||servedbyopenx.com^
@@ -1371,8 +1368,7 @@ wired.co.uk##.sharify
 ||wisegeek.com/*.php
 ||wisegeek.org/*.php
 ||woopra.com^
-woaikanxi.cc##.ad-widget
-woaikanxi.cc##.entry-actions
+woaikanxi.to##[id^="woaik-"]
 ||r-login.wordpress.com^
 ||stats.wp.com^
 ||wpdigital.net^
@@ -1417,13 +1413,6 @@ m.youtube.com##.mealbar-promo-renderer
 zomato.com###user-cookie-message
 ||zopim.com^
 !
-! 20190512
-!tfl.gov.uk##.cookie-policy-notice
-!! Adblock Youtube
-!###abyt-modal
-!||s3.amazonaws.com/wl-ex-cdn/1300/
-! 20190519
-!youtube.com###guide-content
 ! 20190522
 !m.facebook.com###MMegaphone
 !m.facebook.com###pages_may_like_section
@@ -1545,3 +1534,14 @@ zomato.com###user-cookie-message
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Winner /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Working /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/You /)
+! 20190714
+!m.facebook.com##[id^="u_"]:has-text(/ £/)
+!m.facebook.com##[id^="u_"]:has-text(/ #/)
+!m.facebook.com##[id^="u_"]:has-text(/ @/)
+!m.facebook.com##[id^="u_"]:has-text(/! /)
+!m.facebook.com##[id^="u_"]:has-text(/% /)
+!m.facebook.com##[id^="u_"]:has-text(/ 01/)
+!m.facebook.com##[id^="u_"]:has-text(/ 07/)
+! 20190725
+!woaikanxi.to##.ad-widget
+!woaikanxi.to##.entry-actions
