@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190731a
+! Version: 20190731b
 !
 ! Block crap by domains
-$inline-script,domain=accuweather.com|androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
+$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
 $script,domain=metro.co.uk
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
@@ -83,16 +83,11 @@ pixel$third-party
 !
 ! Domain specific filters
 ||accountkit.com^
-accuweather.com##.column-2
-accuweather.com###eu-cookie-notify-wrap
-accuweather.com##.fc-root
-accuweather.com###footer-nav-main
-accuweather.com###header-davek
-accuweather.com###offers
-accuweather.com##.panel-warning
-accuweather.com##.social-list
-accuweather.com###subnavpromo
-accuweather.com###top
+accuweather.com##.base-footer
+accuweather.com##.content-recirc
+accuweather.com##.nav-wrapper
+accuweather.com##.privacy-policy-banner
+accuweather.com##.right-rail
 ||acg.tv^
 ||acloudimages.com^
 adf.ly##.no-js
@@ -1406,3 +1401,13 @@ zomato.com###user-cookie-message
 ! 20190731
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ #/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ @/)
+!accuweather.com##.column-2
+!accuweather.com###eu-cookie-notify-wrap
+!accuweather.com##.fc-root
+!accuweather.com###footer-nav-main
+!accuweather.com###header-davek
+!accuweather.com###offers
+!accuweather.com##.panel-warning
+!accuweather.com##.social-list
+!accuweather.com###subnavpromo
+!accuweather.com###top
