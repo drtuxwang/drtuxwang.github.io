@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190821b
+! Version: 20190821c
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -22,7 +22,8 @@ $third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|icdrama.to
   @@||vlist.se^$popup,domain=dramas.nu
 $third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
-  @@||jsdelivr.net^$script,domain=woaikanxi.to
+  @@||jwpcdn.com^$script,domain=woaikanxi.to
+  @@||jwplayer.com^$script,domain=woaikanxi.to
 $third-party,script,domain=youtube.com
 $third-party,other
 !
@@ -1345,7 +1346,6 @@ wired.co.uk###domCookieWarning
 wired.co.uk##.sharify
 ||wisegeek.com/*.php
 ||wisegeek.org/*.php
-woaikanxi.to###sidebar
 ||woopra.com^
 ||r-login.wordpress.com^
 ||stats.wp.com^
@@ -1414,3 +1414,4 @@ zomato.com###user-cookie-message
 !fastdrama.me##.watch-info
 ! 20190821
 !woaikanxi.to##[id^="woaik-"]
+!@@||jsdelivr.net^$script,domain=woaikanxi.to
