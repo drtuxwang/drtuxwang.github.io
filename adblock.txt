@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190821e
+! Version: 20190828a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -1152,6 +1152,7 @@ tesco.com###cookie-policy
 tescomobile.com###tesco_cookie_widget
 ||tealiumiq.com^
 techadvisor.co.uk##.cookieText
+techadvisor.co.uk/scripts/messaging.js
 techcrunch.com##.ad-cluster-container
 techcrunch.com##.announcement-bg
 techcrunch.com##.article-extra
@@ -1396,9 +1397,6 @@ zomato.com###user-cookie-message
 ! 20190522
 !m.facebook.com###MMegaphone
 !m.facebook.com###pages_may_like_section
-! 20190725
-!woaikanxi.to##.ad-widget
-!woaikanxi.to##.entry-actions
 ! 20190729
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ £/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/! /)
