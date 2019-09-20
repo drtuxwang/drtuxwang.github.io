@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190907a
+! Version: 20190920a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -421,10 +421,7 @@ facebook.com##.pagelet
 facebook.com###pagelet_megaphone
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-m.facebook.com##[id^="scrollarea_"]
-m.facebook.com##.mobileThreeByOne
-m.facebook.com###MStoriesTray
-m.facebook.com##.scrollAreaColumn
+m.facebook.com##[id^="TRAY"]
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~videoembed.co|~veuue.com
 ||fbcdn.net/*/live-
@@ -1394,24 +1391,12 @@ m.youtube.com##.mealbar-promo-renderer
 zomato.com###user-cookie-message
 ||zopim.com^
 !
-! 20190522
-!m.facebook.com###MMegaphone
-!m.facebook.com###pages_may_like_section
 ! 20190729
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ £/)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/! /)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/% /)
-! 20190820
-!||fastdrama.me/*/ad-
-!fastdrama.me##.ad300x250
-!fastdrama.me##div:nth-of-type(8)
-!fastdrama.me##[id*="Preload"]
-!fastdrama.me##.jw-reset
-!fastdrama.me##.mgbox
-!fastdrama.me###myModal
-!fastdrama.me##table:nth-of-type(1)
-!fastdrama.me##.top-adv-text-m
-!fastdrama.me##.watch-info
-! 20190821
-!woaikanxi.to##[id^="woaik-"]
-!@@||jsdelivr.net^$script,domain=woaikanxi.to
+! 20190920
+!m.facebook.com##[id^="scrollarea_"]
+!m.facebook.com##.mobileThreeByOne
+!m.facebook.com###MStoriesTray
+!m.facebook.com##.scrollAreaColumn
