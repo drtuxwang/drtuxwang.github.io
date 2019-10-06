@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20190929a
+! Version: 20191006a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|android.com|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -87,16 +87,18 @@ pixel$third-party
 ! Domain specific filters
 ||accountkit.com^
 accuweather.com##.base-footer
+accuweather.com###bottom
 accuweather.com##.column-2
 accuweather.com##.content-recirc
 accuweather.com###eu-cookie-notify-wrap
 accuweather.com###footer-content-wrapper
+accuweather.com###header-davek
 accuweather.com##.nav-wrapper
 accuweather.com###offers
 accuweather.com##.privacy-policy-banner
 accuweather.com##.right-rail
 accuweather.com##.social-list
-accuweather.com###header-davek
+accuweather.com###top
 ||acg.tv^
 ||acloudimages.com^
 adf.ly##.no-js
@@ -1214,6 +1216,7 @@ theregister.co.uk###accessibility
 theregister.co.uk##.boxout
 theregister.co.uk##.btm
 theregister.co.uk##div:nth-of-type(6)
+theregister.co.uk##.faux-article
 theregister.co.uk###fat_footer
 theregister.co.uk###footer
 ||theregister.co.uk/*/icons
