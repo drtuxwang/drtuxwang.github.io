@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20191127a
+! Version: 20191108c
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -20,7 +20,7 @@ $third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|icdrama.to
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com||woaikanxi.to|qooxi.to
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to
   @@||cloudflare.com^$script,domain=qooxi.to
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
@@ -120,6 +120,7 @@ aldi.co.uk##.notification
 alpinelinux.org##.banner
 amazon.co.uk###desktop-banner-stripe
 amazon.co.uk##video
+asianfans.net##.ad300x250
 asianfans.net##strong
 asianfans.net###videoplayer
 asianfans.net##.watch-info
@@ -139,6 +140,7 @@ ao.com###aoMessageHolder
 ||apportium.com^
 ||aralego.com^
 ||argos.co.uk/*.png
+argos.co.uk##.privacy-prompt-wrapper
 askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 ||atdmt.com^
@@ -464,7 +466,6 @@ free-magazines-download.com##.bwrbs.list-items
 ft.com##.n-messaging-banner
 ||ftjcfx.com^
 ||functionalclam.com^
-||futurecdn.net/*.js
 ||fwmrm.net^
 ||fyre.co^
 ||gaug.es^
@@ -488,7 +489,7 @@ ghacks.net##.ghacks-ad
 ghacks.net##.ghacks-sidebar
 ghacks.net##.top-level
 gitlab.com###CybotCookiebotDialog
-git-scm.com###banner
+git-scm.com##.banner-message
 glassdoor.co.uk##.adSlotJobListingsContent
 ||globalsources.com^
 ||godaddy.com^
@@ -552,7 +553,7 @@ translate.google.com##.gt-ft-promos
 ||googleapis.com^$domain=adf.ly|dailymail.co.uk|phoronix.com
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
-||googletagmanager.com^$domain=~southeasternrailway.co.uk||~talktalk.co.uk
+||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk
 ||googlesyndication.com^
 ||googletagservices.com^
 ||googlevideo.com/*&live=1
@@ -984,6 +985,7 @@ qooxi.to###wnb-bar
 ||quinstreet.com^
 ||quintelligence.com^
 quora.com##.desktop_site_header_offset
+quora.com##[id*="related_questions_list"]
 quora.com##.vertical_alignment_wrapper
 ||quoracdn.net/*.css
 ||radarurl.com^
@@ -1120,8 +1122,6 @@ standard.co.uk###side
 ||statcounter.com^$third-party
 ||staticcache.org^
 ||staticworld.net^
-stationboard.uk##.adBlock
-stationboard.uk##.cc_banner-wrapper
 ||statsevent.com^
 ||storify.com^
 ||stormiq.com^
@@ -1327,13 +1327,6 @@ virtualboxes.org###eu-cookie-law
 ||vouchedfor.co.uk^
 ||wardparser.info^
 ||washingtonpost.com^$script
-weather-forecast.com##[align="left"]
-weather-forecast.com##.b-with-whitespace
-weather-forecast.com###globalWarning
-weather-forecast.com###innersidebar
-weather-forecast.com##.like-main
-weather-forecast.com###sfooter
-||weather-forecast.com/system/*.jpg
 ||webengage.com^
 ||web-stat.com^
 ||webtrends.com^
@@ -1383,6 +1376,7 @@ youtube.com###guide
 youtube.com###header
 youtube.com###logo
 youtube.com###masthead-ad
+youtube.com###root-container
 youtube.com###small-card
 ||youtube.com/*/stats/
 youtube.com###ticker
@@ -1411,9 +1405,9 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20190929
-!*click*$third-party,popup
-! 20191031
-!youtube.com##.ytd-shelf-renderer
-! 20191121
-!theregister.co.uk##div:nth-of-type(6)
+! 20191226
+!||futurecdn.net/*.js
+! 20200108
+!git-scm.com###banner
+!instagram.com##.coreSpriteLeftChevron
+!instagram.com##.coreSpriteRightChevron
