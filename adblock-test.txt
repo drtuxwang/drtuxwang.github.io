@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20191108c
+! Version: 20200221a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -13,17 +13,18 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ! Block 3rd party crap by domains
 ||twitter.com^$third-party
 $third-party,image,domain=dramawall.com
-$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|icdrama.to|dramas.nu|streamtvb.com
+$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|icdrama.to|dramas.nu|streamtvb.com|vod2cn.com|uptobox.com
   @@||cloudflare.com^$script,domain=qooxi.to
   @@||googleapis.com^$script,domain=qooxi.to
   @@||gstatic.com^$script,domain=icdrama.to
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to
-  @@||cloudflare.com^$script,domain=qooxi.to
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com
+  @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
+  @@||jsdelivr.net^$script,domain=vod2cn.com
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
 $third-party,script,domain=youtube.com
@@ -44,7 +45,6 @@ $third-party,other
 .support^
 .top^
 .xxx^$popup
-.xyz^
 .xyz^$popup
 .website^$popup
 !
@@ -59,6 +59,7 @@ $third-party,other
 *_ads/*
 *-ads*.com^
 *-ads*.com^$popup
+||ads2.
 ||adservice.
 *ads.$third-party$domain=~facebook.com
 ||adsrv*$popup
@@ -79,6 +80,7 @@ pixel$third-party
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
 ||share*$third-party$domain=~sharepoint.com
 /sponsors/*
+*syndicate.
 *syndication.
 ||syndication.$popup
 *track*$third-party,domain=~amazon.co.uk|~flightaware.com
@@ -199,6 +201,7 @@ bloomberg.com###paywall-banner
 britishairways.com##.cookie-banner
 britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
+||btserve.com^
 ||bublaa.com^
 buzzfeed.com##.action-bar
 buzzfeed.com##.app_promo__banner
@@ -253,8 +256,7 @@ cityam.com##.sharing
 ||cnbc.com/*.js
 cnbc.com##.nad-asset-banner
 ||cnetdirectintl.com^
-||cnn.com/ad/
-cnn.com##.user-msg
+cnn.com##[id^="bx-creative-"]
 ||cnzz.com^
 ||cnzz.net^
 ||coinhive.com^
@@ -655,7 +657,7 @@ jdwetherspoon.co.uk###cookies-popup
 jobsearch.direct.gov.uk###cookieBanner
 ||jofbu.com^
 johnlewis.com##.overlay-message--cookies
-||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net|~pbs.one
+||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk
 ||jsecoin.com^
 ||jsrdn.com^
 ||junnify.com^
@@ -761,6 +763,7 @@ maketecheasier.com###sharebar
 meetup.com###app-download-promo-interstitial
 ||mekoto.com^
 ||mengine.me^
+metro.co.uk##.ad-slot
 metro.co.uk###just-in-widget
 metro.co.uk##.metro-discount-codes
 metro.co.uk##.nf-social
@@ -1270,7 +1273,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||truste.com^
 trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
-||tsyndicate.com^
 ||ttxm.co.uk/*/mktg-*
 ||tubecorporate.com^
 tunein.com###container-0
@@ -1298,6 +1300,7 @@ ubuntu.com##.cookie-policy
 @@||uploaded.net/*/blocktag.js
 @@||uploaded.net/*/download.js
 @@||uploaded.net/*/protoculous.js
+@@||uptobox.com^$popup,domain=dramaz.se
 ||userreport.com^
 ||uservoice.com/*.js
 v3.co.uk###qq
@@ -1411,3 +1414,10 @@ zomato.com###user-cookie-message
 !git-scm.com###banner
 !instagram.com##.coreSpriteLeftChevron
 !instagram.com##.coreSpriteRightChevron
+! 20200111
+!||.xyz^
+! 20200114
+!||tsyndicate.com^
+!||cnn.com/ad/
+! 20200221
+!cnn.com##.user-msg
