@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200226c
+! Version: 20200229a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -173,7 +173,6 @@ bbc.co.uk##.trust-project
 ||behavemedia.com^
 @@||nav.files.bbci.co.uk/*/require.min.js
 @@||nav.files.bbci.co.uk/*/istats-1.js
-||bestarmour4u.work^
 ||bestofmedia.com^
 @@||bgt.ag^$popup
 bilibili.tv##.ad-f
@@ -547,11 +546,7 @@ mail.google.com##DIV.vh
 mail.google.com##DIV.w-asK.w-atd
 mail.google.com##.hi
 maps.google.com##.tactile-search-promo
-translate.google.com##a[href^="/community"]
-translate.google.com##[aria-live="assertive"]
-translate.google.com###gb > .gb_g
-translate.google.com###gt-community-promo
-translate.google.com##.gt-ft-promos
+translate.google.com##.notification-area
 ||googleapis.com^$domain=adf.ly|dailymail.co.uk|phoronix.com
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
@@ -606,12 +601,6 @@ icdrama.to###closeADV
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
-||imageter.com^
-||imdb.com/*floater$subdocument
-imdb.com###injected_billboard_wrapper
-imdb.com##.native-ad-promoted-provider
-imdb.com###sidebar
-imdb.com###top_ad
 ||imgur.com^$domain=~imgur.com
 ||iminent.com^
 ||imlive.com^
@@ -1422,3 +1411,16 @@ zomato.com###user-cookie-message
 !||cnn.com/ad/
 ! 20200221
 !cnn.com##.user-msg
+! 20200229
+!translate.google.com##a[href^="/community"]
+!translate.google.com##[aria-live="assertive"]
+!translate.google.com###gb > .gb_g
+!translate.google.com###gt-community-promo
+!translate.google.com##.gt-ft-promos
+!||imageter.com^
+!||imdb.com/*floater$subdocument
+!imdb.com###injected_billboard_wrapper
+!imdb.com##.native-ad-promoted-provider
+!imdb.com###sidebar
+!imdb.com###top_ad
+!||bestarmour4u.work^
