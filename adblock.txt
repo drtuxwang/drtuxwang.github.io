@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200417b
+! Version: 20200417c
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
@@ -151,7 +151,6 @@ atpworldtour.com##.players-equipment
 austrian.com##.cop
 austrian.com##.overlay_cookie_content
 austrian.com##.smartbanner
-||avast.com/*.js
 avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awltovhc.com^
@@ -274,7 +273,6 @@ cnn.com##[id^="bx-creative-"]
 complex.com/*.js
 ||complexmedianetwork.com^
 ||comprigo.com^
-computershopper.com###consent_blackbar
 ||computershopper.com/*.js
 ||computerworld.com/*.js
 ||concernrain.com^
@@ -626,6 +624,7 @@ independent.co.uk###side
 ||influid.co^
 ||infolinks.com^
 ||infomous.com^
+||inpagepush.com^$script,domain=uptostream.com
 ||inq.com^
 ||insidesocial.com^
 ||instanceour.info^
@@ -635,7 +634,6 @@ independent.co.uk###side
 ||invitemedia.com^
 ||iperceptions.com^
 ||ipinfodb.com^
-iresa.co.uk##.cookie-notice-container
 ||iridiumsergeiprogenitor.info^
 ||irs01.net^
 ||irs01.com^
@@ -1252,7 +1250,6 @@ three.co.uk###rwd-cookie-message
 ||thoughtleadr.com^
 ||tickld.com/*.js
 tinydl.co##.sideblock
-||tinydl.link/*.js
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
 ||tinypass.com^
 ||tlvmedia.com^
@@ -1416,3 +1413,8 @@ zomato.com###user-cookie-message
 !m.youtube.com##.mealbar-promo-renderer
 ! 20200329
 !||ad*$third-party,domain=~mozilla.org
+! 20200417
+!iresa.co.uk##.cookie-notice-container
+!computershopper.com###consent_blackbar
+!||avast.com/*.js
+!||tinydl.link/*.js
