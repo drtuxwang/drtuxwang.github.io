@@ -2,22 +2,22 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200520b
+! Version: 20200521a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
-$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.io
+$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.me
 $script,domain=metro.co.uk|grafana.com|azdrama.org
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 ||twitter.com^$third-party
-$third-party,image,domain=dramawall.com
+$third-party,image,domain=dramawall.com|player.fastdrama.me
 $third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|icdrama.to|dramas.nu|streamtvb.com|vod2cn.com|uptobox.com
   @@||icdrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
@@ -26,7 +26,7 @@ $third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|
   @@||jsdelivr.net^$script,domain=vod2cn.com
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
-$third-party,script,domain=youtube.com
+$third-party,script,domain=youtube.com|mixdrop.co
 @@||google.com^$script,domain=youtube.com
 $third-party,other
 !
@@ -64,6 +64,7 @@ $third-party,other
 ||ads2.$popup
 ||adservice.
 *ads.$third-party$domain=~facebook.com
+/ads.$xhr
 ||adsrv*$popup
 advert*.js$third-party,domain=~icdrama.to
 ||affiliate*$third-party
