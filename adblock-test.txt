@@ -2,33 +2,31 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200417b
+! Version: 20200527b
 !
 ! Block crap by domains
-$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com
-$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com
+$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
+$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.me
 $script,domain=metro.co.uk|grafana.com|azdrama.org
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 ||twitter.com^$third-party
-$third-party,image,domain=dramawall.com
-$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|icdrama.to|dramas.nu|streamtvb.com|vod2cn.com|uptobox.com
-  @@||cloudflare.com^$script,domain=qooxi.to
-  @@||googleapis.com^$script,domain=qooxi.to
-  @@||gstatic.com^$script,domain=icdrama.to
-  @@||iamcdn.net^$script,domain=qooxi.to
-  @@||icdrama.to^$popup,domain=dramas.nu
+$third-party,image,domain=dramawall.com|player.fastdrama.me
+$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|adrama.to|dramas.nu|streamtvb.com|vod2cn.com|uptobox.com
+  @@||adrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
+  @@||gstatic.com^$script,domain=adrama.to
+  @@||iamcdn.net^$script,domain=qooxi.to
   @@||jsdelivr.net^$script,domain=vod2cn.com
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
-$third-party,script,domain=youtube.com
+$third-party,script,domain=youtube.com|mixdrop.co
 @@||google.com^$script,domain=youtube.com
 $third-party,other
 !
@@ -66,8 +64,9 @@ $third-party,other
 ||ads2.$popup
 ||adservice.
 *ads.$third-party$domain=~facebook.com
+/ads.$xhr
 ||adsrv*$popup
-advert*.js$third-party,domain=~icdrama.to
+advert*.js$third-party,domain=~adrama.to
 ||affiliate*$third-party
 *analytics*$third-party,domain=~lastminute.com|~pbs.one
 ||beacon.
@@ -89,7 +88,7 @@ pixel$third-party
 ||syndication.$popup
 *track*$third-party,domain=~amazon.co.uk|~flightaware.com
 *track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
-*traffic*$third-party,domain=~microsoftonline.com|~office365.com
+*traffic*$third-party,domain=~microsoftonline.com|~office365.com|~activedirectory.windowsazure.com
 *yield*$third-party
 !
 ! Domain specific filters
@@ -113,6 +112,8 @@ accuweather.com###top
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
+adrama.to##center
+adrama.to###closeADV
 adviceguide.org.uk###div-cookie-monster
 ||affinity.com^
 ||affutd.com^
@@ -151,7 +152,6 @@ atpworldtour.com##.players-equipment
 austrian.com##.cop
 austrian.com##.overlay_cookie_content
 austrian.com##.smartbanner
-||avast.com/*.js
 avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awltovhc.com^
@@ -274,7 +274,6 @@ cnn.com##[id^="bx-creative-"]
 complex.com/*.js
 ||complexmedianetwork.com^
 ||comprigo.com^
-computershopper.com###consent_blackbar
 ||computershopper.com/*.js
 ||computerworld.com/*.js
 ||concernrain.com^
@@ -583,7 +582,7 @@ here.com##.cookie
 ||histats.com^
 ||hit-counts.com^
 ||hitwise.co.uk^
-hktvdrama.com###content > p
+hktvdrama.com###content > div:nth-of-type(1)
 hktvdrama.com##.inside-right-sidebar
 hktvdrama.com##.su-clearfix
 hktvdrama.com##.swp_horizontal_panel
@@ -601,8 +600,6 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
-icdrama.to##center
-icdrama.to###closeADV
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
@@ -626,6 +623,7 @@ independent.co.uk###side
 ||influid.co^
 ||infolinks.com^
 ||infomous.com^
+||inpagepush.com^
 ||inq.com^
 ||insidesocial.com^
 ||instanceour.info^
@@ -635,7 +633,6 @@ independent.co.uk###side
 ||invitemedia.com^
 ||iperceptions.com^
 ||ipinfodb.com^
-iresa.co.uk##.cookie-notice-container
 ||iridiumsergeiprogenitor.info^
 ||irs01.net^
 ||irs01.com^
@@ -808,6 +805,8 @@ muktware.com##[alt*="-ad-"]
 mylondon.news##.top-slot
 ||myregisteredsite.com^
 ||mythings.com^
+nanafeed.com##center:nth-of-type(1)
+nanafeed.com##div:nth-of-type(1)
 nationalarchives.gov.uk##.cookieNotice
 national-lottery.co.uk###com_cookie_policy
 nationwide.co.uk##[class="cookiePolicy"]
@@ -1024,10 +1023,10 @@ reuters.com##.trc-content-sponsored
 royal.uk###sliding-popup
 royalmail.com###block-cookie_policy-0
 ||rpxnow.com^
+||rthk.hk/assets/
+rthk.hk##.catchup
 ||rthk.hk/fonts/
-rthk.hk##.pod
 rthk.hk###radheadBanner
-rthk.hk##.special
 rthk.hk##.vision
 ||rubiconproject.com^
 ||rubikloud.com^
@@ -1229,7 +1228,7 @@ theregister.co.uk###footer
 ||theregister.co.uk/*/icons
 ||theregister.co.uk/*.js
 theregister.co.uk###masthead
-theregister.co.uk###RegCCO
+theregister.co.uk###RegCTBWF
 theregister.co.uk###right-col
 theregister.co.uk##.social_btns
 theregister.co.uk###sponlinks
@@ -1252,7 +1251,6 @@ three.co.uk###rwd-cookie-message
 ||thoughtleadr.com^
 ||tickld.com/*.js
 tinydl.co##.sideblock
-||tinydl.link/*.js
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
 ||tinypass.com^
 ||tlvmedia.com^
@@ -1299,7 +1297,7 @@ ubuntu.com##.cookie-policy
 @@||uploaded.net/*/blocktag.js
 @@||uploaded.net/*/download.js
 @@||uploaded.net/*/protoculous.js
-||uptobox.com^domain=uptostream.com
+||uptobox.com^$domain=uptostream.com
 @@||uptobox.com^$popup,domain=dramaz.se
 ||userreport.com^
 ||uservoice.com/*.js
@@ -1375,6 +1373,7 @@ yahoo.com##.ads
 ||youtube.com/*/annotations_module.js
 youtube.com###buttons
 youtube.com###clarify-box
+youtube.com###donation-shelf
 ||youtube.com/get_midroll
 youtube.com###guide
 youtube.com###header
@@ -1416,3 +1415,17 @@ zomato.com###user-cookie-message
 !m.youtube.com##.mealbar-promo-renderer
 ! 20200329
 !||ad*$third-party,domain=~mozilla.org
+! 20200417
+!iresa.co.uk##.cookie-notice-container
+!computershopper.com###consent_blackbar
+!||avast.com/*.js
+!||tinydl.link/*.js
+!hktvdrama.com###content > p
+! 20200428
+!theregister.co.uk###RegCCO
+! 20200514
+!beautifulnana.com##center:nth-of-type(1)
+!beautifulnana.com##div:nth-of-type(1)
+! 20200520
+!rthk.hk##.pod
+!rthk.hk##.special

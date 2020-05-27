@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200527a
+! Version: 20200527b
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -14,14 +14,14 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ! Block 3rd party crap by domains
 ||twitter.com^$third-party
 $third-party,image,domain=dramawall.com|player.fastdrama.me
-$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|drama.to|dramas.nu|streamtvb.com|vod2cn.com|uptobox.com
-  @@||drama.to^$popup,domain=dramas.nu
+$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|adrama.to|dramas.nu|streamtvb.com|vod2cn.com|uptobox.com
+  @@||adrama.to^$popup,domain=dramas.nu
   @@||vlist.se^$popup,domain=dramas.nu
 $third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|gadgetsnow.com|ghacks.net|techcrunch.com|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
-  @@||gstatic.com^$script,domain=drama.to
+  @@||gstatic.com^$script,domain=adrama.to
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||jsdelivr.net^$script,domain=vod2cn.com
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
@@ -66,7 +66,7 @@ $third-party,other
 *ads.$third-party$domain=~facebook.com
 /ads.$xhr
 ||adsrv*$popup
-advert*.js$third-party,domain=~drama.to
+advert*.js$third-party,domain=~adrama.to
 ||affiliate*$third-party
 *analytics*$third-party,domain=~lastminute.com|~pbs.one
 ||beacon.
@@ -112,6 +112,8 @@ accuweather.com###top
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
+adrama.to##center
+adrama.to###closeADV
 adviceguide.org.uk###div-cookie-monster
 ||affinity.com^
 ||affutd.com^
@@ -598,8 +600,6 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
-drama.to##center
-drama.to###closeADV
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
