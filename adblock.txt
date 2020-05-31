@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200530c
+! Version: 20200531a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1217,24 +1217,15 @@ theguardian.com##.pledge
 theo2.co.uk##.cc_banner
 timeanddate.com##.modal-header
 timeanddate.com##.modal-body
-theregister.co.uk###accessibility
-theregister.co.uk##.boxout
-theregister.co.uk##.btm
-theregister.co.uk##.faux-article
-theregister.co.uk###fat_footer
-theregister.co.uk###footer
-||theregister.co.uk/*/icons
-||theregister.co.uk/*.js
-theregister.co.uk###masthead
-theregister.co.uk###RegCTBWF
-theregister.co.uk###right-col
-theregister.co.uk##.social_btns
-theregister.co.uk###sponlinks
-theregister.co.uk###toprot
-theregister.co.uk###whitepapers
-forums.theregister.co.uk###site_nav
-forums.theregister.co.uk###topbar
-||nir.regmedia.co.uk^$script
+theregister.com##.faux-article
+theregister.com###footer
+theregister.com###read_more_on
+theregister.com###RegCTBWF
+theregister.com###right-col
+theregister.com##.social_btns
+theregister.com###top_nav
+theregister.com##.watch_more
+theregister.com###whitepapers
 thesun.co.uk###cookie-bar
 thesun.co.uk##footer
 thesun.co.uk##.social
@@ -1417,3 +1408,22 @@ zomato.com###user-cookie-message
 !||look1234.com/*.js
 !||skimlinks.com^
 !||stumbleupon.com^
+! 20200531
+!theregister.co.uk###accessibility
+!theregister.co.uk##.boxout
+!theregister.co.uk##.btm
+!theregister.co.uk##.faux-article
+!theregister.co.uk###fat_footer
+!theregister.co.uk###footer
+!||theregister.co.uk/*/icons
+!||theregister.co.uk/*.js
+!theregister.co.uk###masthead
+!theregister.co.uk###RegCTBWF
+!theregister.co.uk###right-col
+!theregister.co.uk##.social_btns
+!theregister.co.uk###sponlinks
+!theregister.co.uk###toprot
+!theregister.co.uk###whitepapers
+!forums.theregister.co.uk###site_nav
+!forums.theregister.co.uk###topbar
+!||nir.regmedia.co.uk^$script
