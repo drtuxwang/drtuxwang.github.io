@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200531a
+! Version: 20200531b
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -560,7 +560,6 @@ googleblog.com###cookieChoiceInfo
 ||googlevideo.com/*&live=1
 ||gorillanation.com^
 ||goroost.com^
-||grapeshot.co.uk^
 ||gravatar.com^$domain=~playtech.corp|~pbs.one
 ||gravity.com^
 ||gravityrd.com^
@@ -1130,7 +1129,6 @@ standard.co.uk###side
 ||sub2tech.com^
 ||successfultogether.co.uk^
 ||sumome.com^
-||sunrisewebjo.link^
 ||super-links.net^
 ||supert.ag^
 ||surgeprice.com^
@@ -1302,7 +1300,6 @@ videolan.org##.donate2
 videolan.org###uecookies
 ||videoplaza.tv/*_bootloader.swf
 vidspot.net##[style*="important"]
-||viewex.co.uk^
 ||viglink.com^
 vim.org##.sidebar:nth-of-type(5)
 ||vindicosuite.com^
@@ -1409,6 +1406,8 @@ zomato.com###user-cookie-message
 !||skimlinks.com^
 !||stumbleupon.com^
 ! 20200531
+!||grapeshot.co.uk^
+!||sunrisewebjo.link^
 !theregister.co.uk###accessibility
 !theregister.co.uk##.boxout
 !theregister.co.uk##.btm
@@ -1427,3 +1426,4 @@ zomato.com###user-cookie-message
 !forums.theregister.co.uk###site_nav
 !forums.theregister.co.uk###topbar
 !||nir.regmedia.co.uk^$script
+!||viewex.co.uk^
