@@ -162,7 +162,6 @@ azdrama.org##strong
 azdrama.org###videoplayer
 azdrama.org##.watch-info
 ||azureedge.net^$domain=patientaccess.com
-||b2btechleadform.com^
 ||baidustatic.com^
 ||bannerflow.com^
 ||bargetbook.com^
@@ -282,7 +281,6 @@ complex.com/*.js
 ||conectiaoffers.com^
 confused.com##.cookie-wrapper
 ||connatix.com^
-||consensu.org^
 ||construment.com^
 ||contentinsights.com^
 ||contextly.com^
@@ -296,7 +294,6 @@ convertunits.com###leaderboard
 ||cpmrevenue.com^
 ||cpmstar.com^
 ||cpmterra.com^
-||cpx.to^
 ||crazyegg.com^
 ||creativemark.co.uk^
 crhideas.com###cookie-law-info-bar
@@ -540,6 +537,7 @@ google.co.uk###tads
 google.co.uk###taw
 docs.google.com##.jfk-butterBar
 accounts.google.com##.mail-hero
+||accounts.google.com^$subdocument,domain=youtube.com
 finance.google.com##[id^="gb"]
 ||fundingchoices.google.com^
 mail.google.com##.adC
@@ -577,7 +575,6 @@ h265.se##.jw-dock
 heathrow.com###cookie
 ||hellobar.com^
 here.com##.cookie
-||hexagram.com^
 ||histats.com^
 ||hit-counts.com^
 ||hitwise.co.uk^
@@ -1255,7 +1252,6 @@ tunein.com###sidebarUpsell
 ||turbobit.ru/*.jpg
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
-tvcatchup.com##.dropdown-text
 tvlicensing.co.uk###tvlcookies-prompt
 ||typekit.com^
 ||typekit.net^
@@ -1315,7 +1311,6 @@ wikichip.org##.cc_banner
 wilko.com##.cookies
 ||windgetbook.info^
 ||core.windows.net/*.css
-||winner.com^
 wired.co.uk##.is-fixed
 wired.co.uk##.a-footer-share
 wired.co.uk##.a-header__share
@@ -1328,7 +1323,6 @@ wired.co.uk##.sharify
 ||stats.wp.com^
 ||wpdigital.net^
 wsj.com##.cookie-notice-container
-||wvydeo.com^
 ||xawab.com^
 ||xcdf.cn^
 xe.com###ad
@@ -1436,3 +1430,10 @@ zomato.com###user-cookie-message
 !||videobug.se/*.php
 !maketecheasier.com###cookieconsent
 !maketecheasier.com###sharebar
+!||hexagram.com^
+!||winner.com^
+!tvcatchup.com##.dropdown-text
+!||wvydeo.com^
+!||b2btechleadform.com^
+!||consensu.org^
+!||cpx.to^
