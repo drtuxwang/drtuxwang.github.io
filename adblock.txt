@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200606c
+! Version: 20200607a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -685,8 +685,9 @@ lifewire.com###leaderboard_2-0
 ||liftdna.com^
 ||lightboxcdn.com^
 ||lijit.com^
+linkedin.com###artdeco-global-alert-container
+linkedin.com##.premium-upsell-link
 linkedin.com##.right-rail
-||platform.linkedin.com^
 ||linezing.com^
 ||linkatar.com^
 ||linkbucks.com^
@@ -1427,6 +1428,7 @@ zomato.com###user-cookie-message
 !linkedin.com##.company-recommend-job-digest
 !linkedin.com##.has-ad-label
 !linkedin.com##.is-sponsored
+!||platform.linkedin.com^
 !linkedin.com##.promo-body
 !linkedin.com##.reveal
 !linkedin.com###urn\:li\:alert\:3
