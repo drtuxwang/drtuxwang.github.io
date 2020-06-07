@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200607b
+! Version: 20200607c
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -722,14 +722,12 @@ londonist.com##.cc_banner
 ||madadsmedia.com^
 ||madisonlogic.com^
 ||madmimi.com^
-maketecheasier.com###cookieconsent
-maketecheasier.com###sharebar
 ||manycontacts.com^
 ||marfeel.com^
 ||marketo.com^
 ||marketo.net^
 ||mathtag.com^
-||maxmind.com^$domain=~appear.in
+||maxmind.com^
 ||maxymiser.net^
 ||medialytics.com^
 ||media.net^
@@ -1436,3 +1434,5 @@ zomato.com###user-cookie-message
 !videobug.net##[style="position: absolute; width: 100%; min-height: 90px; left: 0%; bottom: 40px; background-color: rgb(0, 0, 0); padding: 0px; z-index: 999;"]
 !videobug.se##DIV[style*="scroll"]
 !||videobug.se/*.php
+!maketecheasier.com###cookieconsent
+!maketecheasier.com###sharebar
