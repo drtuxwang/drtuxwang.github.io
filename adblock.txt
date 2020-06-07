@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200607a
+! Version: 20200607b
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -644,7 +644,6 @@ itwire.com##.ja-box-ct.clearfix
 ivyccmovie.com##IMG[src^="images"]
 ||jamatto.com^
 jdwetherspoon.co.uk###cookies-popup
-||jeeh7eet.com^
 jobsearch.direct.gov.uk###cookieBanner
 ||jofbu.com^
 johnlewis.com##.overlay-message--cookies
@@ -791,6 +790,7 @@ muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
 ||mybroadband.co.za^
+mylondon.news###div=gpt-ad-sticky-botton-banner
 mylondon.news##.top-slot
 ||myregisteredsite.com^
 ||mythings.com^
@@ -980,6 +980,7 @@ quora.com##[id*="related_questions_list"]
 quora.com##.vertical_alignment_wrapper
 ||quoracdn.net/*.css
 ||radarurl.com^
+radio.garden##.WebBanner_bannerWeb__9VXPD
 radio.net##.cookie-disclaimer
 rapidgator.net###cookie-dlg
 ||rapidgator.net/images/
@@ -991,7 +992,6 @@ recenttraintimes.co.uk###divCookieMsg
 ||reembed.com^
 ||reevoo.com^$domain=~reevoo.com|~currys.co.uk
 ||reinvigorate.net^
-||researchnow.com^
 ||retainguaninefluorite.info^
 reuters.com###breakingNews
 reuters.com##.BreakingNews_bar
@@ -1281,12 +1281,8 @@ ubuntu.com##.cookie-policy
 ||uservoice.com/*.js
 v3.co.uk###qq
 ||valuedopinions.co.uk^
-||vdna-assets.com^
 ||vertamedia.com^
 ||vidcpm.com^
-videobug.net##[style="position: absolute; width: 100%; min-height: 90px; left: 0%; bottom: 40px; background-color: rgb(0, 0, 0); padding: 0px; z-index: 999;"]
-videobug.se##DIV[style*="scroll"]
-||videobug.se/*.php
 videolan.org##.donate2
 videolan.org###uecookies
 ||videoplaza.tv/*_bootloader.swf
@@ -1433,3 +1429,10 @@ zomato.com###user-cookie-message
 !linkedin.com##.reveal
 !linkedin.com###urn\:li\:alert\:3
 !linkedin.com##.warning.alert
+! 20200607
+!||jeeh7eet.com^
+!||researchnow.com^
+!||vdna-assets.com^
+!videobug.net##[style="position: absolute; width: 100%; min-height: 90px; left: 0%; bottom: 40px; background-color: rgb(0, 0, 0); padding: 0px; z-index: 999;"]
+!videobug.se##DIV[style*="scroll"]
+!||videobug.se/*.php
