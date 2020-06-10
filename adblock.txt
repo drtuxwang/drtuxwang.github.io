@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200609h
+! Version: 20200610a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -73,8 +73,10 @@ advert*.js$third-party,domain=~adrama.to
 ||beacon-
 ||bet*$third-party
 ||bid*$third-party
+##.cc-banner$domain=eclipse.org|techradar.com|techradar.com
 *consent*$third-party,domain=~time.com
 disable-right-click$script
+###div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|dailystar.co.uk|mylondon.news
 ||install.$popup
 *metric*$third-party,domain=~boots.com
 *myapp.com^
@@ -315,7 +317,6 @@ dailymail.co.uk##.relative
 dailymail.co.uk###smartBanner
 dailymail.co.uk##svg
 dailymail.co.uk##.vjs-black-poster
-dailystar.co.uk###div-gpt=ad-sticky-bottom-banner
 ||danasoft.com^
 ||datamation.com/hqx/
 ||datamation.com/*.js
@@ -379,7 +380,6 @@ duckduckgo.com##.web-result-sponsored
 ||ebocornac.com^
 ebuyer.com##.cookie-monster
 ||ebz.io^
-eclipse.org##.cc-banner
 ||eclkmpsa.com^
 ||ecommercebizworld.net^
 economist.com###ec-message-3
@@ -754,7 +754,6 @@ login.microsoftonline.com###optInUserBanner
 microsoft.com###msccBanner
 microsoft.com##.promo-banner
 mirror.co.uk###cookieNotification
-mirror.co.uk###div-gpt-ad-sticky-bottom-banner
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.top-slot
 ||mixpanel.com^$domain=~okta.com
@@ -762,6 +761,7 @@ mirror.co.uk##.top-slot
 ||ml314.com^
 ||mmadsgadget.com^
 ||mmondi.com^
+||moatads.com^
 ||mobify.com^
 ||mobile-10.com^
 ||mobisla.com^
@@ -786,7 +786,6 @@ muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
 ||mybroadband.co.za^
-mylondon.news###div=gpt-ad-sticky-botton-banner
 mylondon.news##.top-slot
 ||myregisteredsite.com^
 ||mythings.com^
@@ -1156,7 +1155,6 @@ techcrunch.com##.thumb
 techdrivein.com###cookieChoiceInfo
 ||techliveinfo.com/*.js
 ||technoratimedia.com^
-techradar.com##.cc-banner
 ||techverse.net/*.js
 techcrunch.com##.right-container.nocontent
 techcrunch.com##.toaster-content
