@@ -27,7 +27,7 @@ $third-party,script,domain=buzzfeed.com|distrowatch.com|dramas.nu|dramawall.com|
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
 $third-party,script,domain=mixdrop.co
-@@||google.com^$script,domain=youtube.com
+  @@||google.com^$script,domain=youtube.com
 $third-party,other
 !
 ! Block spam TLD
