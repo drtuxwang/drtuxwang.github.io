@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200613c
+! Version: 20200613d
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|techcrunch.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -164,7 +164,6 @@ azdrama.org##.watch-info
 ||azureedge.net^$domain=patientaccess.com
 ||baidustatic.com^
 ||bannerflow.com^
-||bargetbook.com^
 ||barnebys.com^
 ||battleforthenet.com^
 bbc.co.uk###bbc-news-services
@@ -981,6 +980,7 @@ quora.com##.vertical_alignment_wrapper
 ||radarurl.com^
 radio.garden##.GetAppBanner_banner__3Q_Xq
 radio.garden##.PrivacyPolicyNotice_privacyPolicyNotice__vaWUo
+radio.garden##.WebBanner_bannerWeb__9VXPD
 rapidgator.net###cookie-dlg
 ||rapidgator.net/images/
 ||reallifecam.com^
@@ -1449,5 +1449,5 @@ zomato.com###user-cookie-message
 !tunein.com###container-2
 !tunein.com##[data-testid="gdpr-violatorContainer-true"]
 !tunein.com###sidebarUpsell
-!radio.garden##.WebBanner_bannerWeb__9VXPD
 !radio.net##.cookie-disclaimer
+!||bargetbook.com^
