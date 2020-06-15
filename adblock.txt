@@ -306,17 +306,11 @@ crhideas.com###cookie-law-info-bar
 ||customer.io^
 ||cxense.com^
 ||dacast.com^
-dailymail.co.uk###articleIconLinksContainer > ul
-dailymail.co.uk##.comment-notification-visible
-dailystar.co.uk###div-gpt-ad-sticky-bottom-banner
-dailymail.co.uk##.floating-buttons
+dailystar.co.uk##footer
 dailystar.co.uk##.gpt
-dailymail.co.uk##.item
-dailymail.co.uk##.mobile-sharing
-dailymail.co.uk##.relative
-dailymail.co.uk###smartBanner
-dailymail.co.uk##svg
-dailymail.co.uk##.vjs-black-poster
+dailystar.co.uk###recommendations-topbox
+dailystar.co.uk##.partner
+dailystar.co.uk##.related-column
 ||danasoft.com^
 ||datamation.com/hqx/
 ||datamation.com/*.js
@@ -1454,3 +1448,14 @@ zomato.com###user-cookie-message
 !techcrunch.com##.right-container.nocontent
 !techcrunch.com##.toaster-content
 !||tctechcrunch2011.
+! 20200615
+!dailymail.co.uk###articleIconLinksContainer > ul
+!dailymail.co.uk##.comment-notification-visible
+!dailystar.co.uk###div-gpt-ad-sticky-bottom-banner
+!dailymail.co.uk##.floating-buttons
+!dailymail.co.uk##.item
+!dailymail.co.uk##.mobile-sharing
+!dailymail.co.uk##.relative
+!dailymail.co.uk###smartBanner
+!dailymail.co.uk##svg
+!dailymail.co.uk##.vjs-black-poster
