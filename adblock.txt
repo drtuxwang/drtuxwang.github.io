@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200615b
+! Version: 20200615c
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -86,9 +86,6 @@ pixel$third-party
 *syndicate.
 *syndication.
 ||syndication.$popup
-*track*$third-party,domain=~amazon.co.uk|~flightaware.com
-*track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
-*traffic*$third-party,domain=~microsoftonline.com|~office365.com|~activedirectory.windowsazure.com
 *yield*$third-party
 !
 ! Domain specific filters
@@ -1216,7 +1213,7 @@ tinydl.co##.sideblock
 ||toments.com/*.js
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
-topcashback.co.uk###comp-footer-tab
+topcashback.co.uk##.cc-banner
 ||topcasinooffer.com^
 torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradedoubler.com^
@@ -1357,24 +1354,6 @@ zomato.com###user-cookie-message
 ! 20200531
 !||grapeshot.co.uk^
 !||sunrisewebjo.link^
-!theregister.co.uk###accessibility
-!theregister.co.uk##.boxout
-!theregister.co.uk##.btm
-!theregister.co.uk##.faux-article
-!theregister.co.uk###fat_footer
-!theregister.co.uk###footer
-!||theregister.co.uk/*/icons
-!||theregister.co.uk/*.js
-!theregister.co.uk###masthead
-!theregister.co.uk###RegCTBWF
-!theregister.co.uk###right-col
-!theregister.co.uk##.social_btns
-!theregister.co.uk###sponlinks
-!theregister.co.uk###toprot
-!theregister.co.uk###whitepapers
-!forums.theregister.co.uk###site_nav
-!forums.theregister.co.uk###topbar
-!||nir.regmedia.co.uk^$script
 !||viewex.co.uk^
 ! 20200606
 !linkedin.com##.ad-banner
@@ -1401,7 +1380,6 @@ zomato.com###user-cookie-message
 !maketecheasier.com###cookieconsent
 !maketecheasier.com###sharebar
 !||hexagram.com^
-!||winner.com^
 !tvcatchup.com##.dropdown-text
 !||wvydeo.com^
 !||b2btechleadform.com^
@@ -1426,28 +1404,8 @@ zomato.com###user-cookie-message
 !||rwjfs.com^
 !||windgetbook.info^
 !||dragndropbuilder.com^
-!tunein.com###container-0
-!tunein.com###container-2
-!tunein.com##[data-testid="gdpr-violatorContainer-true"]
-!tunein.com###sidebarUpsell
 !radio.net##.cookie-disclaimer
 !||bargetbook.com^
-! 20200614
-!techcrunch.com##.ad-cluster-container
-!techcrunch.com##.announcement-bg
-!techcrunch.com##.article-extra
-!techcrunch.com##.banner-header
-!techcrunch.com##.collapse-adjacent
-!techcrunch.com##.footer
-!techcrunch.com##.header-social
-!techcrunch.com##.live-island
-!techcrunch.com##.live-island-content
-!techcrunch.com##.social-share
-!techcrunch.com##.thumb
-!||techcrunch.com/wp-content/
-!techcrunch.com##.right-container.nocontent
-!techcrunch.com##.toaster-content
-!||tctechcrunch2011.
 ! 20200615
 !dailymail.co.uk###articleIconLinksContainer > ul
 !dailymail.co.uk##.comment-notification-visible
@@ -1459,3 +1417,7 @@ zomato.com###user-cookie-message
 !dailymail.co.uk###smartBanner
 !dailymail.co.uk##svg
 !dailymail.co.uk##.vjs-black-poster
+!topcashback.co.uk###comp-footer-tab
+!*track*$third-party,domain=~amazon.co.uk|~flightaware.com
+!*track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
+!*traffic*$third-party,domain=~microsoftonline.com|~office365.com|~activedirectory.windowsazure.com
