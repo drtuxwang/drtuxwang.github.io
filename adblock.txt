@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200615c
+! Version: 20200616a
 !
 ! Block crap by domains
-$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|geek.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
+$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
 $popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.me
 $script,domain=metro.co.uk|grafana.com|azdrama.org|washingtonpost.com
 $subdocument,domain=dailymail.co.uk
@@ -463,7 +463,6 @@ ft.com##.n-messaging-banner
 ||fwmrm.net^
 ||fyre.co^
 ||gaug.es^
-||geek.com/*.js
 ||gemius.pl^
 ||genericsteps.com^
 ||genericstts.com^
@@ -1293,8 +1292,6 @@ wired.co.uk##.a-footer-share
 wired.co.uk##.a-header__share
 wired.co.uk###domCookieWarning
 wired.co.uk##.sharify
-||wisegeek.com/*.php
-||wisegeek.org/*.php
 ||woopra.com^
 ||r-login.wordpress.com^
 ||stats.wp.com^
@@ -1421,3 +1418,7 @@ zomato.com###user-cookie-message
 !*track*$third-party,domain=~amazon.co.uk|~flightaware.com
 !*track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
 !*traffic*$third-party,domain=~microsoftonline.com|~office365.com|~activedirectory.windowsazure.com
+! 20200616
+!||geek.com/*.js
+!||wisegeek.com/*.php
+!||wisegeek.org/*.php
