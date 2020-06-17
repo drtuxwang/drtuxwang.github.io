@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200616b
+! Version: 20200617a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -576,7 +576,7 @@ hktvdrama.com##.swp_horizontal_panel
 ||h-online.com/*.js
 ||h-online.com/ivw-bin/
 ||hotjar.com^
-||hotukdeals.com/*.js
+hotukdeals.com##.softMessages-item
 howtoforge.com##.cc_banner
 ||hubspot.com^
 huffingtonpost.co.uk##.follow-us
@@ -920,7 +920,6 @@ player.fm##.top-promo
 ||plugz.co^
 ||po.st^
 ||pointroll.com^
-||poll.fm^
 ||popads.net^
 ||popads.net^$popup
 ||popcash.net^
@@ -1306,7 +1305,6 @@ xe.com###leaderB
 xe.com###xe-cookie-notice-id
 ||xiti.com^
 ||xoliter.com^
-||xxxssk.com^
 yahoo.com##.ads
 ||yomedia.vn^
 ||yourway.net/*.js
@@ -1401,3 +1399,7 @@ zomato.com###user-cookie-message
 !||geek.com/*.js
 !||wisegeek.com/*.php
 !||wisegeek.org/*.php
+! 20200617
+!||hotukdeals.com/*.js
+!||xxxssk.com^
+!||poll.fm^
