@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200619b
+! Version: 20200620a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1316,7 +1316,9 @@ youtube.com###clarify-box
 youtube.com###donation-shelf
 ||youtube.com/get_midroll
 youtube.com###guide
+||youtube.com/*/log_event
 youtube.com###merch-shelf
+||youtube.com/ptracking
 ||youtube.com/*/stats/
 youtube.com###ticker
 youtube.com###top-container
@@ -1364,7 +1366,6 @@ zomato.com###user-cookie-message
 !||accounts.google.com^$subdocument,domain=youtube.com
 !||youtube.com/*/annotations_module.js
 !youtube.com###header
-!||youtube.com/*/log_event
 !youtube.com###logo
 !youtube.com###masthead-ad
 !youtube.com###small-card
