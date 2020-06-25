@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200622a
+! Version: 20200625a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1176,6 +1176,7 @@ theguardian.com##.dumathoin--paidfor
 theguardian.com##.hide-until-mobile
 theguardian.com##.l-footer
 theguardian.com##.pledge
+theguardian.com##.trusted-news
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
 ||hits-secure.theguardian.com^
@@ -1274,6 +1275,7 @@ virtualboxes.org###eu-cookie-law
 ||voicefive.com^
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
+||vox.com##.tab-bar-fixed
 ||wardparser.info^
 ||webengage.com^
 ||web-stat.com^
