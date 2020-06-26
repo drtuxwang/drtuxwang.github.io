@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200625a
+! Version: 20200626a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1115,7 +1115,6 @@ standard.co.uk###side
 ||supert.ag^
 ||surgeprice.com^
 ||surikate.com^
-||surphace.com^
 ||swarmcdn.com^
 ||swiftype.com^
 ||swiftypecdn.com^
@@ -1275,6 +1274,8 @@ virtualboxes.org###eu-cookie-law
 ||voicefive.com^
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
+vox.com##.c-breaking-news
+vox.com###privacy-consent
 ||vox.com##.tab-bar-fixed
 ||wardparser.info^
 ||webengage.com^
@@ -1283,7 +1284,6 @@ virtualboxes.org###eu-cookie-law
 ||webtrendslive.com^
 ||webtype.com^
 ||webxpedias.com^
-webuser.co.uk###cookie-bar
 ||weebly.com^
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
@@ -1352,22 +1352,7 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20200607
-!||jeeh7eet.com^
-!||researchnow.com^
-!||vdna-assets.com^
-!videobug.net##[style="position: absolute; width: 100%; min-height: 90px; left: 0%; bottom: 40px; background-color: rgb(0, 0, 0); padding: 0px; z-index: 999;"]
-!videobug.se##DIV[style*="scroll"]
-!||videobug.se/*.php
-!maketecheasier.com###cookieconsent
-!maketecheasier.com###sharebar
-!||hexagram.com^
-!tvcatchup.com##.dropdown-text
-!||wvydeo.com^
-!||b2btechleadform.com^
-!||cpx.to^
 ! 20200609
-!||accounts.google.com^$subdocument,domain=youtube.com
 !||youtube.com/*/annotations_module.js
 !youtube.com###header
 !youtube.com###logo
@@ -1379,14 +1364,6 @@ zomato.com###user-cookie-message
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-search-pyv-renderer
 !youtube.com##ytd-shelf-renderer
-! 20200612
-!krispykreme.co.uk##.cookie-bar-content
-! 20200613
-!||rwjfs.com^
-!||windgetbook.info^
-!||dragndropbuilder.com^
-!radio.net##.cookie-disclaimer
-!||bargetbook.com^
 ! 20200615
 !dailymail.co.uk###articleIconLinksContainer > ul
 !dailymail.co.uk##.comment-notification-visible
@@ -1410,3 +1387,6 @@ zomato.com###user-cookie-message
 !||hotukdeals.com/*.js
 !||xxxssk.com^
 !||poll.fm^
+! 20200626
+!webuser.co.uk###cookie-bar
+!||surphace.com^
