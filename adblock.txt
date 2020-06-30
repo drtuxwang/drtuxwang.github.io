@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200626a
+! Version: 20200630a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -314,7 +314,6 @@ dailystar.co.uk##.related-column
 ||datamation.com/hqx/
 ||datamation.com/*.js
 ||datamation.com/sl/
-||datanime.com^
 ||db-ip.com^
 ||dearerfonder.info^
 delayrepaycompensation.com##.cc_banner
@@ -400,12 +399,12 @@ eclipse.org##.cc-banner
 ||exovueplatform.com^
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
+express.co.uk##.header-row
 express.co.uk##.mainFooter
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
 ||extremetech.com/wp-content/themes/
-||ezakus.com^
 ||ezmob.com^
 ||fabolele.com^
 facebook.com##.fbPageBannerInner
@@ -1107,9 +1106,7 @@ standard.co.uk###side
 ||storify.com^
 ||stormiq.com^
 ||streamcherry.com/*/license.js
-||struq.com^
 ||sub2tech.com^
-||successfultogether.co.uk^
 ||sumome.com^
 ||super-links.net^
 ||supert.ag^
@@ -1390,3 +1387,8 @@ zomato.com###user-cookie-message
 ! 20200626
 !webuser.co.uk###cookie-bar
 !||surphace.com^
+! 20200630
+!||ezakus.com^
+!||struq.com^
+!||successfultogether.co.uk^
+!||datanime.com^
