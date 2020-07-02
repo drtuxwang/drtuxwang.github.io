@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200630a
+! Version: 20200702a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -305,6 +305,7 @@ crhideas.com###cookie-law-info-bar
 ||customer.io^
 ||cxense.com^
 ||dacast.com^
+dailymail.co.uk##.sponsored
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
@@ -320,7 +321,6 @@ delayrepaycompensation.com##.cc_banner
 ||delicious.com^
 ||demandbase.com^
 ||demdex.net^
-||dennis.co.uk^
 ||devx.com^
 ||dhgate.com^
 ||dianomioffers.co.uk^
@@ -941,7 +941,6 @@ postoffice.co.uk##.cookie
 ||p-td.com^
 ||pub2srv.com^
 ||publicus.com^
-||publishflow.com^
 ||pubmatic.com^
 ||pubnub.com^
 ||puhtml.com^
@@ -1050,7 +1049,6 @@ sky.com##.sky-component-social-share__item
 ||skysa.com^
 @@||skyscnr.com^$script,domain=skyscanner.net
 ||skytemjo.link^
-||slopeaota.com^
 ||smartertravel.com^
 ||smashseek.com^
 ||sneakystamp.com^
@@ -1392,3 +1390,7 @@ zomato.com###user-cookie-message
 !||struq.com^
 !||successfultogether.co.uk^
 !||datanime.com^
+! 20200702
+!||dennis.co.uk^
+!||slopeaota.com^
+!||publishflow.com^
