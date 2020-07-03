@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200702a
+! Version: 20200703a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -40,6 +40,7 @@ $third-party,other
 .date^
 ##[href*=".online/"]
 .loan^$popup
+.media^
 .network^$domain=worldometers.info
 .pro^$domain=~streamtvb.com
 .services^
@@ -180,7 +181,6 @@ bilibili.tv##.ad-f
 bing.com###b_notificationContainer
 ||bitgravity.com^
 ||bizographics.com^
-||bjpwv.com^
 ||blismedia.com^
 ||blitzen.com^
 ||blockchain.info^
@@ -938,7 +938,6 @@ postoffice.co.uk##.cookie
 ||propellerclick.com^
 ||propellerpops.com^
 ||psyma.com^
-||p-td.com^
 ||pub2srv.com^
 ||publicus.com^
 ||pubmatic.com^
@@ -1237,7 +1236,6 @@ ubuntu.com##.cookie-policy
 ||udmserve.net^
 ||ugdturner.com^
 ||undertone.com^
-||unformsy.mobi^
 ||unrulymedia.com^
 ||upapi.net^$domain=worldometers.info
 ||uploaded.net/*.js
@@ -1324,6 +1322,7 @@ youtube.com###top-container
 youtube.com##ytd-display-ad-renderer
 youtube.com##.ytd-banner-promo-renderer
 youtube.com##ytd-clarification-renderer
+youtube.com##.ytd-engagement-panel-section-list-renderer
 youtube.com##ytd-mini-guide-renderer
 youtube.com##ytd-popup-container
 youtube.com##.ytd-primetime-promo-renderer
@@ -1394,3 +1393,7 @@ zomato.com###user-cookie-message
 !||dennis.co.uk^
 !||slopeaota.com^
 !||publishflow.com^
+! 20200703
+!||bjpwv.com^
+!||unformsy.mobi^
+!||p-td.com^
