@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200711a
+! Version: 20200711b
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -289,7 +289,6 @@ convertunits.com###leaderboard
 ||countante.info^
 ||cpmba.se^
 ||cpuboss.com/*.js
-||cpuid.com/*.js
 ||cpmrevenue.com^
 ||cpmstar.com^
 ||cpmterra.com^
@@ -306,11 +305,13 @@ crhideas.com###cookie-law-info-bar
 ||cxense.com^
 ||dacast.com^
 dailymail.co.uk##.sponsored
+dailymail.co.uk##.floating-buttons
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
 dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
+dailymail.co.uk###socialLinks
 ||danasoft.com^
 ||datamation.com/hqx/
 ||datamation.com/*.js
@@ -1128,7 +1129,6 @@ error.talktalk.co.uk##.tt_results
 tesco.com###cookie-policy
 tescomobile.com###tesco_cookie_widget
 ||tealiumiq.com^
-||tech429.com^
 techadvisor.co.uk##.cookieText
 techadvisor.co.uk/scripts/messaging.js
 techdrivein.com###cookieChoiceInfo
@@ -1198,7 +1198,6 @@ thisislocallondon.co.uk###cookiewarning
 thisismoney.co.uk##.has-button-share
 thisismoney.co.uk##.bigLinks
 three.co.uk###rwd-cookie-message
-||thoughtleadr.com^
 ||tickld.com/*.js
 tinydl.co##.sideblock
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
@@ -1270,13 +1269,11 @@ virtualboxes.org###eu-cookie-law
 vox.com##.c-breaking-news
 vox.com###privacy-consent
 ||vox.com##.tab-bar-fixed
-||wardparser.info^
 ||webengage.com^
 ||web-stat.com^
 ||webtrends.com^
 ||webtrendslive.com^
 ||webtype.com^
-||webxpedias.com^
 ||weebly.com^
 which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
@@ -1386,3 +1383,9 @@ zomato.com###user-cookie-message
 !||bjpwv.com^
 !||unformsy.mobi^
 !||p-td.com^
+! 20200711
+!||cpuid.com/*.js
+!||wardparser.info^
+!||thoughtleadr.com^
+!||webxpedias.com^
+!||tech429.com^
