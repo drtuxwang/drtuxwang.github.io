@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200703a
+! Version: 20200711a
 !
 ! Block crap by domains
-$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|dailymail.co.uk|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
+$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
 $popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.me
 $script,domain=metro.co.uk|grafana.com|azdrama.org|washingtonpost.com
 $subdocument,domain=dailymail.co.uk
@@ -1358,17 +1358,6 @@ zomato.com###user-cookie-message
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-search-pyv-renderer
 !youtube.com##ytd-shelf-renderer
-! 20200615
-!dailymail.co.uk###articleIconLinksContainer > ul
-!dailymail.co.uk##.comment-notification-visible
-!dailystar.co.uk###div-gpt-ad-sticky-bottom-banner
-!dailymail.co.uk##.floating-buttons
-!dailymail.co.uk##.item
-!dailymail.co.uk##.mobile-sharing
-!dailymail.co.uk##.relative
-!dailymail.co.uk###smartBanner
-!dailymail.co.uk##svg
-!dailymail.co.uk##.vjs-black-poster
 !topcashback.co.uk###comp-footer-tab
 !*track*$third-party,domain=~amazon.co.uk|~flightaware.com
 !*track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
