@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200727a
+! Version: 20200731a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1304,7 +1304,7 @@ xe.com###xe-cookie-notice-id
 yahoo.com##.ads
 ||yomedia.vn^
 ||yourway.net/*.js
-!||youtube.com/*/annotations_module.js
+||youtube.com/*/annotations_module.js
 youtube.com###buttons
 youtube.com###companion
 youtube.com###clarify-box
@@ -1357,18 +1357,6 @@ zomato.com###user-cookie-message
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-search-pyv-renderer
 !youtube.com##ytd-shelf-renderer
-!topcashback.co.uk###comp-footer-tab
-!*track*$third-party,domain=~amazon.co.uk|~flightaware.com
-!*track*$third-party,popup,domain=~bgt.ag|~amazon.co.uk|~amazon.com|~google.co.uk
-!*traffic*$third-party,domain=~microsoftonline.com|~office365.com|~activedirectory.windowsazure.com
-! 20200616
-!||geek.com/*.js
-!||wisegeek.com/*.php
-!||wisegeek.org/*.php
-! 20200617
-!||hotukdeals.com/*.js
-!||xxxssk.com^
-!||poll.fm^
 ! 20200626
 !webuser.co.uk###cookie-bar
 !||surphace.com^
