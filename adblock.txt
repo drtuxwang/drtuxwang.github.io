@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200731a
+! Version: 20200802a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -114,6 +114,7 @@ adf.ly###bottom
 adrama.to##center
 adrama.to###closeADV
 adviceguide.org.uk###div-cookie-monster
+||adxpub.com^
 ||affinity.com^
 ||affutd.com^
 ||agkn.com^
@@ -128,9 +129,6 @@ amazon.co.uk###desktop-banner-stripe
 amazon.co.uk##video
 ||assoc-amazon.com^
 ||amazonaws.com^$domain=openload.co
-||apester.com^
-asda.com##.cookies-banner
-||awsstatic.com^$font
 ||amung.us^
 ||and.co.uk^
 android.com##.dac-visible
@@ -138,11 +136,13 @@ android.com##devsite-snackbar
 ||androidauthority.com/*.js
 ao.com###aoMessageHolder
 ||aolcdn.com^
+||apester.com^
 ||app-installz.com^
 ||apportium.com^
 ||aralego.com^
 ||argos.co.uk/*.png
 argos.co.uk##.privacy-prompt-wrapper
+asda.com##.cookies-banner
 askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 ||atdmt.com^
@@ -154,6 +154,7 @@ austrian.com##.smartbanner
 avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awltovhc.com^
+||awsstatic.com^$font
 axa.co.uk##.axaCookie
 ||ayboll.com^
 azdrama.org##.ad300x250
