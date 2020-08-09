@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200808b
+! Version: 20200809a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1311,6 +1311,7 @@ youtube.com###companion
 youtube.com###clarify-box
 youtube.com###donation-shelf
 youtube.com###enhancer-for-youtube-toolbar
+||youtube.com/get_video_info
 ||youtube.com/get_midroll
 youtube.com##.GoogleActiveViewElement
 youtube.com###guide
@@ -1320,9 +1321,11 @@ youtube.com###merch-shelf
 ||youtube.com/*/stats/
 youtube.com###ticker
 youtube.com###top-container
-youtube.com##ytd-display-ad-renderer
+youtube.com##.ytp-ad-action-interstitial-slot
+youtube.com##.ytp-ad-action-interstitial-background-container
 youtube.com##.ytd-banner-promo-renderer
 youtube.com##ytd-clarification-renderer
+youtube.com##ytd-display-ad-renderer
 youtube.com##.ytd-engagement-panel-section-list-renderer
 youtube.com##ytd-mini-guide-renderer
 youtube.com##ytd-popup-container
@@ -1380,5 +1383,3 @@ zomato.com###user-cookie-message
 !||thoughtleadr.com^
 !||webxpedias.com^
 !||tech429.com^
-! 20200808
-!||youtube.com/get_video_info
