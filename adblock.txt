@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200808b
+! Version: 20200809a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -108,11 +108,13 @@ accuweather.com##.social-list
 accuweather.com###top
 ||acg.tv^
 ||acloudimages.com^
+||addthis.com^
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
 adrama.to##center
 adrama.to###closeADV
+||adskeeper.co.uk^
 adviceguide.org.uk###div-cookie-monster
 ||adxpub.com^
 ||affinity.com^
@@ -120,7 +122,6 @@ adviceguide.org.uk###div-cookie-monster
 ||agkn.com^
 ||airbrake.io^
 ||airpush.com^
-||ajillionmax.com^
 aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
@@ -194,7 +195,6 @@ bloomberg.com###paywall-banner
 ||bowercdn.net^
 ||brainient.com^
 ||brandreachsys.com^
-||brealtime.com^
 ||brightcove.com^
 ||brightcove.net^
 ||brightspotcdn.com^
@@ -300,7 +300,6 @@ crhideas.com###cookie-law-info-bar
 ||criteo.net^
 ||crowdscience.com^
 ||crsspxl.com^
-||crwdcntrl.net^
 ||ctasnet.com^
 ||customer.io^
 ||cxense.com^
@@ -1224,7 +1223,6 @@ trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
 ||ttxm.co.uk/*/mktg-*
 ||tubecorporate.com^
-||turbobit.ru/*.jpg
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
 tvlicensing.co.uk###tvlcookies-prompt
@@ -1382,3 +1380,8 @@ zomato.com###user-cookie-message
 !||tech429.com^
 ! 20200808
 !||youtube.com/get_video_info
+! 20200809
+!||ajillionmax.com^
+!||brealtime.com^
+!||crwdcntrl.net^
+!||turbobit.ru/*.jpg
