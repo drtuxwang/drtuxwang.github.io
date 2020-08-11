@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200810a
+! Version: 20200811a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -371,7 +371,6 @@ duckduckgo.com##.web-result-sponsored
 ||eagerse.com^$popup
 ||earnify.com^
 ||ebocornac.com^
-ebuyer.com##.cookie-monster
 ||ebz.io^
 ||eclkmpsa.com^
 ||ecommercebizworld.net^
@@ -1390,3 +1389,5 @@ zomato.com###user-cookie-message
 ! 20200810
 !||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com
 !||sprites.pcpro.co.uk/*.js
+! 20200811
+!ebuyer.com##.cookie-monster
