@@ -2,11 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200822a
+! Version: 20200823a
 !
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
-$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.me|gdriveplayer.to
+$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to
 $script,domain=metro.co.uk|grafana.com|azdrama.org|washingtonpost.com
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
@@ -119,7 +119,6 @@ adviceguide.org.uk###div-cookie-monster
 ||adxpub.com^
 ||affinity.com^
 ||affutd.com^
-||agkn.com^
 ||airbrake.io^
 ||airpush.com^
 aldi.co.uk##.notification
@@ -264,7 +263,6 @@ cnn.com##[id^="bx-creative-"]
 ||collective-media.net^
 ||com.com^
 ||comegarage.com^
-||commindo-media-ressourcen.de^
 ||comodoca.com^
 ||comodoca2.com^
 ||comparitech.com/*.css
@@ -299,8 +297,6 @@ crhideas.com###cookie-law-info-bar
 ||criteo.com^
 ||criteo.net^
 ||crowdscience.com^
-||crsspxl.com^
-||ctasnet.com^
 ||customer.io^
 ||cxense.com^
 ||dacast.com^
@@ -441,7 +437,6 @@ fca.org.uk###sliding-popup
 ||fhfn.org/*.js^
 ||fhserve.com^
 ||firstimpression.io^
-||firstpost.in^
 fitfortravel.nhs.uk###cookies-bar
 ||flagcounter.com^
 ||flashtalking.com^
@@ -826,7 +821,6 @@ novafile.com###tariffs
 ||nrcdn.com^
 ||nrelate.com^
 ||ntv.io^
-||nuclersoncanthinger.info^
 ||nuffnang.com.sg^
 nytimes.com##.gdpr
 ||ochze.com^
@@ -895,7 +889,6 @@ pcworld.com###side
 ||pcworld.com/*.js
 ||pdf-giant.com/*.js
 pdf-magazine-download.com##.PDFPerContentLeftBl
-||peer39.net^
 ||peerius.com^
 ||perfdrive.com^
 ||perfectmarket.com^
@@ -1109,7 +1102,6 @@ standard.co.uk###side
 ||super-links.net^
 ||supert.ag^
 ||surgeprice.com^
-||surikate.com^
 ||swarmcdn.com^
 ||swiftype.com^
 ||swiftypecdn.com^
@@ -1227,7 +1219,6 @@ tvb.com##.cat-ed-mpm
 tvlicensing.co.uk###tvlcookies-prompt
 ||typekit.com^
 ||typekit.net^
-||uauniverse.com^
 ubuntu.com##.cookie-policy
 ||udarem.com^
 ||udemy.com/*.js^
@@ -1359,22 +1350,6 @@ zomato.com###user-cookie-message
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-search-pyv-renderer
 !youtube.com##ytd-shelf-renderer
-! 20200626
-!webuser.co.uk###cookie-bar
-!||surphace.com^
-! 20200630
-!||ezakus.com^
-!||struq.com^
-!||successfultogether.co.uk^
-!||datanime.com^
-! 20200702
-!||dennis.co.uk^
-!||slopeaota.com^
-!||publishflow.com^
-! 20200703
-!||bjpwv.com^
-!||unformsy.mobi^
-!||p-td.com^
 ! 20200711
 !||cpuid.com/*.js
 !||wardparser.info^
@@ -1393,3 +1368,13 @@ zomato.com###user-cookie-message
 !||sprites.pcpro.co.uk/*.js
 ! 20200811
 !ebuyer.com##.cookie-monster
+! 20200823
+!||firstpost.in^
+!||uauniverse.com^
+!||surikate.com^
+!||peer39.net^
+!||commindo-media-ressourcen.de^
+!||nuclersoncanthinger.info^
+!||agkn.com^
+!||crsspxl.com^
+!||ctasnet.com^
