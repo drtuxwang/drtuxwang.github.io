@@ -2,8 +2,8 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200823c
-!
+! Version: 20200826a
+
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
 $popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network
@@ -232,12 +232,9 @@ check-host.net###sright
 check-host.net##.thold10
 chinesetools.eu##.cc_banner
 ||chitika.net^
-chrome-portable.com##.bottom
-blog.chromium.org###cookieChoiceInfo
 cieh.org###ECScookiepanel
 ||cityam.com/*.js
 cityam.com##.sharing
-||civiccomputing.com^
 ||cleanprint.net^
 ||cliipa.com^
 ||clipular.com^
@@ -305,6 +302,7 @@ dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
 dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
+dailymail.co.uk###smartBanner
 dailymail.co.uk###socialLinks
 ||danasoft.com^
 ||datamation.com/hqx/
@@ -384,7 +382,6 @@ eclipse.org##.cc-banner
 ||evidon.com^
 ||ewebse.com^
 ||exdynsrv.com^
-||exelator.com^
 ||exoclick.com^$popup
 ||exosrv.com^$domain=openload.co
 ||exovueplatform.com^
@@ -545,7 +542,6 @@ googleblog.com###cookieChoiceInfo
 ||gravityrd.com^
 ||greatwork.info^
 ||grvcdn.com^
-||grymco.com^
 ||gssprt.jp^
 ||gstatic.com^$domain=rthk.hk
 ||gstatic.com/gb/js/sem_
@@ -764,7 +760,7 @@ moneysavingexpert.com###siteworks-content
 ||mottnow.com^
 ||mouseflow.com^
 ||mousestats.com^
-||mpstat.us^
+msn.com##.sameoab_ad_container
 muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
@@ -881,8 +877,6 @@ pcspecialist.co.uk##.cc-policy
 pcworld.com###comment-form
 pcworld.com###side
 ||pcworld.com/*.js
-||pdf-giant.com/*.js
-pdf-magazine-download.com##.PDFPerContentLeftBl
 ||peerius.com^
 ||perfdrive.com^
 ||perfectmarket.com^
@@ -983,7 +977,6 @@ reuters.com##.trc-content-sponsored
 ||revresponse.com^
 ||revsci.net^
 ||revenuepartners.com^
-||rfihub.com^
 ||rgstatic.net/*.js
 ||richrelevance.com^
 ||rlcdn.com^
@@ -1001,7 +994,6 @@ rthk.hk##.vision
 ||sail-horizon.com^
 sainsburys.co.uk###siteWarning
 samsung.com##.cookie-notice
-||savevideo.me/*.js
 ||scanscout.com^
 scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
@@ -1173,8 +1165,10 @@ theregister.com##.social_btns
 theregister.com###top_nav
 theregister.com##.watch_more
 theregister.com###whitepapers
+thesun.co.uk###billboard
 thesun.co.uk###cookie-bar
 thesun.co.uk##footer
+thesun.co.uk##.pushly-prompt-slide
 thesun.co.uk##.social
 ||thesundaytimes.co.uk/*.js
 ||thetelegraphandargus.co.uk/*.js
@@ -1378,3 +1372,14 @@ zomato.com###user-cookie-message
 !dramas.nu###control
 !@@||adrama.to^$popup,domain=dramas.nu
 !@@||vlist.se^$popup,domain=dramas.nu
+! 20200826
+!||mpstat.us^
+!blog.chromium.org###cookieChoiceInfo
+!||civiccomputing.com^
+!chrome-portable.com##.bottom
+!||grymco.com^
+!||pdf-giant.com/*.js
+!pdf-magazine-download.com##.PDFPerContentLeftBl
+!||savevideo.me/*.js
+!||exelator.com^
+!||rfihub.com^
