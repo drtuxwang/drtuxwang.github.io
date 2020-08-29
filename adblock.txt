@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200827b
+! Version: 20200829a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -118,6 +118,7 @@ adviceguide.org.uk###div-cookie-monster
 ||affutd.com^
 ||airbrake.io^
 ||airpush.com^
+||akamaiedge.net^$script,domain=dailymail.co.uk
 aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
@@ -588,6 +589,7 @@ ikea.com##.cookies-legislation
 independent.co.uk###leaderboard
 independent.co.uk##.premium-content
 independent.co.uk###side
+independent.co.uk###stickyFooterRoot
 ||indiegogo.com/*.js
 ||inskinmedia.com^$domain=~nextmedia.com
 ||insticator.com^
@@ -1261,7 +1263,7 @@ which.co.uk##.survey-bar
 wickes.co.uk###cookie-policy
 ||wigetmedia.com^
 wikichip.org##.cc_banner
-wilko.com##.cookies
+wilko.com##.consent-management-list
 ||core.windows.net/*.css
 wired.co.uk##.is-fixed
 wired.co.uk##.a-footer-share
@@ -1386,3 +1388,5 @@ zomato.com###user-cookie-message
 !||savevideo.me/*.js
 !||exelator.com^
 !||rfihub.com^
+! 20200829
+!wilko.com##.cookies
