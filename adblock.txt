@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200903a
+! Version: 20200903c
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -19,14 +19,13 @@ $third-party,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
-  @@||gstatic.com^$script,domain=adrama.to|consent.youtube.com
+  @@||gstatic.com^$script,domain=adrama.to
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||jsdelivr.net^$script,domain=vod2cn.com
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
 $third-party,script,domain=mixdrop.co
   @@||google.com^$script,domain=youtube.com
-  @@||consent.google.com^$script,domain=youtube.com
 $third-party,other
 !
 ! Block spam TLD
