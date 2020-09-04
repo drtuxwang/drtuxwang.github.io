@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200903d
+! Version: 20200904a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -77,7 +77,6 @@ disable-right-click$script
 ||install.$popup
 *metric*$third-party,domain=~boots.com
 *myapp.com^
-/pagead/
 pixel$third-party
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
 ||share*$third-party$domain=~sharepoint.com
@@ -1289,7 +1288,6 @@ yahoo.com##.ads
 ||youtube.com/*/annotations_module.js
 youtube.com###buttons
 youtube.com###companion
-youtube.com###clarify-box
 youtube.com###donation-shelf
 youtube.com###enhancer-for-youtube-toolbar
 ||youtube.com/get_video_info
@@ -1390,3 +1388,6 @@ zomato.com###user-cookie-message
 !||rfihub.com^
 ! 20200829
 !wilko.com##.cookies
+! 20200904
+!/pagead/
+!youtube.com###clarify-box
