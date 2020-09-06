@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200905b
+! Version: 20200906a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -109,6 +109,7 @@ accuweather.com###top
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
+||adlightning.com^
 adrama.to##center
 adrama.to###closeADV
 ||adskeeper.co.uk^
@@ -699,6 +700,7 @@ londonist.com##.cc_banner
 ||madadsmedia.com^
 ||madisonlogic.com^
 ||madmimi.com^
+||makeuseof.com/*.js
 ||manycontacts.com^
 ||marfeel.com^
 ||marketo.com^
@@ -782,9 +784,7 @@ nectar.com###cc-notification-wrapper
 ||nedstatbasic.net^
 ||negdrvgo.com^
 ||neodata.com^
-||netdna-cdn.com^
 ||netline.com^
-||netmng.com^
 ||netseer.com^
 ||netshelter.net^
 ||newartspy.link^
@@ -1392,3 +1392,6 @@ zomato.com###user-cookie-message
 ! 20200904
 !youtube.com###clarify-box
 !youtube.com##ytd-popup-container
+! 20200906
+!||netdna-cdn.com^
+!||netmng.com^
