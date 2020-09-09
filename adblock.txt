@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200907a
+! Version: 20200908a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -189,7 +189,6 @@ blogspot.co.uk###sidebar
 bloomberg.com###bb-nav
 bloomberg.com###paywall-banner
 ||bluekai.com^
-||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
 ||bowercdn.net^
 ||brainient.com^
@@ -300,6 +299,7 @@ crhideas.com###cookie-law-info-bar
 dailymail.co.uk##.sponsored
 dailymail.co.uk##.dms-puff
 dailymail.co.uk##.floating-buttons
+dailymail.co.uk##.mini
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
@@ -429,7 +429,6 @@ fca.org.uk###sliding-popup
 ||featureblend.com^
 ||feedburner.com^
 ||fhfn.org/*.js^
-||fhserve.com^
 ||firstimpression.io^
 fitfortravel.nhs.uk###cookies-bar
 ||flagcounter.com^
@@ -1089,7 +1088,6 @@ standard.co.uk###side
 ||storify.com^
 ||stormiq.com^
 ||streamcherry.com/*/license.js
-||sub2tech.com^
 ||sumome.com^
 ||super-links.net^
 ||supert.ag^
@@ -1156,7 +1154,6 @@ theguardian.com##.pledge
 theguardian.com##.trusted-news
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
-||hits-secure.theguardian.com^
 ||thehackernews.com/*.js
 ||thenational.ae/*.js
 theo2.co.uk##.cc_banner
@@ -1211,15 +1208,9 @@ trustpilot.com##.cookie-bar
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
 tvlicensing.co.uk###tvlcookies-prompt
-||typekit.com^
-||typekit.net^
 ubuntu.com##.cookie-policy
 ||udarem.com^
 ||udemy.com/*.js^
-||udmserve.net^
-||ugdturner.com^
-||undertone.com^
-||unrulymedia.com^
 ||upapi.net^$domain=worldometers.info
 ||uploaded.net/*.js
 ||uploaded.net/register$popup
@@ -1233,7 +1224,6 @@ ubuntu.com##.cookie-policy
 v3.co.uk###qq
 ||valuedopinions.co.uk^
 ||vertamedia.com^
-||vidcpm.com^
 videolan.org##.donate2
 videolan.org###uecookies
 ||videoplaza.tv/*_bootloader.swf
@@ -1343,14 +1333,6 @@ zomato.com###user-cookie-message
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-search-pyv-renderer
 !youtube.com##ytd-shelf-renderer
-! 20200711
-!||cpuid.com/*.js
-!||wardparser.info^
-!||thoughtleadr.com^
-!||webxpedias.com^
-!||tech429.com^
-! 20200808
-!||youtube.com/get_video_info
 ! 20200809
 !||ajillionmax.com^
 !||brealtime.com^
@@ -1396,3 +1378,15 @@ zomato.com###user-cookie-message
 ! 20200906
 !||netdna-cdn.com^
 !||netmng.com^
+! 20200908
+!||fhserve.com^
+!||hits-secure.theguardian.com^
+!||bluewater.co.uk/*/jquery.ui.js
+!||sub2tech.com^
+!||typekit.com^
+!||typekit.net^
+!||vidcpm.com^
+!||udmserve.net^
+!||ugdturner.com^
+!||undertone.com^
+!||unrulymedia.com^
