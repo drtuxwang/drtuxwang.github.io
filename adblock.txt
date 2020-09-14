@@ -124,9 +124,7 @@ aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
 alpinelinux.org##.banner
-amazon.co.uk###desktop-banner-stripe
-amazon.co.uk##video
-||assoc-amazon.com^
+amazon.co.uk##.a-declarative
 ||amazonaws.com^$domain=openload.co
 ||amung.us^
 ||and.co.uk^
@@ -1390,3 +1388,7 @@ zomato.com###user-cookie-message
 !||undertone.com^
 !||unrulymedia.com^
 !||outbrain.com^
+! 20200914
+!amazon.co.uk###desktop-banner-stripe
+!amazon.co.uk##video
+!||assoc-amazon.com^
