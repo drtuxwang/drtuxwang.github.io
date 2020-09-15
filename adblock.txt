@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200914a
+! Version: 20200915a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -767,6 +767,7 @@ muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
 ||mybroadband.co.za^
+mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.partner
 mylondon.news##.top-slot
@@ -967,12 +968,7 @@ recenttraintimes.co.uk###divCookieMsg
 ||reevoo.com^$domain=~reevoo.com|~currys.co.uk
 ||reinvigorate.net^
 ||retainguaninefluorite.info^
-reuters.com###breakingNews
-reuters.com##.BreakingNews_bar
-reuters.com##.header-main
-reuters.com##.GetTheAppBanner_get-the-app-banner
-reuters.com##.section-nav
-reuters.com##.trc-content-sponsored
+reuters.com/*.js
 ||rev2pub.com^
 ||revcontent.com^
 ||revdepo.com^
@@ -1392,3 +1388,10 @@ zomato.com###user-cookie-message
 !amazon.co.uk###desktop-banner-stripe
 !amazon.co.uk##video
 !||assoc-amazon.com^
+! 20200915
+!reuters.com###breakingNews
+!reuters.com##.BreakingNews_bar
+!reuters.com##.header-main
+!reuters.com##.GetTheAppBanner_get-the-app-banner
+!reuters.com##.section-nav
+!reuters.com##.trc-content-sponsored
