@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200917a
+! Version: 20200917b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -124,6 +124,7 @@ aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
 alpinelinux.org##.banner
+amazon.co.uk###sp-cc
 ||amazonaws.com^$domain=openload.co
 ||amung.us^
 ||and.co.uk^
@@ -1314,27 +1315,6 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20200609
-!youtube.com###header
-!youtube.com###logo
-!youtube.com###masthead-ad
-!youtube.com###small-card
-!youtube.com##.ytp-cards-teaser-text
-!youtube.com##.ytd-channel-renderer
-!youtube.com##ytd-promoted-sparkles-web-renderer
-!youtube.com##.ytd-promoted-sparkles-text-search-renderer
-!youtube.com##.ytd-search-pyv-renderer
-!youtube.com##ytd-shelf-renderer
-! 20200809
-!||ajillionmax.com^
-!||brealtime.com^
-!||crwdcntrl.net^
-!||turbobit.ru/*.jpg
-! 20200810
-!||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com
-!||sprites.pcpro.co.uk/*.js
-! 20200811
-!ebuyer.com##.cookie-monster
 ! 20200823
 !||firstpost.in^
 !||uauniverse.com^
