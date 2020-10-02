@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201002a
+! Version: 20201002b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -409,11 +409,11 @@ facebook.com##[href*="/offers/"]
 facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Stories/)
 facebook.com##.pagelet
 facebook.com###pagelet_megaphone
-||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com
-||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
+||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
+||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com
 m.facebook.com##[id^="TRAY"]
 m.facebook.com###MStoriesTray
-||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com
+||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~videoembed.co|~veuue.com
 ||fbcdn.net/*/live-
 ||fbcdn.net/*.m4a$domain=m.facebook.com
