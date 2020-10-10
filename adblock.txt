@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201002d
+! Version: 20201010a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -141,7 +141,6 @@ argos.co.uk##.privacy-prompt-wrapper
 asda.com##.cookies-banner
 askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
-||atdmt.com^
 atpworldtour.com##.players-equipment
 ||atwola.com^
 audacityteam.org###cookie-law-info-bar
@@ -468,6 +467,7 @@ ghacks.net##.children
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks-sidebar
 ghacks.net##.top-level
+github.com##.js-cookie-consent-banner
 gitlab.com###CybotCookiebotDialog
 git-scm.com##.banner-message
 glassdoor.co.uk##.adSlotJobListingsContent
@@ -1315,35 +1315,6 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20200823
-!||firstpost.in^
-!||uauniverse.com^
-!||surikate.com^
-!||peer39.net^
-!||commindo-media-ressourcen.de^
-!||nuclersoncanthinger.info^
-!||agkn.com^
-!||crsspxl.com^
-!||ctasnet.com^
-!.club^$domain=~openload.co
-!dramas.nu###ad_header
-!dramas.nu##.alert
-!dramas.nu###control
-!@@||adrama.to^$popup,domain=dramas.nu
-!@@||vlist.se^$popup,domain=dramas.nu
-! 20200826
-!||mpstat.us^
-!blog.chromium.org###cookieChoiceInfo
-!||civiccomputing.com^
-!chrome-portable.com##.bottom
-!||grymco.com^
-!||pdf-giant.com/*.js
-!pdf-magazine-download.com##.PDFPerContentLeftBl
-!||savevideo.me/*.js
-!||exelator.com^
-!||rfihub.com^
-! 20200829
-!wilko.com##.cookies
 ! 20200904
 !youtube.com###clarify-box
 !youtube.com##ytd-popup-container
@@ -1376,3 +1347,5 @@ zomato.com###user-cookie-message
 !reuters.com##.trc-content-sponsored
 ! 20200917
 !amazon.co.uk##.a-declarative
+! 20201010
+!||atdmt.com^
