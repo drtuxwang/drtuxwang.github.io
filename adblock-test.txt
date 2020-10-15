@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20200826a
+! Version: 20201010a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -15,16 +15,15 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ||twitter.com^$third-party
 $third-party,image,domain=dramawall.com|player.fastdrama.me
 $third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
-$third-party,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|azdrama.org
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
-  @@||gstatic.com^$script,domain=adrama.to
+  @@||gstatic.com^$script,domain=adrama.to|consent.google.co.uk|consent.google.com
   @@||iamcdn.net^$script,domain=qooxi.to
   @@||jsdelivr.net^$script,domain=vod2cn.com
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
-$third-party,script,domain=mixdrop.co
   @@||google.com^$script,domain=youtube.com
 $third-party,other
 !
@@ -72,12 +71,12 @@ advert*.js$third-party,domain=~adrama.to
 ||beacon-
 ||bet*$third-party
 ||bid*$third-party
-*consent*$third-party,domain=~time.com
+*consent*$third-party,domain=~time.com|~youtube.com|~google.co.uk
 disable-right-click$script
 ||install.$popup
 *metric*$third-party,domain=~boots.com
 *myapp.com^
-/pagead/
+!/pagead/
 pixel$third-party
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
 ||share*$third-party$domain=~sharepoint.com
@@ -109,6 +108,7 @@ accuweather.com###top
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
+||adlightning.com^
 adrama.to##center
 adrama.to###closeADV
 ||adskeeper.co.uk^
@@ -118,13 +118,12 @@ adviceguide.org.uk###div-cookie-monster
 ||affutd.com^
 ||airbrake.io^
 ||airpush.com^
+||akamaiedge.net^$script,domain=dailymail.co.uk
 aldi.co.uk##.notification
 ||alexa.com^
 ||offer.alibaba.com^
 alpinelinux.org##.banner
-amazon.co.uk###desktop-banner-stripe
-amazon.co.uk##video
-||assoc-amazon.com^
+amazon.co.uk###sp-cc
 ||amazonaws.com^$domain=openload.co
 ||amung.us^
 ||and.co.uk^
@@ -142,9 +141,9 @@ argos.co.uk##.privacy-prompt-wrapper
 asda.com##.cookies-banner
 askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
-||atdmt.com^
 atpworldtour.com##.players-equipment
 ||atwola.com^
+audacityteam.org###cookie-law-info-bar
 austrian.com##.cop
 austrian.com##.overlay_cookie_content
 austrian.com##.smartbanner
@@ -186,7 +185,6 @@ blogspot.co.uk###sidebar
 bloomberg.com###bb-nav
 bloomberg.com###paywall-banner
 ||bluekai.com^
-||bluewater.co.uk/*/jquery.ui.js
 ||bnserving.com^
 ||bowercdn.net^
 ||brainient.com^
@@ -297,6 +295,7 @@ crhideas.com###cookie-law-info-bar
 dailymail.co.uk##.sponsored
 dailymail.co.uk##.dms-puff
 dailymail.co.uk##.floating-buttons
+dailymail.co.uk##.mini
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
@@ -414,7 +413,7 @@ facebook.com###pagelet_megaphone
 m.facebook.com##[id^="TRAY"]
 m.facebook.com###MStoriesTray
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~videoembed.co|~veuue.com
+||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com|~videoembed.co|~veuue.com
 ||fbcdn.net/*/live-
 ||fbcdn.net/*.m4a$domain=m.facebook.com
 ||fbcdn.net/safe_image.php?*.gif
@@ -426,7 +425,6 @@ fca.org.uk###sliding-popup
 ||featureblend.com^
 ||feedburner.com^
 ||fhfn.org/*.js^
-||fhserve.com^
 ||firstimpression.io^
 fitfortravel.nhs.uk###cookies-bar
 ||flagcounter.com^
@@ -469,6 +467,7 @@ ghacks.net##.children
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks-sidebar
 ghacks.net##.top-level
+github.com##.js-cookie-consent-banner
 gitlab.com###CybotCookiebotDialog
 git-scm.com##.banner-message
 glassdoor.co.uk##.adSlotJobListingsContent
@@ -588,6 +587,7 @@ ikea.com##.cookies-legislation
 independent.co.uk###leaderboard
 independent.co.uk##.premium-content
 independent.co.uk###side
+independent.co.uk###stickyFooterRoot
 ||indiegogo.com/*.js
 ||inskinmedia.com^$domain=~nextmedia.com
 ||insticator.com^
@@ -697,6 +697,7 @@ londonist.com##.cc_banner
 ||madadsmedia.com^
 ||madisonlogic.com^
 ||madmimi.com^
+||makeuseof.com/*.js
 ||manycontacts.com^
 ||marfeel.com^
 ||marketo.com^
@@ -765,6 +766,7 @@ muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
 ||mybroadband.co.za^
+mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.partner
 mylondon.news##.top-slot
@@ -780,9 +782,7 @@ nectar.com###cc-notification-wrapper
 ||nedstatbasic.net^
 ||negdrvgo.com^
 ||neodata.com^
-||netdna-cdn.com^
 ||netline.com^
-||netmng.com^
 ||netseer.com^
 ||netshelter.net^
 ||newartspy.link^
@@ -856,7 +856,6 @@ osnews.com###sidebar
 ||osnews.com/*js
 osboxes.org###cookie-law-info-bar
 ||ourinstance.info^
-||outbrain.com^
 ||overture.com^
 ownvehicle.askmid.com##.contentBlock
 ||padsdel.com^
@@ -896,6 +895,9 @@ phoronix.com##.widget:nth-of-type(6)
 pinterest.com##.UnauthBanner
 ||pitchinbox.com^
 pizzahut.co.uk##.alert
+player.fm##.campaign
+player.fm##.preamble
+player.fm##.top
 player.fm##.top-promo
 ||plista.com^
 ||plugerr.com^
@@ -965,12 +967,7 @@ recenttraintimes.co.uk###divCookieMsg
 ||reevoo.com^$domain=~reevoo.com|~currys.co.uk
 ||reinvigorate.net^
 ||retainguaninefluorite.info^
-reuters.com###breakingNews
-reuters.com##.BreakingNews_bar
-reuters.com##.header-main
-reuters.com##.GetTheAppBanner_get-the-app-banner
-reuters.com##.section-nav
-reuters.com##.trc-content-sponsored
+reuters.com/*.js
 ||rev2pub.com^
 ||revcontent.com^
 ||revdepo.com^
@@ -1083,7 +1080,6 @@ standard.co.uk###side
 ||storify.com^
 ||stormiq.com^
 ||streamcherry.com/*/license.js
-||sub2tech.com^
 ||sumome.com^
 ||super-links.net^
 ||supert.ag^
@@ -1150,7 +1146,6 @@ theguardian.com##.pledge
 theguardian.com##.trusted-news
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
-||hits-secure.theguardian.com^
 ||thehackernews.com/*.js
 ||thenational.ae/*.js
 theo2.co.uk##.cc_banner
@@ -1192,7 +1187,7 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradedoubler.com^
 ||tradepub.com^
 ||trafficjunky.net^
-||tremormedia.com^$domain=~reuters.com
+||tremormedia.com^
 ||tribalfusion.com^
 ||tripadvisor.co.uk/*Popunder$popup
 ||trklnks.com^
@@ -1205,15 +1200,9 @@ trustpilot.com##.cookie-bar
 tvb.com##.cat-ed-mpm
 ||twenga.co.uk^
 tvlicensing.co.uk###tvlcookies-prompt
-||typekit.com^
-||typekit.net^
 ubuntu.com##.cookie-policy
 ||udarem.com^
 ||udemy.com/*.js^
-||udmserve.net^
-||ugdturner.com^
-||undertone.com^
-||unrulymedia.com^
 ||upapi.net^$domain=worldometers.info
 ||uploaded.net/*.js
 ||uploaded.net/register$popup
@@ -1227,7 +1216,6 @@ ubuntu.com##.cookie-policy
 v3.co.uk###qq
 ||valuedopinions.co.uk^
 ||vertamedia.com^
-||vidcpm.com^
 videolan.org##.donate2
 videolan.org###uecookies
 ||videoplaza.tv/*_bootloader.swf
@@ -1258,7 +1246,7 @@ which.co.uk##.survey-bar
 wickes.co.uk###cookie-policy
 ||wigetmedia.com^
 wikichip.org##.cc_banner
-wilko.com##.cookies
+wilko.com##.consent-management-list
 ||core.windows.net/*.css
 wired.co.uk##.is-fixed
 wired.co.uk##.a-footer-share
@@ -1284,7 +1272,6 @@ yahoo.com##.ads
 ||youtube.com/*/annotations_module.js
 youtube.com###buttons
 youtube.com###companion
-youtube.com###clarify-box
 youtube.com###donation-shelf
 youtube.com###enhancer-for-youtube-toolbar
 ||youtube.com/get_video_info
@@ -1304,11 +1291,12 @@ youtube.com##ytd-clarification-renderer
 youtube.com##ytd-display-ad-renderer
 youtube.com##.ytd-engagement-panel-section-list-renderer
 youtube.com##ytd-horizontal-card-list-renderer
+youtube.com##.ytd-mealbar-promo-renderer
 youtube.com##ytd-mini-guide-renderer
-youtube.com##ytd-popup-container
 youtube.com##.ytd-primetime-promo-renderer
 youtube.com##.ytd-promoted-video-renderer
 youtube.com##.ytd-rich-section-renderer
+youtube.com##.ytd-shelf-renderer
 ||zdnet.com/*.js
 ||zdtag.com^
 ||zemanta.com^
@@ -1327,59 +1315,37 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20200609
-!youtube.com###header
-!youtube.com###logo
-!youtube.com###masthead-ad
-!youtube.com###small-card
-!youtube.com##.ytp-cards-teaser-text
-!youtube.com##.ytd-channel-renderer
-!youtube.com##ytd-promoted-sparkles-web-renderer
-!youtube.com##.ytd-promoted-sparkles-text-search-renderer
-!youtube.com##.ytd-search-pyv-renderer
-!youtube.com##ytd-shelf-renderer
-! 20200711
-!||cpuid.com/*.js
-!||wardparser.info^
-!||thoughtleadr.com^
-!||webxpedias.com^
-!||tech429.com^
-! 20200808
-!||youtube.com/get_video_info
-! 20200809
-!||ajillionmax.com^
-!||brealtime.com^
-!||crwdcntrl.net^
-!||turbobit.ru/*.jpg
-! 20200810
-!||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com
-!||sprites.pcpro.co.uk/*.js
-! 20200811
-!ebuyer.com##.cookie-monster
-! 20200823
-!||firstpost.in^
-!||uauniverse.com^
-!||surikate.com^
-!||peer39.net^
-!||commindo-media-ressourcen.de^
-!||nuclersoncanthinger.info^
-!||agkn.com^
-!||crsspxl.com^
-!||ctasnet.com^
-!.club^$domain=~openload.co
-!dramas.nu###ad_header
-!dramas.nu##.alert
-!dramas.nu###control
-!@@||adrama.to^$popup,domain=dramas.nu
-!@@||vlist.se^$popup,domain=dramas.nu
-! 20200826
-!||mpstat.us^
-!blog.chromium.org###cookieChoiceInfo
-!||civiccomputing.com^
-!chrome-portable.com##.bottom
-!||grymco.com^
-!||pdf-giant.com/*.js
-!pdf-magazine-download.com##.PDFPerContentLeftBl
-!||savevideo.me/*.js
-!||exelator.com^
-!||rfihub.com^
+! 20200904
+!youtube.com###clarify-box
+!youtube.com##ytd-popup-container
+! 20200906
+!||netdna-cdn.com^
+!||netmng.com^
+! 20200908
+!||fhserve.com^
+!||hits-secure.theguardian.com^
+!||bluewater.co.uk/*/jquery.ui.js
+!||sub2tech.com^
+!||typekit.com^
+!||typekit.net^
+!||vidcpm.com^
+!||udmserve.net^
+!||ugdturner.com^
+!||undertone.com^
+!||unrulymedia.com^
+!||outbrain.com^
+! 20200914
+!amazon.co.uk###desktop-banner-stripe
+!amazon.co.uk##video
+!||assoc-amazon.com^
+! 20200915
+!reuters.com###breakingNews
+!reuters.com##.BreakingNews_bar
+!reuters.com##.header-main
+!reuters.com##.GetTheAppBanner_get-the-app-banner
+!reuters.com##.section-nav
+!reuters.com##.trc-content-sponsored
+! 20200917
+!amazon.co.uk##.a-declarative
+! 20201010
+!||atdmt.com^
