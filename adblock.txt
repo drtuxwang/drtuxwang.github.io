@@ -277,6 +277,7 @@ confused.com##.cookie-wrapper
 ||contextly.com^
 convertunits.com###leaderboard
 ||conviva.com^
+||cookielaw.org^
 ||coull.com^
 ||countante.info^
 ||cpmba.se^
@@ -798,6 +799,7 @@ newsshopper.co.uk###DFP_top_leaderboard
 newsshopper.co.uk##.footer-container
 newsshopper.co.uk##.mobile-social
 newsshopper.co.uk###pecr-cookie-warning
+newzit.com##.jwplayer_body
 newzit.com##.ticker
 ||nexac.com^
 nginx.com###cookie_permission_banner
@@ -1259,6 +1261,7 @@ wired.co.uk##.sharify
 ||woopra.com^
 ||r-login.wordpress.com^
 ||stats.wp.com^
+worldometers.info##.cc-banner
 ||wpdigital.net^
 wsj.com##.cookie-notice-container
 ||xawab.com^
