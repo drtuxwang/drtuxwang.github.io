@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201023a
+! Version: 20201024a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -12,10 +12,10 @@ $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
-||twitter.com^$3rd-party
-$3rd-party,image,domain=dramawall.com|player.fastdrama.me
-$3rd-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
-$3rd-party,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|azdrama.org
+||twitter.com^$third-party
+$third-party,image,domain=dramawall.com|player.fastdrama.me
+$third-party,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
+$third-party,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|azdrama.org
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
@@ -25,8 +25,8 @@ $3rd-party,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.c
   @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
   @@||jwplayer.com^$script,domain=woaikanxi.to
   @@||google.com^$script,domain=youtube.com
-$3rd-party,xhr,domain=gdriveplayer.to
-$3rd-party,other
+$third-party,xhr,domain=gdriveplayer.to
+$third-party,other
 !
 ! Block spam TLD
 .ad^
@@ -53,7 +53,7 @@ $3rd-party,other
 /ad?$popup
 *adexchange*
 *adexchange*$popup
-*adnetwork.$3rd-party
+*adnetwork.$third-party
 *-adnow.com^
 *_ads/
 *_ads.
@@ -62,30 +62,30 @@ $3rd-party,other
 ||ads2.
 ||ads2.$popup
 ||adservice.
-*ads.$3rd-party$domain=~facebook.com
+*ads.$third-party$domain=~facebook.com
 /ads.$xhr
 ||adsrv*$popup
-advert*.js$3rd-party,domain=~adrama.to
-||affiliate*$3rd-party
-*analytics*$3rd-party,domain=~lastminute.com|~pbs.one|~office365.com
+advert*.js$third-party,domain=~adrama.to
+||affiliate*$third-party
+*analytics*$third-party,domain=~lastminute.com|~pbs.one|~office365.com
 ||beacon.
 ||beacon-
-||bet*$3rd-party
-||bid*$3rd-party
-*consent*$3rd-party,domain=~time.com|~youtube.com|~google.co.uk
+||bet*$third-party
+||bid*$third-party
+*consent*$third-party,domain=~time.com|~youtube.com|~google.co.uk
 disable-right-click$script
 ||install.$popup
-*metric*$3rd-party,domain=~boots.com
+*metric*$third-party,domain=~boots.com
 *myapp.com^
 !/pagead/
-pixel$3rd-party
+pixel$third-party
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
-||share*$3rd-party$domain=~sharepoint.com
+||share*$third-party$domain=~sharepoint.com
 /sponsors/*
 *syndicate.
 *syndication.
 ||syndication.$popup
-*yield*$3rd-party
+*yield*$third-party
 !
 ! Domain specific filters
 ||accountkit.com^
@@ -1076,7 +1076,7 @@ standard.co.uk##.most-popular-toaster
 standard.co.uk##.share-bar
 standard.co.uk###side
 standard.co.uk##.sticker-footer-charity
-||statcounter.com^$3rd-party
+||statcounter.com^$third-party
 ||staticcache.org^
 ||staticworld.net^
 ||statsevent.com^
