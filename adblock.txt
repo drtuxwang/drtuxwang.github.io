@@ -62,7 +62,7 @@ $third-party,other
 ||ads2.
 ||ads2.$popup
 ||adservice.
-*ads.$third-party$domain=~facebook.com
+*ads.$third-party,domain=~facebook.com
 /ads.$xhr
 ||adsrv*$popup
 advert*.js$third-party,domain=~adrama.to
@@ -80,7 +80,7 @@ disable-right-click$script
 !/pagead/
 pixel$third-party
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
-||share*$third-party$domain=~sharepoint.com
+||share*$third-party,domain=~sharepoint.com
 /sponsors/*
 *syndicate.
 *syndication.
