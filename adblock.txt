@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201025a
+! Version: 20201025b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -310,7 +310,6 @@ dailymail.co.uk###socialLinks
 ||datamation.com/*.js
 ||datamation.com/sl/
 ||db-ip.com^
-||dearerfonder.info^
 delayrepaycompensation.com##.cc_banner
 ||delicious.com^
 ||demandbase.com^
@@ -1324,25 +1323,6 @@ zomato.com###user-cookie-message
 ! 20200904
 !youtube.com###clarify-box
 !youtube.com##ytd-popup-container
-! 20200906
-!||netdna-cdn.com^
-!||netmng.com^
-! 20200908
-!||fhserve.com^
-!||hits-secure.theguardian.com^
-!||bluewater.co.uk/*/jquery.ui.js
-!||sub2tech.com^
-!||typekit.com^
-!||typekit.net^
-!||vidcpm.com^
-!||udmserve.net^
-!||ugdturner.com^
-!||undertone.com^
-!||unrulymedia.com^
-!||outbrain.com^
-! 20200914
-!amazon.co.uk###desktop-banner-stripe
-!amazon.co.uk##video
 !||assoc-amazon.com^
 ! 20200915
 !reuters.com###breakingNews
@@ -1355,3 +1335,5 @@ zomato.com###user-cookie-message
 !amazon.co.uk##.a-declarative
 ! 20201010
 !||atdmt.com^
+! 20201025
+!||dearerfonder.info^
