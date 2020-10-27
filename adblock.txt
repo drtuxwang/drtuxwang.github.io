@@ -2,12 +2,12 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201025c
+! Version: 20201027a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
 $popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network
-$script,domain=metro.co.uk|grafana.com|azdrama.org|washingtonpost.com
+$script,domain=metro.co.uk|grafana.com|washingtonpost.com|icdrama.video
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
@@ -15,7 +15,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ||twitter.com^$3p
 $3p,image,domain=dramawall.com|player.fastdrama.me
 $3p,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
-$3p,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|azdrama.org
+$3p,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|icdrama.video
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
@@ -154,10 +154,6 @@ avivaservices.co.uk##.cc-cookies
 ||awsstatic.com^$font
 axa.co.uk##.axaCookie
 ||ayboll.com^
-azdrama.org##.ad300x250
-azdrama.org##strong
-azdrama.org###videoplayer
-azdrama.org##.watch-info
 ||azureedge.net^$domain=patientaccess.com
 ||baidustatic.com^
 ||bannerflow.com^
@@ -575,6 +571,10 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
+icdrama.video##.ad300x250
+icdrama.video##strong
+icdrama.video###videoplayer
+icdrama.video##.watch-info
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
