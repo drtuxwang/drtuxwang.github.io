@@ -68,7 +68,7 @@ $3p,other
 ||adsrv*$popup
 advert*.js$3p,domain=~hkdrama.to
 ||affiliate*$3p
-*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com
+*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~hydracdn.network
 ||beacon.
 ||beacon-
 ||bet*$3p
@@ -81,7 +81,7 @@ disable-right-click$script
 !/pagead/
 pixel$3p
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
-||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com
+||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se
 /sponsors/*
 *syndicate.
 *syndication.
