@@ -81,7 +81,6 @@ disable-right-click$script
 !/pagead/
 pixel$3p
 *popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
-||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se|~chef.io
 /sponsors/*
 *syndicate.
 *syndication.
@@ -1338,3 +1337,5 @@ zomato.com###user-cookie-message
 ! 20201025
 !||dearerfonder.info^
 !||stormiq.com^
+! 20201114
+!||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se|~chef.io
