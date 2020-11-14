@@ -345,6 +345,7 @@ dramawall.com##table
 dramawall.com##.td-with-like
 dropbox.com###top-notification-bar-container
 ||dt07.net/*.jpg^
+duckduckgo.com##.badge-link
 duckduckgo.com###side
 duckduckgo.com##.web-result-sponsored
 ||duffelblog.com/*.js
@@ -354,7 +355,6 @@ duckduckgo.com##.web-result-sponsored
 ||earnify.com^
 ||ebocornac.com^
 ||ebz.io^
-||eclkmpsa.com^
 ||ecommercebizworld.net^
 economist.com###ec-message-3
 economist.com##.fe-blogs__top-ad-wrapper
@@ -1339,3 +1339,4 @@ zomato.com###user-cookie-message
 !||stormiq.com^
 ! 20201114
 !||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se|~chef.io
+!||eclkmpsa.com^
