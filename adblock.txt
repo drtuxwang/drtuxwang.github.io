@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201114c
+! Version: 20201115a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -347,6 +347,7 @@ dropbox.com###top-notification-bar-container
 ||dt07.net/*.jpg^
 duckduckgo.com###ads
 duckduckgo.com##.badge-link
+duckduckgo.com##.results--ads
 duckduckgo.com###side
 duckduckgo.com##.web-result-sponsored
 ||duffelblog.com/*.js
@@ -355,7 +356,6 @@ duckduckgo.com##.web-result-sponsored
 ||eagerse.com^$popup
 ||earnify.com^
 ||ebocornac.com^
-||ebz.io^
 ||ecommercebizworld.net^
 economist.com###ec-message-3
 economist.com##.fe-blogs__top-ad-wrapper
@@ -1037,7 +1037,6 @@ sky.com##.sky-component-social-share__item
 ||socialelective.com^
 ||socialhoney.co^
 ||socialmediatabs.com^
-||sociomantic.com^
 soci.org###eu-cookies-banner
 softpedia.com##a[href*=".php"]
 softpedia.com###bottombubble
@@ -1092,7 +1091,6 @@ standard.co.uk##.sticker-footer-charity
 ||swiftype.com^
 ||swiftypecdn.com^
 ||swoop.com^
-||symcd.com^
 ||taboola.com^
 ||taboolasyndication.com^
 ||tacdn.com/*.js$domain=~tripadvisor.co.uk
@@ -1341,3 +1339,7 @@ zomato.com###user-cookie-message
 ! 20201114
 !||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se|~chef.io
 !||eclkmpsa.com^
+! 20201115
+!||ebz.io^
+!||sociomantic.com^
+!||symcd.com^
