@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20201223a
+! Version: 20201227a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -343,7 +343,6 @@ dramawall.com/*.gif
 dramawall.com##table
 dramawall.com##.td-with-like
 dropbox.com###top-notification-bar-container
-||dt07.net/*.jpg^
 duckduckgo.com###ads
 duckduckgo.com##.badge-link
 duckduckgo.com##.footer
@@ -776,7 +775,6 @@ mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.partner
 mylondon.news##.top-slot
 mylondon.news##.whats-hot
-||myregisteredsite.com^
 ||mythings.com^
 nanafeed.com##center:nth-of-type(1)
 nanafeed.com##div:nth-of-type(1)
@@ -909,6 +907,7 @@ player.fm##.top-promo
 ||plugerr.com^
 ||plugrush.com^
 ||plugz.co^
+||pobroadband.co.uk###CookiePolicyHeader
 ||po.st^
 ||pointroll.com^
 ||popads.net^
@@ -1225,7 +1224,6 @@ videolan.org###uecookies
 vidspot.net##[style*="important"]
 ||viglink.com^
 vim.org##.sidebar:nth-of-type(5)
-||vindicosuite.com^
 virginatlantic.com##.cookie-footer
 virginmoney.com###e-privacy-message
 virtualboxes.org###eu-cookie-law
@@ -1319,18 +1317,9 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20201010
-!||atdmt.com^
-! 20201025
-!||dearerfonder.info^
-!||stormiq.com^
 ! 20201114
 !||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se|~chef.io
 !||eclkmpsa.com^
-! 20201115
-!||ebz.io^
-!||sociomantic.com^
-!||symcd.com^
 ! 20201201
 !||ochze.com^
 !||xawab.com^
@@ -1340,3 +1329,7 @@ zomato.com###user-cookie-message
 !||bluekai.com^
 !||xiti.com^
 !tvb.com##.cat-ed-mpm
+! 20201227
+!||dt07.net/*.jpg^
+!||myregisteredsite.com^
+!||vindicosuite.com^
