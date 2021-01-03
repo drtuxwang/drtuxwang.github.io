@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210103a
+! Version: 20210103b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -154,7 +154,6 @@ bbc.co.uk##.falcon
 bbc.co.uk###orb-footer
 bbc.co.uk##.share
 bbc.co.uk##.trust-project
-||bbci.co.uk/*.js
 ||behavemedia.com^
 @@||nav.files.bbci.co.uk/*/require.min.js
 @@||nav.files.bbci.co.uk/*/istats-1.js
@@ -1335,3 +1334,4 @@ zomato.com###user-cookie-message
 !||bet*$3p
 !||bid*$3p
 !||install.$popup
+!||bbci.co.uk/*.js
