@@ -149,6 +149,7 @@ axa.co.uk##.axaCookie
 ||bannerflow.com^
 ||barnebys.com^
 ||battleforthenet.com^
+bbc.co.uk###bbccookies
 bbc.co.uk###bbc-news-services
 bbc.co.uk##.falcon
 bbc.co.uk###orb-footer
