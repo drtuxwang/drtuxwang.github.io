@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210105c
+! Version: 20210105d
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -148,7 +148,6 @@ axa.co.uk##.axaCookie
 ||baidustatic.com^
 ||bannerflow.com^
 ||barnebys.com^
-||battleforthenet.com^
 bbc.co.uk###bbccookies
 bbc.co.uk###bbc-news-services
 bbc.co.uk##.falcon
@@ -1069,7 +1068,8 @@ standard.co.uk###mastfooter
 standard.co.uk##.most-popular-toaster
 standard.co.uk##.share-bar
 standard.co.uk###side
-standard.co.uk##.sticker-footer-charity
+standard.co.uk###stickyFooterRoot
+standard.co.uk##.video-sticky-video
 ||statcounter.com^$3p
 ||staticcache.org^
 ||staticworld.net^
@@ -1184,7 +1184,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradepub.com^
 ||trafficjunky.net^
 ||tremormedia.com^
-||tribalfusion.com^
 ||tripadvisor.co.uk/*Popunder$popup
 ||trklnks.com^
 ||trove.com^
@@ -1337,3 +1336,7 @@ zomato.com###user-cookie-message
 !||install.$popup
 !||bbci.co.uk/*.js
 !bbc.co.uk##.trust-project
+! 20210105
+!standard.co.uk##.sticker-footer-charity
+!||battleforthenet.com^
+!||tribalfusion.com^
