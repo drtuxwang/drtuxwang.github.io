@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210105d
+! Version: 20210108a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -68,7 +68,6 @@ $3p,other
 ||adsrv*$popup
 advert*.js$3p,domain=~hkdrama.to
 ||affiliate*$3p
-*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~office.com|~hydracdn.network
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 *myapp.com^
 pixel$3p
@@ -1340,3 +1339,5 @@ zomato.com###user-cookie-message
 !standard.co.uk##.sticker-footer-charity
 !||battleforthenet.com^
 !||tribalfusion.com^
+! 20210108
+!*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~office.com|~hydracdn.network
