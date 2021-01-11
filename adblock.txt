@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210108b
+! Version: 20210111a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -712,6 +712,7 @@ meetup.com###app-download-promo-interstitial
 metro.co.uk##.ad-slot
 metro.co.uk###just-in-widget
 metro.co.uk##.metro-discount-codes
+metro.co.uk##.metro-email-signup
 metro.co.uk##.nf-social
 metro.co.uk###post-extra
 metro.co.uk##.share-button
@@ -736,12 +737,6 @@ mirror.co.uk##.top-slot
 ||mmadsgadget.com^
 ||mmondi.com^
 ||moatads.com^
-||mobify.com^
-||mobile-10.com^
-||mobisla.com^
-||mobtrks.com^
-||mohengdu.com^
-||monetate.net^
 moneysavingexpert.com###alertBar
 moneysavingexpert.com##.all-social-btns
 moneysavingexpert.com##.email-tip-box
@@ -776,7 +771,6 @@ nationwide.co.uk##[class="cookiePolicy"]
 nectar.com###cc-notification-wrapper
 ||nedstatbasic.net^
 ||negdrvgo.com^
-||neodata.com^
 ||netline.com^
 ||netseer.com^
 ||netshelter.net^
@@ -793,6 +787,7 @@ newsshopper.co.uk##.mobile-social
 newsshopper.co.uk###pecr-cookie-warning
 newzit.com##.jwplayer_body
 newzit.com##.ticker
+||embed.newzit.com^
 ||nexac.com^
 nginx.com###cookie_permission_banner
 nitroflare.com##[id*="Ad_banner"]
@@ -1340,3 +1335,11 @@ zomato.com###user-cookie-message
 !standard.co.uk##.sticker-footer-charity
 !||battleforthenet.com^
 !||tribalfusion.com^
+! 20210111
+!||neodata.com^
+!||mobify.com^
+!||mobile-10.com^
+!||mobisla.com^
+!||mobtrks.com^
+!||mohengdu.com^
+!||monetate.net^
