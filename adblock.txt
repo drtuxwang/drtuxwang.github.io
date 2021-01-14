@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210111a
+! Version: 20210114a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1103,15 +1103,11 @@ techradar.com##.cc-banner
 ||techhive.com/*.js
 techhive.com###side
 ||techtarget.com^$domain=~techtarget.com
-tecmint.com##.fixedBar
-tecmint.com##.header-main-area
-tecmint.com##[id*="scrollbox"]
+tecmint.com##.inside-right-sidebar
+tecmint.com##.inside-header
 ||tecmint.com/*/plugins
-tecmint.com###quickiebarpro
+tecmint.com##.top-bar
 ||tecmint.com/*/uploads
-||tecmint.com/*/script.js
-tecmint.com##.sharrre-container
-tecmint.com##.sidebar-content
 telegraph.co.uk##.article__sidebar
 telegraph.co.uk##body > div:nth-of-type(1)
 telegraph.co.uk###qb_cookie_consent_main
@@ -1343,3 +1339,11 @@ zomato.com###user-cookie-message
 !||mobtrks.com^
 !||mohengdu.com^
 !||monetate.net^
+! 20210114
+!tecmint.com##.fixedBar
+!tecmint.com##.header-main-area
+!tecmint.com##[id*="scrollbox"]
+!tecmint.com###quickiebarpro
+!||tecmint.com/*/script.js
+!tecmint.com##.sharrre-container
+!tecmint.com##.sidebar-content
