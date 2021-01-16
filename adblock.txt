@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210116a
+! Version: 20210116b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -68,7 +68,6 @@ $3p,other
 ||adsrv*$popup
 advert*.js$3p,domain=~hkdrama.to
 ||affiliate*$3p
-*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~office.com|~hydracdn.network|~playtech.com
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 *myapp.com^
 pixel$3p
@@ -96,7 +95,6 @@ accuweather.com##.right-rail
 accuweather.com##.social-list
 accuweather.com###top
 ||acg.tv^
-||acloudimages.com^
 ||addthis.com^
 adf.ly##.no-js
 adf.ly###bottom
@@ -112,14 +110,11 @@ adviceguide.org.uk###div-cookie-monster
 ||akamaiedge.net^$script,domain=dailymail.co.uk
 aldi.co.uk##.notification
 ||alexa.com^
-||offer.alibaba.com^
 alpinelinux.org##.banner
 amazon.co.uk###sp-cc
 ||amazonaws.com^$domain=openload.co
 ||amung.us^
 ||and.co.uk^
-android.com##.dac-visible
-android.com##devsite-snackbar
 ||androidauthority.com/*.js
 ao.com###aoMessageHolder
 ||aolcdn.com^
@@ -222,7 +217,6 @@ cityam.com##.sharing
 ||clkrev.com^
 ||cloudfront.net^$domain=dailymail.co.uk|openload.co|dramawall.com|metro.co.uk
 ||cloudfront.net/*/paper.create_overlay-*.js
-||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
 ||cloudfront.net^$script,domain=vidlox.tv
 ||cloudfront.net/*trk.gif
 ||cloudfront.net/*trk.js
@@ -511,6 +505,7 @@ mail.google.com##DIV.vh
 mail.google.com##DIV.w-asK.w-atd
 mail.google.com##.hi
 maps.google.com##.tactile-search-promo
+||google-analytics.com^
 translate.google.com##.notification-area
 ||googleapis.com^$domain=adf.ly|dailymail.co.uk|phoronix.com
 ||fonts.googleapis.com/css
@@ -526,7 +521,6 @@ googleblog.com###cookieChoiceInfo
 ||gravityrd.com^
 ||greatwork.info^
 ||grvcdn.com^
-||gssprt.jp^
 ||gstatic.com^$domain=rthk.hk
 ||gstatic.com/gb/js/sem_
 ||gumgum.com^
@@ -1044,9 +1038,6 @@ speedtest.net##.privacy-update
 ||spiceworks.com/*.js
 ||spiffymachine.com^
 ||spot.im^
-||spotscenered.info^
-||spotscenered.info^$popup
-||spotxchange.com^
 ||spoutable.com^
 ||springserve.com^
 ||cdn-careers.sstatic.net^
@@ -1201,7 +1192,6 @@ v3.co.uk###qq
 ||vertamedia.com^
 videolan.org##.donate2
 videolan.org###uecookies
-||videoplaza.tv/*_bootloader.swf
 vidspot.net##[style*="important"]
 ||viglink.com^
 vim.org##.sidebar:nth-of-type(5)
@@ -1236,7 +1226,6 @@ wired.co.uk##.a-header__share
 wired.co.uk###domCookieWarning
 wired.co.uk##.sharify
 ||woopra.com^
-||r-login.wordpress.com^
 worldometers.info##.cc-banner
 ||stats.wp.com^
 ||wpdigital.net^
@@ -1247,7 +1236,6 @@ xe.com###leaderB
 xe.com###xe-cookie-notice-id
 ||xoliter.com^
 yahoo.com##.ads
-||yomedia.vn^
 ||yourway.net/*.js
 ||youtube.com/*/annotations_module.js
 youtube.com###buttons
@@ -1285,8 +1273,6 @@ youtube.com##.ytd-rich-section-renderer
 ||zencdn.net^$domain=~hkdrama4u.com
 ||zergnet.com^
 ||zkcdn.net^
-||znaptag.com^
-zomato.com###user-cookie-message
 ||zopim.com^
 !
 ! 20190729
@@ -1297,9 +1283,6 @@ zomato.com###user-cookie-message
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20201114
-!||share*$3p,domain=~sharepoint.com|~haxx.se|~timeanddate.com|~hydracdn.network|~vlist.se|~chef.io
-!||eclkmpsa.com^
 ! 20201201
 !||ochze.com^
 !||xawab.com^
@@ -1350,3 +1333,18 @@ zomato.com###user-cookie-message
 !||baidustatic.com^
 !||bannerflow.com^
 !||barnebys.com^
+!||gssprt.jp^
+!||acloudimages.com^
+!||yomedia.vn^
+!||znaptag.com^
+!||r-login.wordpress.com^
+!||spotscenered.info^
+!||spotscenered.info^$popup
+!||spotxchange.com^
+!||videoplaza.tv/*_bootloader.swf
+!||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
+!||offer.alibaba.com^
+!android.com##.dac-visible
+!android.com##devsite-snackbar
+!zomato.com###user-cookie-message
+!!*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~office.com|~hydracdn.network|~playtech.com
