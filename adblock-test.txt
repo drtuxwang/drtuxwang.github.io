@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210116b
+! Version: 20210131a
 
 ! Block crap by domains
-$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|diy.com|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
+$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
 $popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|icdrama.video
 $subdocument,domain=dailymail.co.uk
@@ -289,7 +289,7 @@ dailymail.co.uk###socialLinks
 delayrepaycompensation.com##.cc_banner
 ||delicious.com^
 ||demandbase.com^
-||demdex.net^
+||demdex.net^$domain=~thechelsea.co.uk
 ||devx.com^
 ||dhgate.com^
 ||dianomioffers.co.uk^
@@ -510,12 +510,10 @@ translate.google.com##.notification-area
 ||googleapis.com^$domain=adf.ly|dailymail.co.uk|phoronix.com
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
-||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk
 ||googlesyndication.com^
+||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk|~utilitypoint.co.uk|~thechelsea.co.uk
 ||googletagservices.com^
 ||googlevideo.com/*&live=1
-||gorillanation.com^
-||goroost.com^
 ||gravatar.com^$domain=~playtech.corp|~pbs.one
 ||gravity.com^
 ||gravityrd.com^
@@ -607,7 +605,7 @@ jdwetherspoon.co.uk###cookies-popup
 jobsearch.direct.gov.uk###cookieBanner
 ||jofbu.com^
 johnlewis.com##.overlay-message--cookies
-||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk
+||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~utilitypoint.co.uk
 ||jsecoin.com^
 ||jsrdn.com^
 ||junnify.com^
@@ -810,7 +808,7 @@ okta.com##.permanent-alert-warning
 ||omgubuntu.co.uk/*.js
 omgubuntu.co.uk##.page-footer
 ||omnitagjs.com^
-||omtrdc.net^$domain=~tfl.gov.uk|~onlineips.co.uk
+||omtrdc.net^$domain=~tfl.gov.uk|~onlineips.co.uk|~thechelsea.co.uk
 ||onclkds.com^
 ||onmodulus.net^
 ||onclasrv.com^
@@ -1062,7 +1060,6 @@ standard.co.uk##.video-sticky-video
 ||streamcherry.com/*/license.js
 ||sumome.com^
 ||super-links.net^
-||supert.ag^
 ||surgeprice.com^
 ||swarmcdn.com^
 ||swiftype.com^
@@ -1153,7 +1150,6 @@ three.co.uk###rwd-cookie-message
 tinydl.co##.sideblock
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
 ||tinypass.com^
-||tlvmedia.com^
 ||toments.com/*.js
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
@@ -1230,10 +1226,12 @@ worldometers.info##.cc-banner
 ||stats.wp.com^
 ||wpdigital.net^
 wsj.com##.cookie-notice-container
-xe.com###ad
-xe.com##.desktopAd
-xe.com###leaderB
-xe.com###xe-cookie-notice-id
+xe.com###adProbx
+xe.com##.currencySnippet-wrapper
+xe.com###footerContainer
+xe.com##.grid-layout
+xe.com###internalAdSlot1
+xe.com##.nonReactPageFix-header
 ||xoliter.com^
 yahoo.com##.ads
 ||yourway.net/*.js
@@ -1283,19 +1281,7 @@ youtube.com##.ytd-rich-section-renderer
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20201201
-!||ochze.com^
-!||xawab.com^
-!||xcdf.cn^
-! 20201220
-!||zdnet.com/*.js
-!||bluekai.com^
-!||xiti.com^
 !tvb.com##.cat-ed-mpm
-! 20201227
-!||dt07.net/*.jpg^
-!||myregisteredsite.com^
-!||vindicosuite.com^
 ! 20210103
 !/pagead/
 !*metric*$3p,domain=~boots.com
@@ -1348,3 +1334,13 @@ youtube.com##.ytd-rich-section-renderer
 !android.com##devsite-snackbar
 !zomato.com###user-cookie-message
 !!*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~office.com|~hydracdn.network|~playtech.com
+! 20210122
+!||gorillanation.com^
+!||goroost.com^
+! 20210131
+!xe.com###ad
+!xe.com##.desktopAd
+!xe.com###leaderB
+!xe.com###xe-cookie-notice-id
+!||tlvmedia.com^
+!||supert.ag^
