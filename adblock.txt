@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210321a
+! Version: 20210321b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -199,7 +199,6 @@ cathaypacific.com##.active-opt-in-banner
 ||cbsimg.net^
 ||cbsistatic.com/*.js
 ||cdnet.tv^$popup
-||cedexis.com^
 channel4.com###cookie-consent-banner
 ||chartbeat.com^
 ||chartbeat.net^
@@ -722,6 +721,7 @@ mirror.co.uk###div-gpt-ad-sticky-bottom-banner
 mirror.co.uk##.factbox
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.top-slot
+||mixdrop.co/xads.js
 ||mixpanel.com^$domain=~okta.com
 ||mkt932.com^
 ||ml314.com^
@@ -932,7 +932,6 @@ quora.com##.desktop_site_header_offset
 quora.com##[id*="related_questions_list"]
 quora.com##.vertical_alignment_wrapper
 ||quoracdn.net/*.css
-||radarurl.com^
 radio.garden##.GetAppBanner_banner__3Q_Xq
 radio.garden##.PrivacyPolicyNotice_privacyPolicyNotice__vaWUo
 radio.garden##.WebBanner_bannerWeb__9VXPD
@@ -1009,7 +1008,6 @@ sky.com##.sky-component-social-share__item
 ||skytemjo.link^
 ||smartertravel.com^
 ||smashseek.com^
-||sneakystamp.com^
 ||socdm.com^
 ||socialelective.com^
 ||socialhoney.co^
@@ -1159,7 +1157,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradedoubler.com^
 ||tradepub.com^
 ||trafficjunky.net^
-||tremormedia.com^
 ||tripadvisor.co.uk/*Popunder$popup
 ||trklnks.com^
 ||trove.com^
@@ -1275,21 +1272,14 @@ youtube.com##.ytd-rich-section-renderer
 !
 ! 20190729
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ £/)
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/! /)
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/% /)
 ! 20190920
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20210122
-!||gorillanation.com^
-!||goroost.com^
-! 20210131
-!xe.com###ad
-!xe.com##.desktopAd
-!xe.com###leaderB
-!xe.com###xe-cookie-notice-id
-!||tlvmedia.com^
-!||supert.ag^
 ! 20210211
 !||optimizely.com^
+! 20210321
+!||cedexis.com^
+!||radarurl.com^
+!||sneakystamp.com^
+!||tremormedia.com^
