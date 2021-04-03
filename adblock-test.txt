@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210228a
+! Version: 20210331a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -14,7 +14,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ! Block 3rd party crap by domains
 ||twitter.com^$3p
 $3p,image,domain=dramawall.com|player.fastdrama.me|feurl.com
-$3p,popup,domain=dramaz.se|woaikanxi.to|qooxi.to|openload.co|hkdrama.to|streamtvb.com|vod2cn.com|uptobox.com
+$3p,popup,domain=idrama.me|woaikanxi.to|qooxi.to|openload.co|hkdrama.to|streamtvb.com|vod2cn.com|uptobox.com
 $3p,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|icdrama.video|azdrama.site
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
@@ -41,6 +41,7 @@ $3p,other
 .network^$domain=worldometers.info
 .pro^$domain=~streamtvb.com
 .racing^
+.re^
 .services^
 .support^
 .top^
@@ -107,7 +108,6 @@ adviceguide.org.uk###div-cookie-monster
 ||affutd.com^
 ||airbrake.io^
 ||airpush.com^
-||akamaiedge.net^$script,domain=dailymail.co.uk
 aldi.co.uk##.notification
 ||alexa.com^
 alpinelinux.org##.banner
@@ -145,7 +145,7 @@ bbc.co.uk###bbc-news-services
 bbc.co.uk##.falcon
 bbc.co.uk###orb-footer
 bbc.co.uk##.share
-i||emp.bbc.co.uk^
+||emp.bbc.co.uk^
 ||behavemedia.com^
 @@||nav.files.bbci.co.uk/*/require.min.js
 @@||nav.files.bbci.co.uk/*/istats-1.js
@@ -198,7 +198,6 @@ cathaypacific.com##.active-opt-in-banner
 ||cbsimg.net^
 ||cbsistatic.com/*.js
 ||cdnet.tv^$popup
-||cedexis.com^
 channel4.com###cookie-consent-banner
 ||chartbeat.com^
 ||chartbeat.net^
@@ -321,7 +320,7 @@ doodle.com##.d-warning
 ||doubleverify.com^
 ||downloadsetup.net^
 ||dpmsrv.com^
-dramaz.se##strong
+idrama.me##strong
 dramawall.com/*.gif
 dramawall.com##table
 dramawall.com##.td-with-like
@@ -721,6 +720,7 @@ mirror.co.uk###div-gpt-ad-sticky-bottom-banner
 mirror.co.uk##.factbox
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.top-slot
+||mixdrop.co/xads.js
 ||mixpanel.com^$domain=~okta.com
 ||mkt932.com^
 ||ml314.com^
@@ -740,7 +740,9 @@ moneysavingexpert.com###siteworks-content
 ||mottnow.com^
 ||mouseflow.com^
 ||mousestats.com^
-msn.com##.sameoab_ad_container
+msn.com##.finance-footer-container
+msn.com###foot
+msn.com##.stripeouter
 muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||multioptik.com^
@@ -931,7 +933,6 @@ quora.com##.desktop_site_header_offset
 quora.com##[id*="related_questions_list"]
 quora.com##.vertical_alignment_wrapper
 ||quoracdn.net/*.css
-||radarurl.com^
 radio.garden##.GetAppBanner_banner__3Q_Xq
 radio.garden##.PrivacyPolicyNotice_privacyPolicyNotice__vaWUo
 radio.garden##.WebBanner_bannerWeb__9VXPD
@@ -1008,7 +1009,6 @@ sky.com##.sky-component-social-share__item
 ||skytemjo.link^
 ||smartertravel.com^
 ||smashseek.com^
-||sneakystamp.com^
 ||socdm.com^
 ||socialelective.com^
 ||socialhoney.co^
@@ -1158,7 +1158,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradedoubler.com^
 ||tradepub.com^
 ||trafficjunky.net^
-||tremormedia.com^
 ||tripadvisor.co.uk/*Popunder$popup
 ||trklnks.com^
 ||trove.com^
@@ -1179,7 +1178,7 @@ ubuntu.com##.cookie-policy
 @@||uploaded.net/*/download.js
 @@||uploaded.net/*/protoculous.js
 ||uptobox.com^$domain=uptostream.com
-@@||uptobox.com^$popup,domain=dramaz.se
+@@||uptobox.com^$popup,domain=idrama.me
 ||userreport.com^
 ||uservoice.com/*.js
 v3.co.uk###qq
@@ -1225,12 +1224,6 @@ worldometers.info##.cc-banner
 ||stats.wp.com^
 ||wpdigital.net^
 wsj.com##.cookie-notice-container
-xe.com###adProbx
-xe.com##.currencySnippet-wrapper
-xe.com###footerContainer
-xe.com##.grid-layout
-xe.com###internalAdSlot1
-xe.com##.nonReactPageFix-header
 ||xoliter.com^
 yahoo.com##.ads
 ||yourway.net/*.js
@@ -1265,6 +1258,7 @@ youtube.com##.ytd-primetime-promo-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
 youtube.com##.ytd-rich-section-renderer
+youtube.com##ytd-shelf-renderer
 ||zdtag.com^
 ||zemanta.com^
 ||zencdn.net^$domain=~hkdrama4u.com
@@ -1274,74 +1268,24 @@ youtube.com##.ytd-rich-section-renderer
 !
 ! 20190729
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ £/)
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/! /)
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/% /)
 ! 20190920
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-!tvb.com##.cat-ed-mpm
-! 20210103
-!/pagead/
-!*metric*$3p,domain=~boots.com
-!disable-right-click$script
-!||beacon.
-!||beacon-
-!||bet*$3p
-!||bid*$3p
-!||install.$popup
-!||bbci.co.uk/*.js
-!bbc.co.uk##.trust-project
-! 20210105
-!standard.co.uk##.sticker-footer-charity
-!||battleforthenet.com^
-!||tribalfusion.com^
-! 20210111
-!||neodata.com^
-!||mobify.com^
-!||mobile-10.com^
-!||mobisla.com^
-!||mobtrks.com^
-!||mohengdu.com^
-!||monetate.net^
-! 20210114
-!tecmint.com##.fixedBar
-!tecmint.com##.header-main-area
-!tecmint.com##[id*="scrollbox"]
-!tecmint.com###quickiebarpro
-!||tecmint.com/*/script.js
-!tecmint.com##.sharrre-container
-!tecmint.com##.sidebar-content
-! 20210115
-!youtube.com##.ytd-shelf-renderer
-! 20210116
-!||baidustatic.com^
-!||bannerflow.com^
-!||barnebys.com^
-!||gssprt.jp^
-!||acloudimages.com^
-!||yomedia.vn^
-!||znaptag.com^
-!||r-login.wordpress.com^
-!||spotscenered.info^
-!||spotscenered.info^$popup
-!||spotxchange.com^
-!||videoplaza.tv/*_bootloader.swf
-!||cloudfront.net/Record/swfhttprequest.swf$domain=talktalk.co.uk
-!||offer.alibaba.com^
-!android.com##.dac-visible
-!android.com##devsite-snackbar
-!zomato.com###user-cookie-message
-!!*analytics*$3p,domain=~lastminute.com|~pbs.one|~office365.com|~office.com|~hydracdn.network|~playtech.com
-! 20210122
-!||gorillanation.com^
-!||goroost.com^
-! 20210131
-!xe.com###ad
-!xe.com##.desktopAd
-!xe.com###leaderB
-!xe.com###xe-cookie-notice-id
-!||tlvmedia.com^
-!||supert.ag^
 ! 20210211
 !||optimizely.com^
+! 20210321
+!||cedexis.com^
+!||radarurl.com^
+!||sneakystamp.com^
+!||tremormedia.com^
+! 20210322
+!xe.com###adProbx
+!xe.com##.currencySnippet-wrapper
+!xe.com###footerContainer
+!xe.com##.grid-layout
+!xe.com###internalAdSlot1
+!xe.com##.nonReactPageFix-header
+!msn.com##.sameoab_ad_container
+! 20210331
+!||akamaiedge.net^$script,domain=dailymail.co.uk
