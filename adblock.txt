@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210408a
+! Version: 20210412a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -240,8 +240,6 @@ complex.com/*.js
 ||comprigo.com^
 ||computershopper.com/*.js
 ||computerworld.com/*.js
-||concernrain.com^
-||condenast.com^
 ||condenastdigital.com^
 ||conectiaoffers.com^
 confused.com##.cookie-wrapper
@@ -741,6 +739,7 @@ moneysavingexpert.com###siteworks-content
 ||mousestats.com^
 msn.com##.finance-footer-container
 msn.com###foot
+msn.com##.navigationHeroWrapper
 msn.com##.stripeouter
 muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
@@ -1291,3 +1290,6 @@ youtube.com##ytd-shelf-renderer
 !||danasoft.com^
 !||dhgate.com^
 !||ttxm.co.uk/*/mktg-*
+! 20210412
+!||concernrain.com^
+!||condenast.com^
