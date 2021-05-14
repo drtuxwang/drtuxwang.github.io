@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210413a
+! Version: 20210514a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -583,11 +583,9 @@ independent.co.uk###stickyFooterRoot
 ||intensedebate.com^
 ||interestsearch.net^
 ||invitemedia.com^
+||inyourarea.co.uk^
 ||iperceptions.com^
 ||ipinfodb.com^
-||iridiumsergeiprogenitor.info^
-||irs01.net^
-||irs01.com^
 ||iterable.com^
 ||itproportal.com/*.js
 ||itrunsonlinux.com/*.js
@@ -745,6 +743,7 @@ muktware.com##[alt*="-ad-"]
 ||myfastcdn.com^domain=gdriveplayer.to
 mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
+mylondon.news##.factbox
 mylondon.news##.partner
 mylondon.news##.top-slot
 mylondon.news##.whats-hot
@@ -1265,13 +1264,6 @@ youtube.com##ytd-shelf-renderer
 !m.facebook.com##[id^="scrollarea_"]
 !m.facebook.com##.mobileThreeByOne
 !m.facebook.com##.scrollAreaColumn
-! 20210211
-!||optimizely.com^
-! 20210321
-!||cedexis.com^
-!||radarurl.com^
-!||sneakystamp.com^
-!||tremormedia.com^
 ! 20210322
 !xe.com###adProbx
 !xe.com##.currencySnippet-wrapper
@@ -1294,3 +1286,7 @@ youtube.com##ytd-shelf-renderer
 !fitfortravel.nhs.uk###cookies-bar
 !||firstimpression.io^
 !||feedburner.com^
+! 20210514
+!||irs01.net^
+!||irs01.com^
+!||iridiumsergeiprogenitor.info^
