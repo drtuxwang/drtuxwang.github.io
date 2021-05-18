@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210517a
+! Version: 20210517b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -738,9 +738,6 @@ msn.com###foot
 msn.com##.stripeouter
 muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
-||multioptik.com^
-||mybroadband.co.za^
-||mybrowseraddon.com^$popup
 ||myfastcdn.com^domain=gdriveplayer.to
 mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
@@ -1253,7 +1250,6 @@ youtube.com##ytd-shelf-renderer
 ||zdtag.com^
 ||zemanta.com^
 ||zencdn.net^$domain=~hkdrama4u.com
-||zergnet.com^
 ||zkcdn.net^
 ||zopim.com^
 !
@@ -1289,6 +1285,11 @@ youtube.com##ytd-shelf-renderer
 !||irs01.net^
 !||irs01.com^
 !||iridiumsergeiprogenitor.info^
-! 2021051
+! 20210517
 !nitroflare.com##[id*="Ad_banner"]
 !||nitroflare.com/js/view.js
+! 20210518
+!||mybrowseraddon.com^$popup
+!||multioptik.com^
+!||mybroadband.co.za^
+!||zergnet.com^
