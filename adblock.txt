@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210622a
+! Version: 20210622b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1233,6 +1233,11 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Facebook Ads (AdGuard Base)
 facebook.com#$#body > .AdBox.Ad.advert { display:block!important; }
 facebook.com#?#div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) div[class]:has(> div[class] > div[class] div[class] > a[href^="https://l.facebook.com/l.php?u="][target="_blank"])
+! Facebook Ads (AdGuard Mobile Ads)
+facebook.com##article[data-store*="is_sponsored.1"]
+facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
+facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
+facebook.com##.storyStream > .fullwidth.carded
 ! Youtube Preroll (AdGuard Base)
 youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
