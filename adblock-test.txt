@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210518a
+! Version: 20210622b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -13,9 +13,9 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 ||twitter.com^$3p
-$3p,image,domain=dramawall.com|player.fastdrama.me|feurl.com
+$3p,image,domain=player.fastdrama.me|feurl.com
 $3p,popup,domain=idrama.me|woaikanxi.to|qooxi.to|openload.co|hkdrama.to|streamtvb.com|vod2cn.com|uptobox.com
-$3p,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|azdrama.site
+$3p,script,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|azdrama.site
   @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=qooxi.to
@@ -117,7 +117,6 @@ amazon.co.uk###sp-cc
 ||androidauthority.com/*.js
 ao.com###aoMessageHolder
 ||aolcdn.com^
-||apester.com^
 ||app-installz.com^
 ||apportium.com^
 ||aralego.com^
@@ -173,18 +172,6 @@ britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
 ||btserve.com^
 ||bublaa.com^
-buzzfeed.com##.action-bar
-buzzfeed.com##.app_promo__banner
-buzzfeed.com##.bottom_shares
-buzzfeed.com##.js-header-section-placeholder
-buzzfeed.com##.connect-widget
-buzzfeed.com##.cookie-language-prompt__content
-buzzfeed.com##[id^="mod-emoji"]
-buzzfeed.com###inline_shares_box
-buzzfeed.com###mod-privacy-policy-banner-1
-buzzfeed.com###share_control
-buzzfeednews.com##.sharing-btn
-||buzzhand.com/*.js
 ||byethost*.com^
 ||bzlwe.com^
 ||carambo.la^
@@ -368,20 +355,11 @@ extremetech.com##.share_menu
 ||extremetech.com/wp-content/themes/
 ||ezmob.com^
 ||fabolele.com^
-facebook.com##.fbPageBannerInner
-facebook.com###fb_stories_card_root
-facebook.com##[href*="/ads/"]
-facebook.com##[href*="/crisisresponse/"]
-facebook.com##[href*="/fundraisers/"]
-facebook.com##[href*="/games/"]
+facebook.com##[href*="/coronavirus_info/"]
 facebook.com##[href*="/gaming/"]
 facebook.com##[href*="/jobs/"]
 facebook.com##[href*="/marketplace/"]
-facebook.com##[href*="/movies/"]
-facebook.com##[href*="/offers/"]
-facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Stories/)
-facebook.com##.pagelet
-facebook.com###pagelet_megaphone
+facebook.com##[href*="/watch/"]
 ||facebook.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com
 ||facebook.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 m.facebook.com##[id^="TRAY"]
@@ -1047,8 +1025,6 @@ standard.co.uk##.video-sticky-video
 ||storify.com^
 ||streamcherry.com/*/license.js
 ||sumome.com^
-||super-links.net^
-||surgeprice.com^
 ||swarmcdn.com^
 ||swiftype.com^
 ||swiftypecdn.com^
@@ -1142,7 +1118,6 @@ tinydl.co##.sideblock
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
 topcashback.co.uk##.cc-banner
-||topcasinooffer.com^
 torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradedoubler.com^
 ||tradepub.com^
@@ -1247,33 +1222,27 @@ youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
 youtube.com##.ytd-rich-section-renderer
 youtube.com##ytd-shelf-renderer
+! Youtube pre-roll from AdGuard Base
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ||zdtag.com^
 ||zemanta.com^
 ||zencdn.net^$domain=~hkdrama4u.com
 ||zkcdn.net^
 ||zopim.com^
 !
-! 20190729
-!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/ £/)
-! 20190920
-!m.facebook.com##[id^="scrollarea_"]
-!m.facebook.com##.mobileThreeByOne
-!m.facebook.com##.scrollAreaColumn
-! 20210322
-!xe.com###adProbx
-!xe.com##.currencySnippet-wrapper
-!xe.com###footerContainer
-!xe.com##.grid-layout
-!xe.com###internalAdSlot1
-!xe.com##.nonReactPageFix-header
-!msn.com##.sameoab_ad_container
-! 20210331
-!||akamaiedge.net^$script,domain=dailymail.co.uk
-! 20210403
-!||cdn-careers.sstatic.net^
-!||danasoft.com^
-!||dhgate.com^
-!||ttxm.co.uk/*/mktg-*
+! Facebook Ads (AdGuard Base)
+facebook.com#$#body > .AdBox.Ad.advert { display:block!important; }
+facebook.com#?#div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) div[class]:has(> div[class] > div[class] div[class] > a[href^="https://l.facebook.com/l.php?u="][target="_blank"])
+! Facebook Ads (AdGuard Mobile Ads)
+facebook.com##article[data-store*="is_sponsored.1"]
+facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
+facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
+facebook.com##.storyStream > .fullwidth.carded
+! Youtube Preroll (AdGuard Base)
+youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+!
 ! 20210412
 !||concernrain.com^
 !||condenast.com^
@@ -1293,3 +1262,33 @@ youtube.com##ytd-shelf-renderer
 !||mybroadband.co.za^
 !||zergnet.com^
 !||affutd.com^
+! 20210620
+!||topcasinooffer.com^
+!||super-links.net^
+||surgeprice.com^
+!buzzfeed.com##.action-bar
+!buzzfeed.com##.app_promo__banner
+!buzzfeed.com##.bottom_shares
+!buzzfeed.com##.js-header-section-placeholder
+!buzzfeed.com##.connect-widget
+!buzzfeed.com##.cookie-language-prompt__content
+!buzzfeed.com##[id^="mod-emoji"]
+!buzzfeed.com###inline_shares_box
+!buzzfeed.com###mod-privacy-policy-banner-1
+!buzzfeed.com###share_control
+!buzzfeednews.com##.sharing-btn
+!||buzzhand.com/*.js
+!$3p,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|azdrama.site
+!||apester.com^
+! 20210622
+!facebook.com##.fbPageBannerInner
+!facebook.com###fb_stories_card_root
+!facebook.com##[href*="/ads/"]
+!facebook.com##[href*="/crisisresponse/"]
+!facebook.com##[href*="/fundraisers/"]
+!facebook.com##[href*="/games/"]
+!facebook.com##[href*="/movies/"]
+!facebook.com##[href*="/offers/"]
+!facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Stories/)
+!facebook.com##.pagelet
+!facebook.com###pagelet_megaphone
