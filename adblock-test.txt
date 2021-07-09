@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210622b
+! Version: 20210701a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -300,6 +300,7 @@ doodle.com##.d-warning
 ||doubleclick.net^
 ||doublepimp.com^
 ||doubleverify.com^
+||downloadhelper.net^$popup
 ||downloadsetup.net^
 ||dpmsrv.com^
 idrama.me##strong
@@ -1194,7 +1195,6 @@ yahoo.com##.ads
 youtube.com###buttons
 youtube.com###companion
 youtube.com###donation-shelf
-youtube.com###enhancer-for-youtube-toolbar
 ||youtube.com/get_video_info
 ||youtube.com/get_midroll
 youtube.com##.GoogleActiveViewElement
@@ -1221,7 +1221,6 @@ youtube.com##.ytd-primetime-promo-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
 youtube.com##.ytd-rich-section-renderer
-youtube.com##ytd-shelf-renderer
 ! Youtube pre-roll from AdGuard Base
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ||zdtag.com^
@@ -1292,3 +1291,6 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !facebook.com##[id^="hyperfeed_story_id_"]:has-text(/Stories/)
 !facebook.com##.pagelet
 !facebook.com###pagelet_megaphone
+! 20210630
+!youtube.com###enhancer-for-youtube-toolbar
+!youtube.com##ytd-shelf-renderer
