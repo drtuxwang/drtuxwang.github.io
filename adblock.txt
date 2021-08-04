@@ -115,6 +115,7 @@ amazon.co.uk###sp-cc
 ||amung.us^
 ||and.co.uk^
 ||androidauthority.com/*.js
+androidranking.net##div.page:nth-of-type(1)
 ao.com###aoMessageHolder
 ||aolcdn.com^
 ||app-installz.com^
@@ -301,6 +302,7 @@ doodle.com##.d-warning
 ||doubleclick.net^
 ||doublepimp.com^
 ||doubleverify.com^
+||downloadhelper.net^
 ||downloadhelper.net^$popup
 ||downloadsetup.net^
 ||dpmsrv.com^
@@ -348,6 +350,7 @@ eclipse.org##.cc-banner
 ||exovueplatform.com^
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
+express.co.uk##.affiliate-widget
 ||express.co.uk/*.gif
 express.co.uk##.header-row
 express.co.uk##.mainFooter
@@ -401,6 +404,7 @@ ft.com##.n-messaging-banner
 ||fwmrm.net^
 ||fyre.co^
 ||gaug.es^
+gbnews.uk##.row-section
 ||gemius.pl^
 ||genericsteps.com^
 ||genericstts.com^
@@ -434,38 +438,6 @@ google.com##.app-promo
 ||google.com/complete/search
 ||google.com/cse/
 docs.google.com##.docs-promo-bubble
-||google.com/*/postmessageRelay
-google.com###botstuff
-google.com##.infomsg
-google.com###newsbox
-google.com##.obcontainer
-google.com###rhs
-google.com##[style^="behavior:url"]
-google.com##[style="margin-left:12px"]
-google.com###tads
-google.com###tvcap
-google.com##.widget-consent-dialog
-google.co.uk###bottomads
-||google.co.uk/cse/
-google.co.uk###fbar
-google.co.uk##.commercial-unit
-google.co.uk###epbar[style="display: block;"]
-google.co.uk##.gb_g
-google.co.uk##.infomsg
-google.co.uk##IMG[src*="doodles"]
-google.co.uk###lga
-google.co.uk###_Ltg
-google.co.uk###mbEnd
-google.co.uk###most-visited
-google.co.uk###newsbox
-google.co.uk###pushdown
-google.co.uk###rhs_block
-google.co.uk##.rl_container
-google.co.uk##.rscontainer
-@@||google.co.uk/search?$popup
-google.co.uk##[style*="behavior:url"]
-google.co.uk###tads
-google.co.uk###taw
 docs.google.com##.jfk-butterBar
 accounts.google.com##.mail-hero
 finance.google.com##[id^="gb"]
@@ -484,7 +456,7 @@ translate.google.com##.notification-area
 ||fonts.googleapis.com/css
 googleblog.com###cookieChoiceInfo
 ||googlesyndication.com^
-||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk|~utilitypoint.co.uk|~thechelsea.co.uk
+||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk|~utilitypoint.co.uk|~thechelsea.co.uk|~lewisham.gov.uk
 ||googletagservices.com^
 ||googlevideo.com/*&live=1
 ||gravatar.com^$domain=~playtech.corp|~pbs.one
@@ -949,6 +921,7 @@ scoreboard.com###cookie-law-content
 ||seekingalpha.com/*.js
 ||segment.com^$domain=~codefresh.io|~pbs.one
 ||sekindo.com^
+||selfishsnake.com$domain=howtogeek.com
 ||servebom.com^
 ||servedbyopenx.com^
 ||serveyprizereward.com^
@@ -1243,23 +1216,7 @@ youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.play
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !
-! 20210412
-!||concernrain.com^
-!||condenast.com^
-! 20210413
-!fitfortravel.nhs.uk###cookies-bar
-!||firstimpression.io^
-!||feedburner.com^
-! 20210514
-!||irs01.net^
-!||irs01.com^
-!||iridiumsergeiprogenitor.info^
-! 20210517
-!nitroflare.com##[id*="Ad_banner"]
-!||nitroflare.com/js/view.js
 ! 20210518
-!||multioptik.com^
-!||mybroadband.co.za^
 !||zergnet.com^
 !||affutd.com^
 ! 20210620
@@ -1295,3 +1252,36 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! 20210630
 !youtube.com###enhancer-for-youtube-toolbar
 !youtube.com##ytd-shelf-renderer
+! 20210712
+!||google.com/*/postmessageRelay
+!google.com###botstuff
+!google.com##.infomsg
+!google.com###newsbox
+!google.com##.obcontainer
+!google.com###rhs
+!google.com##[style^="behavior:url"]
+!google.com##[style="margin-left:12px"]
+!google.com###tads
+!google.com###tvcap
+!google.com##.widget-consent-dialog
+!google.co.uk###bottomads
+!||google.co.uk/cse/
+!google.co.uk###fbar
+!google.co.uk##.commercial-unit
+!google.co.uk###epbar[style="display: block;"]
+!google.co.uk##.gb_g
+!google.co.uk##.infomsg
+!google.co.uk##IMG[src*="doodles"]
+!google.co.uk###lga
+!google.co.uk###_Ltg
+!google.co.uk###mbEnd
+!google.co.uk###most-visited
+!google.co.uk###newsbox
+!google.co.uk###pushdown
+!google.co.uk###rhs_block
+!google.co.uk##.rl_container
+!google.co.uk##.rscontainer
+!@@||google.co.uk/search?$popup
+!google.co.uk##[style*="behavior:url"]
+!google.co.uk###tads
+!google.co.uk###taw
