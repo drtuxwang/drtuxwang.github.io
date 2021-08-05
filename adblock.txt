@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210804a
+! Version: 20210805a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -548,7 +548,7 @@ jdwetherspoon.co.uk###cookies-popup
 jobsearch.direct.gov.uk###cookieBanner
 ||jofbu.com^
 johnlewis.com##.overlay-message--cookies
-||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~utilitypoint.co.uk
+||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~whosoff.com|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~utilitypoint.co.uk|~topcashback.co.uk
 ||jsecoin.com^
 ||jsrdn.com^
 ||junnify.com^
@@ -557,7 +557,6 @@ johnlewis.com##.overlay-message--cookies
 @@||jwpcdn.com/player/
 ||jwplatform.com^
 ||jwpltx.com^
-||kalooga.com^
 kenstechtips.com##.cookie-alert
 ||keywee.co^
 ||kiosked.com^
@@ -1017,7 +1016,6 @@ error.talktalk.co.uk##.tt_results
 ||tech426.com^$domain=makeuseof.com
 tesco.com###cookie-policy
 tescomobile.com###tesco_cookie_widget
-||tealiumiq.com^
 techadvisor.co.uk##.cookieText
 techadvisor.co.uk/scripts/messaging.js
 techdrivein.com###cookieChoiceInfo
@@ -1216,27 +1214,6 @@ youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.play
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !
-! 20210518
-!||zergnet.com^
-!||affutd.com^
-! 20210620
-!||topcasinooffer.com^
-!||super-links.net^
-||surgeprice.com^
-!buzzfeed.com##.action-bar
-!buzzfeed.com##.app_promo__banner
-!buzzfeed.com##.bottom_shares
-!buzzfeed.com##.js-header-section-placeholder
-!buzzfeed.com##.connect-widget
-!buzzfeed.com##.cookie-language-prompt__content
-!buzzfeed.com##[id^="mod-emoji"]
-!buzzfeed.com###inline_shares_box
-!buzzfeed.com###mod-privacy-policy-banner-1
-!buzzfeed.com###share_control
-!buzzfeednews.com##.sharing-btn
-!||buzzhand.com/*.js
-!$3p,script,domain=buzzfeed.com|distrowatch.com|dramawall.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|azdrama.site
-!||apester.com^
 ! 20210622
 !facebook.com##.fbPageBannerInner
 !facebook.com###fb_stories_card_root
@@ -1285,3 +1262,6 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !google.co.uk##[style*="behavior:url"]
 !google.co.uk###tads
 !google.co.uk###taw
+! 20210805
+!||kalooga.com^
+!||tealiumiq.com^
