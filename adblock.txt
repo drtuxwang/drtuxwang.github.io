@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210818a
+! Version: 20210828a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -121,7 +121,6 @@ ao.com###aoMessageHolder
 ||aolcdn.com^
 ||app-installz.com^
 ||apportium.com^
-||aralego.com^
 ||argos.co.uk/*.png
 argos.co.uk##.privacy-prompt-wrapper
 asda.com##.cookies-banner
@@ -733,6 +732,8 @@ novafile.com###payment-icons
 novafile.com###secure
 novafile.com###tariffs
 ||november-lax.com^$popup
+nperf.com##nav
+nperf.com##.partNewCompte
 ||nrcdn.com^
 ||nrelate.com^
 ||ntv.io^
@@ -767,7 +768,6 @@ omgubuntu.co.uk##.page-footer
 ||opednews.com/*.js
 ||opendownloadmanager.com^
 @@||openload.co/
-||openwebtorrent.com^
 ||openx.net^
 ||ophan.co.uk^
 ||optkit.com^
@@ -935,7 +935,6 @@ siemens.com###cookieMessageWrapper
 ||simba-digital.com^
 ||simplyhired.com^
 ||simplereach.com^
-||sitelock.com^
 ||sitemeter.com^
 ||sitestat.com^
 ||skimresources.com^
@@ -1266,3 +1265,7 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! 20210805
 !||kalooga.com^
 !||tealiumiq.com^
+! 20210828
+!||openwebtorrent.com^
+!||aralego.com^
+!||sitelock.com^
