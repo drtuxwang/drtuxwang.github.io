@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210831b
+! Version: 20210912a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -14,15 +14,15 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ! Block 3rd party crap by domains
 ||twitter.com^$3p
 $3p,image,domain=player.fastdrama.me|feurl.com
-$3p,popup,domain=idrama.me|woaikanxi.to|qooxi.to|openload.co|hkdrama.to|streamtvb.com|vod2cn.com|uptobox.com
-$3p,script,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|qooxi.to|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
-  @@||cloudflare.com^$script,domain=qooxi.to|vod2cn.com
+$3p,popup,domain=idrama.me|woaikanxi.to|kokotv.me|openload.co|hkdrama.to|streamtvb.com|vod2cn.com|uptobox.com
+$3p,script,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
+  @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com
   @@||fluidplayer.com^$script,domain=woaikanxi.to
-  @@||googleapis.com^$script,domain=qooxi.to
+  @@||googleapis.com^$script,domain=kokotv.me
   @@||gstatic.com^$script,domain=hkdrama.to|consent.google.co.uk|consent.google.com
-  @@||iamcdn.net^$script,domain=qooxi.to
+  @@||iamcdn.net^$script,domain=kokotv.me
   @@||jsdelivr.net^$script,domain=vod2cn.com
-  @@||jwpcdn.com^$script,domain=woaikanxi.to|qooxi.to
+  @@||jwpcdn.com^$script,domain=woaikanxi.to|kokotv.me
   @@||jwplayer.com^$script,domain=woaikanxi.to
   @@||google.com^$script,domain=youtube.com
 $3p,xhr,domain=gdriveplayer.to
@@ -562,6 +562,10 @@ kenstechtips.com##.cookie-alert
 ||kiosked.com^
 ||kixer.com^
 ||knorex.asia^
+kokotv.me###featPosts
+kokotv.me###footWidgets
+kokotv.me###sidebar
+kokotv.me###wnb-bar
 ||kontera.com^
 ||kovla.com^
 krispykreme.co.uk###notice-cookie-block
@@ -859,10 +863,6 @@ postoffice.co.uk##.cookie
 ||q1media.com^
 ||qmerce.com^
 ||qnsr.com^
-qooxi.to###featPosts
-qooxi.to###footWidgets
-qooxi.to###sidebar
-qooxi.to###wnb-bar
 ||qsstats.com^
 ||qualaroo.com^
 ||qualtrics.com^
