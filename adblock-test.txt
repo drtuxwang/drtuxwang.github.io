@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210915a
+! Version: 20210928a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -14,16 +14,14 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ! Block 3rd party crap by domains
 ||twitter.com^$3p
 $3p,image,domain=player.fastdrama.me|feurl.com
-$3p,popup,domain=idrama.me|woaikanxi.to|kokotv.me|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
-$3p,script,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|woaikanxi.to|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
+$3p,popup,domain=idrama.me|kokotv.me|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
+$3p,script,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
   @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com
-  @@||fluidplayer.com^$script,domain=woaikanxi.to
   @@||googleapis.com^$script,domain=kokotv.me
   @@||gstatic.com^$script,domain=adrama.to|consent.google.co.uk|consent.google.com
   @@||iamcdn.net^$script,domain=kokotv.me
   @@||jsdelivr.net^$script,domain=vod2cn.com
-  @@||jwpcdn.com^$script,domain=woaikanxi.to|kokotv.me
-  @@||jwplayer.com^$script,domain=woaikanxi.to
+  @@||jwpcdn.com^$script,domain=kokotv.me
   @@||google.com^$script,domain=youtube.com
 $3p,xhr,domain=gdriveplayer.to
 $3p,other
@@ -72,7 +70,7 @@ advert*.js$3p,domain=~adrama.to
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 *myapp.com^
 pixel$3p
-*popup*.js$domain=~woaikanxi.to|~hsbc.co.uk|~successfactors.eu|~qq.com
+*popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com
 /sponsors/*
 *syndicate.
 *syndication.
@@ -353,9 +351,8 @@ eclipse.org##.cc-banner
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
 express.co.uk##.affiliate-widget
-||express.co.uk/*.gif
-express.co.uk##.header-row
 express.co.uk##.mainFooter
+express.co.uk##.superbanner
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
@@ -1221,3 +1218,8 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !||openwebtorrent.com^
 !||aralego.com^
 !||sitelock.com^
+! 20210928
+!||express.co.uk/*.gif
+!express.co.uk##.header-row
+!@@||fluidplayer.com^$script,domain=woaikanxi.to
+!@@||jwplayer.com^$script,domain=woaikanxi.to
