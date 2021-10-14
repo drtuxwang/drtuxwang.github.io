@@ -218,9 +218,6 @@ cnn.com##[id^="bx-creative-"]
 ||coinhive.com^
 ||collective-media.net^
 ||com.com^
-||comegarage.com^
-||comodoca.com^
-||comodoca2.com^
 ||comparitech.com/*.css
 ||compete.com^
 complex.com/*.js
@@ -258,6 +255,7 @@ dailymail.co.uk##.sponsored
 dailymail.co.uk##.dms-puff
 dailymail.co.uk##.floating-buttons
 dailymail.co.uk##.mini
+dailystar.co.uk###breaking-news
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
@@ -696,7 +694,9 @@ muktware.com##[alt*="-ad-"]
 mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.factbox
+mylondon.news##.native-install
 mylondon.news##.partner
+mylondon.news##.skinny-form-content
 mylondon.news##.top-slot
 mylondon.news##.whats-hot
 ||mythings.com^
@@ -1115,7 +1115,6 @@ ubuntu.com##.cookie-policy
 ||uservoice.com/*.js
 v3.co.uk###qq
 ||valuedopinions.co.uk^
-||vertamedia.com^
 videolan.org##.donate2
 videolan.org###uecookies
 vidspot.net##[style*="important"]
@@ -1227,3 +1226,8 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !||skybet.com^
 !||skysa.com^
 !||shoppinglifestyle.com^
+! 20211014
+!||comegarage.com^
+!||comodoca.com^
+!||comodoca2.com^
+!||vertamedia.com^
