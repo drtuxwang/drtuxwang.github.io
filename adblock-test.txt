@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20210928a
+! Version: 20211016a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -62,7 +62,7 @@ $3p,other
 ||ads2.
 ||ads2.$popup
 ||adservice.
-*ads.$3p,domain=~facebook.com
+*ads.$3p,domain=~facebook.com|~live.com
 /ads.$xhr
 ||adsrv*$popup
 advert*.js$3p,domain=~adrama.to
@@ -218,15 +218,11 @@ cnn.com##[id^="bx-creative-"]
 ||coinhive.com^
 ||collective-media.net^
 ||com.com^
-||comegarage.com^
-||comodoca.com^
-||comodoca2.com^
 ||comparitech.com/*.css
 ||compete.com^
 complex.com/*.js
 ||complexmedianetwork.com^
 ||comprigo.com^
-||computershopper.com/*.js
 ||computerworld.com/*.js
 ||condenastdigital.com^
 ||conectiaoffers.com^
@@ -259,6 +255,7 @@ dailymail.co.uk##.sponsored
 dailymail.co.uk##.dms-puff
 dailymail.co.uk##.floating-buttons
 dailymail.co.uk##.mini
+dailystar.co.uk###breaking-news
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
 dailystar.co.uk###recommendations-topbox
@@ -266,6 +263,7 @@ dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
 dailymail.co.uk###smartBanner
 dailymail.co.uk###socialLinks
+dailystar.co.uk##.native-install
 ||datamation.com/hqx/
 ||datamation.com/*.js
 ||datamation.com/sl/
@@ -352,7 +350,9 @@ expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
 express.co.uk##.affiliate-widget
 express.co.uk##.mainFooter
+express.co.uk##.right-column
 express.co.uk##.superbanner
+express.co.uk##.taboola-above-article
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
@@ -659,15 +659,16 @@ microsoftonline.com###msccBanner
 login.microsoftonline.com###optInUserBanner
 microsoft.com###msccBanner
 microsoft.com##.promo-banner
+mirror.co.uk##.ad-placeholder
 mirror.co.uk###cookieNotification
 mirror.co.uk###div-gpt-ad-sticky-bottom-banner
+mirror.co.uk##.email-signup-form-content
 mirror.co.uk##.factbox
+mirror.co.uk##.hidden-links
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.top-slot
 ||mixdrop.co/xads.js
 ||mixpanel.com^$domain=~okta.com
-||mkt932.com^
-||ml314.com^
 ||mmadsgadget.com^
 ||mmondi.com^
 ||moatads.com^
@@ -694,7 +695,9 @@ muktware.com##[alt*="-ad-"]
 mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.factbox
+mylondon.news##.native-install
 mylondon.news##.partner
+mylondon.news##.skinny-form-content
 mylondon.news##.top-slot
 mylondon.news##.whats-hot
 ||mythings.com^
@@ -721,10 +724,10 @@ newsshopper.co.uk###DFP_top_leaderboard
 newsshopper.co.uk##.footer-container
 newsshopper.co.uk##.mobile-social
 newsshopper.co.uk###pecr-cookie-warning
+newzit.com##.affix-on
 newzit.com##.jwplayer_body
 newzit.com##.ticker
 ||embed.newzit.com^
-||nexac.com^
 nginx.com###cookie_permission_banner
 ||njmaq.com^
 ||nmcdn.us^
@@ -843,7 +846,6 @@ postoffice.co.uk##.cookie
 ||ah.pricegrabber.com^
 ||primefuse.com^
 ||primosearch.com^
-||privacy-mgmt.com^
 ||pro-market.net^
 ||propellerclick.com^
 ||propellerpops.com^
@@ -926,7 +928,6 @@ scoreboard.com###cookie-law-content
 ||serving-sys.com^
 ||sessioncam.com^
 shearings.com###cookie-notice-inner
-||shoppinglifestyle.com^
 ||shutterstock.com^
 siemens.com###cookieMessageWrapper
 ||simba-digital.com^
@@ -942,8 +943,6 @@ sky.com##.sdc-news-footer__wrapper
 sky.com##.sky-component-cookie-notice
 sky.com##.sky-component-footer
 sky.com##.sky-component-social-share__item
-||skybet.com^
-||skysa.com^
 @@||skyscnr.com^$script,domain=skyscanner.net
 ||skytemjo.link^
 ||smartertravel.com^
@@ -1116,7 +1115,6 @@ ubuntu.com##.cookie-policy
 ||uservoice.com/*.js
 v3.co.uk###qq
 ||valuedopinions.co.uk^
-||vertamedia.com^
 videolan.org##.donate2
 videolan.org###uecookies
 vidspot.net##[style*="important"]
@@ -1223,3 +1221,18 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !express.co.uk##.header-row
 !@@||fluidplayer.com^$script,domain=woaikanxi.to
 !@@||jwplayer.com^$script,domain=woaikanxi.to
+! 20211011
+!||computershopper.com/*.js
+!||skybet.com^
+!||skysa.com^
+!||shoppinglifestyle.com^
+! 20211014
+!||comegarage.com^
+!||comodoca.com^
+!||comodoca2.com^
+!||vertamedia.com^
+! 20211016
+!||nexac.com^
+!||mkt932.com^
+!||ml314.com^
+!||privacy-mgmt.com^
