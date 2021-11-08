@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20211019a
+! Version: 20211108a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -776,10 +776,7 @@ omgubuntu.co.uk##.page-footer
 ||opednews.com/*.js
 ||opendownloadmanager.com^
 @@||openload.co/
-||openx.net^
-||ophan.co.uk^
 ||optkit.com^
-||optnmnstr.com^
 ||optnmstr.com^
 ||optimost.com^
 osnews.com##.ad
@@ -998,6 +995,7 @@ standard.co.uk##.video-sticky-video
 ||statsevent.com^
 ||storify.com^
 ||streamcherry.com/*/license.js
+||stripe.com^$domain=player.fm
 ||sumome.com^
 ||swarmcdn.com^
 ||swiftype.com^
@@ -1008,7 +1006,6 @@ standard.co.uk##.video-sticky-video
 ||tacdn.com/*.js$domain=~tripadvisor.co.uk
 ||tacoda.net^
 ||tagsrvcs.com^
-||tamgrt.com^
 ||taobao.com^
 talktalk.co.uk##.notification--cookie
 talktalk.co.uk##.f-size2.color0
@@ -1117,7 +1114,6 @@ ubuntu.com##.cookie-policy
 @@||uptobox.com^$popup,domain=idrama.me
 ||userreport.com^
 ||uservoice.com/*.js
-v3.co.uk###qq
 ||valuedopinions.co.uk^
 videolan.org##.donate2
 videolan.org###uecookies
@@ -1192,8 +1188,6 @@ youtube.com##.ytd-primetime-promo-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
 youtube.com##.ytd-rich-section-renderer
-! Youtube pre-roll from AdGuard Base
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ||zdtag.com^
 ||zemanta.com^
 ||zencdn.net^$domain=~hkdrama4u.com
@@ -1213,9 +1207,6 @@ youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.play
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !
-! 20210805
-!||kalooga.com^
-!||tealiumiq.com^
 ! 20210828
 !||openwebtorrent.com^
 !||aralego.com^
@@ -1240,3 +1231,9 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !||mkt932.com^
 !||ml314.com^
 !||privacy-mgmt.com^
+! 20211108
+!||tamgrt.com^
+!v3.co.uk###qq
+!||openx.net^
+!||ophan.co.uk^
+!||optnmnstr.com^
