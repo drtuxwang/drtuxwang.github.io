@@ -6,7 +6,7 @@
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
-$popup,domain=asianfans.net|playhydrax.com|player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network
+$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|odrama.net
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
@@ -77,9 +77,6 @@ pixel$3p
 ||syndication.$popup
 *yield*$3p
 !
-! Domain for Mobile malvertising
-||privacy-mgmt.com^
-||fundingchoicesmessages.google.com
 ! Domain specific filters
 ||accountkit.com^
 accuweather.com##.adhesion-ad-frame
@@ -495,7 +492,6 @@ huffingtonpost.co.uk##.share-bar
 ||huffpost.com/*.js
 ||hulaga.net^
 ||hurra.com^
-||iamcdn.net/players/player.mins.js$domain=playhydrax.com
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
@@ -1035,10 +1031,6 @@ telegraph.co.uk##.summaryMedium
 ||telemetryverification.net^
 ||tenderapp.com^
 ||tenmax.io^
-tfl.gov.uk##.cookie-policy-notice
-tfl.gov.uk###cookie-policy-notice
-tfl.gov.uk##.top-banner-advert
-thameswater.co.uk##.cookies
 ||theepochtimes.com/*.js
 theguardian.com##.contribution-moment
 theguardian.com##.contributions__epic
@@ -1118,7 +1110,6 @@ vidspot.net##[style*="important"]
 ||viglink.com^
 vim.org##.sidebar:nth-of-type(5)
 virginatlantic.com##.cookie-footer
-virginmoney.com###e-privacy-message
 virtualboxes.org###eu-cookie-law
 ||visiblemeasures.com^
 ||vixnixxer.com^
@@ -1203,26 +1194,13 @@ facebook.com##.storyStream > .fullwidth.carded
 youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+! Hydrax videos
+$popup,domain=nazarickol.com
+$xhr,domain=nazarickol.com
+! Mobile malvertising
+||privacy-mgmt.com^
+||fundingchoicesmessages.google.com
 !
-! 20210828
-!||openwebtorrent.com^
-!||aralego.com^
-!||sitelock.com^
-! 20210928
-!||express.co.uk/*.gif
-!express.co.uk##.header-row
-!@@||fluidplayer.com^$script,domain=woaikanxi.to
-!@@||jwplayer.com^$script,domain=woaikanxi.to
-! 20211011
-!||computershopper.com/*.js
-!||skybet.com^
-!||skysa.com^
-!||shoppinglifestyle.com^
-! 20211014
-!||comegarage.com^
-!||comodoca.com^
-!||comodoca2.com^
-!||vertamedia.com^
 ! 20211016
 !||nexac.com^
 !||mkt932.com^
@@ -1241,3 +1219,10 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !||linezing.com^
 !||linkatar.com^
 !||linkbucks.com^
+! 20211127
+!||iamcdn.net/players/player.mins.js$domain=playhydrax.com
+!virginmoney.com###e-privacy-message
+!thameswater.co.uk##.cookies
+!tfl.gov.uk##.cookie-policy-notice
+!tfl.gov.uk###cookie-policy-notice
+!tfl.gov.uk##.top-banner-advert
