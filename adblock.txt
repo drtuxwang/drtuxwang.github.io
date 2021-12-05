@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20211204a
+! Version: 20211205a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -161,6 +161,7 @@ bing.com###b_notificationContainer
 blogspot.co.uk###sidebar
 bloomberg.com###bb-nav
 bloomberg.com##.leaderboard-wrapper
+bloomberg.com##.page-ad
 bloomberg.com###paywall-banner
 ||bnserving.com^
 ||bowercdn.net^
@@ -258,6 +259,7 @@ dailymail.co.uk##.mini
 dailystar.co.uk###breaking-news
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
+dailymail.co.uk##.minute-media
 dailystar.co.uk###recommendations-topbox
 dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
@@ -353,6 +355,7 @@ express.co.uk##.mainFooter
 express.co.uk##.right-column
 express.co.uk##.superbanner
 express.co.uk##.taboola-above-article
+express.co.uk###taboola-ad
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
@@ -735,10 +738,6 @@ novafile.com###tariffs
 ||november-lax.com^$popup
 nperf.com##nav
 nperf.com##.partNewCompte
-||nrcdn.com^
-||nrelate.com^
-||ntv.io^
-||nuffnang.com.sg^
 nytimes.com##.gdpr
 ||oclaserver.com^
 ||oclasrv.com^
@@ -1201,11 +1200,6 @@ $xhr,domain=freeplayervideo.com
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20211016
-!||nexac.com^
-!||mkt932.com^
-!||ml314.com^
-!||privacy-mgmt.com^
 ! 20211108
 !||tamgrt.com^
 !v3.co.uk###qq
@@ -1226,3 +1220,8 @@ $xhr,domain=freeplayervideo.com
 !tfl.gov.uk##.cookie-policy-notice
 !tfl.gov.uk###cookie-policy-notice
 !tfl.gov.uk##.top-banner-advert
+! 20211205
+!||nrcdn.com^
+!||nrelate.com^
+!||ntv.io^
+!||nuffnang.com.sg^
