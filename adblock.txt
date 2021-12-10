@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20211204a
+! Version: 20211210a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -664,6 +664,7 @@ mirror.co.uk##.hidden-links
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.native-install
 mirror.co.uk##.top-slot
+mirror.co.uk##.video-wrapper
 ||mixdrop.co/xads.js
 ||mixpanel.com^$domain=~okta.com
 ||mmadsgadget.com^
@@ -708,9 +709,7 @@ nectar.com###cc-notification-wrapper
 ||nedstatbasic.net^
 ||negdrvgo.com^
 ||netline.com^
-||netseer.com^
 ||netshelter.net^
-||newartspy.link^
 ||newrelic.com^
 ||newscientist.com/*.js
 newscientist.com###cookiesdirective
@@ -1226,3 +1225,6 @@ $xhr,domain=freeplayervideo.com
 !tfl.gov.uk##.cookie-policy-notice
 !tfl.gov.uk###cookie-policy-notice
 !tfl.gov.uk##.top-banner-advert
+! 20211210
+!||netseer.com^
+!||newartspy.link^
