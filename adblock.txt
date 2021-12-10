@@ -161,6 +161,7 @@ bing.com###b_notificationContainer
 blogspot.co.uk###sidebar
 bloomberg.com###bb-nav
 bloomberg.com##.leaderboard-wrapper
+bloomberg.com##.page-ad
 bloomberg.com###paywall-banner
 ||bnserving.com^
 ||bowercdn.net^
@@ -258,6 +259,7 @@ dailymail.co.uk##.mini
 dailystar.co.uk###breaking-news
 dailystar.co.uk##footer
 dailystar.co.uk##.gpt
+dailymail.co.uk##.minute-media
 dailystar.co.uk###recommendations-topbox
 dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
@@ -353,6 +355,7 @@ express.co.uk##.mainFooter
 express.co.uk##.right-column
 express.co.uk##.superbanner
 express.co.uk##.taboola-above-article
+express.co.uk###taboola-ad
 ||extreme-dm.com^
 extremetech.com###consent_blackbar
 extremetech.com##.share_menu
@@ -734,10 +737,6 @@ novafile.com###tariffs
 ||november-lax.com^$popup
 nperf.com##nav
 nperf.com##.partNewCompte
-||nrcdn.com^
-||nrelate.com^
-||ntv.io^
-||nuffnang.com.sg^
 nytimes.com##.gdpr
 ||oclaserver.com^
 ||oclasrv.com^
@@ -1200,11 +1199,6 @@ $xhr,domain=freeplayervideo.com
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20211016
-!||nexac.com^
-!||mkt932.com^
-!||ml314.com^
-!||privacy-mgmt.com^
 ! 20211108
 !||tamgrt.com^
 !v3.co.uk###qq
@@ -1225,6 +1219,11 @@ $xhr,domain=freeplayervideo.com
 !tfl.gov.uk##.cookie-policy-notice
 !tfl.gov.uk###cookie-policy-notice
 !tfl.gov.uk##.top-banner-advert
+! 20211205
+!||nrcdn.com^
+!||nrelate.com^
+!||ntv.io^
+!||nuffnang.com.sg^
 ! 20211210
 !||netseer.com^
 !||newartspy.link^
