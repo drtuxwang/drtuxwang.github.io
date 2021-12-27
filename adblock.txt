@@ -263,6 +263,7 @@ dailymail.co.uk##.minute-media
 dailystar.co.uk###recommendations-topbox
 dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
+dailystar.co.uk##.skinny-signup
 dailymail.co.uk###smartBanner
 dailymail.co.uk###socialLinks
 dailystar.co.uk##.native-install
@@ -275,12 +276,10 @@ delayrepaycompensation.com##.cc_banner
 ||demandbase.com^
 ||demdex.net^$domain=~thechelsea.co.uk
 ||devx.com^
-||dianomioffers.co.uk^
 ||dianomi.com^
 dilbert.com##.cc_banner
 dilbert.com##.cookie-choices-info
 ||digg.com^
-||directrev.com^
 disqus.com##.is-footer
 disqus.com##.module--aside
 ||disquscdn.com/uploads/*.jpg
@@ -1229,3 +1228,6 @@ $xhr,domain=freeplayervideo.com
 !||gstatic.com/gb/js/sem_
 !||evernote.com^
 !||exdynsrv.com^
+! 20211227
+!||dianomioffers.co.uk^
+!||directrev.com^
