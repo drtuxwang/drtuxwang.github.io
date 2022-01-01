@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220101b
+! Version: 20220101c
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1030,8 +1030,8 @@ telegraph.co.uk##.summaryMedium
 ||theepochtimes.com/*.js
 theguardian.com##.dumathoin--paidfor
 theguardian.com##.hide-until-mobile
-theguardian.com##.js-top-banner
 theguardian.com##.l-footer
+theguardian.com##.top-banner-ad-container
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
 ||thehackernews.com/*.js
