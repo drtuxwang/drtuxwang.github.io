@@ -789,7 +789,6 @@ patientaccess.com##.footer-cookie
 ||pcmag.com/*.js
 pcmag.com##.middle-frame
 pcmag.com###sidebar
-pcspecialist.co.uk##.cc-policy
 pcworld.com###comment-form
 pcworld.com###side
 ||pcworld.com/*.js
@@ -1028,14 +1027,10 @@ telegraph.co.uk##.summaryMedium
 ||tenderapp.com^
 ||tenmax.io^
 ||theepochtimes.com/*.js
-theguardian.com##.contribution-moment
-theguardian.com##.contributions__epic
-theguardian.com##.cv-charity
 theguardian.com##.dumathoin--paidfor
 theguardian.com##.hide-until-mobile
 theguardian.com##.l-footer
-theguardian.com##.pledge
-theguardian.com##.trusted-news
+theguardian.com##.top-banner-ad-container
 ||theirsvendor.com^
 ||interactive.guim.co.uk^
 ||thehackernews.com/*.js
@@ -1232,3 +1227,11 @@ $xhr,domain=freeplayervideo.com
 ! 20211227
 !||dianomioffers.co.uk^
 !||directrev.com^
+! 20220101
+!theguardian.com##.contribution-moment
+!theguardian.com##.contributions__epic
+!theguardian.com##.cv-charity
+!theguardian.com##.pledge
+!theguardian.com##.trusted-news
+! 20220102
+!pcspecialist.co.uk##.cc-policy
