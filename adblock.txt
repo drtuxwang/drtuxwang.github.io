@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220106a
+! Version: 20220112a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -982,9 +982,7 @@ standard.co.uk##.video-sticky-video
 ||staticworld.net^
 ||statsevent.com^
 ||storify.com^
-||streamcherry.com/*/license.js
 ||stripe.com^$domain=player.fm
-||sumome.com^
 ||swarmcdn.com^
 ||swiftype.com^
 ||swiftypecdn.com^
@@ -1188,30 +1186,12 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Hydrax videos
 $popup,domain=freeplayervideo.com
 $xhr,domain=freeplayervideo.com
+! FE videos
+||diasfem.com^$inline-script
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20211108
-!||tamgrt.com^
-!v3.co.uk###qq
-!||openx.net^
-!||ophan.co.uk^
-!||optnmnstr.com^
-! 20211112
-!linkedin.com###artdeco-global-alert-container
-!linkedin.com##.premium-upsell-link
-!linkedin.com##.right-rail
-!||linezing.com^
-!||linkatar.com^
-!||linkbucks.com^
-! 20211127
-!||iamcdn.net/players/player.mins.js$domain=playhydrax.com
-!virginmoney.com###e-privacy-message
-!thameswater.co.uk##.cookies
-!tfl.gov.uk##.cookie-policy-notice
-!tfl.gov.uk###cookie-policy-notice
-!tfl.gov.uk##.top-banner-advert
 ! 20211205
 !||nrcdn.com^
 !||nrelate.com^
@@ -1235,3 +1215,6 @@ $xhr,domain=freeplayervideo.com
 !theguardian.com##.trusted-news
 ! 20220102
 !pcspecialist.co.uk##.cc-policy
+! 20220112
+!||sumome.com^
+!||streamcherry.com/*/license.js
