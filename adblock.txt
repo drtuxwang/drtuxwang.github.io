@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220112a
+! Version: 20220128a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -371,7 +371,6 @@ m.facebook.com##[id^="TRAY"]
 m.facebook.com###MStoriesTray
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
 ||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com|~videoembed.co|~veuue.com
-||fbcdn.net/*/live-
 ||fbcdn.net/*.m4a$domain=m.facebook.com
 ||fbcdn.net/safe_image.php?*.gif
 ||facerich.com^
@@ -459,7 +458,6 @@ googleblog.com###cookieChoiceInfo
 ||googlesyndication.com^
 ||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk|~utilitypoint.co.uk|~thechelsea.co.uk|~lewisham.gov.uk|~boots.com
 ||googletagservices.com^
-||googlevideo.com/*&live=1
 ||gravatar.com^
 ||gravity.com^
 ||gravityrd.com^
@@ -602,7 +600,6 @@ linuxuser.co.uk##.cookie_notification
 linuxbsdos.com###topStrip
 ||linuxinsider.com/*.js
 ||linuxinsider.com/*/sda/
-||livefyre.com^
 ||liverail.com^
 ||llnwd.net^$domain=~diy.com
 ||lockerdome.com^
@@ -905,7 +902,6 @@ samsung.com##.cookie-notice
 ||scanscout.com^
 scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
-||scribblelive.com^
 ||seekingalpha.com/*.js
 ||segment.com^$domain=~codefresh.io|~pbs.one
 ||sekindo.com^
@@ -1112,7 +1108,6 @@ vox.com###privacy-consent
 ||webengage.com^
 ||web-stat.com^
 ||webtrends.com^
-||webtrendslive.com^
 ||webtype.com^
 ||weebly.com^
 which.co.uk##.eprivacy-banner--displayed
@@ -1157,6 +1152,7 @@ youtube.com##.yt-chip-cloud-renderer
 youtube.com##ytd-clarification-renderer
 youtube.com##ytd-display-ad-renderer
 youtube.com##.ytd-engagement-panel-section-list-renderer
+youtube.com##.ytd-feed-nudge-renderer
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com##.ytd-mealbar-promo-renderer
 youtube.com##ytd-mini-guide-renderer
@@ -1218,3 +1214,9 @@ $xhr,domain=freeplayervideo.com
 ! 20220112
 !||sumome.com^
 !||streamcherry.com/*/license.js
+! 20220128
+!||fbcdn.net/*/live-
+!||googlevideo.com/*&live=1
+!||livefyre.com^
+!!||webtrendslive.com^
+!!||scribblelive.com^
