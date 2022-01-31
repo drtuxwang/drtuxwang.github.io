@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220131a
+! Version: 20220131b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -477,10 +477,6 @@ here.com##.cookie
 ||histats.com^
 ||hit-counts.com^
 ||hitwise.co.uk^
-hktvdrama.com###content > div:nth-of-type(1)
-hktvdrama.com##.inside-right-sidebar
-hktvdrama.com##.su-clearfix
-hktvdrama.com##.swp_horizontal_panel
 ||h-online.com/*.js
 ||h-online.com/ivw-bin/
 ||hotjar.com^
@@ -865,6 +861,7 @@ radio.garden##.WebBanner_bannerWeb__9VXPD
 rapidgator.net###cookie-dlg
 ||rapidgator.net/images/
 ||reallifecam.com^
+||realsrv/*.js
 ||reachplc.com^$domain=express.co.uk
 ||realtime.co^
 ||realvu.net^
@@ -1210,3 +1207,7 @@ $xhr,domain=freeplayervideo.com
 ! 20220131
 !||pressly.com^
 !||ah.pricegrabber.com^
+!hktvdrama.com###content > div:nth-of-type(1)
+!hktvdrama.com##.inside-right-sidebar
+!hktvdrama.com##.su-clearfix
+!hktvdrama.com##.swp_horizontal_panel
