@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220324a
+! Version: 20220325a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1177,7 +1177,7 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 $popup,domain=freeplayervideo.com
 $xhr,domain=freeplayervideo.com
 ! FE videos
-||opchikoritar.com^
+||agacelebir.com^
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
@@ -1208,3 +1208,5 @@ $xhr,domain=freeplayervideo.com
 ! 20220324
 !||diasfem.com^$inline-script
 !||etoro.com^
+! 20220325
+!||opchikoritar.com^

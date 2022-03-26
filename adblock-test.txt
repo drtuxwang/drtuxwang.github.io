@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220221a
+! Version: 20220324a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -152,8 +152,6 @@ bbc.co.uk##.share
 @@||nav.files.bbci.co.uk/*/istats-1.js
 ||bestofmedia.com^
 @@||bgt.ag^$popup
-bilibili.tv##.ad-f
-||comment.bilibili.tv^
 bing.com###b_notificationContainer
 ||bitgravity.com^
 ||bizographics.com^
@@ -429,7 +427,6 @@ git-scm.com##.banner-message
 glassdoor.co.uk##.adSlotJobListingsContent
 ||globalsources.com^
 ||godaddy.com^
-||go-mpulse.net^
 goodvideohost.com##IMG[src*="banner"]
 ||goo.gl^
 ||google.com/*/ads/
@@ -437,7 +434,7 @@ goodvideohost.com##IMG[src*="banner"]
 google.com##.app-promo
 ||google.com/complete/search
 ||google.com/cse/
-||accounts.google.com$domain=linkedin.com
+||accounts.google.com$domain=linkedin.com|twitter.com
 accounts.google.com##.mail-hero
 docs.google.com##.docs-promo-bubble
 docs.google.com##.jfk-butterBar
@@ -1138,6 +1135,7 @@ youtube.com###header
 ||youtube.com/*/log_event
 youtube.com###merch-shelf
 ||youtube.com/ptracking
+youtube.com##.sparkles-light-cta
 ||youtube.com/*/stats/
 youtube.com###ticker
 youtube.com###top-container
@@ -1179,22 +1177,11 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 $popup,domain=freeplayervideo.com
 $xhr,domain=freeplayervideo.com
 ! FE videos
-||diasfem.com^$inline-script
+||opchikoritar.com^
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20211227
-!||dianomioffers.co.uk^
-!||directrev.com^
-! 20220101
-!theguardian.com##.contribution-moment
-!theguardian.com##.contributions__epic
-!theguardian.com##.cv-charity
-!theguardian.com##.pledge
-!theguardian.com##.trusted-news
-! 20220102
-!pcspecialist.co.uk##.cc-policy
 ! 20220112
 !||sumome.com^
 !||streamcherry.com/*/license.js
@@ -1214,3 +1201,10 @@ $xhr,domain=freeplayervideo.com
 ! 20220221
 !/popunder
 !||tripadvisor.co.uk/*Popunder$popup
+! 20220224
+!||go-mpulse.net^
+!bilibili.tv##.ad-f
+!||comment.bilibili.tv^
+! 20220324
+!||diasfem.com^$inline-script
+!||etoro.com^
