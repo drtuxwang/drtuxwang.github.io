@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220325a
+! Version: 20220405a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -13,6 +13,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
 ! Block 3rd party crap by domains
 ||twitter.com^$3p
+$3p,domain=mylondon.news
 $image,3p,domain=player.fastdrama.me|feurl.com
 $popup,3p,domain=idrama.me|kokotv.me|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
 $script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
@@ -685,7 +686,7 @@ muktware.com##[alt*="-ad-"]
 mylondon.news##.click-track
 mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.factbox
-mylondon.news##.native-install
+mylondon.news##.live-count-exp
 mylondon.news##.partner
 mylondon.news##.skinny-form-content
 mylondon.news##.top-slot
@@ -899,8 +900,6 @@ scoreboard.com###cookie-law-content
 ||segment.com^$domain=~codefresh.io|~pbs.one
 ||sekindo.com^
 ||selfishsnake.com$domain=howtogeek.com
-||servebom.com^
-||servedbyopenx.com^
 ||serveyprizereward.com^
 ||juggler.services.disqus.com^
 ||serving-sys.com^
@@ -1010,7 +1009,6 @@ telegraph.co.uk###qb_cookie_consent_main
 telegraph.co.uk##.premium-btn
 telegraph.co.uk##.premium-promo--wrapper
 telegraph.co.uk##.summaryMedium
-||telemetrytaxonomy.net^
 ||telemetryverification.net^
 ||tenderapp.com^
 ||tenmax.io^
@@ -1210,3 +1208,8 @@ $xhr,domain=freeplayervideo.com
 !||etoro.com^
 ! 20220325
 !||opchikoritar.com^
+! 20220405
+!mylondon.news##.native-install
+!||servebom.com^
+!||servedbyopenx.com^
+!||telemetrytaxonomy.net^
