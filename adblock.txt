@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220430b
+! Version: 20220501a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -133,9 +133,6 @@ askubuntu.com###js-gdpr-consent-banner
 atpworldtour.com##.players-equipment
 ||atwola.com^
 audacityteam.org###cookie-law-info-bar
-austrian.com##.cop
-austrian.com##.overlay_cookie_content
-austrian.com##.smartbanner
 avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awltovhc.com^
@@ -827,7 +824,6 @@ postoffice.co.uk##.cookie
 ||powerlinks.com^
 ||powerretail.com.au/*.js
 ||pressflex.net^
-||primefuse.com^
 ||primosearch.com^
 ||pro-market.net^
 ||propellerclick.com^
@@ -1074,11 +1070,6 @@ ubuntu.com##.cookie-policy
 ||udarem.com^
 ||udemy.com/*.js^
 ||upapi.net^$domain=worldometers.info
-||uploaded.net/*.js
-||uploaded.net/register$popup
-@@||uploaded.net/*/blocktag.js
-@@||uploaded.net/*/download.js
-@@||uploaded.net/*/protoculous.js
 ||uptobox.com^$domain=uptostream.com
 @@||uptobox.com^$popup,domain=idrama.me
 ||userreport.com^
@@ -1176,8 +1167,8 @@ youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.play
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Hydrax videos
-$popup,domain=freeplayervideo.com
-$xhr,domain=freeplayervideo.com
+$popup,3p,domain=player-cdn.com
+$xhr,3p,domain=player-cdn.com
 ! FE videos
 ||agacelebir.com^
 ! Mobile malvertising
@@ -1217,3 +1208,15 @@ $xhr,domain=freeplayervideo.com
 !||servebom.com^
 !||servedbyopenx.com^
 !||telemetrytaxonomy.net^
+! 20220501
+!$popup,domain=freeplayervideo.com
+!$xhr,domain=freeplayervideo.com
+!austrian.com##.cop
+!austrian.com##.overlay_cookie_content
+!austrian.com##.smartbanner
+!||uploaded.net/*.js
+!||uploaded.net/register$popup
+!@@||uploaded.net/*/blocktag.js
+!@@||uploaded.net/*/download.js
+!@@||uploaded.net/*/protoculous.js
+!||primefuse.com^
