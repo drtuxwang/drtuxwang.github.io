@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220501a
+! Version: 20220509a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -213,8 +213,6 @@ cnbc.com##.nad-asset-banner
 ||cnetdirectintl.com^
 cnn.com###header-nav-container
 cnn.com##[id^="bx-creative-"]
-||cnzz.com^
-||cnzz.net^
 ||coinhive.com^
 ||collective-media.net^
 ||com.com^
@@ -1175,29 +1173,6 @@ $xhr,3p,domain=player-cdn.com
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220112
-!||sumome.com^
-!||streamcherry.com/*/license.js
-! 20220128
-!||fbcdn.net/*/live-
-!||googlevideo.com/*&live=1
-!||livefyre.com^
-!!||webtrendslive.com^
-!!||scribblelive.com^
-! 20220131
-!||pressly.com^
-!||ah.pricegrabber.com^
-!hktvdrama.com###content > div:nth-of-type(1)
-!hktvdrama.com##.inside-right-sidebar
-!hktvdrama.com##.su-clearfix
-!hktvdrama.com##.swp_horizontal_panel
-! 20220221
-!/popunder
-!||tripadvisor.co.uk/*Popunder$popup
-! 20220224
-!||go-mpulse.net^
-!bilibili.tv##.ad-f
-!||comment.bilibili.tv^
 ! 20220324
 !||diasfem.com^$inline-script
 !||etoro.com^
@@ -1220,3 +1195,6 @@ $xhr,3p,domain=player-cdn.com
 !@@||uploaded.net/*/download.js
 !@@||uploaded.net/*/protoculous.js
 !||primefuse.com^
+! 20220509
+!||cnzz.com^
+!||cnzz.net^
