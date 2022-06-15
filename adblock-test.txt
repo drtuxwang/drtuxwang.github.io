@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220509a
+! Version: 20220605b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -15,7 +15,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ||twitter.com^$3p
 $3p,domain=mylondon.news
 $image,3p,domain=player.fastdrama.me|feurl.com
-$popup,3p,domain=idrama.me|kokotv.me|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
+$popup,3p,domain=kokotv.me|openload.co|adrama.to|streamtvb.com|vod2cn.com|uptobox.com
 $script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
   @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com
   @@||googleapis.com^$script,domain=kokotv.me
@@ -303,7 +303,6 @@ doodle.com##.d-warning
 ||downloadhelper.net^$popup
 ||downloadsetup.net^
 ||dpmsrv.com^
-idrama.me##strong
 dramawall.com/*.gif
 dramawall.com##table
 dramawall.com##.td-with-like
@@ -881,6 +880,9 @@ reuters.com/*.js
 royal.uk###sliding-popup
 royalmail.com###block-cookie_policy-0
 ||rpxnow.com^
+rt.com##.app-offer
+rt.com##.cookies-banner-shown
+rt.com##.offers
 ||rthk.hk/assets/
 rthk.hk##.catchup
 ||rthk.hk/fonts/
@@ -1069,7 +1071,6 @@ ubuntu.com##.cookie-policy
 ||udemy.com/*.js^
 ||upapi.net^$domain=worldometers.info
 ||uptobox.com^$domain=uptostream.com
-@@||uptobox.com^$popup,domain=idrama.me
 ||userreport.com^
 ||uservoice.com/*.js
 ||valuedopinions.co.uk^
@@ -1140,6 +1141,7 @@ youtube.com##.ytd-engagement-panel-section-list-renderer
 youtube.com##.ytd-feed-nudge-renderer
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com##.ytd-mealbar-promo-renderer
+youtube.com##.ytd-merch-shelf-renderer
 youtube.com##ytd-mini-guide-renderer
 youtube.com##ytd-movie-renderer
 youtube.com##.ytd-primetime-promo-renderer
@@ -1173,11 +1175,6 @@ $xhr,3p,domain=player-cdn.com
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220324
-!||diasfem.com^$inline-script
-!||etoro.com^
-! 20220325
-!||opchikoritar.com^
 ! 20220405
 !mylondon.news##.native-install
 !||servebom.com^
@@ -1198,3 +1195,6 @@ $xhr,3p,domain=player-cdn.com
 ! 20220509
 !||cnzz.com^
 !||cnzz.net^
+! 20220605
+!@@||uptobox.com^$popup,domain=idrama.me
+!idrama.me##strong
