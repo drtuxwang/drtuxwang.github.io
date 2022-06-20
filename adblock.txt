@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220615a
+! Version: 20220620a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -539,20 +539,18 @@ johnlewis.com##.overlay-message--cookies
 ||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk
 ||jsecoin.com^
 ||jsrdn.com^
-||junnify.com^
 ||justtechjobs.com^
 ||justuno.com^
 @@||jwpcdn.com/player/
 ||jwplatform.com^
 ||jwpltx.com^
 kenstechtips.com##.cookie-alert
-||keywee.co^
 ||kiosked.com^
-||kixer.com^
 ||knorex.asia^
 kokotv.me###featPosts
 kokotv.me###footWidgets
 kokotv.me###sidebar
+||kokotv.me/*unblocker
 kokotv.me###wnb-bar
 ||kontera.com^
 ||kovla.com^
@@ -1200,3 +1198,7 @@ $xhr,3p,domain=player-cdn.com
 !idrama.me##strong
 ! 20220615
 !||accounts.google.com$domain=linkedin.com|twitter.com
+! 20220620
+!||junnify.com^
+!||keywee.co^
+!||kixer.com^
