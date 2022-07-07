@@ -75,6 +75,7 @@ advert*.js$3p,domain=~adrama.to
 pixel$3p
 *$popunder
 *popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com
+/prebid
 /sponsors/*
 *syndicate.
 *syndication.
@@ -165,7 +166,6 @@ bloomberg.com###paywall-banner
 ||bnserving.com^
 ||bowercdn.net^
 ||brainient.com^
-||brandreachsys.com^
 ||brightcove.com^
 ||brightcove.net^
 ||brightspotcdn.com^
@@ -215,10 +215,7 @@ cnn.com###header-nav-container
 cnn.com##[id^="bx-creative-"]
 ||coinhive.com^
 ||collective-media.net^
-||com.com^
 ||comparitech.com/*.css
-||compete.com^
-complex.com/*.js
 ||complexmedianetwork.com^
 ||comprigo.com^
 ||computerworld.com/*.js
@@ -1169,6 +1166,9 @@ $popup,3p,domain=player-cdn.com
 $xhr,3p,domain=player-cdn.com
 ! FE videos
 ^$popup,domain=suzihaza.com
+! Video bounced
+androidranking.net##.videoWrapper
+androidranking.net##.vliIgnore
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
@@ -1199,3 +1199,8 @@ $xhr,3p,domain=player-cdn.com
 !||kixer.com^
 ! 20220705
 !||agacelebir.com^
+! 20220707
+!||brandreachsys.com^
+!||com.com^
+!||compete.com^
+!complex.com/*.js
