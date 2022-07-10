@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220705a
+! Version: 20220710a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -533,7 +533,7 @@ jdwetherspoon.co.uk###cookies-popup
 jobsearch.direct.gov.uk###cookieBanner
 ||jofbu.com^
 johnlewis.com##.overlay-message--cookies
-||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk
+||jquery.com^$domain=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk|~confused.com
 ||jsecoin.com^
 ||jsrdn.com^
 ||justtechjobs.com^
