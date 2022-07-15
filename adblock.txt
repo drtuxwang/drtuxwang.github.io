@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220710a
+! Version: 20220715a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -73,7 +73,7 @@ advert*.js$3p,domain=~adrama.to
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 *myapp.com^
 pixel$3p
-*$popunder
+*$popunder,domain=~duckduckgo.com
 *popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com
 /prebid
 /sponsors/*
@@ -1165,7 +1165,8 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 $popup,3p,domain=player-cdn.com
 $xhr,3p,domain=player-cdn.com
 ! FE videos
-^$popup,domain=suzihaza.com
+^$popup,domain=vanfem.com
+!||agacelebir.com^
 ! Video bounced
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
@@ -1197,10 +1198,10 @@ androidranking.net##.vliIgnore
 !||junnify.com^
 !||keywee.co^
 !||kixer.com^
-! 20220705
-!||agacelebir.com^
 ! 20220707
 !||brandreachsys.com^
 !||com.com^
 !||compete.com^
 !complex.com/*.js
+! 20220715
+!^$popup,domain=suzihaza.com
