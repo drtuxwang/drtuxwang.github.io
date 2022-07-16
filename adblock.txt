@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220715a
+! Version: 20220716a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -73,7 +73,6 @@ advert*.js$3p,domain=~adrama.to
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 *myapp.com^
 pixel$3p
-*$popunder,domain=~duckduckgo.com
 *popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com
 /prebid
 /sponsors/*
@@ -1045,7 +1044,6 @@ three.co.uk###rwd-cookie-message
 tinydl.co##.sideblock
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
 ||tinypass.com^
-||toments.com/*.js
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
 topcashback.co.uk##.cc-banner
@@ -1174,21 +1172,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220501
-!$popup,domain=freeplayervideo.com
-!$xhr,domain=freeplayervideo.com
-!austrian.com##.cop
-!austrian.com##.overlay_cookie_content
-!austrian.com##.smartbanner
-!||uploaded.net/*.js
-!||uploaded.net/register$popup
-!@@||uploaded.net/*/blocktag.js
-!@@||uploaded.net/*/download.js
-!@@||uploaded.net/*/protoculous.js
-!||primefuse.com^
-! 20220509
-!||cnzz.com^
-!||cnzz.net^
 ! 20220605
 !@@||uptobox.com^$popup,domain=idrama.me
 !idrama.me##strong
@@ -1205,3 +1188,6 @@ androidranking.net##.vliIgnore
 !complex.com/*.js
 ! 20220715
 !^$popup,domain=suzihaza.com
+! 20220716
+!*$popunder,domain=~duckduckgo.com
+!||toments.com/*.js
