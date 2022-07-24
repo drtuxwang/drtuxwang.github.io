@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220722a
+! Version: 20220725a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1039,7 +1039,6 @@ theverge.com###privacy-consent
 thisislocallondon.co.uk###cookiewarning
 thisismoney.co.uk##.has-button-share
 thisismoney.co.uk##.bigLinks
-three.co.uk###rwd-cookie-message
 ||tickld.com/*.js
 tinydl.co##.sideblock
 ||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk
@@ -1064,6 +1063,7 @@ ubuntu.com##.cookie-policy
 ||udemy.com/*.js^
 ||upapi.net^$domain=worldometers.info
 ||uptobox.com^$domain=uptostream.com
+uptobox.com###topBar
 ||userreport.com^
 ||uservoice.com/*.js
 ||valuedopinions.co.uk^
@@ -1073,7 +1073,6 @@ vidspot.net##[style*="important"]
 ||viglink.com^
 vim.org##.sidebar:nth-of-type(5)
 virginatlantic.com##.cookie-footer
-virtualboxes.org###eu-cookie-law
 ||visiblemeasures.com^
 ||vixnixxer.com^
 ||vizu.com^
@@ -1105,7 +1104,6 @@ worldometers.info##.cc-banner
 ||stats.wp.com^
 ||wpdigital.net^
 wsj.com##.cookie-notice-container
-||xoliter.com^
 yahoo.com##.ads
 ||yourway.net/*.js
 ||youtube.com/*/annotations_module.js
@@ -1193,3 +1191,7 @@ androidranking.net##.vliIgnore
 !||toments.com/*.js
 ! 20220719
 !||byethost*.com^
+! 20220725
+!virtualboxes.org###eu-cookie-law
+!||xoliter.com^
+!three.co.uk###rwd-cookie-message
