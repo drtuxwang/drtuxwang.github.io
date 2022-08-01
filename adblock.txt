@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220725a
+! Version: 20220801a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -140,12 +140,8 @@ avivaservices.co.uk##.cc-cookies
 axa.co.uk##.axaCookie
 ||ayboll.com^
 ||azureedge.net^$domain=patientaccess.com
-bbc.co.uk###bbccookies
-bbc.co.uk###bbc-news-services
-bbc.co.uk##.falcon
-bbc.co.uk###orb-footer
-bbc.co.uk##.share
-||emp.bbc.co.uk^
+bbc.co.uk##.orbit-header
+bbc.co.uk##.ws-c-social-slice
 ||behavemedia.com^
 @@||nav.files.bbci.co.uk/*/require.min.js
 @@||nav.files.bbci.co.uk/*/istats-1.js
@@ -1195,3 +1191,10 @@ androidranking.net##.vliIgnore
 !virtualboxes.org###eu-cookie-law
 !||xoliter.com^
 !three.co.uk###rwd-cookie-message
+! 20220801
+!bbc.co.uk###bbccookies
+!bbc.co.uk###bbc-news-services
+!bbc.co.uk##.falcon
+!bbc.co.uk###orb-footer
+!bbc.co.uk##.share
+!||emp.bbc.co.uk^
