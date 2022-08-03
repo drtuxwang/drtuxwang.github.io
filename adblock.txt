@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220802b
+! Version: 20220803a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -731,23 +731,18 @@ omgubuntu.co.uk##.page-footer
 ||onclasrv.com^
 ||oneall.com^
 ||onestat.com^
-||onevision.com.tw^
-||onlinevideopctools.com^
-||onlysix.co.uk^
-||onscroll.com^
-||oomphcloud.com^
-||ooyala.com^
 ||opednews.com/*.js
 ||opendownloadmanager.com^
 @@||openload.co/
 ||optkit.com^
 ||optnmstr.com^
 ||optimost.com^
+osboxes.org###cookie-law-info-bar
 osnews.com##.ad
 osnews.com###sidebar
 ||osnews.com/*js
-osboxes.org###cookie-law-info-bar
 ||ourinstance.info^
+||outbrainimg.com^
 ||overture.com^
 ownvehicle.askmid.com##.contentBlock
 ||padsdel.com^
@@ -786,6 +781,7 @@ pinterest.com##.UnauthBanner
 ||pitchinbox.com^
 pizzahut.co.uk##.alert
 player.fm##.campaign
+player.fm##.modal-content
 player.fm##.preamble
 player.fm##.top
 player.fm##.top-promo
@@ -793,7 +789,6 @@ player.fm##.top-promo
 ||plugerr.com^
 ||plugrush.com^
 ||plugz.co^
-||pobroadband.co.uk###CookiePolicyHeader
 ||po.st^
 ||pointroll.com^
 ||popads.net^
@@ -1001,7 +996,6 @@ theguardian.com##.dumathoin--paidfor
 theguardian.com##.hide-until-mobile
 theguardian.com##.l-footer
 theguardian.com##.top-banner-ad-container
-||theirsvendor.com^
 ||interactive.guim.co.uk^
 ||thehackernews.com/*.js
 ||thenational.ae/*.js
@@ -1199,3 +1193,12 @@ androidranking.net##.vliIgnore
 !@@||bgt.ag^$popup
 !||pimmuter.com^
 !||pimmuter.com^$popup
+! 20220803
+!||pobroadband.co.uk###CookiePolicyHeader
+!||theirsvendor.com^
+!||onevision.com.tw^
+!||onlinevideopctools.com^
+!||onlysix.co.uk^
+!||onscroll.com^
+!||oomphcloud.com^
+!||ooyala.com^
