@@ -334,9 +334,9 @@ eclipse.org##.cc-banner
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
 express.co.uk##.affiliate-widget
-express.co.uk##[href="/ukraine"]
 express.co.uk##.mainFooter
 express.co.uk##.right-column
+express.co.uk##.sh__banner
 express.co.uk##.superbanner
 express.co.uk##.taboola-above-article
 express.co.uk###taboola-ad
@@ -1203,3 +1203,5 @@ androidranking.net##.vliIgnore
 !||onscroll.com^
 !||oomphcloud.com^
 !||ooyala.com^
+! 20220813
+!express.co.uk##[href="/ukraine"]
