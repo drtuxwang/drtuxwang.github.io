@@ -715,6 +715,7 @@ nytimes.com##.gdpr
 ||oclaserver.com^
 ||oclasrv.com^
 octopus.energy##.cookie-message
+odysee.com##.ads
 ||offersquared.com^
 ofcom.org.uk##.cookie-message
 ofcom.org.uk###survey-bar
@@ -743,6 +744,7 @@ osnews.com##.ad
 osnews.com###sidebar
 ||osnews.com/*js
 ||ourinstance.info^
+||outbrain.com^
 ||outbrainimg.com^
 ||overture.com^
 ownvehicle.askmid.com##.contentBlock
@@ -814,7 +816,6 @@ postoffice.co.uk##.cookie
 ||puserving.com^
 ||pushnative.com^
 ||putags.com^
-||pyksf.com^
 ||q1media.com^
 ||qmerce.com^
 ||qnsr.com^
@@ -870,7 +871,6 @@ rthk.hk###radheadBanner
 rthk.hk##.vision
 ||rubiconproject.com^
 ||rubikloud.com^
-||sail-horizon.com^
 sainsburys.co.uk###siteWarning
 samsung.com##.cookie-notice
 ||scanscout.com^
@@ -1155,31 +1155,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220605
-!@@||uptobox.com^$popup,domain=idrama.me
-!idrama.me##strong
-! 20220615
-!||accounts.google.com$domain=linkedin.com|twitter.com
-! 20220620
-!||junnify.com^
-!||keywee.co^
-!||kixer.com^
-! 20220707
-!||brandreachsys.com^
-!||com.com^
-!||compete.com^
-!complex.com/*.js
-! 20220715
-!^$popup,domain=suzihaza.com
-! 20220716
-!*$popunder,domain=~duckduckgo.com
-!||toments.com/*.js
-! 20220719
-!||byethost*.com^
-! 20220725
-!virtualboxes.org###eu-cookie-law
-!||xoliter.com^
-!three.co.uk###rwd-cookie-message
 ! 20220801
 !bbc.co.uk###bbccookies
 !bbc.co.uk###bbc-news-services
@@ -1208,3 +1183,6 @@ androidranking.net##.vliIgnore
 ! 20220913
 !cnn.com###header-nav-container
 !cnn.com##[id^="bx-creative-"]
+! 20221002
+!||sail-horizon.com^
+!||pyksf.com^
