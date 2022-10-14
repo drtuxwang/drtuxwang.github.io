@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20220913a
+! Version: 20221014a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -1147,7 +1147,8 @@ $popup,3p,domain=player-cdn.com
 $xhr,3p,domain=player-cdn.com
 ! FE videos
 ^$popup,domain=vanfem.com
-!||agacelebir.com^
+! Dood save
+@@^$other,domain=dood.wf
 ! Video bounced
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
@@ -1155,20 +1156,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220801
-!bbc.co.uk###bbccookies
-!bbc.co.uk###bbc-news-services
-!bbc.co.uk##.falcon
-!bbc.co.uk###orb-footer
-!bbc.co.uk##.share
-!||emp.bbc.co.uk^
-! 20220802
-!blogspot.co.uk###sidebar
-!googleblog.com###cookieChoiceInfo
-!||duffelblog.com/*.js
-!@@||bgt.ag^$popup
-!||pimmuter.com^
-!||pimmuter.com^$popup
 ! 20220803
 !||pobroadband.co.uk###CookiePolicyHeader
 !||theirsvendor.com^
