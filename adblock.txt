@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20221014a
+! Version: 20221019a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -37,7 +37,7 @@ $other,3p
 ##[href*=".online/"]
 .loan^$popup
 .media^
-.network^$domain=worldometers.info
+.network^$domain=worldometers.info|aljazeera.com
 .pro^$domain=~streamtvb.com
 .racing^
 .re^
@@ -238,22 +238,22 @@ crhideas.com###cookie-law-info-bar
 ||customer.io^
 ||cxense.com^
 ||dacast.com^
-dailystar.co.uk###breaking-news
 dailymail.co.uk##.dms-puff
 dailymail.co.uk##.floating-buttons
-dailystar.co.uk##footer
-dailystar.co.uk##.gpt
 dailymail.co.uk##.masthead
 dailymail.co.uk##.mini
 dailymail.co.uk##.minute-media
+dailymail.co.uk###smartBanner
+dailymail.co.uk###socialLinks
+dailymail.co.uk##.sponsored
+dailystar.co.uk###breaking-news
+dailystar.co.uk##footer
+dailystar.co.uk##.gpt
 dailystar.co.uk##.native-install
 dailystar.co.uk###recommendations-topbox
 dailystar.co.uk##.partner
 dailystar.co.uk##.related-column
 dailystar.co.uk##.skinny-signup
-dailymail.co.uk###smartBanner
-dailymail.co.uk###socialLinks
-dailymail.co.uk##.sponsored
 ||datamation.com/hqx/
 ||datamation.com/*.js
 ||datamation.com/sl/
@@ -292,9 +292,6 @@ doodle.com##.d-warning
 ||downloadhelper.net^$popup
 ||downloadsetup.net^
 ||dpmsrv.com^
-dramawall.com/*.gif
-dramawall.com##table
-dramawall.com##.td-with-like
 dropbox.com###top-notification-bar-container
 duckduckgo.com###ads
 duckduckgo.com##.badge-link
@@ -1173,3 +1170,7 @@ androidranking.net##.vliIgnore
 ! 20221002
 !||sail-horizon.com^
 !||pyksf.com^
+! 20221019
+!dramawall.com/*.gif
+!dramawall.com##table
+!dramawall.com##.td-with-like
