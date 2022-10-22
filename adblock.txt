@@ -738,15 +738,13 @@ omgubuntu.co.uk##.page-footer
 ||optimost.com^
 osboxes.org###cookie-law-info-bar
 osnews.com##.ad
-osnews.com###sidebar
+osnews.com###ezmobfooter
 ||osnews.com/*js
-||ourinstance.info^
+osnews.com###sidebar
 ||outbrain.com^
 ||outbrainimg.com^
 ||overture.com^
 ownvehicle.askmid.com##.contentBlock
-||padsdel.com^
-||padstm.com^
 ||pagefair.com^
 ||pagefair.net^
 ||paidonresults.net^
@@ -1174,3 +1172,7 @@ androidranking.net##.vliIgnore
 !dramawall.com/*.gif
 !dramawall.com##table
 !dramawall.com##.td-with-like
+! 20221021
+!||ourinstance.info^
+!||padsdel.com^
+!||padstm.com^
