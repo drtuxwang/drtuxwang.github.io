@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20221019a
+! Version: 20221027a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -368,6 +368,7 @@ fitfortravel.nhs.uk##.panel--cookie
 ||flattr.com^
 flightaware.com###cookieDisclaimerContainer
 ||flightcdn.com/*/ads
+||flutteringfireman.com^$script,domain=tecmint.com
 ||flux.com^
 ||fmpub.net^
 ||followistic.com^
@@ -738,15 +739,13 @@ omgubuntu.co.uk##.page-footer
 ||optimost.com^
 osboxes.org###cookie-law-info-bar
 osnews.com##.ad
-osnews.com###sidebar
+osnews.com###ezmobfooter
 ||osnews.com/*js
-||ourinstance.info^
+osnews.com###sidebar
 ||outbrain.com^
 ||outbrainimg.com^
 ||overture.com^
 ownvehicle.askmid.com##.contentBlock
-||padsdel.com^
-||padstm.com^
 ||pagefair.com^
 ||pagefair.net^
 ||paidonresults.net^
@@ -1174,3 +1173,7 @@ androidranking.net##.vliIgnore
 !dramawall.com/*.gif
 !dramawall.com##table
 !dramawall.com##.td-with-like
+! 20221021
+!||ourinstance.info^
+!||padsdel.com^
+!||padstm.com^
