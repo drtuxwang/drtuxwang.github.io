@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20221027a
+! Version: 20221106a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -102,6 +102,7 @@ accuweather.com###top
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
+||cdninstagram.com/*.mp4
 ||adlightning.com^
 ||adp.com/EUCookieWarning/
 adrama.to##center
@@ -321,12 +322,10 @@ eclipse.org##.cc-banner
 ||eloqua.com^
 ||ensighten.com^
 ||etahub.com^
-||evenexcite.com^
 ||evidon.com^
 ||ewebse.com^
 ||exoclick.com^$popup
 ||exosrv.com^$domain=openload.co
-||exovueplatform.com^
 expertreviews.co.uk###dennis-cookie-notice
 ||exponential.com^
 express.co.uk##.affiliate-widget
@@ -1152,17 +1151,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220803
-!||pobroadband.co.uk###CookiePolicyHeader
-!||theirsvendor.com^
-!||onevision.com.tw^
-!||onlinevideopctools.com^
-!||onlysix.co.uk^
-!||onscroll.com^
-!||oomphcloud.com^
-!||ooyala.com^
-! 20220813
-!express.co.uk##[href="/ukraine"]
 ! 20220913
 !cnn.com###header-nav-container
 !cnn.com##[id^="bx-creative-"]
@@ -1177,3 +1165,6 @@ androidranking.net##.vliIgnore
 !||ourinstance.info^
 !||padsdel.com^
 !||padstm.com^
+! 20221106
+!||evenexcite.com^
+!||exovueplatform.com^
