@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20221210a
+! Version: 20221228a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -64,6 +64,7 @@ $other,3p
 *-ads*.com^$popup
 ||ads2.
 ||ads2.$popup
+||adserver.
 ||adservice.
 *ads.$3p,domain=~facebook.com|~live.com
 /ads.$xhr
@@ -83,20 +84,6 @@ pixel$3p
 !
 ! Domain specific filters
 ||accountkit.com^
-accuweather.com##.adhesion-ad-frame
-accuweather.com##.base-footer
-accuweather.com###bottom
-accuweather.com##.column-2
-accuweather.com##.content-recirc
-accuweather.com###eu-cookie-notify-wrap
-accuweather.com###footer-content-wrapper
-accuweather.com###header-davek
-accuweather.com##.nav-wrapper
-accuweather.com###offers
-accuweather.com##.privacy-policy-banner
-accuweather.com##.right-rail
-accuweather.com##.social-list
-accuweather.com###top
 ||acg.tv^
 ||addthis.com^
 adf.ly##.no-js
@@ -995,7 +982,6 @@ theguardian.com##.l-footer
 theguardian.com##.top-banner-ad-container
 ||interactive.guim.co.uk^
 ||thehackernews.com/*.js
-||thenational.ae/*.js
 theo2.co.uk##.cc_banner
 timeanddate.com##.modal-header
 timeanddate.com##.modal-body
@@ -1058,6 +1044,7 @@ virginatlantic.com##.cookie-footer
 ||vixnixxer.com^
 ||vizu.com^
 ||voicefive.com^
+||volatilevessel.com^$domain=camelcamelcamel.com
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
 vox.com##.c-breaking-news
@@ -1153,9 +1140,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220913
-!cnn.com###header-nav-container
-!cnn.com##[id^="bx-creative-"]
 ! 20221002
 !||sail-horizon.com^
 !||pyksf.com^
@@ -1170,3 +1154,19 @@ androidranking.net##.vliIgnore
 ! 20221106
 !||evenexcite.com^
 !||exovueplatform.com^
+! 20221228
+!||thenational.ae/*.js
+!accuweather.com##.adhesion-ad-frame
+!accuweather.com##.base-footer
+!accuweather.com###bottom
+!accuweather.com##.column-2
+!accuweather.com##.content-recirc
+!accuweather.com###eu-cookie-notify-wrap
+!accuweather.com###footer-content-wrapper
+!accuweather.com###header-davek
+!accuweather.com##.nav-wrapper
+!accuweather.com###offers
+!accuweather.com##.privacy-policy-banner
+!accuweather.com##.right-rail
+!accuweather.com##.social-list
+!accuweather.com###top
