@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20221210a
+! Version: 20230101a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -71,7 +71,6 @@ $other,3p
 advert*.js$3p,domain=~adrama.to
 ||affiliate*$3p
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
-*myapp.com^
 pixel$3p
 *popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com
 /prebid
@@ -872,7 +871,6 @@ samsung.com##.cookie-notice
 ||scanscout.com^
 scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
-||seekingalpha.com/*.js
 ||segment.com^$domain=~codefresh.io|~pbs.one
 ||sekindo.com^
 ||selfishsnake.com$domain=howtogeek.com
@@ -1170,3 +1168,6 @@ androidranking.net##.vliIgnore
 ! 20221106
 !||evenexcite.com^
 !||exovueplatform.com^
+! 20230101
+!*myapp.com^
+!||seekingalpha.com/*.js
