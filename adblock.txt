@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230101a
+! Version: 20230102b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com
@@ -82,20 +82,6 @@ pixel$3p
 !
 ! Domain specific filters
 ||accountkit.com^
-accuweather.com##.adhesion-ad-frame
-accuweather.com##.base-footer
-accuweather.com###bottom
-accuweather.com##.column-2
-accuweather.com##.content-recirc
-accuweather.com###eu-cookie-notify-wrap
-accuweather.com###footer-content-wrapper
-accuweather.com###header-davek
-accuweather.com##.nav-wrapper
-accuweather.com###offers
-accuweather.com##.privacy-policy-banner
-accuweather.com##.right-rail
-accuweather.com##.social-list
-accuweather.com###top
 ||acg.tv^
 ||addthis.com^
 adf.ly##.no-js
@@ -1142,8 +1128,11 @@ $popup,3p,domain=player-cdn.com
 $xhr,3p,domain=player-cdn.com
 ! FE videos
 ^$popup,domain=vanfem.com
-! Dood save
+! Dood videos (allow save)
 @@^$other,domain=dood.wf
+^$popup,domain=dood.wf
+! Streamsss videos
+^$popup,domain=streamsss.net
 ! Video bounced
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
@@ -1171,3 +1160,18 @@ androidranking.net##.vliIgnore
 ! 20230101
 !*myapp.com^
 !||seekingalpha.com/*.js
+! 20230102
+!accuweather.com##.adhesion-ad-frame
+!accuweather.com##.base-footer
+!accuweather.com###bottom
+!accuweather.com##.column-2
+!accuweather.com##.content-recirc
+!accuweather.com###eu-cookie-notify-wrap
+!accuweather.com###footer-content-wrapper
+!accuweather.com###header-davek
+!accuweather.com##.nav-wrapper
+!accuweather.com###offers
+!accuweather.com##.privacy-policy-banner
+!accuweather.com##.right-rail
+!accuweather.com##.social-list
+!accuweather.com###top
