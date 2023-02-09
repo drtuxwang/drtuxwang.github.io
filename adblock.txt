@@ -213,7 +213,6 @@ convertunits.com###leaderboard
 ||cookielaw.org^
 ||coull.com^
 ||countante.info^
-||cpmba.se^
 ||cpuboss.com/*.js
 ||cpmrevenue.com^
 ||cpmstar.com^
@@ -1126,8 +1125,8 @@ youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.play
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Hydrax videos
-$popup,3p,domain=player-cdn.com
-$xhr,3p,domain=player-cdn.com
+$popup,3p,domain=abysscdn.com
+$xhr,3p,domain=abysscdn.com
 ! FE videos
 ^$popup,domain=vanfem.com
 ! Dood videos (allow save)
@@ -1175,3 +1174,7 @@ androidranking.net##.vliIgnore
 !accuweather.com##.privacy-policy-banner
 !accuweather.com##.social-list
 !accuweather.com###top
+! 20230209
+!$popup,3p,domain=player-cdn.com
+!$xhr,3p,domain=player-cdn.com
+!||cpmba.se^
