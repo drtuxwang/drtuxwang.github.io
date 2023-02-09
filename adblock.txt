@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230209a
+! Version: 20230209b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk
@@ -1126,8 +1126,8 @@ youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.play
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Hydrax videos
-$popup,3p,domain=abysscdn.com
-$xhr,3p,domain=abysscdn.com
+$popup,3p,domain=player-cdn.com|abysscdn.com
+$xhr,3p,domain=player-cdn.com|abysscdn.com
 ! FE videos
 ^$popup,domain=vanfem.com
 ! Dood videos (allow save)
@@ -1175,7 +1175,4 @@ androidranking.net##.vliIgnore
 !accuweather.com##.privacy-policy-banner
 !accuweather.com##.social-list
 !accuweather.com###top
-! 20230209
-!$popup,3p,domain=player-cdn.com
-!$xhr,3p,domain=player-cdn.com
 !||cpmba.se^
