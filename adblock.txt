@@ -2,11 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230312a
+! Version: 20230312b
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk
-$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|hktvdrama.net
+$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
@@ -280,6 +280,8 @@ doodle.com##.d-warning
 ||downloadhelper.net^$popup
 ||downloadsetup.net^
 ||dpmsrv.com^
+dramawall.net##iframe:nth-of-type(3)
+dramawall.net##table
 dropbox.com###top-notification-bar-container
 duckduckgo.com###ads
 duckduckgo.com##.badge-link
@@ -458,8 +460,6 @@ huffingtonpost.co.uk##.share-bar
 ||ibt.com/*.js
 ibtimes.co.uk##[id^="div-gpt-ad-"]
 ||ibtimes.com/*.js
-hktvdrama.net##iframe:nth-of-type(3)
-hktvdrama.net##table
 ||idg.co.uk^
 ||idgenterprise.com^
 ikea.com##.cookies-legislation
