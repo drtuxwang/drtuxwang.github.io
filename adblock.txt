@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230312b
+! Version: 20230317a
 
 ! Block crap by domains
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|bloomberg.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk
@@ -252,8 +252,6 @@ delayrepaycompensation.com##.cc_banner
 ||demdex.net^$domain=~thechelsea.co.uk
 ||devx.com^
 ||dianomi.com^
-dilbert.com##.cc_banner
-dilbert.com##.cookie-choices-info
 ||digg.com^
 disqus.com##.is-footer
 disqus.com##.module--aside
@@ -356,7 +354,7 @@ fitfortravel.nhs.uk##.panel--cookie
 ||flattr.com^
 flightaware.com###cookieDisclaimerContainer
 ||flightcdn.com/*/ads
-||flutteringfireman.com^$domain=dilbert.com|tecmint.com
+||flutteringfireman.com^$domain=tecmint.com
 ||flux.com^
 ||fmpub.net^
 ||followistic.com^
@@ -1140,20 +1138,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20220913
-!cnn.com###header-nav-container
-!cnn.com##[id^="bx-creative-"]
-! 20221002
-!||sail-horizon.com^
-!||pyksf.com^
-! 20221019
-!dramawall.com/*.gif
-!dramawall.com##table
-!dramawall.com##.td-with-like
-! 20221021
-!||ourinstance.info^
-!||padsdel.com^
-!||padstm.com^
 ! 20221106
 !||evenexcite.com^
 !||exovueplatform.com^
@@ -1185,3 +1169,7 @@ androidranking.net##.vliIgnore
 !odrama.net##.watch-info
 !$script,domain=metro.co.uk|grafana.com|washingtonpost.com|odrama.net
 !$script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|odrama.net|sdrama.net
+! 20230317
+!||flutteringfireman.com^$domain=dilbert.com|tecmint.com
+!dilbert.com##.cc_banner
+!dilbert.com##.cookie-choices-info
