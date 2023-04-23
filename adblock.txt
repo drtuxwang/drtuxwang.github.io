@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230417a
+! Version: 20230423a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -72,7 +72,7 @@ advert*.js$3p,domain=~adramas.se
 ||affiliate*$3p
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 pixel$3p
-*popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com
+*popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com|~scmp.com
 /prebid
 /sponsors/*
 *syndicate.
@@ -82,8 +82,6 @@ pixel$3p
 !
 ! Domain specific filters
 ||accountkit.com^
-accuweather.com##.base-footer
-accuweather.com##.right-rail
 ||acg.tv^
 ||addthis.com^
 adf.ly##.no-js
@@ -111,7 +109,6 @@ amazon.co.uk###sp-cc
 ||androidauthority.com/*.js
 androidranking.net##div.page:nth-of-type(1)
 ao.com###aoMessageHolder
-||aolcdn.com^
 ||app-installz.com^
 ||apportium.com^
 ||argos.co.uk/*.png
@@ -365,7 +362,6 @@ ft.com##.n-messaging-banner
 ||ftjcfx.com^
 ||functionalclam.com^
 ||fwmrm.net^
-||fyre.co^
 ||gaug.es^
 gbnews.uk##.row-section
 ||gemius.pl^
@@ -462,6 +458,7 @@ ikea.com##.cookies-legislation
 ||imonomy.com^
 ||imrworldwide.com^
 ||inclk.com^
+theinteldrop.org##.post-share
 ||independent.co.uk/*.js
 independent.co.uk###leaderboard
 independent.co.uk##.premium-content
@@ -586,7 +583,6 @@ londonist.com##.cc_banner
 ||mediavine.com^
 ||mediavoice.com^
 ||mediawhirl.net^
-meetup.com###app-download-promo-interstitial
 ||mekoto.com^
 ||mengine.me^
 metro.co.uk##.ad-slot
@@ -850,6 +846,7 @@ rumble.com##.a-break
 sainsburys.co.uk###siteWarning
 samsung.com##.cookie-notice
 ||scanscout.com^
+scmp.com##.header-ad-container
 scoreboard.com###cookie-law-content
 ||scorecardresearch.com^
 ||segment.com^$domain=~codefresh.io|~pbs.one
@@ -1176,3 +1173,9 @@ androidranking.net##.vliIgnore
 !bbc.co.uk##.ws-c-social-slice
 !@@||nav.files.bbci.co.uk/*/require.min.js
 !@@||nav.files.bbci.co.uk/*/istats-1.js
+! 20230423
+!meetup.com###app-download-promo-interstitial
+!||fyre.co^
+!||aolcdn.com^
+!accuweather.com##.base-footer
+!accuweather.com##.right-rail
