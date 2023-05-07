@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230423a
+! Version: 20230507a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -422,7 +422,6 @@ translate.google.com##.notification-area
 ||gravityrd.com^
 ||greatwork.info^
 ||grvcdn.com^
-||gstatic.com^$domain=rthk.hk
 ||gstatic.com/*/promos/
 ||gumgum.com^
 ||gwallet.com^
@@ -835,11 +834,7 @@ royalmail.com###block-cookie_policy-0
 rt.com##.app-offer
 rt.com##.cookies-banner-shown
 rt.com##.offers
-||rthk.hk/assets/
-rthk.hk##.catchup
-||rthk.hk/fonts/
-rthk.hk###radheadBanner
-rthk.hk##.vision
+rthk.hk##.mightySlider
 ||rubiconproject.com^
 ||rubikloud.com^
 rumble.com##.a-break
@@ -1179,3 +1174,10 @@ androidranking.net##.vliIgnore
 !||aolcdn.com^
 !accuweather.com##.base-footer
 !accuweather.com##.right-rail
+! 20230507
+!||gstatic.com^$domain=rthk.hk
+!||rthk.hk/assets/
+!rthk.hk##.catchup
+!||rthk.hk/fonts/
+!rthk.hk###radheadBanner
+!rthk.hk##.vision
