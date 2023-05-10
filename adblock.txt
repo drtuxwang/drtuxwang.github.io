@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230507a
+! Version: 20230510a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -989,10 +989,10 @@ thesun.co.uk##.social
 ||thevarguy.com/*.js
 theverge.com###privacy-consent
 thisislocallondon.co.uk###cookiewarning
-thisismoney.co.uk##.has-button-share
 thisismoney.co.uk##.bigLinks
+thisismoney.co.uk##.has-button-share
+thisismoney.co.uk##.swipe-tutorial
 ||tickld.com/*.js
-tinydl.co##.sideblock
 ||tinypass.com^
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
@@ -1181,3 +1181,5 @@ androidranking.net##.vliIgnore
 !||rthk.hk/fonts/
 !rthk.hk###radheadBanner
 !rthk.hk##.vision
+! 20230510
+!tinydl.co##.sideblock
