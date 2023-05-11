@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230510a
+! Version: 20230511a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -114,6 +114,7 @@ ao.com###aoMessageHolder
 ||argos.co.uk/*.png
 argos.co.uk##.privacy-prompt-wrapper
 asda.com##.cookies-banner
+asiatimes.com##.wp-block-image
 askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 atpworldtour.com##.players-equipment
@@ -262,7 +263,6 @@ distrowatch.com##[style^="text-align: center"]
 ||dmgmediaprivacy.co.uk^
 ||dntrax.com^
 ||domdex.com^
-doodle.com##.d-warning
 ||doubleclick.net^
 ||doublepimp.com^
 ||doubleverify.com^
@@ -1183,3 +1183,5 @@ androidranking.net##.vliIgnore
 !rthk.hk##.vision
 ! 20230510
 !tinydl.co##.sideblock
+! 20230511
+!doodle.com##.d-warning
