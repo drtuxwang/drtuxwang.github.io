@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230607a
+! Version: 20230620a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -458,6 +458,7 @@ ikea.com##.cookies-legislation
 ||inclk.com^
 theinteldrop.org##.hide-table
 theinteldrop.org##.post-share
+theinteldrop.org###wpd-bubble-count
 ||independent.co.uk/*.js
 independent.co.uk###leaderboard
 independent.co.uk##.premium-content
@@ -514,11 +515,6 @@ kokotv.me###wnb-bar
 ||kontera.com^
 ||kovla.com^
 krispykreme.co.uk###notice-cookie-block
-||krxd.net^
-kubernetes.io###announcement
-kubernetes.io###fp-announcement
-||ladbrokes.com^
-||laptopmag.com/*.js
 ||leadin.com^
 ||leadintelligence.co.uk^
 lebara.com##.cookie-component
@@ -1127,26 +1123,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20221106
-!||evenexcite.com^
-!||exovueplatform.com^
-! 20230101
-!*myapp.com^
-!||seekingalpha.com/*.js
-! 20230102
-!accuweather.com##.adhesion-ad-frame
-!accuweather.com###bottom
-!accuweather.com##.column-2
-!accuweather.com##.content-recirc
-!accuweather.com###eu-cookie-notify-wrap
-!accuweather.com###footer-content-wrapper
-!accuweather.com###header-davek
-!accuweather.com##.nav-wrapper
-!accuweather.com###offers
-!accuweather.com##.privacy-policy-banner
-!accuweather.com##.social-list
-!accuweather.com###top
-!||cpmba.se^
 ! 20230306
 !||tiqcdn.com^$domain=~cathaypacific.com|~tfl.gov.uk|~hsbc.co.uk|~halifax-online.co.uk
 ! 20230310
@@ -1187,3 +1163,9 @@ androidranking.net##.vliIgnore
 !doodle.com##.d-warning
 ! 20230607
 !.pro^$domain=~streamtvb.com
+! 20230620
+!||krxd.net^
+!kubernetes.io###announcement
+!kubernetes.io###fp-announcement
+!||ladbrokes.com^
+!||laptopmag.com/*.js
