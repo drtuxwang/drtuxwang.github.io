@@ -1066,6 +1066,7 @@ youtube.com###ticker
 youtube.com##.ytd-banner-promo-renderer
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytd-info-panel-content-renderer
+youtube.com##ytd-merch-shelf-renderer
 youtube.com##ytd-mini-guide-renderer
 youtube.com##.ytd-rich-section-renderer
 ||zdtag.com^
