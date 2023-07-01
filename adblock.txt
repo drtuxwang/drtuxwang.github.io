@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230620a
+! Version: 20230701a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -1053,41 +1053,18 @@ worldometers.info##.cc-banner
 wsj.com##.cookie-notice-container
 yahoo.com##.ads
 ||yourway.net/*.js
-||youtube.com/*/annotations_module.js
 youtube.com###buttons
-youtube.com###companion
 youtube.com###donation-shelf
-||youtube.com/get_video_info
 ||youtube.com/get_midroll
-youtube.com##.GoogleActiveViewElement
 youtube.com###guide
 youtube.com###header
 ||youtube.com/*/log_event
 youtube.com###merch-shelf
 youtube.com###offer-module
-||youtube.com/ptracking
-youtube.com##.sparkles-light-cta
 ||youtube.com/*/stats/
 youtube.com###ticker
-youtube.com###top-container
-youtube.com##.ytp-ad-action-interstitial-slot
-youtube.com##.ytp-ad-action-interstitial-background-container
-youtube.com##.ytd-banner-promo-renderer
-youtube.com##.yt-chip-cloud-renderer
-youtube.com##ytd-clarification-renderer
-youtube.com##ytd-display-ad-renderer
-youtube.com##.ytd-engagement-panel-section-list-renderer
-youtube.com##.ytd-feed-nudge-renderer
-youtube.com##ytd-horizontal-card-list-renderer
-youtube.com##.ytd-mealbar-promo-renderer
-youtube.com##.ytd-merch-shelf-renderer
+youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##ytd-mini-guide-renderer
-youtube.com##ytd-movie-renderer
-youtube.com##.ytd-primetime-promo-renderer
-youtube.com##.ytd-promoted-sparkles-text-search-renderer
-youtube.com##.ytd-promoted-video-renderer
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##.ytd-rich-section-renderer
 ||zdtag.com^
 ||zemanta.com^
 ||zencdn.net^$domain=~hkdrama4u.com
@@ -1169,3 +1146,28 @@ androidranking.net##.vliIgnore
 !kubernetes.io###fp-announcement
 !||ladbrokes.com^
 !||laptopmag.com/*.js
+! 20230701
+!||youtube.com/*/annotations_module.js
+!youtube.com###companion
+!||youtube.com/get_video_info
+!youtube.com##.GoogleActiveViewElement
+!||youtube.com/ptracking
+!youtube.com##.sparkles-light-cta
+!youtube.com###top-container
+!youtube.com##.ytp-ad-action-interstitial-slot
+!youtube.com##.ytp-ad-action-interstitial-background-container
+!youtube.com##.ytd-banner-promo-renderer
+!youtube.com##.yt-chip-cloud-renderer
+!youtube.com##ytd-clarification-renderer
+!youtube.com##ytd-display-ad-renderer
+!youtube.com##.ytd-engagement-panel-section-list-renderer
+!youtube.com##.ytd-feed-nudge-renderer
+!youtube.com##ytd-horizontal-card-list-renderer
+!youtube.com##.ytd-mealbar-promo-renderer
+!youtube.com##.ytd-merch-shelf-renderer
+!youtube.com##ytd-movie-renderer
+!youtube.com##.ytd-primetime-promo-renderer
+!youtube.com##.ytd-promoted-sparkles-text-search-renderer
+!youtube.com##.ytd-promoted-video-renderer
+!youtube.com##ytd-reel-shelf-renderer
+!youtube.com##.ytd-rich-section-renderer
