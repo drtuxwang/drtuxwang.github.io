@@ -1062,10 +1062,13 @@ youtube.com###header
 youtube.com###merch-shelf
 youtube.com###offer-module
 ||youtube.com/*/stats/
+youtube.com##.style-scope.header
 youtube.com###ticker
 youtube.com##.ytd-banner-promo-renderer
 youtube.com##.ytd-in-feed-ad-layout-renderer
+youtube.com##ytd-merch-shelf-renderer
 youtube.com##ytd-mini-guide-renderer
+youtube.com##ytd-reel-shelf-renderer
 youtube.com##.ytd-rich-section-renderer
 ||zdtag.com^
 ||zemanta.com^
@@ -1154,4 +1157,3 @@ androidranking.net##.vliIgnore
 !youtube.com##.ytd-primetime-promo-renderer
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-promoted-video-renderer
-!youtube.com##ytd-reel-shelf-renderer
