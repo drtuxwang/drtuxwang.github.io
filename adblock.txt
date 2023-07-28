@@ -688,8 +688,8 @@ ofcom.org.uk###survey-bar
 ofgem.gov.uk###sliding-popup
 ||ok.ru^
 ||okpay.com^
-||onesignal.com^
 okta.com##.permanent-alert-warning
+||onesignal.com^
 ||omgubuntu.co.uk/*.js
 omgubuntu.co.uk##.page-footer
 ||omnitagjs.com^
@@ -699,9 +699,7 @@ omgubuntu.co.uk##.page-footer
 ||onclasrv.com^
 ||oneall.com^
 ||onestat.com^
-||opednews.com/*.js
-||opendownloadmanager.com^
-@@||openload.co/
+||ophoacit.com^$domain=dramawall.net
 ||optkit.com^
 ||optnmstr.com^
 ||optimost.com^
@@ -1158,3 +1156,7 @@ androidranking.net##.vliIgnore
 !youtube.com##.ytd-primetime-promo-renderer
 !youtube.com##.ytd-promoted-sparkles-text-search-renderer
 !youtube.com##.ytd-promoted-video-renderer
+! 20230728
+!||opednews.com/*.js
+!||opendownloadmanager.com^
+!@@||openload.co/
