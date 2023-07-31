@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230722a
+! Version: 20230731a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -70,8 +70,8 @@ $other,3p
 advert*.js$3p,domain=~adramas.se
 ||affiliate*$3p
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
-pixel$3p
 *popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com|~scmp.com
+$popunder
 /prebid
 /sponsors/*
 *syndicate.
@@ -1102,29 +1102,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20230323
-!bbc.co.uk##.bbccookies-banner
-!bbc.co.uk##.orbit-header
-!bbc.co.uk##.ws-c-social-slice
-!@@||nav.files.bbci.co.uk/*/require.min.js
-!@@||nav.files.bbci.co.uk/*/istats-1.js
-! 20230423
-!meetup.com###app-download-promo-interstitial
-!||fyre.co^
-!||aolcdn.com^
-!accuweather.com##.base-footer
-!accuweather.com##.right-rail
-! 20230507
-!||gstatic.com^$domain=rthk.hk
-!||rthk.hk/assets/
-!rthk.hk##.catchup
-!||rthk.hk/fonts/
-!rthk.hk###radheadBanner
-!rthk.hk##.vision
-! 20230510
-!tinydl.co##.sideblock
-! 20230511
-!doodle.com##.d-warning
 ! 20230607
 !.pro^$domain=~streamtvb.com
 ! 20230620
@@ -1160,3 +1137,5 @@ androidranking.net##.vliIgnore
 !@@||openload.co/
 !||amazonaws.com^$domain=openload.co
 !||exosrv.com^$domain=openload.co
+! 20230731
+!pixel$3p
