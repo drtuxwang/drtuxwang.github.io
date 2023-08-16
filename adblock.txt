@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230802a
+! Version: 20230816a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -1017,8 +1017,6 @@ vidspot.net##[style*="important"]
 vim.org##.sidebar:nth-of-type(5)
 virginatlantic.com##.cookie-footer
 ||visiblemeasures.com^
-||vixnixxer.com^
-||vizu.com^
 ||voicefive.com^
 ||voluumtrk.com^
 ||vouchedfor.co.uk^
@@ -1069,8 +1067,6 @@ youtube.com##ytd-reel-shelf-renderer
 youtube.com##.ytd-rich-section-renderer
 ||zdtag.com^
 ||zemanta.com^
-||zencdn.net^$domain=~hkdrama4u.com
-||zkcdn.net^
 ||zopim.com^
 !
 ! Facebook Ads (AdGuard Base)
@@ -1088,13 +1084,9 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Hydrax videos
 $popup,3p,domain=player-cdn.com|abysscdn.com
 $xhr,3p,domain=player-cdn.com|abysscdn.com
-! FE videos
-^$popup,domain=vanfem.com
-! Dood videos (allow save)
-@@^$other,domain=dood.wf
+! kokotv.me videos
+||kakoze.com^$script
 ^$popup,domain=dood.wf
-! Streamsss videos
-^$popup,domain=streamsss.net
 ! Video bounced
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
@@ -1139,3 +1131,11 @@ androidranking.net##.vliIgnore
 !||exosrv.com^$domain=openload.co
 ! 20230731
 !pixel$3p
+! 20230816
+!^$popup,domain=vanfem.com
+!^$popup,domain=streamsss.net
+!@@^$other,domain=dood.wf
+!||zencdn.net^$domain=~hkdrama4u.com
+!||zkcdn.net^
+!||vixnixxer.com^
+!||vizu.com^
