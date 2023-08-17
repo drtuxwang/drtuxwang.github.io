@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230816a
+! Version: 20230817a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -1085,8 +1085,7 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 $popup,3p,domain=player-cdn.com|abysscdn.com
 $xhr,3p,domain=player-cdn.com|abysscdn.com
 ! kokotv.me videos
-||kakoze.com^$script
-^$popup,domain=dood.wf
+##[src="about:blank"]
 ! Video bounced
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
@@ -1094,14 +1093,6 @@ androidranking.net##.vliIgnore
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 !
-! 20230607
-!.pro^$domain=~streamtvb.com
-! 20230620
-!||krxd.net^
-!kubernetes.io###announcement
-!kubernetes.io###fp-announcement
-!||ladbrokes.com^
-!||laptopmag.com/*.js
 ! 20230701
 !||youtube.com/*/annotations_module.js
 !youtube.com###companion
@@ -1139,3 +1130,5 @@ androidranking.net##.vliIgnore
 !||zkcdn.net^
 !||vixnixxer.com^
 !||vizu.com^
+! 20230817
+!^$popup,domain=dood.wf
