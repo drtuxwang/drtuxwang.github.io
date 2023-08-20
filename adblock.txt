@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230820a
+! Version: 20230820b
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -1054,6 +1054,7 @@ youtube.com###guide
 ||youtube.com/*/log_event
 youtube.com###merch-shelf
 youtube.com###offer-module
+youtube.com###scroll-container
 ||youtube.com/*/stats/
 youtube.com##.style-scope.header
 youtube.com###ticker
