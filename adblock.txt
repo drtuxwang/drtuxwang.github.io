@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230820b
+! Version: 20230831a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -17,7 +17,7 @@ $3p,domain=mylondon.news
 $image,3p,domain=player.fastdrama.me|feurl.com
 $popup,3p,domain=adramas.se|streamtvb.com|vod2cn.com|uptobox.com
 $script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
-  @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com
+  @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com|theinteldrop.org
   @@||googleapis.com^$script,domain=kokotv.me
   @@||gstatic.com^$script,domain=adramas.se|consent.google.co.uk|consent.google.com
   @@||iamcdn.net^$script,domain=kokotv.me
