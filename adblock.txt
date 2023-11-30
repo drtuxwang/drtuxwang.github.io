@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20231129a
+! Version: 20231130a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -86,7 +86,6 @@ $popunder
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
-||cdninstagram.com/*.mp4
 ||adlightning.com^
 ||adp.com/EUCookieWarning/
 adramas.se##center
@@ -1084,7 +1083,6 @@ $xhr,3p,domain=player-cdn.com|abysscdn.com
 ! kokotv.me videos
 ##[src="about:blank"]
 ! Meta sponsor/suggested (uBlock filer Ads)
-facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
 ! Mobile malvertising
 ||privacy-mgmt.com^
@@ -1111,3 +1109,5 @@ androidranking.net##.vliIgnore
 !^$popup,domain=dood.wf
 ! 20230820
 !youtube.com###header
+! 20231130
+!||cdninstagram.com/*.mp4
