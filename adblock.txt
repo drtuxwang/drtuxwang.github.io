@@ -86,7 +86,6 @@ $popunder
 adf.ly##.no-js
 adf.ly###bottom
 ||cdn.adf.ly^
-||cdninstagram.com/*.mp4
 ||adlightning.com^
 ||adp.com/EUCookieWarning/
 adramas.se##center
@@ -1079,49 +1078,24 @@ facebook.com##article[data-store*="is_sponsored.1"]
 facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
 facebook.com##.storyStream > .fullwidth.carded
-! Youtube Preroll (AdGuard Base)
-youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Hydrax videos
 $popup,3p,domain=player-cdn.com|abysscdn.com
 $xhr,3p,domain=player-cdn.com|abysscdn.com
 ! kokotv.me videos
 ##[src="about:blank"]
-! Video bounced
-androidranking.net##.videoWrapper
-androidranking.net##.vliIgnore
+! Meta sponsor/suggested (uBlock filer Ads)
+instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
+! Youtube Preroll (AdGuard Base)
+youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+! Video bounced
+androidranking.net##.videoWrapper
+androidranking.net##.vliIgnore
 !
-! 20230701
-!||youtube.com/*/annotations_module.js
-!youtube.com###companion
-!||youtube.com/get_video_info
-!youtube.com##.GoogleActiveViewElement
-!||youtube.com/ptracking
-!youtube.com##.sparkles-light-cta
-!youtube.com###top-container
-!youtube.com##.ytp-ad-action-interstitial-slot
-!youtube.com##.ytp-ad-action-interstitial-background-container
-!youtube.com##.yt-chip-cloud-renderer
-!youtube.com##ytd-clarification-renderer
-!youtube.com##ytd-display-ad-renderer
-!youtube.com##.ytd-engagement-panel-section-list-renderer
-!youtube.com##.ytd-feed-nudge-renderer
-!youtube.com##ytd-horizontal-card-list-renderer
-!youtube.com##.ytd-mealbar-promo-renderer
-!youtube.com##ytd-movie-renderer
-!youtube.com##.ytd-primetime-promo-renderer
-!youtube.com##.ytd-promoted-sparkles-text-search-renderer
-!youtube.com##.ytd-promoted-video-renderer
-! 20230728
-!||opednews.com/*.js
-!||opendownloadmanager.com^
-!@@||openload.co/
-!||amazonaws.com^$domain=openload.co
-!||exosrv.com^$domain=openload.co
 ! 20230731
 !pixel$3p
 ! 20230816
@@ -1136,3 +1110,5 @@ androidranking.net##.vliIgnore
 !^$popup,domain=dood.wf
 ! 20230820
 !youtube.com###header
+! 20231130
+!||cdninstagram.com/*.mp4
