@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230909a
+! Version: 20230919a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -274,6 +274,7 @@ dropbox.com###top-notification-bar-container
 duckduckgo.com###ads
 duckduckgo.com##.badge-link
 duckduckgo.com##.footer
+duckduckgo.com##.header--aside__item
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.results--ads
 duckduckgo.com###side
