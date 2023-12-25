@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20230919a
+! Version: 20231225a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -774,16 +774,9 @@ pravda.ru##.adsbygoogle
 ||publicus.com^
 ||pubmatic.com^
 ||pubnub.com^
-||puhtml.com^
-||puserving.com^
-||pushnative.com^
-||putags.com^
 ||q1media.com^
-||qmerce.com^
-||qnsr.com^
 ||qsstats.com^
 ||qualaroo.com^
-||qualtrics.com^
 ||quantserve.com^
 ||qubitproducts.com^
 ||questionmarket.com^
@@ -832,6 +825,7 @@ rthk.hk##.mightySlider
 rumble.com##.a-break
 sainsburys.co.uk###siteWarning
 samsung.com##.cookie-notice
+satellites.pro###place2
 ||scanscout.com^
 scmp.com##.header-ad-container
 scoreboard.com###cookie-law-content
@@ -867,7 +861,6 @@ sky.com##.sky-component-social-share__item
 ||socialelective.com^
 ||socialhoney.co^
 ||socialmediatabs.com^
-soci.org###eu-cookies-banner
 softpedia.com##a[href*=".php"]
 softpedia.com###bottombubble
 softpedia.com##.jobnotice
@@ -1112,3 +1105,12 @@ androidranking.net##.vliIgnore
 !youtube.com###header
 ! 20231130
 !||cdninstagram.com/*.mp4
+! 20231225
+!||qualtrics.com^
+!soci.org###eu-cookies-banner
+!||puhtml.com^
+!||puserving.com^
+!||pushnative.com^
+!||putags.com^
+!||qmerce.com^
+!||qnsr.com^
