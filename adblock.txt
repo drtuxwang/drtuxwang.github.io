@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240104a
+! Version: 20240104b
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -102,7 +102,6 @@ aljazeera.com##storifyme-collection
 alpinelinux.org##.banner
 amazon.co.uk###sp-cc
 ||amung.us^
-||and.co.uk^
 ||androidauthority.com/*.js
 androidranking.net##div.page:nth-of-type(1)
 ao.com###aoMessageHolder
@@ -1104,3 +1103,4 @@ androidranking.net##.vliIgnore
 !||storify.com^
 !vidspot.net##[style*="important"]
 !soku.com##.sk-banner
+!||and.co.uk^
