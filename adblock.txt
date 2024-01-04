@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240103a
+! Version: 20240104a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -116,7 +116,6 @@ askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 atpworldtour.com##.players-equipment
 ||atwola.com^
-audacityteam.org###cookie-law-info-bar
 avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awltovhc.com^
@@ -330,7 +329,6 @@ m.facebook.com###MStoriesTray
 ||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com|~videoembed.co|~veuue.com
 ||fbcdn.net/*.m4a$domain=m.facebook.com
 ||fbcdn.net/safe_image.php?*.gif
-||facerich.com^
 ||fallingfalcon.com^
 ||fancybar.net^
 ||fastcounter.de^
@@ -350,7 +348,6 @@ flightaware.com###cookieDisclaimerContainer
 ||foodwidget.com^
 ||foreignpolicy.com/*.js
 ||fqtag.com^
-freakshare.com##[onmouseover*="payment"]
 ||freegeoip.net^
 free-magazines-download.com##.bwrbs.list-items
 ||freetellafriend.com^
@@ -716,7 +713,6 @@ ownvehicle.askmid.com##.contentBlock
 ||paidonresults.net^
 ||pardot.com^
 ||parsely.com^
-||parserwords.info^$popup
 ||parserworld.info^$popup
 patientaccess.com##.footer-cookie
 ||paypalobjects.com^$domain=~paypal.com
@@ -857,7 +853,6 @@ sky.com##.sky-component-social-share__item
 @@||skyscnr.com^$script,domain=skyscanner.net
 ||skytemjo.link^
 ||smartertravel.com^
-||smashseek.com^
 ||socdm.com^
 ||socialelective.com^
 ||socialhoney.co^
@@ -867,7 +862,6 @@ softpedia.com###bottombubble
 softpedia.com##.jobnotice
 ||softpedia-static.com/*/aetd/
 ||softpedia-static.com/images/
-soku.com##.sk-banner
 ||sonobi.com^
 ||sortable.com^
 sourceforge.net##.altered
@@ -903,7 +897,6 @@ standard.co.uk##.video-sticky-video
 ||staticcache.org^
 ||staticworld.net^
 ||statsevent.com^
-||storify.com^
 ||stripe.com^$domain=player.fm
 ||swarmcdn.com^
 ||swiftype.com^
@@ -999,14 +992,11 @@ ubuntu.com##.cookie-policy
 ||udarem.com^
 ||udemy.com/*.js^
 ||upapi.net^$domain=worldometers.info
-||uptobox.com^$domain=uptostream.com
-uptobox.com###topBar
 ||userreport.com^
 ||uservoice.com/*.js
 ||valuedopinions.co.uk^
 videolan.org##.donate2
 videolan.org###uecookies
-vidspot.net##[style*="important"]
 ||viglink.com^
 vim.org##.sidebar:nth-of-type(5)
 virginatlantic.com##.cookie-footer
@@ -1090,18 +1080,6 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
 !
-! 20230731
-!pixel$3p
-! 20230816
-!^$popup,domain=vanfem.com
-!^$popup,domain=streamsss.net
-!@@^$other,domain=dood.wf
-!||zencdn.net^$domain=~hkdrama4u.com
-!||zkcdn.net^
-!||vixnixxer.com^
-!||vizu.com^
-! 20230817
-!^$popup,domain=dood.wf
 ! 20230820
 !youtube.com###header
 ! 20231130
@@ -1115,3 +1093,14 @@ androidranking.net##.vliIgnore
 !||putags.com^
 !||qmerce.com^
 !||qnsr.com^
+! 20240104
+!||parserwords.info^$popup
+!freakshare.com##[onmouseover*="payment"]
+!||facerich.com^
+!audacityteam.org###cookie-law-info-bar
+!||uptobox.com^$domain=uptostream.com
+!uptobox.com###topBar
+!||smashseek.com^
+!||storify.com^
+!vidspot.net##[style*="important"]
+!soku.com##.sk-banner
