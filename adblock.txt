@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240105a
+! Version: 20240105b
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -81,7 +81,7 @@ $popunder
 *yield*$3p
 !
 ! Domain specific filters
-||2mdn.net^$domain=rumble.com
+||2mdn.net^
 ||accountkit.com^
 ||acg.tv^
 ||addthis.com^
