@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240104c
+! Version: 20240105a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -81,6 +81,7 @@ $popunder
 *yield*$3p
 !
 ! Domain specific filters
+||2mdn.net^$domain=rumble.com
 ||accountkit.com^
 ||acg.tv^
 ||addthis.com^
@@ -819,7 +820,7 @@ rthk.hk##.mightySlider
 ||rubiconproject.com^
 ||rubikloud.com^
 rumble.com##.a-break
-||a-delivery.rmbl.ws$script,domain=rumble.com
+||a-delivery.rmbl.ws
 sainsburys.co.uk###siteWarning
 samsung.com##.cookie-notice
 satellites.pro###place2
