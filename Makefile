@@ -28,7 +28,7 @@ reset:               # Reset git branch
 	git status
 	git fetch origin
 	git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
-	@make --no-print-directory git-time
+	@make --no-print-directory time
 
 .PHONY: help
 help:                # Show Makefile options
