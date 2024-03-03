@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240111a
+! Version: 20240303a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -97,7 +97,6 @@ adviceguide.org.uk###div-cookie-monster
 ||adxpub.com^
 ||affinity.com^
 ||airbrake.io^
-||airpush.com^
 aldi.co.uk##.notification
 ||alexa.com^
 aljazeera.com##storifyme-collection
@@ -109,7 +108,6 @@ androidranking.net##div.page:nth-of-type(1)
 ao.com###aoMessageHolder
 ||app-installz.com^
 ||apportium.com^
-||argos.co.uk/*.png
 argos.co.uk##.privacy-prompt-wrapper
 asda.com##.cookies-banner
 asiatimes.com##.wp-block-image
@@ -616,9 +614,6 @@ moneysavingexpert.com###cookiePolicy
 moneysavingexpert.com###fixed-cross-site-tipbox
 moneysavingexpert.com###siteworks-content
 ||mookie1.com^
-||motosal.net^
-||motosal.net^$popup
-||mottnow.com^
 ||mouseflow.com^
 ||mousestats.com^
 msn.com##.finance-footer-container
@@ -972,6 +967,7 @@ thisislocallondon.co.uk###cookiewarning
 thisismoney.co.uk##.bigLinks
 thisismoney.co.uk##.has-button-share
 thisismoney.co.uk##.swipe-tutorial
+||thubanoa.com^$domain=dramawall.net
 ||tickld.com/*.js
 ||tinypass.com^
 ||tomsguide.com/*.js
@@ -1081,10 +1077,6 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
 !
-! 20230820
-!youtube.com###header
-! 20231130
-!||cdninstagram.com/*.mp4
 ! 20231225
 !||qualtrics.com^
 !soci.org###eu-cookies-banner
@@ -1106,3 +1098,9 @@ androidranking.net##.vliIgnore
 !vidspot.net##[style*="important"]
 !soku.com##.sk-banner
 !||and.co.uk^
+! 20240303
+!||airpush.com^
+!||argos.co.uk/*.png
+!||motosal.net^
+!||motosal.net^$popup
+!||mottnow.com^
