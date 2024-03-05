@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240303a
+! Version: 20240305a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -33,7 +33,6 @@ $other,3p
 .bid^
 .click^$popup
 .club^$popup
-.date^
 ##[href*=".online/"]
 .loan^$popup
 .media^
@@ -1104,3 +1103,5 @@ androidranking.net##.vliIgnore
 !||motosal.net^
 !||motosal.net^$popup
 !||mottnow.com^
+! 20240305
+!.date^
