@@ -2,12 +2,18 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240309a
+! Version: 20240315a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
+##.banner$domain=alpinelinux.org|bloomberg.com
+##.cc-banner$domain=eclipse.org|techradar.com|topcashback.co.uk|worldometers.info
+##.cc_banner$domain=chinesetools.eu|delayrepaycompensation.com|howtoforge.com|londonist.com| theo2.co.uk|trustmark.org.uk|wikichip.org
+##.cookie-banner$domain=britishairways.com|lewisham.gov.uk
+div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
+###js-gdpr-consent-banner$domain=askubuntu.com|stackexchange.com|stackoverflow.com
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 !
@@ -99,7 +105,6 @@ adviceguide.org.uk###div-cookie-monster
 aldi.co.uk##.notification
 ||alexa.com^
 aljazeera.com##storifyme-collection
-alpinelinux.org##.banner
 amazon.co.uk###sp-cc
 ||amung.us^
 ||androidauthority.com/*.js
@@ -110,7 +115,6 @@ ao.com###aoMessageHolder
 argos.co.uk##.privacy-prompt-wrapper
 asda.com##.cookies-banner
 asiatimes.com##.wp-block-image
-askubuntu.com###js-gdpr-consent-banner
 ||aspnetcdn.com^$domain=~microsoft.com|~talktalk.co.uk
 atpworldtour.com##.players-equipment
 ||atwola.com^
@@ -139,7 +143,6 @@ bloomberg.com###paywall-banner
 ||brightcove.com^
 ||brightcove.net^
 ||brightspotcdn.com^
-britishairways.com##.cookie-banner
 britishgas.co.uk##.bgrcookiemessage
 britishgas.co.uk###cookie-warning
 ||btserve.com^
@@ -162,7 +165,6 @@ channel4.com###cookie-consent-banner
 ||cheatsheet.com/*.js
 check-host.net###sright
 check-host.net##.thold10
-chinesetools.eu##.cc_banner
 ||chitika.net^
 cieh.org###ECScookiepanel
 ||cityam.com/*.js
@@ -233,7 +235,6 @@ dailystar.co.uk##.skinny-signup
 ||datamation.com/*.js
 ||datamation.com/sl/
 ||db-ip.com^
-delayrepaycompensation.com##.cc_banner
 ||delicious.com^
 ||demandbase.com^
 ||demdex.net^$domain=~thechelsea.co.uk
@@ -292,7 +293,6 @@ economist.com##.fe-blogs__top-ad-wrapper
 ||edomz.net^
 ||effectivemeasure.net^
 ||efytimes.com/*.js
-eclipse.org##.cc-banner
 ||eloqua.com^
 ||ensighten.com^
 ||etahub.com^
@@ -430,7 +430,6 @@ here.com##.cookie
 ||h-online.com/ivw-bin/
 ||hotjar.com^
 hotukdeals.com##.softMessages-item
-howtoforge.com##.cc_banner
 ||hubspot.com^
 huffingtonpost.co.uk##.follow-us
 huffingtonpost.co.uk##.share-bar
@@ -513,7 +512,6 @@ krispykreme.co.uk###notice-cookie-block
 lebara.com##.cookie-component
 ||legolas-media.com^
 ||levexis.com^
-lewisham.gov.uk##.cookie-banner
 ||lfovf.space^
 donate.libreoffice.org##.typography
 lifehacker.com##.ad-unit
@@ -544,7 +542,6 @@ linuxbsdos.com###topStrip
 ||logicbuy.com^
 ||logly.co.jp^
 ||london24.com/*.js
-londonist.com##.cc_banner
 ||longtailvideo.com^
 ||loveplanet.ru^
 ||lovintrends.com/*.js
@@ -592,7 +589,6 @@ microsoft.com###msccBanner
 microsoft.com##.promo-banner
 mirror.co.uk##.ad-placeholder
 mirror.co.uk###cookieNotification
-mirror.co.uk###div-gpt-ad-sticky-bottom-banner
 mirror.co.uk##.email-signup-form-content
 mirror.co.uk##.factbox
 mirror.co.uk##.hidden-links
@@ -623,7 +619,6 @@ muktware.com##[alt*="-ad-"]
 ||mybrowseraddon.com^$popup
 ||myfastcdn.com^domain=gdriveplayer.to
 mylondon.news##.click-track
-mylondon.news###div-gpt-ad-sticky-bottom-banner
 mylondon.news##.factbox
 mylondon.news##.live-count-exp
 mylondon.news##.modal-body-hk
@@ -874,8 +869,6 @@ speedtest.net##.privacy-update
 ||spoutable.com^
 ||springserve.com^
 ||srvtrck.com^$popup
-stackexchange.com###js-gdpr-consent-banner
-stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com##.s-hero
 standard.co.uk###cookie-warning
 standard.co.uk###gs-wrapper
@@ -913,7 +906,6 @@ techadvisor.co.uk/scripts/messaging.js
 techdrivein.com###cookieChoiceInfo
 ||techliveinfo.com/*.js
 ||technoratimedia.com^
-techradar.com##.cc-banner
 ||techverse.net/*.js
 ||techhive.com/*.js
 techhive.com###side
@@ -940,7 +932,6 @@ theguardian.com##.top-banner-ad-container
 ||interactive.guim.co.uk^
 ||thehackernews.com/*.js
 ||thenational.ae/*.js
-theo2.co.uk##.cc_banner
 timeanddate.com##.modal-header
 timeanddate.com##.modal-body
 theregister.com##.faux-article
@@ -970,7 +961,6 @@ thisismoney.co.uk##.swipe-tutorial
 ||tinypass.com^
 ||tomsguide.com/*.js
 tomshardware.co.uk##.choice
-topcashback.co.uk##.cc-banner
 torridonroadsurgery.co.uk###ctl00_eucookie
 ||tradedoubler.com^
 ||tradepub.com^
@@ -978,7 +968,6 @@ torridonroadsurgery.co.uk###ctl00_eucookie
 ||trklnks.com^
 ||trove.com^
 ||truste.com^
-trustmark.org.uk##.cc_banner
 trustpilot.com##.cookie-bar
 ||tubecorporate.com^
 ||twenga.co.uk^
@@ -1011,7 +1000,6 @@ which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
 wickes.co.uk###cookie-policy
 ||wigetmedia.com^
-wikichip.org##.cc_banner
 wilko.com##.consent-management-list
 ||core.windows.net/*.css
 wired.co.uk##.is-fixed
@@ -1020,7 +1008,6 @@ wired.co.uk##.a-header__share
 wired.co.uk###domCookieWarning
 wired.co.uk##.sharify
 ||woopra.com^
-worldometers.info##.cc-banner
 ||stats.wp.com^
 ||wpdigital.net^
 wsj.com##.cookie-notice-container
