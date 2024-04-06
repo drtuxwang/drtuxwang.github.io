@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240402c
+! Version: 20240406a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
@@ -1005,25 +1005,6 @@ wired.co.uk##.sharify
 wsj.com##.cookie-notice-container
 yahoo.com##.ads
 ||yourway.net/*.js
-youtube.com###buttons
-youtube.com###donation-shelf
-||youtube.com/get_midroll
-youtube.com###guide
-||youtube.com/*/log_event
-youtube.com###merch-shelf
-youtube.com###offer-module
-youtube.com###scroll-container
-||youtube.com/*/stats/
-youtube.com##.style-scope.header
-youtube.com###ticker
-youtube.com##.ytd-banner-promo-renderer
-youtube.com##.ytd-in-feed-ad-layout-renderer
-youtube.com##ytd-merch-shelf-renderer
-youtube.com##ytd-mini-guide-renderer
-youtube.com##.ytp-paid-content-overlay-link
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##.ytd-page-top-ad-layout-renderer
-youtube.com##.ytd-rich-section-renderer
 ||zdtag.com^
 ||zemanta.com^
 ||zopim.com^
@@ -1046,13 +1027,16 @@ instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(heigh
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
-! Youtube Preroll (AdGuard Base)
-youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ! Video bounced
 androidranking.net##.videoWrapper
 androidranking.net##.vliIgnore
+! Youtube Preroll (uBlock filters - Ads)
+youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
 ! 20231225
 !||qualtrics.com^
@@ -1098,3 +1082,23 @@ androidranking.net##.vliIgnore
 ! 20240402
 !||atwola.com^
 !||awltovhc.com^
+! 20240406
+!youtube.com###buttons
+!youtube.com###donation-shelf
+!||youtube.com/get_midroll
+!youtube.com###guide
+!||youtube.com/*/log_event
+!youtube.com###merch-shelf
+!youtube.com###offer-module
+!youtube.com###scroll-container
+!||youtube.com/*/stats/
+!youtube.com##.style-scope.header
+!youtube.com###ticker
+!youtube.com##.ytd-banner-promo-renderer
+!youtube.com##.ytd-in-feed-ad-layout-renderer
+!youtube.com##ytd-merch-shelf-renderer
+!youtube.com##ytd-mini-guide-renderer
+!youtube.com##.ytp-paid-content-overlay-link
+!youtube.com##ytd-reel-shelf-renderer
+!youtube.com##.ytd-page-top-ad-layout-renderer
+!youtube.com##.ytd-rich-section-renderer
