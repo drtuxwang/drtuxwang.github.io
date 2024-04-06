@@ -1005,6 +1005,7 @@ wired.co.uk##.sharify
 wsj.com##.cookie-notice-container
 yahoo.com##.ads
 ||yourway.net/*.js
+youtube.com##ytd-in-feed-ad-layout-renderer
 ||zdtag.com^
 ||zemanta.com^
 ||zopim.com^
