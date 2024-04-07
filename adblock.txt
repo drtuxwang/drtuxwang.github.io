@@ -2,12 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240407a
+! Version: 20240406c
 
 ! Block crap by domains
-$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net|adramas.se
+$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com
-@@||mycloudarcade.com^$popup,domain=adramas.se
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
 div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
 $subdocument,domain=dailymail.co.uk
@@ -17,7 +16,7 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 ||twitter.com^$3p
 $3p,domain=mylondon.news
 $image,3p,domain=player.fastdrama.me|feurl.com
-$popup,3p,domain=jodwish.com|uptobox.com
+$popup,3p,domain=adramas.se|jodwish.com|uptobox.com
 $script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
   @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com|theinteldrop.org
   @@||googleapis.com^$script,domain=kokotv.me
@@ -91,7 +90,7 @@ adf.ly###bottom
 ||cdn.adf.ly^
 ||adlightning.com^
 ||adp.com/EUCookieWarning/
-adramas.se##.cf.wrap iframe
+adramas.se##center
 adramas.se###closeADV
 ||adskeeper.co.uk^
 adviceguide.org.uk###div-cookie-monster
@@ -320,6 +319,8 @@ m.facebook.com###MStoriesTray
 ||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com|~videoembed.co|~veuue.com
 ||fbcdn.net/*.m4a$domain=m.facebook.com
 ||fbcdn.net/safe_image.php?*.gif
+||fallingfalcon.com^
+||fancybar.net^
 ||fastcounter.de^
 fca.org.uk###sliding-popup
 ||featureblend.com^
@@ -1102,7 +1103,3 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !youtube.com##ytd-reel-shelf-renderer
 !youtube.com##.ytd-page-top-ad-layout-renderer
 !youtube.com##.ytd-rich-section-renderer
-! 20240407
-!adramas.se##center
-!||fallingfalcon.com^
-!||fancybar.net^
