@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240414a
+! Version: 20240428a
 
 ! Block crap by domains
-$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|hydracdn.network|dramawall.net
+$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
 div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
@@ -1022,8 +1022,7 @@ facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"
 facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
 facebook.com##.storyStream > .fullwidth.carded
 ! Hydrax videos
-$popup,3p,domain=player-cdn.com|abysscdn.com
-$xhr,3p,domain=player-cdn.com|abysscdn.com
+$popup,domain=playhydrax.com
 ! kokotv.me videos
 ##[src="about:blank"]
 ! Meta sponsor/suggested (uBlock filer Ads)
@@ -1042,15 +1041,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20231225
-!||qualtrics.com^
-!soci.org###eu-cookies-banner
-!||puhtml.com^
-!||puserving.com^
-!||pushnative.com^
-!||putags.com^
-!||qmerce.com^
-!||qnsr.com^
 ! 20240104
 !||parserwords.info^$popup
 !freakshare.com##[onmouseover*="payment"]
@@ -1109,3 +1099,6 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 ! 20240414a
 !||negdrvgo.com^
 !||netshelter.net^
+! 20240428
+!$popup,3p,domain=player-cdn.com|abysscdn.com
+!$xhr,3p,domain=player-cdn.com|abysscdn.com
