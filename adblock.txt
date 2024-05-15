@@ -2,11 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240428a
+! Version: 20240515a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
-$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com
+$inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
 div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
 $subdocument,domain=dailymail.co.uk
@@ -530,11 +530,6 @@ linuxbsdos.com###topStrip
 ||linuxinsider.com/*/sda/
 ||liverail.com^
 ||llnwd.net^$domain=~diy.com
-||lockerdome.com^
-||logicbuy.com^
-||logly.co.jp^
-||london24.com/*.js
-||longtailvideo.com^
 ||loveplanet.ru^
 ||lovintrends.com/*.js
 ||ltassrv.com^
@@ -859,6 +854,7 @@ speedtest.net##.privacy-update
 ||spiffymachine.com^
 ||spoutable.com^
 ||springserve.com^
+sputnikglobe.com##.m-alert
 ||srvtrck.com^$popup
 stackoverflow.com##.s-hero
 standard.co.uk###cookie-warning
@@ -991,7 +987,6 @@ which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
 wickes.co.uk###cookie-policy
 ||wigetmedia.com^
-wilko.com##.consent-management-list
 ||core.windows.net/*.css
 wired.co.uk##.is-fixed
 wired.co.uk##.a-footer-share
@@ -1041,26 +1036,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240104
-!||parserwords.info^$popup
-!freakshare.com##[onmouseover*="payment"]
-!||facerich.com^
-!audacityteam.org###cookie-law-info-bar
-!||uptobox.com^$domain=uptostream.com
-!uptobox.com###topBar
-!||smashseek.com^
-!||storify.com^
-!vidspot.net##[style*="important"]
-!soku.com##.sk-banner
-!||and.co.uk^
-! 20240303
-!||airpush.com^
-!||argos.co.uk/*.png
-!||motosal.net^
-!||motosal.net^$popup
-!||mottnow.com^
-! 20240305
-!.date^
 ! 20240309
 !||spot.im^
 ! 20240330
@@ -1102,3 +1077,10 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 ! 20240428
 !$popup,3p,domain=player-cdn.com|abysscdn.com
 !$xhr,3p,domain=player-cdn.com|abysscdn.com
+! 20240515
+!wilko.com##.consent-management-list
+!||lockerdome.com^
+!||logicbuy.com^
+!||logly.co.jp^
+!||london24.com/*.js
+!||longtailvideo.com^
