@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240515a
+! Version: 20240516a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
@@ -71,7 +71,8 @@ advert*.js$3p,domain=~adramas.se
 ||affiliate*$3p
 *consent*$3p,domain=~time.com|~youtube.com|~google.co.uk
 ^$ping
-*popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com|~scmp.com|~uswitch.com
+*popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~qq.com|~scmp.com|~uswitch.com|~careskillslearning.co.uk
+
 $popunder
 /prebid
 /sponsors/*
