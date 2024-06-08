@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240608a
+! Version: 20240608b
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
@@ -615,6 +615,8 @@ mylondon.news##.skinny-form-content
 mylondon.news##.top-slot
 mylondon.news##.whats-hot
 ||mythings.com^
+nanafeed.com###float_content_left
+nanafeed.com###float_content_right
 nationalarchives.gov.uk##.cookieNotice
 national-lottery.co.uk###com_cookie_policy
 nationwide.co.uk##[class="cookiePolicy"]
