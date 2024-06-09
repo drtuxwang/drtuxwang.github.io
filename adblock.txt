@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240608c
+! Version: 20240609a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
@@ -716,11 +716,6 @@ phoronix.com##.widget:nth-of-type(6)
 pinterest.com##.UnauthBanner
 ||pitchinbox.com^
 pizzahut.co.uk##.alert
-player.fm##.campaign
-player.fm##.modal-content
-player.fm##.preamble
-player.fm##.top
-player.fm##.top-promo
 ||plista.com^
 ||plugerr.com^
 ||plugrush.com^
@@ -734,8 +729,7 @@ player.fm##.top-promo
 postoffice.co.uk##.cookie
 ||postrelease.com^
 ||powerretail.com.au/*.js
-pravda.ru##.stick-sf
-pravda.ru##.adsbygoogle
+pravda.ru##.header
 ||pressflex.net^
 ||primosearch.com^
 ||pro-market.net^
@@ -871,7 +865,6 @@ standard.co.uk##.video-sticky-video
 ||staticcache.org^
 ||staticworld.net^
 ||statsevent.com^
-||stripe.com^$domain=player.fm
 ||swarmcdn.com^
 ||swiftype.com^
 ||swiftypecdn.com^
@@ -1091,3 +1084,12 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||offersquared.com^
 !||2mdn.net^
 !||acg.tv^
+! 20240609
+!pravda.ru##.stick-sf
+!pravda.ru##.adsbygoogle
+!player.fm##.campaign
+!player.fm##.modal-content
+!player.fm##.preamble
+!player.fm##.top
+!player.fm##.top-promo
+!||stripe.com^$domain=player.fm
