@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240613a
+! Version: 20240705a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
@@ -102,7 +102,6 @@ aljazeera.com##storifyme-collection
 amazon.co.uk###sp-cc
 ||amung.us^
 ||androidauthority.com/*.js
-androidranking.net##div.page:nth-of-type(1)
 ao.com###aoMessageHolder
 ||app-installz.com^
 ||apportium.com^
@@ -668,7 +667,6 @@ omgubuntu.co.uk##.page-footer
 ||onmodulus.net^
 ||onclasrv.com^
 ||oneall.com^
-||onedrama.me/*/pum-site-scripts.js
 ||onestat.com^
 ||ophoacit.com^$domain=dramawall.net
 ||optkit.com^
@@ -681,7 +679,6 @@ osnews.com###ezmobfooter
 ||osnews.com/*js
 osnews.com###sidebar
 ||outbrain.com^
-||outbrainimg.com^
 ||overture.com^
 ownvehicle.askmid.com##.contentBlock
 ||pagefair.com^
@@ -1019,8 +1016,7 @@ instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(heigh
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 ! Video bounced
-androidranking.net##.videoWrapper
-androidranking.net##.vliIgnore
+appstrong.online##center:nth-of-type(1)
 ! Youtube video ads (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
@@ -1029,12 +1025,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240309
-!||spot.im^
-! 20240330
-!bloomberg.com###bb-nav
-!bloomberg.com##.leaderboard-wrapper
-!bloomberg.com###paywall-banner
 ! 20240401
 !##.banner$domain=alpinelinux.org
 !##.cc-banner$domain=eclipse.org|techradar.com|topcashback.co.uk|worldometers.info
@@ -1093,3 +1083,9 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !player.fm##.top
 !player.fm##.top-promo
 !||stripe.com^$domain=player.fm
+! 20240705
+!||onedrama.me/*/pum-site-scripts.js
+!||outbrainimg.com^
+!androidranking.net##div.page:nth-of-type(1)
+!androidranking.net##.videoWrapper
+!androidranking.net##.vliIgnore
