@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240705a
+! Version: 20240721a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net
@@ -864,7 +864,6 @@ standard.co.uk##.video-sticky-video
 ||statsevent.com^
 ||swarmcdn.com^
 ||swiftype.com^
-||swiftypecdn.com^
 ||swoop.com^
 ||taboola.com^
 ||taboolasyndication.com^
@@ -1007,7 +1006,7 @@ facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"
 facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
 facebook.com##.storyStream > .fullwidth.carded
 ! Hydrax videos
-$popup,domain=playhydrax.com
+$popup,domain=abysscdn.com
 ! kokotv.me videos
 ##[src="about:blank"]
 ! Meta sponsor/suggested (uBlock filer Ads)
@@ -1089,3 +1088,6 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !androidranking.net##div.page:nth-of-type(1)
 !androidranking.net##.videoWrapper
 !androidranking.net##.vliIgnore
+! 20240721
+!$popup,domain=playhydrax.com
+!||swiftypecdn.com^
