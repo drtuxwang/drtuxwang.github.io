@@ -656,7 +656,6 @@ ofcom.org.uk##.cookie-message
 ofcom.org.uk###survey-bar
 ofgem.gov.uk###sliding-popup
 ||ok.ru^
-||okpay.com^
 okta.com##.permanent-alert-warning
 ||onesignal.com^
 ||omgubuntu.co.uk/*.js
@@ -667,6 +666,7 @@ omgubuntu.co.uk##.page-footer
 ||onmodulus.net^
 ||onclasrv.com^
 ||oneall.com^
+||onedrama.me/*/jquery.min.js
 ||onestat.com^
 ||ophoacit.com^$domain=dramawall.net
 ||optkit.com^
@@ -1024,12 +1024,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240401
-!##.banner$domain=alpinelinux.org
-!##.cc-banner$domain=eclipse.org|techradar.com|topcashback.co.uk|worldometers.info
-!##.cc_banner$domain=chinesetools.eu|delayrepaycompensation.com|howtoforge.com|londonist.com| theo2.co.uk|trustmark.org.uk|wikichip.org
-!##.cookie-banner$domain=britishairways.com|lewisham.gov.uk
-!###js-gdpr-consent-banner$domain=askubuntu.com|stackexchange.com|stackoverflow.com
 ! 20240402
 !||atwola.com^
 !||awltovhc.com^
@@ -1094,3 +1088,5 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !$popup,domain=abysscdn.com
 !||thesundaytimes.co.uk/*.js
 !||thevarguy.com/*.js
+! 20240727
+!||okpay.com^
