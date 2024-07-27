@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240727b
+! Version: 20240727c
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -1074,21 +1074,20 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||thevarguy.com/*.js
 ! 20240727
 !||okpay.com^
-.ad^
-.asia^
-.bid^
-.club^$popup
-##[href*=".online/"]
-.loan^$popup
-.media^
-.network^$domain=worldometers.info|aljazeera.com
-.racing^
-.re^
-.services^
-.support^
-.top^$popup
-.trade^
-.xxx^$popup
-.xyz^$popup
-.website^$popup
-
+!.ad^
+!.asia^
+!.bid^
+!.club^$popup
+!##[href*=".online/"]
+!.loan^$popup
+!.media^
+!.network^$domain=worldometers.info|aljazeera.com
+!.racing^
+!.re^
+!.services^
+!.support^
+!.top^$popup
+!.trade^
+!.xxx^$popup
+!.xyz^$popup
+!.website^$popup
