@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240727c
+! Version: 20240728a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -298,7 +298,7 @@ facebook.com##[href*="/watch/"]
 m.facebook.com##[id^="TRAY"]
 m.facebook.com###MStoriesTray
 ||fbcdn.com^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net
-||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com|~videoembed.co|~veuue.com
+||fbcdn.net^$domain=~facebook.com|~facebook.net|~fbcdn.com|~fbcdn.net|~instagram.com|~videoembed.co|~veuue.com|~fbsbx.com
 ||fbcdn.net/*.m4a$domain=m.facebook.com
 ||fbcdn.net/safe_image.php?*.gif
 ||fallingfalcon.com^
