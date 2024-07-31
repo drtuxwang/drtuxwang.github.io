@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240730d
+! Version: 20240731a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -652,7 +652,7 @@ omgubuntu.co.uk##.page-footer
 ||onmodulus.net^
 ||onclasrv.com^
 ||oneall.com^
-||onedrama.me/*/jquery.min.js
+onedrama.me##.sidebar
 ||onestat.com^
 ||ophoacit.com^$domain=dramawall.net
 ||optkit.com^
@@ -999,7 +999,6 @@ instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(heigh
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
 ! Video bounced
-||app-lite.com^$domain=onedrama.me
 appstrong.online##center:nth-of-type(1)
 @@mycloudarcade.com$popup,domain=adramas.se
 mycloudarcade.com##.page-title
@@ -1095,3 +1094,6 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !.website^$popup
 ! 20240730
 !@@appstrong.online^$popup,from=onedrama.me
+! 20240731
+!||onedrama.me/*/jquery.min.js
+!||app-lite.com^$domain=onedrama.me
