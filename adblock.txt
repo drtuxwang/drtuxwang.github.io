@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240731a
+! Version: 20240801a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -19,9 +19,9 @@ $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 $3p,domain=mylondon.news
 $image,3p,domain=player.fastdrama.me|feurl.com
 $popup,3p,domain=adramas.se|jodwish.com|uptobox.com
-$script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
+$script,3p,domain=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org|onedrama.me
   @@||cloudflare.com^$script,domain=kokotv.me|vod2cn.com|theinteldrop.org
-  @@||googleapis.com^$script,domain=kokotv.me
+  @@||googleapis.com^$script,domain=kokotv.me|onedrama.me
   @@||gstatic.com^$script,domain=consent.google.co.uk|consent.google.com
   @@||iamcdn.net^$script,domain=kokotv.me
   @@||jsdelivr.net^$script,domain=vod2cn.com
@@ -32,7 +32,6 @@ $other,3p
 !
 ! Block spam TLD
 .click^$popup
-.top^
 !
 ! Wild card matching
 *-ad.*
@@ -960,7 +959,6 @@ which.co.uk##.eprivacy-banner--displayed
 which.co.uk##.survey-bar
 wickes.co.uk###cookie-policy
 ||wigetmedia.com^
-||core.windows.net/*.css
 wired.co.uk##.is-fixed
 wired.co.uk##.a-footer-share
 wired.co.uk##.a-header__share
@@ -1097,3 +1095,6 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 ! 20240731
 !||onedrama.me/*/jquery.min.js
 !||app-lite.com^$domain=onedrama.me
+! 20240801
+!.top^
+!||core.windows.net/*.css
