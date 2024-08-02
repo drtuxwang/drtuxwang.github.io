@@ -2,12 +2,13 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240801c
+! Version: 20240802a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
 @@jodwish.com$popup,domain=onedrama.me
 @@hellabyte.one$popup,domain=onedrama.me
+@@izarcade.com^$popup,domain=onedrama.me
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
 div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
@@ -104,7 +105,6 @@ axa.co.uk##.axaCookie
 ||bestofmedia.com^
 bing.com###b_notificationContainer
 ||bitgravity.com^
-||bizographics.com^
 ||blismedia.com^
 ||blitzen.com^
 ||blockchain.info^
@@ -1097,3 +1097,5 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !.top^
 !||core.windows.net/*.css
 !||ecommercebizworld.net^
+! 20240802
+!||bizographics.com^
