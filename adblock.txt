@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240802b
+! Version: 20240803a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -73,8 +73,6 @@ adf.ly###bottom
 ||cdn.adf.ly^
 ||adlightning.com^
 ||adp.com/EUCookieWarning/
-adramas.se##center
-adramas.se###closeADV
 ||adskeeper.co.uk^
 adviceguide.org.uk###div-cookie-monster
 ||adxpub.com^
@@ -98,8 +96,6 @@ avivaservices.co.uk##.cc-cookies
 ||awin1.com^
 ||awsstatic.com^$font
 axa.co.uk##.axaCookie
-||ayboll.com^
-||azureedge.net^$domain=patientaccess.com
 ||behavemedia.com^
 ||bestofmedia.com^
 bing.com###b_notificationContainer
@@ -469,12 +465,6 @@ johnlewis.com##.overlay-message--cookies
 ||jwpltx.com^
 kenstechtips.com##.cookie-alert
 ||kiosked.com^
-||knorex.asia^
-kokotv.me###featPosts
-kokotv.me###footWidgets
-kokotv.me###sidebar
-||kokotv.me/*unblocker
-kokotv.me###wnb-bar
 ||kontera.com^
 ||kovla.com^
 krispykreme.co.uk###notice-cookie-block
@@ -648,7 +638,6 @@ omgubuntu.co.uk##.page-footer
 ||onmodulus.net^
 ||onclasrv.com^
 ||oneall.com^
-onedrama.me##.sidebar
 ||onestat.com^
 ||ophoacit.com^$domain=dramawall.net
 ||optkit.com^
@@ -976,28 +965,28 @@ youtube.com##.ytd-rich-section-renderer
 ||zemanta.com^
 ||zopim.com^
 !
-! Facebook Ads (AdGuard Base)
+! Meta sponsor/suggested (uBlock filer Ads)
+instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
+! Meta (AdGuard Base)
 facebook.com#$#body > .AdBox.Ad.advert { display:block!important; }
 facebook.com#?#div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) div[class]:has(> div[class] > div[class] div[class] > a[href^="https://l.facebook.com/l.php?u="][target="_blank"])
-! Facebook Ads (AdGuard Mobile Ads)
+! Meta (AdGuard Mobile Ads)
 facebook.com##article[data-store*="is_sponsored.1"]
 facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
 facebook.com##.storyStream > .fullwidth.carded
-! Hydrax videos
-$popup,domain=playhydrax.com
-! kokotv.me videos
-##[src="about:blank"]
-! Meta sponsor/suggested (uBlock filer Ads)
-instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
-! Video bounced
+! Streaming
+onedrama.me##.sidebar
 @@izarcade.com^$popup,domain=onedrama.me
 izarcade.com##center:nth-of-type(1)
-@@mycloudarcade.com$popup,domain=adramas.se
-mycloudarcade.com##.page-title
+adramas.se##center
+adramas.se###closeADV
+||kokotv.me/*unblocker
+! Streaming Hydrax
+$popup,domain=playhydrax.com
 ! Youtube video ads (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
@@ -1099,3 +1088,14 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||ecommercebizworld.net^
 ! 20240802
 !||bizographics.com^
+! 20240803
+!@@mycloudarcade.com$popup,domain=adramas.se
+!mycloudarcade.com##.page-title
+!||ayboll.com^
+!||azureedge.net^$domain=patientaccess.com
+!##[src="about:blank"]
+!kokotv.me###featPosts
+!kokotv.me###footWidgets
+!kokotv.me###sidebar
+!kokotv.me###wnb-bar
+!||knorex.asia^
