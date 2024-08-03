@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240803c
+! Version: 20240803d
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -150,8 +150,6 @@ cityam.com##.sharing
 cnbc.com##.nad-asset-banner
 ||cnetdirectintl.com^
 cnn.com##.ad-slot-header
-||coinhive.com^
-||collective-media.net^
 ||comparitech.com/*.css
 ||complexmedianetwork.com^
 ||comprigo.com^
@@ -1102,3 +1100,5 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !kokotv.me###sidebar
 !kokotv.me###wnb-bar
 !||knorex.asia^
+!||coinhive.com^
+!||collective-media.net^
