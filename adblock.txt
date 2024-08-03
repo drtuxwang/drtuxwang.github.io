@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240803d
+! Version: 20240804e
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -978,6 +978,7 @@ facebook.com##.storyStream > .fullwidth.carded
 onedrama.me##.sidebar
 @@izarcade.com^$popup,domain=onedrama.me
 izarcade.com##center:nth-of-type(1)
+izarcade.com###hide_float_right
 adramas.se##center
 adramas.se###closeADV
 ||kokotv.me/*unblocker
