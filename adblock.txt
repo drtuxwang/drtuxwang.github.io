@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240804e
+! Version: 20240812a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -985,7 +985,7 @@ adramas.se###closeADV
 ! Video Hellobyte
 @@hellabyte.one$popup,domain=onedrama.me
 ! Video Hydrax
-$popup,domain=playhydrax.com
+$popup,domain=abysscdn.com
 ! Video Stream
 $popup,domain=wishfast.top
 @@jodwish.com$popup,domain=onedrama.me
@@ -997,32 +997,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240402
-!||atwola.com^
-!||awltovhc.com^
-! 20240406
-!youtube.com###buttons
-!youtube.com###donation-shelf
-!||youtube.com/get_midroll
-!||youtube.com/*/log_event
-!youtube.com###merch-shelf
-!youtube.com###offer-module
-!youtube.com###scroll-container
-!||youtube.com/*/stats/
-!youtube.com##.style-scope.header
-!youtube.com###ticker
-!youtube.com##.ytd-banner-promo-renderer
-!youtube.com##.ytd-in-feed-ad-layout-renderer
-!youtube.com##ytd-mini-guide-renderer
-!youtube.com##.ytp-paid-content-overlay-link
-!youtube.com##.ytd-page-top-ad-layout-renderer
-! 20240407
-!adramas.se##center
-!||fallingfalcon.com^
-!||fancybar.net^
-! 20240414a
-!||negdrvgo.com^
-!||netshelter.net^
 ! 20240428
 !$popup,3p,domain=player-cdn.com|abysscdn.com
 !$xhr,3p,domain=player-cdn.com|abysscdn.com
@@ -1103,3 +1077,5 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||knorex.asia^
 !||coinhive.com^
 !||collective-media.net^
+! 20240812
+$popup,domain=playhydrax.com
