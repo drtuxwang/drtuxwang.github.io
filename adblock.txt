@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240812a
+! Version: 20240813a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -154,12 +154,10 @@ cnn.com##.ad-slot-header
 ||complexmedianetwork.com^
 ||comprigo.com^
 ||computerworld.com/*.js
-||condenastdigital.com^
 ||conectiaoffers.com^
 confused.com##.cookie-wrapper
 ||connatix.com^
 ||consensu.org^
-||construment.com^
 ||contentinsights.com^
 ||contextly.com^
 convertunits.com###leaderboard
@@ -984,6 +982,7 @@ adramas.se###closeADV
 ||kokotv.me/*unblocker
 ! Video Hellobyte
 @@hellabyte.one$popup,domain=onedrama.me
+@@accounts.google.com$popup,domain=onedrama,me
 ! Video Hydrax
 $popup,domain=abysscdn.com
 ! Video Stream
@@ -1079,3 +1078,6 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||collective-media.net^
 ! 20240812
 $popup,domain=playhydrax.com
+! 20240813
+!||condenastdigital.com^
+!||construment.com^
