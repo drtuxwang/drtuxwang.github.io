@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240813a
+! Version: 20240814a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
@@ -981,8 +981,8 @@ adramas.se##center
 adramas.se###closeADV
 ||kokotv.me/*unblocker
 ! Video Hellobyte
-@@hellabyte.one$popup,domain=onedrama.me
-@@accounts.google.com$popup,domain=onedrama,me
+@@hellabyte.one^$popup,domain=onedrama.me
+@@accounts.google.com^$popup,domain=onedrama.me
 ! Video Hydrax
 $popup,domain=abysscdn.com
 ! Video Stream
