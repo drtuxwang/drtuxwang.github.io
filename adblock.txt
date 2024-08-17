@@ -2,10 +2,10 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240814a
+! Version: 20240817a
 
 ! Block crap by domains
-$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|onedrama.me
+$popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|dramawall.net|playhydrax.com
 $inline-script,domain=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|dramawall.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com
 $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
 div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
@@ -972,22 +972,19 @@ facebook.com##.storyStream > .fullwidth.carded
 ! Mobile malvertising
 ||privacy-mgmt.com^
 ||fundingchoicesmessages.google.com
-! Video sites
+! Video site
 onedrama.me##.sidebar
-@@izarcade.com^$popup,domain=onedrama.me
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
 adramas.se##center
 adramas.se###closeADV
 ||kokotv.me/*unblocker
-! Video Hellobyte
-@@hellabyte.one^$popup,domain=onedrama.me
-@@accounts.google.com^$popup,domain=onedrama.me
-! Video Hydrax
-$popup,domain=abysscdn.com
+! Video Hydrax & PicasaW/playhydrax.com
+$popup,domain=abysscdn.com3
 ! Video Stream
 $popup,domain=wishfast.top
-@@jodwish.com$popup,domain=onedrama.me
+! Video Hellobyte
+@@accounts.google.com^$popup,domain=onedrama.me
 ! Youtube video ads (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
@@ -1076,8 +1073,11 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||knorex.asia^
 !||coinhive.com^
 !||collective-media.net^
-! 20240812
-$popup,domain=playhydrax.com
 ! 20240813
 !||condenastdigital.com^
 !||construment.com^
+! 20240817
+!$popup,domain=onedrama.me
+!@@izarcade.com^$popup,domain=onedrama.me
+!@@hellabyte.one^$popup,domain=onedrama.me
+!@@jodwish.com$popup,domain=onedrama.me
