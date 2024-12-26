@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20240917a
+! Version: 20241226a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -47,7 +47,7 @@ $other,3p
 ||ads2.
 ||ads2.$popup
 ||adservice.
-*ads.$3p,domain=~facebook.com|~live.com
+*ads.$3p,domain=~facebook.com|~live.com|~docker.com
 /ads.$xhr
 ||adsrv*$popup
 advert*.js$3p,domain=~adramas.se
