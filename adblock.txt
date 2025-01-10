@@ -836,6 +836,7 @@ standard.co.uk##.video-sticky-video
 talktalk.co.uk##.notification--cookie
 talktalk.co.uk##.f-size2.color0
 error.talktalk.co.uk##.tt_results
+@@-consent-banner-$domain=talktalk.co.uk
 ||tech426.com^$domain=makeuseof.com
 tesco.com###cookie-policy
 tescomobile.com###tesco_cookie_widget
