@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250110b
+! Version: 20250116a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -368,7 +368,7 @@ translate.google.com##.notification-area
 ||fonts.googleapis.com/css
 ||googlesyndication.com^
 ||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk|~utilitypoint.co.uk|~thechelsea.co.uk|~lewisham.gov.uk|~boots.com
-||googletagservices.com^
+||googletagservices.com^$domain=~flightaware.com
 ||gravatar.com^
 ||gravity.com^
 ||gravityrd.com^
@@ -695,6 +695,7 @@ pravda.ru##.header
 ||propellerclick.com^
 ||propellerpops.com^
 ||psyma.com^
+@@pub.network^$domain=flightaware.com
 ||pub2srv.com^
 ||publicus.com^
 ||pubmatic.com^
@@ -990,32 +991,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240428
-!$popup,3p,domain=player-cdn.com|abysscdn.com
-!$xhr,3p,domain=player-cdn.com|abysscdn.com
-! 20240515
-!wilko.com##.consent-management-list
-!||lockerdome.com^
-!||logicbuy.com^
-!||logly.co.jp^
-!||london24.com/*.js
-!||longtailvideo.com^
-! 20240608
-!nanafeed.com##center:nth-of-type(1)
-!nanafeed.com##div:nth-of-type(1)
-!||iperceptions.com^
-!||offersquared.com^
-!||2mdn.net^
-!||acg.tv^
-! 20240609
-!pravda.ru##.stick-sf
-!pravda.ru##.adsbygoogle
-!player.fm##.campaign
-!player.fm##.modal-content
-!player.fm##.preamble
-!player.fm##.top
-!player.fm##.top-promo
-!||stripe.com^$domain=player.fm
 ! 20240705
 !||onedrama.me/*/pum-site-scripts.js
 !||outbrainimg.com^
