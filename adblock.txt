@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250116a
+! Version: 20250116b
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -368,7 +368,8 @@ translate.google.com##.notification-area
 ||fonts.googleapis.com/css
 ||googlesyndication.com^
 ||googletagmanager.com^$domain=~southeasternrailway.co.uk|~talktalk.co.uk|~utilitypoint.co.uk|~thechelsea.co.uk|~lewisham.gov.uk|~boots.com
-||googletagservices.com^$domain=~flightaware.com
+||googletagservices.com
+@@googletagservices.com$domain=flightaware.com
 ||gravatar.com^
 ||gravity.com^
 ||gravityrd.com^
