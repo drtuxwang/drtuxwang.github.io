@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250116b
+! Version: 20250121a
 
 ! Block crap by domains
 $popup,domain=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -11,6 +11,7 @@ $script,domain=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
 div-gpt-ad-sticky-bottom-banner$domain=mirror.co.uk|mylondon.news
 $subdocument,domain=dailymail.co.uk
 $other,domain=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
+@@$domain=britishairways.com
 !
 ! Block 3rd party crap by domains
 ||twitter.com^$3p
