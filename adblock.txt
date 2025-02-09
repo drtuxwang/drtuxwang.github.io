@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250130c
+! Version: 20250209a
 
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -92,7 +92,6 @@ asiatimes.com##.wp-block-image
 ||aspnetcdn.com^$from=~microsoft.com|~talktalk.co.uk
 atpworldtour.com##.players-equipment
 avivaservices.co.uk##.cc-cookies
-||awin1.com^
 ||awsstatic.com^$font
 axa.co.uk##.axaCookie
 ||behavemedia.com^
@@ -993,36 +992,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240705
-!||onedrama.me/*/pum-site-scripts.js
-!||outbrainimg.com^
-!androidranking.net##div.page:nth-of-type(1)
-!androidranking.net##.videoWrapper
-!androidranking.net##.vliIgnore
-! 20240721
-!||swiftypecdn.com^
-! 20240724
-!$popup,from=abysscdn.com
-!||thesundaytimes.co.uk/*.js
-!||thevarguy.com/*.js
-! 20240727
-!||okpay.com^
-!.ad^
-!.asia^
-!.bid^
-!.club^$popup
-!##[href*=".online/"]
-!.loan^$popup
-!.media^
-!.network^$from=worldometers.info|aljazeera.com
-!.racing^
-!.re^
-!.services^
-!.support^
-!.trade^
-!.xxx^$popup
-!.xyz^$popup
-!.website^$popup
 ! 20240730
 !@@appstrong.online^$popup,from=onedrama.me
 ! 20240731
@@ -1060,3 +1029,5 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !dramawall.net##table
 !||ophoacit.com^$from=dramawall.net
 !||thubanoa.com^$from=dramawall.net
+! 20250209
+!||awin1.com^
