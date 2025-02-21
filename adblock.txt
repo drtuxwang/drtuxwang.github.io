@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250209a
+! Version: 20250221a
 
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -448,7 +448,6 @@ jdwetherspoon.co.uk###cookies-popup
 jobsearch.direct.gov.uk###cookieBanner
 ||jofbu.com^
 johnlewis.com##.overlay-message--cookies
-||jquery.com^$from=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk|~confused.com
 ||jsecoin.com^
 ||jsrdn.com^
 ||justtechjobs.com^
@@ -1031,3 +1030,5 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||thubanoa.com^$from=dramawall.net
 ! 20250209
 !||awin1.com^
+! 20250221
+!||jquery.com^$from=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk|~confused.com
