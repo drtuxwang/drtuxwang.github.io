@@ -2,15 +2,11 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250221a
+! Version: 20250314a
 
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
 $inline-script,from=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com|traffic-update.co.uk
-$script,from=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
-div-gpt-ad-sticky-bottom-banner$from=mirror.co.uk|mylondon.news
-$subdocument,from=dailymail.co.uk
-$other,from=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
 @@$from=britishairways.com
 !
 ! Block 3rd party crap by domains
@@ -33,36 +29,9 @@ $other,3p
 .click^$popup
 !
 ! Wild card matching
-*-ad.*
-/ad_
-/ad/*
-/ad?$popup
-*adexchange*
-*adexchange*$popup
-*adnetwork.$3p
-*-adnow.com^
-*_ads/
-*_ads.
-*-ads*.com^
-*-ads*.com^$popup
-||ads2.
-||ads2.$popup
-||adservice.
-*ads.$3p,from=~facebook.com|~live.com|~docker.com
-/ads.$xhr
-||adsrv*$popup
-advert*.js$3p,from=~adramas.se
-||affiliate*$3p
-*consent*$3p,from=~time.com|~youtube.com|~google.co.uk
 ^$ping
 *popup*.js$from=~hsbc.co.uk|~successfactors.eu|~qq.com|~scmp.com|~uswitch.com|~careskillslearning.co.uk
 $popunder
-/prebid
-/sponsors/*
-*syndicate.
-*syndication.
-||syndication.$popup
-*yield*$3p
 !
 ! Domain specific filters
 ||accountkit.com^
@@ -118,14 +87,12 @@ britishgas.co.uk###cookie-warning
 ||carambo.la^
 ||care2.com^
 ||casalemedia.com^
-cathaypacific.com##.active-opt-in-banner
 ||cb-content.com^
 ||cbox.ws^
 ||cbsi.com^
 ||cbsimg.net^
 ||cbsistatic.com/*.js
 ||cdnet.tv^$popup
-channel4.com###cookie-consent-banner
 ||chartbeat.com^
 ||chartbeat.net^
 ||chatango.com^
@@ -134,17 +101,10 @@ check-host.net###sright
 check-host.net##.thold10
 ||chitika.net^
 cieh.org###ECScookiepanel
-||cityam.com/*.js
-cityam.com##.sharing
 ||cleanprint.net^
 ||cliipa.com^
 ||clipular.com^
 ||clkrev.com^
-||cloudfront.net^$from=dailymail.co.uk|metro.co.uk
-||cloudfront.net/*/paper.create_overlay-*.js
-||cloudfront.net^$script,from=vidlox.tv
-||cloudfront.net/*trk.gif
-||cloudfront.net/*trk.js
 ||cmbestsrv.com^
 ||cnbc.com/*.js
 cnbc.com##.nad-asset-banner
@@ -178,22 +138,6 @@ crhideas.com###cookie-law-info-bar
 ||customer.io^
 ||cxense.com^
 ||dacast.com^
-dailymail.co.uk##.dms-puff
-dailymail.co.uk##.floating-buttons
-dailymail.co.uk##.masthead
-dailymail.co.uk##.mini
-dailymail.co.uk##.minute-media
-dailymail.co.uk###smartBanner
-dailymail.co.uk###socialLinks
-dailymail.co.uk##.sponsored
-dailystar.co.uk###breaking-news
-dailystar.co.uk##footer
-dailystar.co.uk##.gpt
-dailystar.co.uk##.native-install
-dailystar.co.uk###recommendations-topbox
-dailystar.co.uk##.partner
-dailystar.co.uk##.related-column
-dailystar.co.uk##.skinny-signup
 ||datamation.com/hqx/
 ||datamation.com/*.js
 ||datamation.com/sl/
@@ -650,7 +594,6 @@ ownvehicle.askmid.com##.contentBlock
 ||parsely.com^
 ||parserworld.info^$popup
 patientaccess.com##.footer-cookie
-||paypalobjects.com^$from=~paypal.com
 pbs.org##.popup
 ||pcmag.com/*.js
 pcmag.com##.middle-frame
@@ -662,8 +605,6 @@ pcworld.com###side
 ||perfdrive.com^
 ||perfectmarket.com^
 ||permutive.com^
-petrolprices.com###ads-content
-petrolprices.com##.alert-info
 phoronix.com###about-author
 phoronix.com###footer
 phoronix.com###navbar_notice_1
@@ -751,7 +692,6 @@ rthk.hk##.mightySlider
 rumble.com##.a-break
 ||a-delivery.rmbl.ws
 sainsburys.co.uk###siteWarning
-samsung.com##.cookie-notice
 satellites.pro###place2
 ||scanscout.com^
 scmp.com##.header-ad-container
@@ -787,13 +727,6 @@ sky.com##.sky-component-social-share__item
 ||socialelective.com^
 ||socialhoney.co^
 ||socialmediatabs.com^
-softpedia.com##a[href*=".php"]
-softpedia.com###bottombubble
-softpedia.com##.jobnotice
-||softpedia-static.com/*/aetd/
-||softpedia-static.com/images/
-||sonobi.com^
-||sortable.com^
 sourceforge.net##.altered
 sourceforge.net##.enhanced-listing
 sourceforge.net###files-sidebar
@@ -808,19 +741,7 @@ speedtest.net##.privacy-update
 ||spiffymachine.com^
 ||spoutable.com^
 ||springserve.com^
-sputnikglobe.com##.m-alert
 ||srvtrck.com^$popup
-stackoverflow.com##.s-hero
-standard.co.uk###cookie-warning
-standard.co.uk###gs-wrapper
-standard.co.uk##.hero-wrapper
-standard.co.uk###leaderboard
-standard.co.uk###mastfooter
-standard.co.uk##.most-popular-toaster
-standard.co.uk##.share-bar
-standard.co.uk###side
-standard.co.uk###stickyFooterRoot
-standard.co.uk##.video-sticky-video
 ||statcounter.com^$3p
 ||staticcache.org^
 ||staticworld.net^
@@ -991,11 +912,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240730
-!@@appstrong.online^$popup,from=onedrama.me
-! 20240731
-!||onedrama.me/*/jquery.min.js
-!||app-lite.com^$from=onedrama.me
 ! 20240801
 !.top^
 !||core.windows.net/*.css
@@ -1032,3 +948,83 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !||awin1.com^
 ! 20250221
 !||jquery.com^$from=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk|~confused.com
+! 20250314
+!||paypalobjects.com^$from=~paypal.com
+!petrolprices.com###ads-content
+!petrolprices.com##.alert-info
+!cathaypacific.com##.active-opt-in-banner
+!channel4.com###cookie-consent-banner
+!||cloudfront.net^$from=dailymail.co.uk|metro.co.uk
+!||cloudfront.net/*/paper.create_overlay-*.js
+!||cloudfront.net^$script,from=vidlox.tv
+!||cloudfront.net/*trk.gif
+!||cloudfront.net/*trk.js
+!dailymail.co.uk##.dms-puff
+!dailymail.co.uk##.floating-buttons
+!dailymail.co.uk##.masthead
+!dailymail.co.uk##.mini
+!dailymail.co.uk##.minute-media
+!dailymail.co.uk###smartBanner
+!dailymail.co.uk###socialLinks
+!dailymail.co.uk##.sponsored
+!dailystar.co.uk###breaking-news
+!dailystar.co.uk##footer
+!dailystar.co.uk##.gpt
+!dailystar.co.uk##.native-install
+!dailystar.co.uk###recommendations-topbox
+!dailystar.co.uk##.partner
+!dailystar.co.uk##.related-column
+!dailystar.co.uk##.skinny-signup
+!samsung.com##.cookie-notice
+!$script,from=metro.co.uk|grafana.com|washingtonpost.com|bbc.co.uk
+!div-gpt-ad-sticky-bottom-banner$from=mirror.co.uk|mylondon.news
+!$subdocument,from=dailymail.co.uk
+!$other,from=dailymail.co.uk|google.com|google.co.uk|metro.co.uk
+!||cityam.com/*.js
+!cityam.com##.sharing
+!softpedia.com##a[href*=".php"]
+!softpedia.com###bottombubble
+!softpedia.com##.jobnotice
+!||softpedia-static.com/*/aetd/
+!||softpedia-static.com/images/
+!||sonobi.com^
+!||sortable.com^
+!*-ad.*
+!/ad_
+!/ad/*
+!/ad?$popup
+!*adexchange*
+!*adexchange*$popup
+!*adnetwork.$3p
+!*-adnow.com^
+!*_ads/
+!*_ads.
+!*-ads*.com^
+!*-ads*.com^$popup
+!||ads2.
+!||ads2.$popup
+!||adservice.
+!*ads.$3p,from=~facebook.com|~live.com|~docker.com
+!/ads.$xhr
+!||adsrv*$popup
+!advert*.js$3p,from=~adramas.se
+!||affiliate*$3p
+!*consent*$3p,from=~time.com|~youtube.com|~google.co.uk
+!/prebid
+!/sponsors/*
+!*syndicate.
+!*syndication.
+!||syndication.$popup
+!*yield*$3p
+!stackoverflow.com##.s-hero
+!sputnikglobe.com##.m-alert
+!standard.co.uk###cookie-warning
+!standard.co.uk###gs-wrapper
+!standard.co.uk##.hero-wrapper
+!standard.co.uk###leaderboard
+!standard.co.uk###mastfooter
+!standard.co.uk##.most-popular-toaster
+!standard.co.uk##.share-bar
+!standard.co.uk###side
+!standard.co.uk###stickyFooterRoot
+!standard.co.uk##.video-sticky-video
