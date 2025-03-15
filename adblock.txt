@@ -2,14 +2,13 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250315c
+! Version: 20250315d
 
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Additional rules to be used with "https://easylist.to" lists:
 !   EasyList:             https://easylist.to/easylist/easylist.txt
 !   EasyList Cookie List: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-!
 !
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
@@ -384,11 +383,6 @@ pcworld.com###side
 ||perfdrive.com^
 ||perfectmarket.com^
 ||permutive.com^
-phoronix.com###about-author
-phoronix.com###footer
-phoronix.com###navbar_notice_1
-phoronix.com###social
-phoronix.com##.widget:nth-of-type(6)
 ||pictela.net^
 ||pingdom.net/*.js
 ||pinterest.com^
@@ -404,7 +398,7 @@ pizzahut.co.uk##.alert
 ||popads.net^
 ||popads.net^$popup
 ||popcash.net^
-||porojo.net^
+!||porojo.net^
 ||postrelease.com^
 ||powerretail.com.au/*.js
 pravda.ru##.header
@@ -1036,3 +1030,8 @@ linuxtoday.com##.rightnav
 !||imgur.com^$from=~imgur.com
 !||inskinmedia.com^$from=~nextmedia.com
 !||omtrdc.net^$from=~tfl.gov.uk|~onlineips.co.uk|~thechelsea.co.uk
+!phoronix.com###about-author
+!phoronix.com###footer
+!phoronix.com###navbar_notice_1
+!phoronix.com###social
+!phoronix.com##.widget:nth-of-type(6)
