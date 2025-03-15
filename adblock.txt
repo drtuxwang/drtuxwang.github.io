@@ -2,8 +2,14 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250314c
+! Version: 20250315b
 
+! URL: https://drtuxwang.github.io/adblock.txt
+!
+! Please also enable:
+! easylist:easylist/easylist_general_block.txt
+! easylist:easylist_cookie/easylist_cookie_general_block.tx
+!
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
 $inline-script,from=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com|traffic-update.co.uk
@@ -54,11 +60,9 @@ atpworldtour.com##.players-equipment
 ||blitzen.com^
 ||blockchain.info^
 ||bnserving.com^
-||bowercdn.net^
 ||brainient.com^
 ||brightcove.com^
 ||brightcove.net^
-||brightspotcdn.com^
 ||btserve.com^
 ||bublaa.com^
 ||bzlwe.com^
@@ -135,10 +139,7 @@ convertunits.com###leaderboard
 ||eagerse.com^$popup
 ||earnify.com^
 ||ebocornac.com^
-economist.com###ec-message-3
-economist.com##.fe-blogs__top-ad-wrapper
 ||static-economist.com/*.js
-||edgesuite.net^$from=~lastminute.com|~tesco.com
 ||ediffusion.net^
 ||edigitalsurvey.com^
 ||editmysite.com^
@@ -169,13 +170,11 @@ extremetech.com##.share_menu
 ||fallingfalcon.com^
 ||fancybar.net^
 ||fastcounter.de^
-fca.org.uk###sliding-popup
 ||featureblend.com^
 ||fhfn.org/*.js^
 ||flagcounter.com^
 ||flashtalking.com^
 ||flattr.com^
-||flightcdn.com/*/ads
 ||flutteringfireman.com^$from=tecmint.com
 ||flux.com^
 ||fmpub.net^
@@ -238,7 +237,6 @@ translate.google.com##.notification-area
 ||gravity.com^
 ||gravityrd.com^
 ||greatwork.info^
-||grvcdn.com^
 ||gstatic.com/*/promos/
 ||gumgum.com^
 ||gwallet.com^
@@ -326,10 +324,7 @@ lifehacker.com##.ad-unit
 lifewire.com###header_1-0
 lifewire.com###leaderboard_2-0
 ||liftdna.com^
-||lightboxcdn.com^
 ||lijit.com^
-linkedin.com##.ad-banner-container
-linkedin.com##.alternate-signin-container
 ||linksalpha.com^
 ||liniverse.com^
 ||linksmart.com^
@@ -429,11 +424,6 @@ newzit.com##.jwplayer_body
 newzit.com##.ticker
 ||embed.newzit.com^
 ||njmaq.com^
-||nmcdn.us^
-novafile.com###non-premium
-novafile.com###payment-icons
-novafile.com###secure
-novafile.com###tariffs
 ||november-lax.com^$popup
 nperf.com##nav
 nperf.com##.partNewCompte
@@ -441,8 +431,6 @@ nytimes.com##.gdpr
 ||oclaserver.com^
 ||oclasrv.com^
 odysee.com##.ads
-ofcom.org.uk###survey-bar
-ofgem.gov.uk###sliding-popup
 ||ok.ru^
 okta.com##.permanent-alert-warning
 ||onesignal.com^
@@ -524,7 +512,6 @@ pravda.ru##.header
 quora.com##.desktop_site_header_offset
 quora.com##[id*="related_questions_list"]
 quora.com##.vertical_alignment_wrapper
-||quoracdn.net/*.css
 ||rapidgator.net/images/
 ||reallifecam.com^
 ||realsrv.com/*.js
@@ -546,7 +533,6 @@ reuters.com/*.js
 ||revenuepartners.com^
 ||rgstatic.net/*.js
 ||richrelevance.com^
-||rlcdn.com^
 ||robocat.me^
 royal.uk###sliding-popup
 ||rpxnow.com^
@@ -590,12 +576,10 @@ speedtest.net##.privacy-update
 ||staticcache.org^
 ||staticworld.net^
 ||statsevent.com^
-||swarmcdn.com^
 ||swiftype.com^
 ||swoop.com^
 ||taboola.com^
 ||taboolasyndication.com^
-||tacdn.com/*.js$from=~tripadvisor.co.uk|~tripadvisor.co.uk
 ||tacoda.net^
 ||tagsrvcs.com^
 ||taobao.com^
@@ -1028,3 +1012,26 @@ ghacks.net##.ghacks-ad
 !techadvisor.co.uk##.cookieText
 !techadvisor.co.uk/scripts/messaging.js
 !techdrivein.com###cookieChoiceInfo
+! 20250315
+!economist.com###ec-message-3
+!economist.com##.fe-blogs__top-ad-wrapper
+!||edgesuite.net^$from=~lastminute.com|~tesco.com
+!fca.org.uk###sliding-popup
+!||flightcdn.com/*/ads
+!||grvcdn.com^
+!||bowercdn.net^
+!||brightspotcdn.com^
+!ofcom.org.uk###survey-bar
+!ofgem.gov.uk###sliding-popup
+!||nmcdn.us^
+!||lightboxcdn.com^
+!linkedin.com##.ad-banner-container
+!linkedin.com##.alternate-signin-container
+!novafile.com###non-premium
+!novafile.com###payment-icons
+!novafile.com###secure
+!novafile.com###tariffs
+!||tacdn.com/*.js$from=~tripadvisor.co.uk|~tripadvisor.co.uk
+!||rlcdn.com^
+!||quoracdn.net/*.css
+!||swarmcdn.com^
