@@ -2,8 +2,8 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250315d
-
+! Version: 20250317a
+!
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
 ! Additional rules to be used with "https://easylist.to" lists:
@@ -40,22 +40,6 @@ $other,3p
 $popunder
 !
 ! Domain specific filters
-||accountkit.com^
-||addthis.com^
-adf.ly##.no-js
-adf.ly###bottom
-||cdn.adf.ly^
-||adlightning.com^
-||adskeeper.co.uk^
-||adxpub.com^
-||affinity.com^
-||airbrake.io^
-||app-installz.com^
-||apportium.com^
-atpworldtour.com##.players-equipment
-||behavemedia.com^
-||bestofmedia.com^
-||bitgravity.com^
 ||blismedia.com^
 ||blitzen.com^
 ||blockchain.info^
@@ -71,9 +55,6 @@ atpworldtour.com##.players-equipment
 ||casalemedia.com^
 ||cb-content.com^
 ||cbox.ws^
-||cbsi.com^
-||cbsimg.net^
-||cbsistatic.com/*.js
 ||cdnet.tv^$popup
 ||chartbeat.com^
 ||chartbeat.net^
@@ -178,12 +159,10 @@ extremetech.com##.share_menu
 free-magazines-download.com##.bwrbs.list-items
 ||freetellafriend.com^
 ||fsdn.com/*.js^
-ft.com##.n-messaging-banner
 ||ftjcfx.com^
 ||functionalclam.com^
 ||fwmrm.net^
 ||gaug.es^
-gbnews.uk##.row-section
 ||gemius.pl^
 ||genericsteps.com^
 ||genericstts.com^
@@ -322,10 +301,6 @@ h265.se##.jw-dock
 ||mookie1.com^
 ||mouseflow.com^
 ||mousestats.com^
-msn.com##.finance-footer-container
-msn.com###foot
-msn.com##.stripeouter
-muktware.com##[alt*="-ad-"]
 ||muktware.com/*.js
 ||mybrowseraddon.com^$popup
 ||myfastcdn.com^from=gdriveplayer.to
@@ -351,10 +326,7 @@ nperf.com##.partNewCompte
 ||oclasrv.com^
 odysee.com##.ads
 ||ok.ru^
-okta.com##.permanent-alert-warning
 ||onesignal.com^
-||omgubuntu.co.uk/*.js
-omgubuntu.co.uk##.page-footer
 ||omnitagjs.com^
 ||onclkds.com^
 ||onmodulus.net^
@@ -372,13 +344,6 @@ omgubuntu.co.uk##.page-footer
 ||pardot.com^
 ||parsely.com^
 ||parserworld.info^$popup
-pbs.org##.popup
-||pcmag.com/*.js
-pcmag.com##.middle-frame
-pcmag.com###sidebar
-pcworld.com###comment-form
-pcworld.com###side
-||pcworld.com/*.js
 ||peerius.com^
 ||perfdrive.com^
 ||perfectmarket.com^
@@ -430,7 +395,6 @@ quora.com##.vertical_alignment_wrapper
 ||reachplc.com^$from=express.co.uk
 ||realtime.co^
 ||realvu.net^
-recenttraintimes.co.uk###divCookieMsg
 ||redonetype.com^$popup
 ||reembed.com^
 ||reinvigorate.net^
@@ -507,12 +471,6 @@ tecmint.com##.top-bar
 ||telemetryverification.net^
 ||tenderapp.com^
 ||tenmax.io^
-||theepochtimes.com/*.js
-||interactive.guim.co.uk^
-||thehackernews.com/*.js
-||thenational.ae/*.js
-||thetelegraphandargus.co.uk/*.js
-||tickld.com/*.js
 ||tinypass.com^
 ||tradedoubler.com^
 ||tradepub.com^
@@ -544,11 +502,6 @@ vim.org##.sidebar:nth-of-type(5)
 ||stats.wp.com^
 ||wpdigital.net^
 ||yourway.net/*.js
-youtube.com###guide
-youtube.com##ytd-in-feed-ad-layout-renderer
-youtube.com##ytd-merch-shelf-renderer
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##.ytd-rich-section-renderer
 ||zdtag.com^
 ||zemanta.com^
 ||zopim.com^
@@ -563,9 +516,6 @@ facebook.com##article[data-store*="is_sponsored.1"]
 facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
 facebook.com##.storyStream > .fullwidth.carded
-! Mobile malvertising
-||privacy-mgmt.com^
-||fundingchoicesmessages.google.com
 ! Video site
 onedrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
@@ -1035,3 +985,54 @@ linuxtoday.com##.rightnav
 !phoronix.com###navbar_notice_1
 !phoronix.com###social
 !phoronix.com##.widget:nth-of-type(6)
+! 20250317
+!||cbsi.com^
+!||cbsimg.net^
+!||cbsistatic.com/*.js
+!msn.com##.finance-footer-container
+!msn.com###foot
+!msn.com##.stripeouter
+!muktware.com##[alt*="-ad-"]
+!adf.ly##.no-js
+!adf.ly###bottom
+!||cdn.adf.ly^
+!||adlightning.com^
+!||adskeeper.co.uk^
+!||adxpub.com^
+!||affinity.com^
+!||accountkit.com^
+!||addthis.com^
+!||airbrake.io^
+!||app-installz.com^
+!||apportium.com^
+!atpworldtour.com##.players-equipment
+!||behavemedia.com^
+!||bestofmedia.com^
+!||bitgravity.com^
+!ft.com##.n-messaging-banner
+!!gbnews.uk##.row-section
+!||theepochtimes.com/*.js
+!||interactive.guim.co.uk^
+!||thehackernews.com/*.js
+!||thenational.ae/*.js
+!||thetelegraphandargus.co.uk/*.js
+!||tickld.com/*.js
+!pbs.org##.popup
+!||pcmag.com/*.js
+!pcmag.com##.middle-frame
+!pcmag.com###sidebar
+!pcworld.com###comment-form
+!pcworld.com###side
+!||pcworld.com/*.js
+!!okta.com##.permanent-alert-warning
+!||omgubuntu.co.uk/*.js
+!omgubuntu.co.uk##.page-footer
+!recenttraintimes.co.uk###divCookieMsg
+!youtube.com###guide
+!youtube.com##ytd-in-feed-ad-layout-renderer
+!youtube.com##ytd-merch-shelf-renderer
+!youtube.com##ytd-reel-shelf-renderer
+!youtube.com##.ytd-rich-section-renderer
+! Mobile malvertising
+!||privacy-mgmt.com^
+!||fundingchoicesmessages.google.com
