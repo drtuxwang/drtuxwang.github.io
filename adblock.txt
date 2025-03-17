@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250317b
+! Version: 20250317c
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -40,30 +40,6 @@ $other,3p
 $popunder
 !
 ! Domain specific filters
-||blismedia.com^
-||blitzen.com^
-||blockchain.info^
-||bnserving.com^
-||brainient.com^
-||brightcove.com^
-||brightcove.net^
-||btserve.com^
-||bublaa.com^
-||bzlwe.com^
-||carambo.la^
-||care2.com^
-||casalemedia.com^
-||cb-content.com^
-||cbox.ws^
-||cdnet.tv^$popup
-||chartbeat.com^
-||chartbeat.net^
-||chatango.com^
-||cheatsheet.com/*.js
-||chitika.net^
-||cleanprint.net^
-||cliipa.com^
-||clipular.com^
 ||clkrev.com^
 ||cmbestsrv.com^
 ||cnetdirectintl.com^
@@ -152,7 +128,6 @@ $popunder
 ||getsmartcontent.com^
 ||globalsources.com^
 ||godaddy.com^
-goodvideohost.com##IMG[src*="banner"]
 ||google-analytics.com^
 ||gravatar.com^
 ||gravity.com^
@@ -419,31 +394,6 @@ satellites.pro###place2
 ||trove.com^
 ||truste.com^
 ||tubecorporate.com^
-||twenga.co.uk^
-||udarem.com^
-||udemy.com/*.js^
-||upapi.net^$from=worldometers.info
-||userreport.com^
-||uservoice.com/*.js
-||valuedopinions.co.uk^
-||viglink.com^
-||visiblemeasures.com^
-||voicefive.com^
-||voluumtrk.com^
-||vouchedfor.co.uk^
-||webengage.com^
-||web-stat.com^
-||webtrends.com^
-||webtype.com^
-||weebly.com^
-||wigetmedia.com^
-||woopra.com^
-||stats.wp.com^
-||wpdigital.net^
-||yourway.net/*.js
-||zdtag.com^
-||zemanta.com^
-||zopim.com^
 !
 ! Meta sponsor/suggested (uBlock filer Ads)
 instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
@@ -1035,3 +985,53 @@ linuxtoday.com##.rightnav
 !mail.google.com##.hi
 !maps.google.com##.tactile-search-promo
 !||ogs.google.com/*/callout
+!goodvideohost.com##IMG[src*="banner"]
+!||blismedia.com^
+!||blitzen.com^
+!||blockchain.info^
+!||bnserving.com^
+!||brainient.com^
+!||brightcove.com^
+!||brightcove.net^
+!||btserve.com^
+!||bublaa.com^
+!||bzlwe.com^
+!||carambo.la^
+!||care2.com^
+!||casalemedia.com^
+!||cb-content.com^
+!||cbox.ws^
+!||cdnet.tv^$popup
+!||chartbeat.com^
+!||chartbeat.net^
+!||chatango.com^
+!||cheatsheet.com/*.js
+!||chitika.net^
+!||cleanprint.net^
+!||cliipa.com^
+!||clipular.com^
+!||stats.wp.com^
+!||wpdigital.net^
+!||yourway.net/*.js
+!||zdtag.com^
+!||zemanta.com^
+!||zopim.com^
+!||webengage.com^
+!||web-stat.com^
+!||webtrends.com^
+!||webtype.com^
+!||weebly.com^
+!||wigetmedia.com^
+!||woopra.com^
+!||udarem.com^
+!||udemy.com/*.js^
+!||upapi.net^$from=worldometers.info
+!!||userreport.com^
+!||uservoice.com/*.js
+!||valuedopinions.co.uk^
+!||viglink.com^
+!!||visiblemeasures.com^
+!||voicefive.com^
+!||voluumtrk.com^
+!||vouchedfor.co.uk^
+!||twenga.co.uk^
