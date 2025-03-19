@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250319a
+! Version: 20250319b
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -32,8 +32,9 @@ $other,3p
 !
 ! Wild card matching
 ^$ping
-*popup*.js$from=~hsbc.co.uk|~successfactors.eu|~qq.com|~scmp.com|~uswitch.com|~careskillslearning.co.uk
+*popup*.js$from=~hsbc.co.uk|~successfactors.eu|~scmp.com|~uswitch.com|~careskillslearning.co.uk
 $popunder
+release_notes$popup
 !
 ! Domain specific filters
 ||dmca.com^
