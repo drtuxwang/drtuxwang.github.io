@@ -8,8 +8,8 @@
 !
 ! Additional lists required (https://easylist.to")
 !   EasyList:                https://easylist.to/easylist/easylist.txt
-!   Fanboy's Annoyance List: https://secure.fanboy.co.nz/fanboy-annoyance.txt
-!     (includes EasyList Cookie List & anboy's Social Blocking List)
+!   EasyList Cookie List:    https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+!   EasyList Social Widgets: https://easylist.to/easylist/fanboy-social.txt
 !
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
