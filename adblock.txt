@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250324a
+! Version: 20250324b
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -66,6 +66,8 @@ izarcade.com###hide_float_right
 adramas.se##center
 adramas.se###closeADV
 ||kokotv.me/*unblocker
+onlinedailyrecipes.com$popup,domain=kokotv.me
+@@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
 ! Video Hydrax & PicasaW/playhydrax.com
 $popup,domain=abysscdn.com
 ! Video Stream
