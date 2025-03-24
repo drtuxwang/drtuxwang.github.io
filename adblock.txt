@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250319b
+! Version: 20250324a
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -67,7 +67,7 @@ adramas.se##center
 adramas.se###closeADV
 ||kokotv.me/*unblocker
 ! Video Hydrax & PicasaW/playhydrax.com
-$popup,from=abysscdn.com3
+$popup,domain=abysscdn.com
 ! Video Stream
 $popup,from=wishfast.top
 ! Video Hellobyte
@@ -80,33 +80,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240801
-!.top^
-!||core.windows.net/*.css
-!||ecommercebizworld.net^
-! 20240802
-!||bizographics.com^
-! 20240803
-!@@mycloudarcade.com$popup,from=adramas.se
-!mycloudarcade.com##.page-title
-!||ayboll.com^
-!||azureedge.net^$from=patientaccess.com
-!##[src="about:blank"]
-!kokotv.me###featPosts
-!kokotv.me###footWidgets
-!kokotv.me###sidebar
-!kokotv.me###wnb-bar
-!||knorex.asia^
-!||coinhive.com^
-!||collective-media.net^
-! 20240813
-!||condenastdigital.com^
-!||construment.com^
-! 20240817
-!$popup,from=onedrama.me
-!@@izarcade.com^$popup,from=onedrama.me
-!@@hellabyte.one^$popup,from=onedrama.me
-!@@jodwish.com$popup,from=onedrama.me
 ! 20240917
 !dramawall.net##iframe:nth-of-type(3)
 !dramawall.net##table
