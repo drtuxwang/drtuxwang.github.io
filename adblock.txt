@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250324b
+! Version: 20250408a
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -65,6 +65,7 @@ izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
 adramas.se##center
 adramas.se###closeADV
+@@mycloudarcade.com$popup,domain=adramas.se
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
@@ -82,13 +83,6 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 !
-! 20240917
-!dramawall.net##iframe:nth-of-type(3)
-!dramawall.net##table
-!||ophoacit.com^$from=dramawall.net
-!||thubanoa.com^$from=dramawall.net
-! 20250209
-!||awin1.com^
 ! 20250221
 !||jquery.com^$from=~jquery.com|~linuxrecruit.co.uk|~delayrepaycompensation.com|~sourceforge.net|~pbs.one|~talktalk.co.uk|~bmstores.co.uk|~topcashback.co.uk|~currys.co.uk|~confused.com
 ! 20250314
