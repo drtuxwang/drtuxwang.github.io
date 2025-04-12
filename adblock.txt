@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250410a
+! Version: 20250412a
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -14,7 +14,6 @@
 ! Block crap by domains
 $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
 $inline-script,from=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com|traffic-update.co.uk
-@@$from=britishairways.com
 !
 ! Block 3rd party crap by domains
 $image,3p,from=player.fastdrama.me|feurl.com
@@ -40,14 +39,6 @@ release_notes$popup
 ||dmca.com^
 ||downloadhelper.net^$popup
 ||google-analytics.com^
-@@||jwpcdn.com/player/
-||myfastcdn.com^from=gdriveplayer.to
-nanafeed.com##center > div
-nanafeed.com###float_content_left
-nanafeed.com###float_content_right
-nanafeed.com###hide_float_left
-nanafeed.com###hide_float_right
-@@-consent-banner-$from=talktalk.co.uk
 !
 ! Meta sponsor/suggested (uBlock filer Ads)
 instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
@@ -84,3 +75,14 @@ youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+!
+! 20250412
+!@@||jwpcdn.com/player/
+!||myfastcdn.com^from=gdriveplayer.to
+!nanafeed.com##center > div
+!nanafeed.com###float_content_left
+!nanafeed.com###float_content_right
+!nanafeed.com###hide_float_left
+!nanafeed.com###hide_float_right
+!@@-consent-banner-$from=talktalk.co.uk
+!@@$from=britishairways.com
