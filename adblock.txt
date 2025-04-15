@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250412b
+! Version: 20250415a
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -18,9 +18,9 @@ $inline-script,from=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.co
 ! Block 3rd party crap by domains
 $image,3p,from=player.fastdrama.me|feurl.com
 $popup,3p,from=adramas.se|jodwish.com|uptobox.com
-$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org|onedrama.me
+$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org|indrama.me
   @@||cloudflare.com^$script,from=kokotv.me|vod2cn.com|theinteldrop.org
-  @@||googleapis.com^$script,from=kokotv.me|onedrama.me
+  @@||googleapis.com^$script,from=kokotv.me|indrama.me
   @@||gstatic.com^$script,from=consent.google.co.uk|consent.google.com
   @@||iamcdn.net^$script,from=kokotv.me
   @@||jsdelivr.net^$script,from=vod2cn.com
@@ -51,15 +51,15 @@ facebook.com##article[data-store*="is_sponsored.1"]
 facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
 facebook.com##.storyStream > .fullwidth.carded
-! Stream onedrama
-onedrama.me##.sidebar
+! Stream indrama.me
+indrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
-# Stream adramas
+# Stream adramas.se
 adramas.se##center
 adramas.se###closeADV
 @@mycloudarcade.com$popup,domain=adramas.se
-# Stream kokotv
+# Stream kokotv.me
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
@@ -68,7 +68,7 @@ $popup,domain=abysscdn.com
 ! Video Stream
 $popup,from=wishfast.top
 ! Video Hellobyte
-@@accounts.google.com^$popup,from=onedrama.me
+@@accounts.google.com^$popup,from=indrama.me
 ! Youtube video ads (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
