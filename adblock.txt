@@ -4,6 +4,8 @@
 ! Expires: 1 days (update frequency)
 ! Version: 20250418i
 !
+! URL: https://drtuxwang.github.io/adblock.txt
+!
 ! Additional lists required (https://easylist.to")
 !   EasyList:                https://easylist.to/easylist/easylist.txt
 !   Fanboy's Annoyance List: https://secure.fanboy.co.nz/fanboy-annoyance.txt
@@ -42,43 +44,3 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 !
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
-!
-! 20250418
-!@@accounts.google.com^$popup,from=onedrama.me
-!$inline-script,from=androidcentral.com|brewers.co.uk|businessinsider.com|cnet.com|computershopper.com|distrowatch.com|express.co.uk|fool.co.uk|forbes.com|gadgethacks.com|healthline.com|indiatimes.com|itv.com|newsshopper.co.uk|newstatesman.com|paypal-community.com|pcmag.com|petrolprices.com|phoronix.com|pocket-lint.com|popads.net|reddit.com|systutorials.com|telegraph.co.uk|theregister.co.uk|thisisoxfordshire.co.uk|trustedreviews.com|uswitch.co|yorkpress.co.uk|sourceforge.io|newsweek.com|taihe.com|independent.co.uk|wikipedia.org|theguardian.com|indiatimes.com|videoting.se|reuters.com|sky.com|washingtonpost.com|londonnewsonline.co.uk|bbc.co.uk|cnn.com|sputnikglobe.com|traffic-update.co.uk
-!! Video Stream
-!$popup,from=wishfast.top
-!! Video Hydrax & PicasaW/playhydrax.com
-!$popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
-!$image,3p,from=player.fastdrama.me|feurl.com
-!$popup,3p,from=adramas.se|jodwish.com|uptobox.com
-!@@mycloudarcade.com$popup,domain=adramas.se
-!$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
-!  @@||cloudflare.com^$script,from=kokotv.me|vod2cn.com|theinteldrop.org
-!  @@||googleapis.com^$script,from=kokotv.me|indrama.me
-!  @@||gstatic.com^$script,from=consent.google.co.uk|consent.google.com
-!  @@||iamcdn.net^$script,from=kokotv.me
-!  @@||jsdelivr.net^$script,from=vod2cn.com
-!  @@||jwpcdn.com^$script,from=kokotv.me
-!  @@||google.com^$script,from=youtube.com
-! Block 3rd party crap by domains
-!$xhr,3p,from=gdriveplayer.to|adramas.se
-!$other,3p
-!*popup*.js$domain=~hsbc.co.uk|~successfactors.eu|~scmp.com|~uswitch.com|~careskillslearning.co.uk
-! Meta sponsor/suggested (uBlock filer Ads)
-!instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
-! Meta (AdGuard Base)
-!facebook.com#$#body > .AdBox.Ad.advert { display:block!important; }
-!facebook.com#?#div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) div[class]:has(> div[class] > div[class] div[class] > a[href^="https://l.facebook.com/l.php?u="][target="_blank"])
-! Meta (AdGuard Mobile Ads)
-!facebook.com##article[data-store*="is_sponsored.1"]
-!facebook.com##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
-!facebook.com###m_newsfeed_stream article[data-ft*='"ei\":']
-!facebook.com##.storyStream > .fullwidth.carded
-! Youtube video ads (uBlock filters - Ads)
-!youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
-!youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-!youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-!youtube.com##+js(set, playerResponse.adPlacements, undefined)
-!youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
-!youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
