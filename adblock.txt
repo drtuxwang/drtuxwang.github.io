@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250418g
+! Version: 20250418h
 !
 ! Additional lists required (https://easylist.to")
 !   EasyList:                https://easylist.to/easylist/easylist.txt
@@ -48,11 +48,7 @@ adramas.se###closeADV
 onlinedailyrecipes.com$popup,domain=kokotv.me
 *$popup,domain=abysscdn.com
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
-!*$script,3p,domain=kokotv.me
-!@@*||cloudflare.com^$script,domain=kokotv.me
-!@@*||googleapis.com^$script,domain=kokotv.me
-!@@*||iamcdn.net^$script,domain=kokotv.me
-!@@*||jwpcdn.com^$script,domain=kokotv.me
+*$script,3p,domain=kokotv.me
 ! Video Hellobyte
 *$popup,domain=hellabyte.one
 ! Video Hydrax
