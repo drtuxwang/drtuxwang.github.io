@@ -3,7 +3,6 @@
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
 ! Version: 20250418g
-/bin/bash: line 1: :$: command not found
 !
 ! Additional lists required (https://easylist.to")
 !   EasyList:                https://easylist.to/easylist/easylist.txt
