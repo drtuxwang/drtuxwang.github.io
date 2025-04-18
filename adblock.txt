@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250418d
+! Version: 20250418e
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -17,7 +17,7 @@ $popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhyd
 ! Block 3rd party crap by domains
 $image,3p,from=player.fastdrama.me|feurl.com
 $popup,3p,from=adramas.se|jodwish.com|uptobox.com
-$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org|indrama.me
+$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
   @@||cloudflare.com^$script,from=kokotv.me|vod2cn.com|theinteldrop.org
   @@||googleapis.com^$script,from=kokotv.me|indrama.me
   @@||gstatic.com^$script,from=consent.google.co.uk|consent.google.com
