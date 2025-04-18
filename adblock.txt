@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250418c
+! Version: 20250418d
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -67,7 +67,7 @@ $popup,domain=abysscdn.com
 ! Video Stream
 $popup,from=wishfast.top
 ! Video Hellobyte
-$popup,domain=hellobyte.one
+^$popup,domain=hellabyte.one
 ! Youtube video ads (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
