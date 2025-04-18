@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250418j
+! Version: 20250418k
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -35,9 +35,11 @@ adramas.se###closeADV
 ! Stream:  kokotv
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
-*$popup,domain=abysscdn.com
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
 *$script,3p,domain=kokotv.me
+@@||cloudflare.com^$script,domain=kokotv.me
+@@||googleapis.com^$script,domain=kokotv.me
+*$popup,domain=abysscdn.com
 !
 ! Video: Hellobyte
 *$popup,domain=hellabyte.one
