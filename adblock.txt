@@ -2,9 +2,8 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250418f
-!
-! URL: https://drtuxwang.github.io/adblock.txt
+! Version: 20250418g
+/bin/bash: line 1: :$: command not found
 !
 ! Additional lists required (https://easylist.to")
 !   EasyList:                https://easylist.to/easylist/easylist.txt
@@ -12,14 +11,6 @@
 !     (includes EasyList Cookie List and Fanboy's Social Blocking List)
 !
 ! Block 3rd party crap by domains
-$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
-  @@||cloudflare.com^$script,from=kokotv.me|vod2cn.com|theinteldrop.org
-  @@||googleapis.com^$script,from=kokotv.me|indrama.me
-  @@||gstatic.com^$script,from=consent.google.co.uk|consent.google.com
-  @@||iamcdn.net^$script,from=kokotv.me
-  @@||jsdelivr.net^$script,from=vod2cn.com
-  @@||jwpcdn.com^$script,from=kokotv.me
-  @@||google.com^$script,from=youtube.com
 $xhr,3p,from=gdriveplayer.to|adramas.se
 $other,3p
 !
@@ -56,7 +47,13 @@ adramas.se###closeADV
 # Stream kokotv.me
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
+*$popup,domain=abysscdn.com
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
+!*$script,3p,domain=kokotv.me
+!@@*||cloudflare.com^$script,domain=kokotv.me
+!@@*||googleapis.com^$script,domain=kokotv.me
+!@@*||iamcdn.net^$script,domain=kokotv.me
+!@@*||jwpcdn.com^$script,domain=kokotv.me
 ! Video Hellobyte
 *$popup,domain=hellabyte.one
 ! Video Hydrax
@@ -84,8 +81,15 @@ youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container
 !! Video Stream
 !$popup,from=wishfast.top
 !! Video Hydrax & PicasaW/playhydrax.com
-!$popup,domain=abysscdn.com
 !$popup,from=player.fastdrama.me|feurl.com|uptostream.com|gdriveplayer.to|playhydrax.com
 !$image,3p,from=player.fastdrama.me|feurl.com
 !$popup,3p,from=adramas.se|jodwish.com|uptobox.com
 !@@mycloudarcade.com$popup,domain=adramas.se
+!$script,3p,from=distrowatch.com|gadgetsnow.com|ghacks.net|thestudentroom.co.uk|uptobox.com|accuweather.com|rapidvideo.com|cpuboss.com|kokotv.me|vod2cn.com|gdriveplayer.me|player.fastdrama.me|mixdrop.co|theinteldrop.org
+!  @@||cloudflare.com^$script,from=kokotv.me|vod2cn.com|theinteldrop.org
+!  @@||googleapis.com^$script,from=kokotv.me|indrama.me
+!  @@||gstatic.com^$script,from=consent.google.co.uk|consent.google.com
+!  @@||iamcdn.net^$script,from=kokotv.me
+!  @@||jsdelivr.net^$script,from=vod2cn.com
+!  @@||jwpcdn.com^$script,from=kokotv.me
+!  @@||google.com^$script,from=youtube.com
