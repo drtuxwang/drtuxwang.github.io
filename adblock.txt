@@ -2,14 +2,15 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250419a
+! Version: 20250419b
 !
-! URL: https://drtuxwang.github.io/adblock.txt
-!
-! Additional lists required (https://easylist.to")
-!   EasyList:                https://easylist.to/easylist/easylist.txt
-!   Fanboy's Annoyance List: https://secure.fanboy.co.nz/fanboy-annoyance.txt
-!     (includes EasyList Cookie List and Fanboy's Social Blocking List)
+! uBlock >
+!   Built-in > uBlock filters - Ads
+!   Ads > EasyList (https://easylist.to/easylist/easylist.txt)
+!   Custom >
+!     https://drtuxwang.github.io/adblock.txt (DrTuxWang)
+!     https://secure.fanboy.co.nz/fanboy-annoyance.txt (Fanboy's Annoyance List)
+!       # includes: EasyList Cookie List & Fanboy's Social Blocking List (https://easylist.to)
 !
 ! Generic filters
 *$ping
