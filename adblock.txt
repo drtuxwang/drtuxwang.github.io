@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250418k
+! Version: 20250419a
 !
 ! URL: https://drtuxwang.github.io/adblock.txt
 !
@@ -22,17 +22,17 @@ release_notes$popup
 ||google-analytics.com^
 @@-consent-banner-$domain=talktalk.co.uk
 !
-! Stream: indrama
+! Stream: Indrama
 indrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
 !
-! Stream: adramas
+! Stream: Adramas
 adramas.se##center
 adramas.se###closeADV
 *$popup,domain=adramas.se
 !
-! Stream:  kokotv
+! Stream: Kokotv
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
@@ -46,3 +46,12 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 !
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
+!
+! Video: Youtube (uBlock filters - Ads)
+youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+
