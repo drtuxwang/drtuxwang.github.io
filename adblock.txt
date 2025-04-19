@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250419b
+! Version: 20250419c
 !
 ! uBlock >
 !   Built-in > uBlock filters - Ads
@@ -10,7 +10,7 @@
 !   Custom >
 !     https://drtuxwang.github.io/adblock.txt (DrTuxWang)
 !     https://secure.fanboy.co.nz/fanboy-annoyance.txt (Fanboy's Annoyance List)
-!       # includes: EasyList Cookie List & Fanboy's Social Blocking List (https://easylist.to)
+!       # includes EasyList Cookie List & Fanboy's Social Blocking List (https://easylist.to)
 !
 ! Generic filters
 *$ping
