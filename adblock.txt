@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250419d
+! Version: 20250426a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -20,7 +20,10 @@ release_notes$popup
 ||dmca.com^
 ||downloadhelper.net^$popup
 ||google-analytics.com^
+!
+! Site fixes
 @@-consent-banner-$domain=talktalk.co.uk
+*$script,3p,domain=gbnews.com
 !
 ! Stream: Indrama
 indrama.me##.sidebar
