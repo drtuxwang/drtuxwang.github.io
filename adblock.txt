@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250426a
+! Version: 20250427a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -16,25 +16,24 @@
 *$popunder
 release_notes$popup
 !
-! Site filters
+! Malware domains
 ||dmca.com^
 ||downloadhelper.net^$popup
 ||google-analytics.com^
 !
-! Site fixes
-@@-consent-banner-$domain=talktalk.co.uk
+! Site: gbnews cookie consent
 *$script,3p,domain=gbnews.com
+! Site: talktalk login fix
+@@-consent-banner-$domain=talktalk.co.uk
 !
 ! Stream: Indrama
 indrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
-!
 ! Stream: Adramas
 adramas.se##center
 adramas.se###closeADV
 *$popup,domain=adramas.se
-!
 ! Stream: Kokotv
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
@@ -46,10 +45,10 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 !
 ! Video: Hellobyte
 *$popup,domain=hellabyte.one
-!
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
-!
+! Video: Youtube short reel
+youtube.com##ytd-reel-shelf-renderer
 ! Video: Youtube (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
