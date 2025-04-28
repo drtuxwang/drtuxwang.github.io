@@ -2,38 +2,43 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250427a
+! Version: 20250428a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
 !   Ads > EasyList (https://easylist.to/easylist/easylist.txt)
 !   Cookie notices > EasyList - Cookie Notices
-!   Social widgets > EasyList - Social Widgest
+!   Social widgets > EasyList - Social Widgets
 !   Custom > https://drtuxwang.github.io/adblock.txt (DrTuxWang)
 !
-! Generic filters
+! Generic
 *$ping
 *$popunder
 release_notes$popup
 !
 ! Malware domains
 ||dmca.com^
-||downloadhelper.net^$popup
 ||google-analytics.com^
+!
+! Site: Downloaderhelper
+||downloadhelper.net^$popup
 !
 ! Site: gbnews cookie consent
 *$script,3p,domain=gbnews.com
+!
 ! Site: talktalk login fix
 @@-consent-banner-$domain=talktalk.co.uk
+!
+! Stream: Adramas
+adramas.se##center
+adramas.se###closeADV
+*$popup,domain=adramas.se
 !
 ! Stream: Indrama
 indrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
-! Stream: Adramas
-adramas.se##center
-adramas.se###closeADV
-*$popup,domain=adramas.se
+!
 ! Stream: Kokotv
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
@@ -45,8 +50,10 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 !
 ! Video: Hellobyte
 *$popup,domain=hellabyte.one
+!
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
+!
 ! Video: Youtube short reel
 youtube.com##ytd-reel-shelf-renderer
 ! Video: Youtube (uBlock filters - Ads)
