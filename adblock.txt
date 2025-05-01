@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250501c
+! Version: 20250501d
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -57,6 +57,7 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 ! Video: Youtube short spam
 youtube.com##.yt-horizontal-list-renderer
 youtube.com##.ytd-rich-shelf-renderer
+youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
 ! Video: Youtube channel spam
 youtube.com##.ytd-channel-renderer
 ! Video: Youtube (uBlock filters - Ads)
