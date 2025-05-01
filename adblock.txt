@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250501a
+! Version: 20250501b
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -54,8 +54,8 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
 !
-! Video: Youtube short reel
-youtube.com##.ytGridShelfViewModelHost
+! Video: Youtube short spam
+youtube.com##.yt-horizontal-list-renderer
 ! Video: Youtube (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
