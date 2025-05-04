@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250504c
+! Version: 20250504d
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -20,6 +20,12 @@ release_notes$popup
 ||dmca.com^
 ||google-analytics.com^
 !
+! Site: AsiaTimes overlay pop
+*$inline-script,domain=asiatimes.com
+!
+! Site: CNN google login
+*$script,3p,domain=cnn.com
+!
 ! Site: Downloaderhelper
 ||downloadhelper.net^$popup
 !
@@ -28,6 +34,9 @@ release_notes$popup
 !
 ! Site: Guardian overlay popup
 $script,3p,domain=theguardian.com
+!
+! Site: News Shopper overlay popup
+*$inline-script,domain=newsshopper.co.uk
 !
 ! Site: PBS overlay popup
 $script,3p,domain=pbs.org
