@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250501d
+! Version: 20250504a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -23,10 +23,16 @@ release_notes$popup
 ! Site: Downloaderhelper
 ||downloadhelper.net^$popup
 !
-! Site: gbnews cookie consent
+! Site: GBNews cookie consent
 *$script,3p,domain=gbnews.com
 !
-! Site: talktalk login fix
+! Site: Guardian overlay popup
+$script,3p,domain=theguardian.com
+!
+! SIte: SCMP overlay popup
+$script,3p,domain=scmp.com
+!
+! Site: TalkTalk login fix
 @@-consent-banner-$domain=talktalk.co.uk
 !
 ! Stream: Adramas
@@ -39,7 +45,7 @@ indrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
 !
-! Stream: Kokotv
+! Stream: KokoTV
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
@@ -48,19 +54,19 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 @@||googleapis.com^$script,domain=kokotv.me
 *$popup,domain=abysscdn.com
 !
-! Video: Hellobyte
+! Video: HelloBYTE
 *$popup,domain=hellabyte.one
 !
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
 !
-! Video: Youtube short spam
+! Video: YouTube short spam
 youtube.com##.yt-horizontal-list-renderer
 youtube.com##.ytd-rich-shelf-renderer
 youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
-! Video: Youtube channel spam
+! Video: YouTube channel spam
 youtube.com##.ytd-channel-renderer
-! Video: Youtube (uBlock filters - Ads)
+! Video: YouTube (uBlock filters - Ads)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
