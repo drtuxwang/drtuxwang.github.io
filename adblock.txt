@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250504a
+! Version: 20250504b
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -28,6 +28,9 @@ release_notes$popup
 !
 ! Site: Guardian overlay popup
 $script,3p,domain=theguardian.com
+!
+! Site: PBS overlay popup
+$script,3p,domain=pbs.org
 !
 ! SIte: SCMP overlay popup
 $script,3p,domain=scmp.com
