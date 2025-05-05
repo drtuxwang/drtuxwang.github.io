@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250504d
+! Version: 20250505a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -22,6 +22,9 @@ release_notes$popup
 !
 ! Site: AsiaTimes overlay pop
 *$inline-script,domain=asiatimes.com
+!
+! Site: CITYam overlay popup
+*$inline-script,domain=cityam.com
 !
 ! Site: CNN google login
 *$script,3p,domain=cnn.com
@@ -88,4 +91,3 @@ youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-
