@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250505a
+! Version: 20250506a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -20,37 +20,37 @@ release_notes$popup
 ||dmca.com^
 ||google-analytics.com^
 !
-! Site: AsiaTimes overlay pop
+! Site: AsiaTimes donate overlay
 *$inline-script,domain=asiatimes.com
 !
-! Site: CITYam overlay popup
+! Site: CITYam newsletter popup
 *$inline-script,domain=cityam.com
 !
-! Site: CNN google login
+! Site: CNN google login popup
 *$script,3p,domain=cnn.com
 !
 ! Site: Downloaderhelper
 ||downloadhelper.net^$popup
 !
-! Site: GBNews cookie consent
+! Site: GBNews cookie consent overlay
 *$script,3p,domain=gbnews.com
 !
-! Site: Guardian overlay popup
+! Site: Guardian donation support overlay
 $script,3p,domain=theguardian.com
 !
-! Site: News Shopper overlay popup
+! Site: News Shopper support overlay
 *$inline-script,domain=newsshopper.co.uk
 !
-! Site: PBS overlay popup
+! Site: PBS donae overlay
 $script,3p,domain=pbs.org
 !
-! SIte: SCMP overlay popup
+! SIte: SCMP sign in unlock
 $script,3p,domain=scmp.com
 !
 ! Site: TalkTalk login fix
 @@-consent-banner-$domain=talktalk.co.uk
 !
-! SIte: Telegraph overlay popup
+! SIte: Telegraph to continue reading
 *$script,3p,domain=telegraph.co.uk
 !
 ! Stream: Adramas
@@ -73,6 +73,7 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 *$popup,domain=abysscdn.com
 !
 ! Video: HelloBYTE
+hellabyte.one##.pricing-content
 *$popup,domain=hellabyte.one
 !
 ! Video: Hydrax
