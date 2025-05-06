@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250506a
+! Version: 20250506b
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -36,19 +36,28 @@ release_notes$popup
 *$script,3p,domain=gbnews.com
 !
 ! Site: Guardian donation support overlay
-$script,3p,domain=theguardian.com
+*$script,3p,domain=theguardian.com
+!
+! Site: Natue sign up popup
+*$inline-script,domain=nature.com
 !
 ! Site: News Shopper support overlay
 *$inline-script,domain=newsshopper.co.uk
 !
 ! Site: PBS donae overlay
-$script,3p,domain=pbs.org
+*$script,3p,domain=pbs.org
+!
+! Site: PCWorld sign up popup
+*$inline-script,domain=pcworld.com
 !
 ! SIte: SCMP sign in unlock
-$script,3p,domain=scmp.com
+*$script,3p,domain=scmp.com
 !
 ! Site: TalkTalk login fix
 @@-consent-banner-$domain=talktalk.co.uk
+!
+! Site: Tech Advisor sign up popup
+*$inline-script,domain=techadvisor.com
 !
 ! SIte: Telegraph to continue reading
 *$script,3p,domain=telegraph.co.uk
