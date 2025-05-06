@@ -38,7 +38,7 @@ release_notes$popup
 ! Site: Guardian donation support overlay
 *$script,3p,domain=theguardian.com
 !
-! Site: Natue sign up popup
+! Site: Nature sign up popup
 *$inline-script,domain=nature.com
 !
 ! Site: News Shopper support overlay
