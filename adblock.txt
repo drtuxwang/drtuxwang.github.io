@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250506b
+! Version: 20250517a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -28,9 +28,6 @@ release_notes$popup
 !
 ! Site: CNN google login popup
 *$script,3p,domain=cnn.com
-!
-! Site: Downloaderhelper
-||downloadhelper.net^$popup
 !
 ! Site: GBNews cookie consent overlay
 *$script,3p,domain=gbnews.com
@@ -88,16 +85,9 @@ hellabyte.one##.pricing-content
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
 !
+! Video: YouTube channel spam
+youtube.com##.ytd-channel-renderer
 ! Video: YouTube short spam
 youtube.com##.yt-horizontal-list-renderer
 youtube.com##.ytd-rich-shelf-renderer
 youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
-! Video: YouTube channel spam
-youtube.com##.ytd-channel-renderer
-! Video: YouTube (uBlock filters - Ads)
-youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
