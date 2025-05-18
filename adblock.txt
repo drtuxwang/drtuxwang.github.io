@@ -2,12 +2,13 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250517a
+! Version: 20250518b
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
 !   Ads > EasyList (https://easylist.to/easylist/easylist.txt)
 !   Cookie notices > EasyList - Cookie Notices
+!   Cookie notices > uBlock filters - Cookie Notices
 !   Social widgets > EasyList - Social Widgets
 !   Custom > https://drtuxwang.github.io/adblock.txt (DrTuxWang)
 !
