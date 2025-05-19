@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250517a
+! Version: 20250519a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -64,8 +64,8 @@ adramas.se##center
 adramas.se###closeADV
 *$popup,domain=adramas.se
 !
-! Stream: Indrama
-indrama.me##.sidebar
+! Stream: Aidrama
+aidrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
 izarcade.com###hide_float_right
 !
