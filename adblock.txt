@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250519a
+! Version: 20250531a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -50,6 +50,9 @@ release_notes$popup
 !
 ! SIte: SCMP sign in unlock
 *$script,3p,domain=scmp.com
+!
+! Site: RTHK top slider
+rthk.hk##.mightySlider
 !
 ! Site: TalkTalk login fix
 @@-consent-banner-$domain=talktalk.co.uk
