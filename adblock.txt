@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250531a
+! Version: 20250610a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -55,7 +55,7 @@ release_notes$popup
 rthk.hk##.mightySlider
 !
 ! Site: TalkTalk login fix
-@@-consent-banner-$domain=talktalk.co.uk
+@@-consent-banner$domain=talktalk.co.uk
 !
 ! Site: Tech Advisor sign up popup
 *$inline-script,domain=techadvisor.com
