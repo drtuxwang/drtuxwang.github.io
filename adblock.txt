@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250610a
+! Version: 20250702a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -91,7 +91,9 @@ hellabyte.one##.pricing-content
 !
 ! Video: YouTube channel spam
 youtube.com##.ytd-channel-renderer
+! Video: YouTube search shorts row
+youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
 ! Video: YouTube short spam
+youtube.com##grid-shelf-view-model
 youtube.com##.yt-horizontal-list-renderer
 youtube.com##.ytd-rich-shelf-renderer
-youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
