@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20250702a
+! Version: 20250715a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -42,13 +42,13 @@ release_notes$popup
 ! Site: News Shopper support overlay
 *$inline-script,domain=newsshopper.co.uk
 !
-! Site: PBS donae overlay
+! Site: PBS donate overlay
 *$script,3p,domain=pbs.org
 !
 ! Site: PCWorld sign up popup
 *$inline-script,domain=pcworld.com
 !
-! SIte: SCMP sign in unlock
+! Site: SCMP sign in unlock
 *$script,3p,domain=scmp.com
 !
 ! Site: RTHK top slider
@@ -60,7 +60,7 @@ rthk.hk##.mightySlider
 ! Site: Tech Advisor sign up popup
 *$inline-script,domain=techadvisor.com
 !
-! SIte: Telegraph to continue reading
+! Site: Telegraph to continue reading
 *$script,3p,domain=telegraph.co.uk
 !
 ! Stream: Adramas
@@ -71,6 +71,7 @@ adramas.se###closeADV
 ! Stream: Aidrama
 aidrama.me##.sidebar
 izarcade.com##center:nth-of-type(1)
+izarcade.com##center:nth-of-type(2)
 izarcade.com###hide_float_right
 !
 ! Stream: KokoTV
