@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20251004a
+! Version: 20251018a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -63,6 +63,11 @@ rthk.hk##.mightySlider
 ! Site: Telegraph to continue reading
 *$script,3p,domain=telegraph.co.uk
 !
+! Site: Wikipedia nagging
+wikipedia.org##.frb
+! Site: Wikipedia bad design panel
+wikipedia.org##.vector-column-end
+!
 ! Stream: Adramas
 adramas.se##center
 adramas.se###closeADV
@@ -80,7 +85,6 @@ izarcade.com##h1
 izarcade.com##h4
 izarcade.com###hide_float_right
 izarcade.com##strong
-
 !
 ! Stream: KokoTV
 ||kokotv.me/*unblocker
