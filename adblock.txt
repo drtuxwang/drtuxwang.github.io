@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20251018a
+! Version: 20251125a
 !
 ! Expects additinal uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -20,6 +20,7 @@ release_notes$popup
 ! Malware domains
 ||dmca.com^
 ||google-analytics.com^
+||tinypass.com^
 !
 ! Site: AsiaTimes donate overlay
 *$inline-script,domain=asiatimes.com
@@ -53,6 +54,8 @@ release_notes$popup
 !
 ! Site: RTHK top slider
 rthk.hk##.mightySlider
+
+
 !
 ! Site: TalkTalk login fix
 @@-consent-banner$domain=talktalk.co.uk
