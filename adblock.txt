@@ -2,9 +2,9 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20251125a
+! Version: 20251125b
 !
-! Expects additinal uBlock lists
+! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
 !   Ads > EasyList (https://easylist.to/easylist/easylist.txt)
 !   Cookie notices > EasyList - Cookie Notices
@@ -54,8 +54,6 @@ release_notes$popup
 !
 ! Site: RTHK top slider
 rthk.hk##.mightySlider
-
-
 !
 ! Site: TalkTalk login fix
 @@-consent-banner$domain=talktalk.co.uk
