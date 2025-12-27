@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20251125b
+! Version: 20251227a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -99,6 +99,9 @@ onlinedailyrecipes.com$popup,domain=kokotv.me
 ! Video: HelloBYTE
 hellabyte.one##.pricing-content
 *$popup,domain=hellabyte.one
+!
+! Video: OpenX
+@@dl.openx.xyz$popunder
 !
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
