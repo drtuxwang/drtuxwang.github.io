@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260109a
+! Version: 20260110a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -107,6 +107,7 @@ hellabyte.one##.pricing-content
 @@dl.openx.xyz$popunder
 @@$popup,domain=dl.openx.xyz
 @@||attirecideryeah.com^$document
+@@||usheebainaut.com^$document
 !
 ! Video: Hydrax
 *$popup,domain=playhydrax.com
