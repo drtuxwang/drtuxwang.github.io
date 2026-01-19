@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260110a
+! Version: 20260119a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -120,3 +120,5 @@ youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
 youtube.com##grid-shelf-view-model
 youtube.com##.yt-horizontal-list-renderer
 youtube.com##.ytd-rich-shelf-renderer
+! Video: YouTube delay bug
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
