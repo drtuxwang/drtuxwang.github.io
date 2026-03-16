@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260218a
+! Version: 20260316a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -42,6 +42,9 @@ release_notes$popup
 !
 ! Site: News Shopper support overlay
 *$inline-script,domain=newsshopper.co.uk
+!
+! Site: MyLondon News
+mylondon.news##.sticky
 !
 ! Site: Newzit video popup
 newzit.com##.mol-video-advertising-mode
