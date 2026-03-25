@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260316a
+! Version: 20260325a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -54,6 +54,9 @@ newzit.com##.mol-video-advertising-mode
 !
 ! Site: PCWorld sign up popup
 *$inline-script,domain=pcworld.com
+!
+! Site: RAC login
+||pulse.rac.co.uk/*/Bootstrap.js$script,domain=rac.co.uk
 !
 ! Site: SCMP sign in unlock
 *$script,3p,domain=scmp.com
