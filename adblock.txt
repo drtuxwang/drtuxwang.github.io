@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260412a
+! Version: 20260604a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -89,6 +89,7 @@ aidrama.me##h4
 aidrama.me##.sidebar
 aidrama.me##strong
 ||aidrama.me/wp-content/uploads/pum/pum-site-scripts.js
+$popup,domain=aidrama.me
 izarcade.com##center:nth-of-type(1)
 izarcade.com##center:nth-of-type(2)
 izarcade.com##h1
