@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260909a
+! Version: 20260929a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -81,6 +81,7 @@ wikipedia.org##.vector-column-end
 !
 ! Stream: Adramas
 adramas.site###closeADV
+*$popup,domain=adramas.site
 !
 ! Stream: Aidrama
 aidrama.me##h1
