@@ -2,7 +2,7 @@
 !
 ! Title: DrTuxWang
 ! Expires: 1 days (update frequency)
-! Version: 20260929a
+! Version: 20261005a
 !
 ! Expects additional uBlock lists
 !   Built-in > uBlock filters - Ads
@@ -79,25 +79,20 @@ wikipedia.org##.frb
 ! Site: Wikipedia bad design panel
 wikipedia.org##.vector-column-end
 !
-! Stream: Adramas
-adramas.site###closeADV
-*$popup,domain=adramas.site
-!
-! Stream: Aidrama
+! Stream: Aidrama (1)
 aidrama.me##h1
 aidrama.me##h4
 aidrama.me##.sidebar
 aidrama.me##strong
 ||aidrama.me/wp-content/uploads/pum/pum-site-scripts.js
 *$popup,domain=aidrama.me
-techxzen.com##center:nth-of-type(1)
-techxzen.com##center:nth-of-type(2)
-techxzen.com##h1
-techxzen.com##h4
-techxzen.com###hide_float_right
-techxzen.com##strong
+@@||aidrama.me^$popunder
 !
-! Stream: KokoTV
+! Stream: Adramas (2)
+adramas.site###closeADV
+*$popup,domain=adramas.site
+!
+! Stream: KokoTV (3)
 ||kokotv.me/*unblocker
 onlinedailyrecipes.com$popup,domain=kokotv.me
 @@onlinedailyrecipes.com/*/?$popup,domain=kokotv.me
